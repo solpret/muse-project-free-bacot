@@ -1,0 +1,372 @@
+{
+ "run": "backfill 2026-11-08 ~22:0x WIB",
+ "window": [
+  132413906,
+  132417613
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0x88fF439396Afa01642425A3B8109c71E9aF22c4f",
+   "first_block": 132415254,
+   "mint_total_window": 100,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794151099,
+   "first_block_wib": "2026-11-08 22:18:19 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 13390,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0x90039ab9e52349643e1af2532f9eb4e789a34f08"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x4BC117718F5031404Ea06BF384083aC247812D2f",
+   "first_block": 132415208,
+   "mint_total_window": 100,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794151079,
+   "first_block_wib": "2026-11-08 22:17:59 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 13390,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0x90039ab9e52349643e1af2532f9eb4e789a34f08"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x889b917A7E4103095457e0eE6C15c65DC630E0aD",
+   "first_block": 132414133,
+   "mint_total_window": 1,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794150595,
+   "first_block_wib": "2026-11-08 22:09:55 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 15712,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0x0a65cfccd76a487efcb2690a9c33e39152e55a05"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x2Ecbc5635b8b58Cfdc70c8ceF649ef50E9F6D960",
+   "first_block": 132414108,
+   "mint_total_window": 1,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794150584,
+   "first_block_wib": "2026-11-08 22:09:44 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 43,
+   "abi_fn_names": [
+    "agentId",
+    "approve",
+    "balanceOf",
+    "canClaimFree",
+    "freeAllocation",
+    "freeMinted",
+    "freeMintedBy",
+    "freeRemaining",
+    "getApproved",
+    "hasAgentId",
+    "isApprovedForAll",
+    "maxFreePerWallet",
+    "maxPaidPerWallet",
+    "maxSupply",
+    "mint",
+    "mintFree",
+    "mintOpen",
+    "mintPrice",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "paidMinted",
+    "paidMintedBy",
+    "paidRemaining",
+    "patra",
+    "patraToken",
+    "renderer",
+    "renounceOwnership",
+    "rescueExcessPatra",
+    "rewardPerMint",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setMintOpen",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "transferFrom",
+    "transferOwnership",
+    "walletInfo",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "agentId()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "canClaimFree(address)",
+    "freeAllocation()",
+    "freeMinted()",
+    "freeMintedBy(address)",
+    "freeRemaining()",
+    "getApproved(uint256)",
+    "hasAgentId(address)",
+    "isApprovedForAll(address,address)",
+    "maxFreePerWallet()",
+    "maxPaidPerWallet()",
+    "maxSupply()",
+    "mint(uint256)",
+    "mintFree()",
+    "mintOpen()",
+    "mintPrice()",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "paidMinted()",
+    "paidMintedBy(address)",
+    "paidRemaining()",
+    "patra()",
+    "patraToken()",
+    "renderer()",
+    "renounceOwnership()",
+    "rescueExcessPatra()",
+    "rewardPerMint()",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setMintOpen(bool)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalMinted()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "walletInfo(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 20632,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "PATRA GENESYS"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "PATRAGENESYS"
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "mintPrice": {
+    "fn": "mintPrice()",
+    "value": 500000000000000
+   },
+   "totalMinted": {
+    "fn": "totalMinted()",
+    "value": 18
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0x2193d6e0468ac747823e7e876f1acd34ffe43a67"
+   },
+   "freeMinted()": {
+    "fn": "freeMinted()",
+    "value": 17
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0xFBEAa4ee5B255Fc203246Ec9083e9A13A92525B5",
+   "first_block": 132416590,
+   "mint_total_window": 1,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794151701,
+   "first_block_wib": "2026-11-08 22:28:21 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 592,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0x2Ecbc5635b8b58Cfdc70c8ceF649ef50E9F6D960",
+   "first_block": 132414108,
+   "mint_total_window": 1,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794150584,
+   "first_block_wib": "2026-11-08 22:09:44 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 43,
+   "abi_fn_names": [
+    "agentId",
+    "approve",
+    "balanceOf",
+    "canClaimFree",
+    "freeAllocation",
+    "freeMinted",
+    "freeMintedBy",
+    "freeRemaining",
+    "getApproved",
+    "hasAgentId",
+    "isApprovedForAll",
+    "maxFreePerWallet",
+    "maxPaidPerWallet",
+    "maxSupply",
+    "mint",
+    "mintFree",
+    "mintOpen",
+    "mintPrice",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "paidMinted",
+    "paidMintedBy",
+    "paidRemaining",
+    "patra",
+    "patraToken",
+    "renderer",
+    "renounceOwnership",
+    "rescueExcessPatra",
+    "rewardPerMint",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setMintOpen",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "transferFrom",
+    "transferOwnership",
+    "walletInfo",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "agentId()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "canClaimFree(address)",
+    "freeAllocation()",
+    "freeMinted()",
+    "freeMintedBy(address)",
+    "freeRemaining()",
+    "getApproved(uint256)",
+    "hasAgentId(address)",
+    "isApprovedForAll(address,address)",
+    "maxFreePerWallet()",
+    "maxPaidPerWallet()",
+    "maxSupply()",
+    "mint(uint256)",
+    "mintFree()",
+    "mintOpen()",
+    "mintPrice()",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "paidMinted()",
+    "paidMintedBy(address)",
+    "paidRemaining()",
+    "patra()",
+    "patraToken()",
+    "renderer()",
+    "renounceOwnership()",
+    "rescueExcessPatra()",
+    "rewardPerMint()",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setMintOpen(bool)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalMinted()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "walletInfo(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 20632,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "PATRA GENESYS"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "PATRAGENESYS"
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "mintPrice": {
+    "fn": "mintPrice()",
+    "value": 500000000000000
+   },
+   "totalMinted": {
+    "fn": "totalMinted()",
+    "value": 18
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0x2193d6e0468ac747823e7e876f1acd34ffe43a67"
+   },
+   "freeMinted()": {
+    "fn": "freeMinted()",
+    "value": 17
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  }
+ ],
+ "same_owner_discards": []
+}

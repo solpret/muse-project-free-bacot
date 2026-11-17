@@ -1,0 +1,53 @@
+{
+ "parallel": true,
+ "chunk_id": "132492615-132498614",
+ "watermark_before": 132492614,
+ "watermark_after": 132492714,
+ "head_block": 132513571,
+ "chunks": [
+  {
+   "from": 132492615,
+   "to": 132494614,
+   "rc": 2,
+   "out": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132492615-132494614.json",
+   "log": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132492615-132494614.worker.log",
+   "first_seen_count": 0,
+   "watermark_advanced_to": 132492714
+  },
+  {
+   "from": 132494615,
+   "to": 132496614,
+   "rc": 0,
+   "out": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132494615-132496614.json",
+   "log": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132494615-132496614.worker.log",
+   "first_seen_count": 0,
+   "watermark_advanced_to": 132496614
+  },
+  {
+   "from": 132496615,
+   "to": 132498614,
+   "rc": 2,
+   "out": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132496615-132498614.json",
+   "log": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132496615-132498614.worker.log",
+   "first_seen_count": 0,
+   "watermark_advanced_to": 132498014
+  }
+ ],
+ "first_seen_total": 0,
+ "failed_chunks": [],
+ "failed_sub_chunks": [
+  {
+   "chunk": "132492615-132494614",
+   "from": 132492715,
+   "to": 132492764,
+   "topic": "Transfer"
+  },
+  {
+   "chunk": "132496615-132498614",
+   "from": 132498015,
+   "to": 132498064,
+   "topic": "Transfer"
+  }
+ ],
+ "elapsed_secs": 694.7
+}

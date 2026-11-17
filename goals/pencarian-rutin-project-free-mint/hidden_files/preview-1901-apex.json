@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "5053b52fb9cc4e06868f5409cdb0d495",
+    "parsedTx": {
+      "transactionType": "ContractInteraction",
+      "action": "0x1249c58b",
+      "contractAddress": "0x6DdE73D48Ed92c9C60B77711d37fEc0B03ACBE18",
+      "contractAddressList": null,
+      "transactionTypeTranslationKey": null
+    },
+    "simulationResult": {
+      "gasTokenFromData": 0,
+      "balanceChanges": [
+        {
+          "contractAddress": "0x6DdE73D48Ed92c9C60B77711d37fEc0B03ACBE18",
+          "change": 1,
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "tokenType": "Erc721",
+          "tokenId": "0x00000000000000000000000000000000000000000000000000000000000000af"
+        }
+      ],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": []
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0x6DdE73D48Ed92c9C60B77711d37fEc0B03ACBE18": {
+        "name": "Apex",
+        "symbol": "APEX",
+        "decimals": null,
+        "icon": null,
+        "price": null
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1794572195585,
+    "gasLimit": null
+  }
+}

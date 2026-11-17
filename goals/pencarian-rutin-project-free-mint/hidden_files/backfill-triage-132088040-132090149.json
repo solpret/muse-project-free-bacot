@@ -1,0 +1,208 @@
+{
+ "run": "backfill-132088040-132090149",
+ "checked_wib": "2026-11-07 05:50:55",
+ "first_seen_triage": [
+  {
+   "address": "0x94Ff8A3C97a47b2a7dD38509Aaa131c5b5ED322a",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1ddf84d6a086bf12c9079c628aea2628d0ff6bc4"
+   ],
+   "first_block": 132088318,
+   "last_block": 132088318,
+   "shape_pending": true,
+   "registry_bytes_in_code": false,
+   "sourcify": "not_verified (match null)",
+   "abi_functions": [],
+   "name": null,
+   "symbol": null,
+   "agentRegistry": null,
+   "registry_match": false,
+   "owner": null,
+   "totalSupply": null,
+   "maxSupply": null,
+   "free_views": {},
+   "first_mint_ts": 1794003931,
+   "first_mint_wib": "2026-11-07 05:25:31",
+   "age_hours": 0.42,
+   "owner_in_discards": false,
+   "agent_shaped": false,
+   "age_ok_48h": true,
+   "verdict": "not-agent-shaped"
+  },
+  {
+   "address": "0x03527Ac939094a1587Fdb92Db8d7b60eFF9adAF0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xc2ef3ef28549372b4fd19b4393fe97fc8c21e066"
+   ],
+   "first_block": 132088298,
+   "last_block": 132088298,
+   "shape_pending": true,
+   "registry_bytes_in_code": true,
+   "sourcify": "not_verified (match null)",
+   "abi_functions": [],
+   "name": "V25",
+   "symbol": "V95",
+   "agentRegistry": "reverts (no such function)",
+   "registry_match": false,
+   "owner": "0x0000000000000000000000000000000000000000",
+   "totalSupply": null,
+   "maxSupply": 3029,
+   "free_views": {
+    "price": 2000000000000000
+   },
+   "first_mint_ts": 1794003922,
+   "first_mint_wib": "2026-11-07 05:25:22",
+   "age_hours": 0.43,
+   "owner_in_discards": false,
+   "agent_shaped": false,
+   "age_ok_48h": true,
+   "verdict": "not-agent-shaped / paid-only (price 0.002 BNB)",
+   "price_wei": 2000000000000000,
+   "registry_bytes_note": "bytes present in bytecode but agentRegistry() reverts \u2014 not a verified registry reference (same V-series template as V20/V21/V22)"
+  },
+  {
+   "address": "0x92014C985971830bD4F3b15466c8990003441434",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5fb7fc05226c78687828dbdaef6cf038e4c53d79"
+   ],
+   "first_block": 132089410,
+   "last_block": 132089410,
+   "shape_pending": true,
+   "registry_bytes_in_code": false,
+   "sourcify": "verified",
+   "abi_functions": [
+    "approve",
+    "bExistsID",
+    "balanceOf",
+    "getApproved",
+    "isApprovedForAll",
+    "maxSupply",
+    "mintAddr",
+    "mintAddrsNums",
+    "mintLimit",
+    "name",
+    "onERC721Received",
+    "owner",
+    "ownerOf",
+    "renounceOwnership",
+    "safeTransferFrom",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setMaxSupply",
+    "setMintLimit",
+    "setSwitchMint",
+    "supportsInterface",
+    "switchMint",
+    "symbol",
+    "tokenByIndex",
+    "tokenOfOwner",
+    "tokenOfOwnerByIndex",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership"
+   ],
+   "name": "",
+   "symbol": "",
+   "agentRegistry": null,
+   "registry_match": false,
+   "owner": "0x98587aea8f341ca6142e58f8581cdce7be280059",
+   "totalSupply": 136441,
+   "maxSupply": 1000000000000000000,
+   "free_views": {},
+   "first_mint_ts": 1794004423,
+   "first_mint_wib": "2026-11-07 05:33:43",
+   "age_hours": 0.29,
+   "owner_in_discards": false,
+   "agent_shaped": false,
+   "age_ok_48h": true,
+   "verdict": "not-agent-shaped"
+  },
+  {
+   "address": "0xECE7922ba34dDaAF8377B44671174168edBEF881",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xc2ef3ef28549372b4fd19b4393fe97fc8c21e066"
+   ],
+   "first_block": 132089656,
+   "last_block": 132089656,
+   "shape_pending": true,
+   "registry_bytes_in_code": true,
+   "sourcify": "not_verified (match null)",
+   "abi_functions": [],
+   "name": "V25",
+   "symbol": "V95",
+   "agentRegistry": "reverts (no such function)",
+   "registry_match": false,
+   "owner": "0x0000000000000000000000000000000000000000",
+   "totalSupply": null,
+   "maxSupply": 3029,
+   "free_views": {
+    "price": 2000000000000000
+   },
+   "first_mint_ts": 1794004533,
+   "first_mint_wib": "2026-11-07 05:35:33",
+   "age_hours": 0.26,
+   "owner_in_discards": false,
+   "agent_shaped": false,
+   "age_ok_48h": true,
+   "verdict": "not-agent-shaped / paid-only (price 0.002 BNB)",
+   "price_wei": 2000000000000000,
+   "registry_bytes_note": "bytes present in bytecode but agentRegistry() reverts \u2014 not a verified registry reference (same V-series template as V20/V21/V22)"
+  }
+ ],
+ "track_c_5c": {
+  "candidates_ge10": 65,
+  "new_to_check": [
+   {
+    "address": "0x3fC32b71fbB8f0Ae67091a789d1f3FC7410DEc3b",
+    "mint_count": 34
+   },
+   {
+    "address": "0xeCF9a832F176C2a197AaA24B6bC4d6443373E355",
+    "mint_count": 18
+   },
+   {
+    "address": "0xcF7f7575bcbE6E93C479B66822f5C2F5A631c806",
+    "mint_count": 16
+   },
+   {
+    "address": "0xEc48596Eb7029515DD8D6D1b54672b908Bd108CD",
+    "mint_count": 12
+   },
+   {
+    "address": "0xDB0C9E3Db576118eF9BB684aaE05Faf0A6650a70",
+    "mint_count": 12
+   },
+   {
+    "address": "0xFfF477411B6F436dF4bfAB9683192A8FEA3Ec835",
+    "mint_count": 12
+   },
+   {
+    "address": "0x7571C4C7bCd7DD85707121C1d540c32fB0C64A64",
+    "mint_count": 10
+   },
+   {
+    "address": "0x49A9BAd62bba71422D5Ed0abC246c7E37179C9a4",
+    "mint_count": 10
+   },
+   {
+    "address": "0x72B5AbE8d24C90FE588846413Ad3220B96f8Bdcb",
+    "mint_count": 10
+   }
+  ],
+  "note": "shape-check S1/S2 for NEW addresses still pending (max 20/run)"
+ }
+}

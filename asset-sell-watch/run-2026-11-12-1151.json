@@ -1,0 +1,51 @@
+{
+ "run": "2026-11-12 11:51 WIB",
+ "gas_price_gwei": 0.05,
+ "gas_est_300k_bnb": 1.5e-05,
+ "entries_total": 20,
+ "empty_balances": [],
+ "no_pair": [
+  "POA",
+  "BNBbaby",
+  "PATCH",
+  "QAGENT",
+  "PACTURE",
+  "ORBITA",
+  "WW3",
+  "POSTAGE",
+  "MALTA",
+  "THYRK",
+  "WNO",
+  "AMBR",
+  "CHEEMSA",
+  "NEB"
+ ],
+ "pair_empty": [
+  "币安加油",
+  "JINMA",
+  "BITCAT",
+  "LUCKY777",
+  "CSAGENT"
+ ],
+ "quote_dust": [
+  {
+   "symbol": "YYDS",
+   "quote_bnb": 1.0643123561825e-05
+  }
+ ],
+ "executable_candidates": [],
+ "rpc_failures": [
+  "phase2_error: <urlopen error timed out> (transient, one endpoint; all reserves still returned via fallback endpoints, values identical to 10:51 run)"
+ ],
+ "sale_state_checks": {
+  "CHEEMSA_tradingOpen": false,
+  "CSAGENT_pair_opened": null
+ },
+ "status_counts": {
+  "no_pair": 14,
+  "pair_empty": 5,
+  "quote_dust": 1
+ },
+ "notes": "All 20 balances verified fresh and unchanged vs registered amounts (WW3 still 10,000; POSTAGE still 10,000 — tier/reward claims not yet added). CSAGENT opened() read returned null again (same as 08:51/09:51/10:51 runs) — treated as unreadable, NOT as opened; pair reserves still 0/0 so no execution path regardless. CHEEMSA tradingOpen=false. BITCAT saleEnds 2026-11-13 10:49 WIB not reached; CSAGENT 48h refund deadline 2026-11-12 17:04:36 WIB not reached. WW3 tier claim window 2026-11-12 14:22:01 WIB not yet reached.",
+ "action": "none — no sale, no new block, no entry removed; silent per rule 6"
+}

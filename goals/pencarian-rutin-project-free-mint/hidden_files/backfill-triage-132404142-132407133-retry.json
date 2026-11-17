@@ -1,0 +1,86 @@
+{
+ "SHACHO": {
+  "agentRegistry": {
+   "fn": "agentRegistry()",
+   "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: TimeoutError; https://bsc.drpc.org/: TimeoutError; https://bsc-"
+  },
+  "agentRegistry_exact_match": false,
+  "owner": {
+   "fn": "owner()",
+   "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc.drpc.org/: TimeoutError; https://bs"
+  },
+  "mintOpen": {
+   "fn": "mintOpen()",
+   "error": "OSError: all endpoints failed: https://bsc.drpc.org/: TimeoutError; https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bs"
+  },
+  "price": {
+   "fn": "price()",
+   "error": "OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: Time"
+  },
+  "costOf(user,tid)": {
+   "fn": "costOf(address,uint256)",
+   "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc.drpc.org/: OSError; https://bsc.nod"
+  },
+  "costOf(user,1)": {
+   "fn": "costOf(address,uint256)",
+   "value": 0
+  },
+  "freeOf(user,tid)": {
+   "fn": "freeOf(address,uint256)",
+   "value": 1
+  },
+  "MAX_PER_WALLET": {
+   "fn": "MAX_PER_WALLET()",
+   "value": 10
+  },
+  "first_block_ts": [
+   1794147224,
+   "2026-11-08 21:13:44 WIB"
+  ],
+  "owner_in_discards": null
+ },
+ "NUMBI": {
+  "totalMinted": {
+   "fn": "totalMinted()",
+   "value": 65
+  },
+  "PAID_PRICE": {
+   "fn": "PAID_PRICE()",
+   "value": 1000000000000000
+  },
+  "TOKEN_PER_MINT": {
+   "fn": "TOKEN_PER_MINT()",
+   "value": 10000000000000000000000
+  },
+  "MAX_PER_WALLET": {
+   "fn": "MAX_PER_WALLET()",
+   "value": 10
+  },
+  "paused": {
+   "fn": "paused()",
+   "value": false
+  },
+  "walletStatus(user)": {
+   "fn": "walletStatus(address)",
+   "value": 1552518092300708935148979488462502555256886017116696611139052038026050952686390294138808351425746051975485936543258552571992172437492537952888009039071255728310059986164775621116820395680955610305978743841604770439095351720988901376
+  },
+  "mintedCount(user)": {
+   "fn": "mintedCount(address)",
+   "value": 0
+  },
+  "mintedCount(puzzleSigner?)": null
+ },
+ "ERC1155_0x71144E": {
+  "code_registry_bytes_hit": false,
+  "code_len": 592,
+  "owner": {
+   "fn": "owner()",
+   "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; ht"
+  },
+  "owner_in_discards": null
+ },
+ "0x63eC_first_block_ts": [
+  1794146476,
+  "2026-11-08 21:01:16 WIB"
+ ]
+}

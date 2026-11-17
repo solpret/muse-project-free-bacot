@@ -1,0 +1,51 @@
+{
+ "run": "backfill 2026-11-09 ~03:16 WIB (driver exit 2, partial, 25 failed sub-chunks)",
+ "window": [
+  132451315,
+  132456182
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0xb0febf7D422708a341c86C39d9B0bD19B2E74c39",
+   "first_block": 132454901,
+   "mint_total_window": 23,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794168943,
+   "first_block_wib": "2026-11-09 03:15:43 WIB (retry curl dataseed2, blok benar 0x7e519f5)",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 9818,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false,
+   "verdict": "NOT agent-shaped (Sourcify not_verified, registry bytes false, owner() reverts) \u2014 bukan early lead; log saja"
+  },
+  {
+   "address": "0xD800eFB5F2F44B6aFB0CDe553E885390a7D38156",
+   "first_block": 132451566,
+   "mint_total_window": 104,
+   "scan_name": "UNIT-BOT",
+   "scan_symbol": "UNIT",
+   "first_block_timestamp": 1794167443,
+   "first_block_wib": "2026-11-09 02:50:43 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 17570,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0xd507fa7546c1226139601ec8b67c7c1632298ba1"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "verdict": "NOT agent-shaped (Sourcify not_verified, registry bytes false; owner 0xd507fa7546c1226139601ec8b67c7c1632298ba1 bukan di discards) \u2014 verifikasi 02:46 yang tertunda kini lengkap; bukan early lead; log saja"
+  }
+ ],
+ "early_leads": [],
+ "same_owner_discards": []
+}

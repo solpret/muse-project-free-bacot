@@ -1,0 +1,49 @@
+{
+ "job": "war3-claim-20261112",
+ "checked_at_wib": "2026-11-12 ~14:47 WIB",
+ "contract_war3": "0x1Aa9797cC762b838388566Daa45A56b1709F4Bbe",
+ "token_ww3": "0xf62628D99B28535ee593Ab5D6dFE7D914f5edca0",
+ "agent": "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E",
+ "tokenId": 2511,
+ "tier": "Air Force (tierOf=3)",
+ "preflight": {
+  "claimOpen": true,
+  "tierReward_3": 80000,
+  "claimed_2511_before": false,
+  "claimableOf": 80000,
+  "same_owner_discards": "WAR3 tidak ada di daftar (61 entri)",
+  "audit_binance": "hasResult=false (tanpa hasil, sama seperti saat mint) \u2014 diungkapkan, bukan lolos; tidak ada RISK hit"
+ },
+ "calldata": "0x379607f500000000000000000000000000000000000000000000000000000000000009cf",
+ "preview": {
+  "requestId": "9fc81de987fa425db57b8ac09870f347",
+  "simulationCode": "000000000",
+  "simulationErrorDetail": null,
+  "authorityChanges": [],
+  "allowanceChanges": [],
+  "balanceChanges_WW3": "+80000",
+  "risks_empty": true
+ },
+ "execute": {
+  "orderId": "26111200002035188497",
+  "status": "BROADCASTED",
+  "txHash": "0x8edf2ffeeb9042b14cdd1273280b82ec1be0119a9ca72091d7c9cba7843ad3c2"
+ },
+ "receipt": {
+  "status": 1,
+  "block": 133122618,
+  "gasUsed": 83759,
+  "gasPrice_wei": 81499875,
+  "gas_cost_bnb": 6.826133607085e-06,
+  "logs": [
+   "WW3 Transfer +80000",
+   "WAR3 claim event +80000"
+  ]
+ },
+ "post_state": {
+  "ww3_balance": 90000,
+  "claimed_2511": true,
+  "claimableOf": 0
+ },
+ "pending_swaps_ww3_updated": "10000 -> 90000"
+}

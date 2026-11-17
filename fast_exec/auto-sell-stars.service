@@ -1,0 +1,31 @@
+# KANONIK — salinan di /etc/systemd/system/ HILANG tiap VM diganti;
+# watchdog auto-sell-stars-watchdog menciptakannya lagi dari file ini.
+# Migrasi setsid -> systemd 2026-11-17 ~08:15 WIB atas perintah user
+# ("Ya, pindahkan ke systemd"), model unsolvable-live.
+# PENTING: Environment=HOME=/home/hatch WAJIB — service jalan sebagai root
+# (HOME default /root) padahal auto_sell_stars.py memakai
+# expanduser("~/workspace/.baw-cli/bin/baw"); tanpa ini pre-warm sesi gagal.
+# Restart=on-failure (BUKAN always): loop return 0 saat terminal (sold /
+# no balance / audit memblokir / preview dirty / execute error) dan TIDAK
+# boleh di-restart otomatis; crash (exit != 0) baru di-restart.
+[Unit]
+Description=Auto-sell Stars Agent (1000 tokens -> BNB via PCS V2 when pool opens)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/hatch/workspace/fast_exec
+Environment=HOME=/home/hatch
+Environment=NODE_USE_ENV_PROXY=1
+Environment=NODE_EXTRA_CA_CERTS=/run/hatch/egress-tls/ca-bundle.pem
+EnvironmentFile=-/home/hatch/workspace/fast_exec/proxy.env
+EnvironmentFile=-/home/hatch/workspace/fast_exec/node.env
+ExecStart=/usr/bin/python3 /home/hatch/workspace/fast_exec/auto_sell_stars.py --config /home/hatch/workspace/fast_exec/auto_sell_stars.json --live
+Restart=on-failure
+RestartSec=10
+StandardOutput=append:/home/hatch/workspace/fast_exec/auto_sell_stars.nohup.log
+StandardError=append:/home/hatch/workspace/fast_exec/auto_sell_stars.nohup.log
+
+[Install]
+WantedBy=multi-user.target

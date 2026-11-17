@@ -1,0 +1,86 @@
+import json, urllib.request
+from Crypto.Hash import keccak
+RPC = "https://bsc-dataseed.bnbchain.org"
+USER = "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E"
+OUT = "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/run-2026-11-05-0531-reread.json"
+def sel(sig):
+    k = keccak.new(digest_bits=256); k.update(sig.encode()); return "0x" + k.hexdigest()[:8]
+def enc_addr(a): return a[2:].lower().rjust(64, "0")
+def enc_uint(n): return format(n, "064x")
+def raw(to, data):
+    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "eth_call",
+                       "params": [{"to": to, "data": data}, "latest"]}).encode()
+    req = urllib.request.Request(RPC, data=body, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            out = json.load(r)
+    except Exception as e:
+        return {"error": str(e)}
+    if "error" in out: return {"error": out["error"]}
+    v = out["result"]
+    if not v or v == "0x": return None
+    try: return int(v, 16)
+    except Exception: return v
+def call(to, sig, args=""):
+    return raw(to, sel(sig) + args)
+def block():
+    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []}).encode()
+    req = urllib.request.Request(RPC, data=body, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return int(json.load(r)["result"], 16)
+blk = block()
+res = {"block": blk}
+NFT = {
+ "HIVE": "0x1458b0C132Fb51BDC65B1Ca7a3BE484BCd9A2f77",
+ "Tigora": "0xE8c46E7c734259FEc1A78Fc846DcFaD94Ecb70E5",
+ "BNBRunnerz": "0x8AAA14b24e71cC93672939ba3e3C3e9DE2674d27",
+ "Shroomies": "0x2AE712138a74202daBB8FFC93117AA53754F54D0",
+ "Blobbies": "0xa7fBAB4a96d6900122Dc51FDC839CFE5C89B23b3",
+ "Robogent": "0x5eA7E757dfc4654f7478841BD30175bd7F186e24",
+ "Jolly": "0xdc11764a5664e333c8d303eb465e89a1caadb85b",
+ "HACKED": "0xCD355D1191Ce9849B3A935C821A66d9DF37cFE77",
+ "SoulAgent": "0x8fdB9411753c58476A41F7B88a44989F8D687d63",
+ "PERSONA": "0xA930C4466431B0331C911846f297D7D4e063249D",
+ "RigOrb": "0x72D977237f7b3931A08434cEBD0D3814fE13539e",
+}
+for name, addr in NFT.items():
+    res[name] = {
+        "totalSupply()": call(addr, "totalSupply()"),
+        "totalMinted()": call(addr, "totalMinted()"),
+        "balanceOf(user)": call(addr, "balanceOf(address)", enc_addr(USER)),
+    }
+# RigOrb specifics
+rb = NFT["RigOrb"]
+res["RigOrb"]["mintOpen()"] = call(rb, "mintOpen()")
+res["RigOrb"]["priceFor(user,1)"] = call(rb, "priceFor(address,uint256)", enc_addr(USER) + enc_uint(1))
+res["RigOrb"]["mintedCount(user)"] = call(rb, "mintedCount(address)", enc_addr(USER))
+# Robogent / Jolly free counters
+res["Robogent"]["freeClaimed()"] = call(NFT["Robogent"], "freeClaimed()")
+res["Jolly"]["freeMinted()"] = call(NFT["Jolly"], "freeMinted()")
+# Track C
+res["OSK"] = {"opened()": call("0xfe8919306a1e587c66bd913ffa6bf49e9aff6b37", "opened()"),
+              "totalMinted()": call("0xfe8919306a1e587c66bd913ffa6bf49e9aff6b37", "totalMinted()")}
+res["NIULAI"] = {"launched()": call("0x15e47c22df42D94Fa2f0aD078Fec5Bea6453d5cF", "launched()"),
+                 "phase()": call("0x15e47c22df42D94Fa2f0aD078Fec5Bea6453d5cF", "phase()")}
+res["KillZero"] = {"launched()": call("0x87ad9c1617ceb65f1b56f2ee06FE193F60aACF97", "launched()")}
+res["DROID"] = {"opened()": call("0xFcF6388DD3bcC674c095273aB479C7e54dd5E177", "opened()"),
+                "freeMinted()": call("0xFcF6388DD3bcC674c095273aB479C7e54dd5E177", "freeMinted()"),
+                "totalMinted()": call("0xFcF6388DD3bcC674c095273aB479C7e54dd5E177", "totalMinted()")}
+res["IMARS"] = {"opened()": call("0x64a3BaD89AbFFD6F30f086cE90CCB951D3Db432f", "opened()"),
+                "freeMinted()": call("0x64a3BaD89AbFFD6F30f086cE90CCB951D3Db432f", "freeMinted()"),
+                "totalMinted()": call("0x64a3BaD89AbFFD6F30f086cE90CCB951D3Db432f", "totalMinted()")}
+res["ASOC"] = {"freeClaimed(user)": call("0x43cEef9313CB8c4ca3757bA841C44DF40A223205", "freeClaimed(address)", enc_addr(USER)),
+               "saleEnded()": call("0x43cEef9313CB8c4ca3757bA841C44DF40A223205", "saleEnded()")}
+res["SENBAZURU"] = {"opened()": call("0xb21583A08581278BcF925351a99C61A4562C62f0", "opened()"),
+                    "freeClaimed()": call("0xb21583A08581278BcF925351a99C61A4562C62f0", "freeClaimed()"),
+                    "hasFreeShare(user)": call("0xb21583A08581278BcF925351a99C61A4562C62f0", "hasFreeShare(address)", enc_addr(USER))}
+res["FABE"] = {"launched()": call("0xFabE022a5943462fee1Bd221791945DA57510BE8", "launched()"),
+               "freeSharesRemaining()": call("0xFabE022a5943462fee1Bd221791945DA57510BE8", "freeSharesRemaining()"),
+               "freeSharesClaimed(user)": call("0xFabE022a5943462fee1Bd221791945DA57510BE8", "freeSharesClaimed(address)", enc_addr(USER))}
+res["BINANCEAI"] = {"launched()": call("0x46cb1D3efd4307506Cda7EbBa5a51be64746739E", "launched()"),
+                    "totalShares()": call("0x46cb1D3efd4307506Cda7EbBa5a51be64746739E", "totalShares()"),
+                    "isRefundPhase()": call("0x46cb1D3efd4307506Cda7EbBa5a51be64746739E", "isRefundPhase()"),
+                    "failed()": call("0x46cb1D3efd4307506Cda7EbBa5a51be64746739E", "failed()")}
+print(json.dumps(res, indent=1))
+with open(OUT, "w") as f:
+    json.dump(res, f, indent=1)

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "d9df9fdf58c24d3b9d42982813ebdf28",
+    "parsedTx": {
+      "transactionType": "Revoke",
+      "contractAddress": "0x41776Fe083239771798234B30DA0f6f1FD193ebf",
+      "transactionTypeTranslationKey": null,
+      "spender": "0x10ed43c718714eb63d5aa57b78b54704e256024e"
+    },
+    "simulationResult": {
+      "gasTokenFromData": 0,
+      "balanceChanges": [],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": [
+        {
+          "tokenAddress": "0x41776fe083239771798234b30da0f6f1fd193ebf",
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "spender": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+          "preAmount": 0,
+          "postAmount": 0,
+          "tokenType": "Erc20",
+          "tokenId": null
+        }
+      ]
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0x41776fe083239771798234b30da0f6f1fd193ebf": {
+        "name": "币安人生AI",
+        "symbol": "币安人生AI",
+        "decimals": 18,
+        "icon": null,
+        "price": null
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1794846465065,
+    "gasLimit": null
+  }
+}

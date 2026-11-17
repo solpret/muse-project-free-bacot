@@ -1,0 +1,32 @@
+{
+ "address": "0xaa87b6B3eCDD3202A80d109A91e88783ffFb0BE6",
+ "observed_first_block": 132435150,
+ "baseURI": {
+  "fn": "baseURI()",
+  "value": "https://example.com/meta/",
+  "via": "direct-curl"
+ },
+ "tokenURI(1)": {
+  "fn": "tokenURI(uint256)",
+  "value": "https://example.com/meta/1.json",
+  "via": "race"
+ },
+ "walkback_ranges": [
+  {
+   "from": 132425000,
+   "to": 132430000,
+   "logs_returned": 2,
+   "mint_from_zero": 0,
+   "error": null
+  },
+  {
+   "from": 132430001,
+   "to": 132435149,
+   "logs_returned": 2,
+   "mint_from_zero": 0,
+   "error": null
+  }
+ ],
+ "walkback_mint_before_first_block": 0,
+ "first_mint_confirmed": true
+}

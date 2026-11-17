@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+"""Free-mint-search run 2026-11-02 00:01 WIB: re-reads. Read-only."""
+import json, sys
+sys.path.insert(0, "/home/hatch/workspace/fast_exec")
+from fast_rpc import _single
+from Crypto.Hash import keccak
+def sel(sig):
+    k = keccak.new(digest_bits=256); k.update(sig.encode()); return "0x" + k.hexdigest()[:8]
+def enc_addr(a): return "0x" + a[2:].lower().rjust(64, "0")
+def enc_uint(n): return "0x" + format(n, "064x")
+EPS = ["https://bsc-dataseed.binance.org/", "https://bsc-dataseed1.bnbchain.org/",
+       "https://bsc-dataseed2.bnbchain.org/", "https://bsc-dataseed3.bnbchain.org/"]
+USER = "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E"
+def call(to, data):
+    for ep in EPS:
+        try:
+            return _single(ep, "eth_call", [{"to": to, "data": data}, "latest"], 8, retries=0), None
+        except Exception as e:
+            err = f"{type(e).__name__}: {str(e)[:160]}"
+    return None, err
+def collect(to, tests):
+    out = {}
+    for name, arg in tests:
+        sig = name.replace("quote1(", "quote(").replace("quote0(", "quote(")
+        val, err = call(to, sel(sig) + arg)
+        try: iv = int(val, 16) if val else None
+        except Exception: iv = None
+        out[name] = {"int": iv, "raw": val, "error": err if val is None else None}
+    return out
+def block():
+    for ep in EPS:
+        try: return int(_single(ep, "eth_blockNumber", [], 8, retries=0), 16)
+        except Exception: pass
+    return None
+def words(val):
+    if not val: return None
+    b = bytes.fromhex(val[2:])
+    return [int.from_bytes(b[i:i+32], "big") for i in range(0, len(b), 32)]
+HIVE = "0x1458b0C132Fb51BDC65B1Ca7a3BE484BCd9A2f77"
+NFTS = {
+ "Bubblebruin": "0xc205F8c74733D914776D66cBc4Cf10BF701D96Aa",
+ "Zapcourier": "0x672c1dF4F7121DaCBD3504995441C47d2fAbCdDC",
+ "Mothwraith": "0x11fa2C4b71EcE40f242992a08C4ACC6C23c99Ca0",
+ "Cryonyx": "0x787b522d48084A83b8B1b0C206aA4A12B1FD1cc2",
+ "Cathodex": "0x0AC5591d1B980C7bE16861d722E59E21E2624868",
+ "Malabao": "0x2C215262635E66c798c5a1Ba4411fA9F06852bDD",
+}
+nft_tests = [("totalSupply()", ""), ("freeClaimed()", ""), ("FREE_SUPPLY()", ""), ("MAX_SUPPLY()", ""),
+    ("mintOpen()", ""), ("mintedBy(address)", enc_addr(USER)[2:]), ("freeFor(address)", enc_addr(USER)[2:]),
+    ("freeUsed(address)", enc_addr(USER)[2:]), ("balanceOf(address)", enc_addr(USER)[2:])]
+hive_tests = [("totalSupply()", ""), ("START_TIME()", ""), ("FREE_SUPPLY()", ""),
+    ("totalPaid()", ""), ("freeMintedBy(address)", enc_addr(USER)[2:]),
+    ("balanceOf(address)", enc_addr(USER)[2:]), ("quote(uint256)", enc_uint(1)[2:]),
+    ("currentPrice()", "")]
+result = {"block": block(),
+  "HIVE": collect(HIVE, hive_tests)}
+for nm, addr in NFTS.items():
+    result[nm] = collect(addr, nft_tests)
+MINT = "0x46cb1D3efd4307506Cda7EbBa5a51be64746739E"
+TOKEN = "0x209173F09aFbCA053C0de9e9763f503e9fb54a3c"
+PAIR = "0x903ACC22B9BABCD427bfb9AF2C27a27a5aC7c698"
+POLLEN = "0x3E9B4F58e2bC9b064F002cF89531e12FC5CfA00f"
+POLLEN_TOK = "0x2d91628eeed28f5442C8903cfF8bB85bCf38FF9B"
+result["TrackB_MINT"] = collect(MINT, [("launched()", ""), ("tokenClaimed(address)", enc_addr(USER)[2:]), ("totalShares()", ""), ("isRefundPhase()", ""), ("failed()", "")])
+result["TrackB_TOKEN_bal_MINT"] = collect(TOKEN, [("balanceOf(address)", enc_addr(MINT)[2:])])
+result["TrackB_TOKEN_bal_USER"] = collect(TOKEN, [("balanceOf(address)", enc_addr(USER)[2:])])
+result["TrackB_PAIR"] = collect(PAIR, [("getReserves()", ""), ("token0()", ""), ("token1()", "")])
+result["Pollen_MINT"] = collect(POLLEN, [("launched()", ""), ("phase()", ""), ("startAt()", ""), ("endAt()", ""),
+    ("pollenAgents()", ""), ("pollenSlice()", ""), ("paidSold()", ""), ("PAID_SHARES()", ""),
+    ("accounts(address)", enc_addr(USER)[2:]), ("agentInfo(address)", enc_addr(USER)[2:]),
+    ("claimable(address)", enc_addr(USER)[2:])])
+result["Pollen_TOKEN_bal_USER"] = collect(POLLEN_TOK, [("balanceOf(address)", enc_addr(USER)[2:])])
+BABY = "0xbb7ed59ca41ea03cf20084a8c9de94244b7b2637"
+result["BNBbaby"] = collect(BABY, [("sharesMinted()", ""), ("freeMinted()", ""), ("paidShares()", ""), ("totalShares()", ""),
+    ("MAX_SHARES()", ""), ("mintingOpen()", ""), ("poolOpen()", ""),
+    ("freeAvailable(address)", enc_addr(USER)[2:]), ("freeClaimed(address)", enc_addr(USER)[2:]),
+    ("mintedBy(address)", enc_addr(USER)[2:]), ("hasAgentId(address)", enc_addr(USER)[2:]),
+    ("paidBy(address)", enc_addr(USER)[2:]), ("paidRemainingFor(address)", enc_addr(USER)[2:]),
+    ("quote1(uint256)", enc_uint(1)[2:])])
+result["BNBbaby_quote0"] = collect(BABY, [("quote0(uint256)", enc_uint(0)[2:])])
+DOGSALE = "0xA74bEF84304D8838db798faE96fb873dd46fB4C1"
+result["DOG"] = collect(DOGSALE, [("sharesMinted()", ""), ("FREE_SHARES()", ""), ("MAX_SHARES()", ""),
+    ("poolOpen()", ""), ("saleFailed()", ""), ("sharesByWallet(address)", enc_addr(USER)[2:]),
+    ("deadline()", "")])
+aid, err = call(DOGSALE, sel("agentIdOf(address)") + enc_addr(USER)[2:])
+result["DOG_agentId"] = {"raw": aid, "error": err}
+if aid:
+    fc, e2 = call(DOGSALE, sel("freeClaimed(bytes32)") + aid[2:])
+    result["DOG_freeClaimed_user"] = {"words": words(fc), "raw": fc, "error": e2}
+    for q in (0, 1):
+        v, e = call(DOGSALE, sel("quote(address,uint256)") + enc_addr(USER)[2:] + enc_uint(q)[2:])
+        result[f"DOG_quote_user_{q}"] = {"words": words(v), "raw": v, "error": e}
+result["SAFU"] = collect("0x56b06B4BF22dd02D0375916907f19D37846c9d91", [("freeClaimed()", ""), ("paused()", ""), ("totalSupply()", ""), ("MAX_SUPPLY()", ""), ("balanceOf(address)", enc_addr(USER)[2:])])
+result["QILIN"] = collect("0xbb77f247e6b57f4dcd09c5900b2ffc4250b6b88f", [("totalCards()", ""), ("cardsSold()", ""), ("cardsRemaining()", ""), ("freeCardCap()", ""),
+    ("freeCardsRemaining()", ""), ("freeGiven()", ""), ("gateOn()", ""), ("paused()", ""),
+    ("freeClaimed(address)", enc_addr(USER)[2:]), ("quotaLeft(address)", enc_addr(USER)[2:])])
+print(json.dumps(result, indent=1))
+json.dump(result, open("/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/run-2026-11-02-0001-read.json", "w"), indent=1)

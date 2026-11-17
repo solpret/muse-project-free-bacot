@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""One retry sweep for run-69 sent-pass failed wallets (Ankr transient cluster).
+Same Ankr pagination as run69-sent.py; merges results into run69-sent.json
+and updates max_block. No preview/mint/sign/login. If a wallet still fails,
+it stays ok=False in the merged file for the next run to retry on this window."""
+import json, sys, time, datetime
+from pathlib import Path
+sys.path.insert(0, str(Path.home() / "workspace/custom-connectors/custom.ankr/bin"))
+import ankr as ankr_mod
+HOME = Path.home()
+jak = datetime.timezone(datetime.timedelta(hours=7))
+FROM_BLOCK = 131886470
+P = HOME / "workspace/narrative-pulse/scan-runs/run69-sent.json"
+sent = json.load(open(P))
+failed_wallets = [w for w, r in sent["results"].items() if not r.get("ok")]
+print(f"retrying {len(failed_wallets)} wallets on window from {FROM_BLOCK}", flush=True)
+max_block = sent["max_block"]
+for i, w in enumerate(failed_wallets):
+    try:
+        txs, page_token = [], None
+        while True:
+            params = {"blockchain": "bsc", "address": w, "pageSize": 50}
+            if page_token: params["pageToken"] = page_token
+            data = ankr_mod.ankr_post("ankr_getTransactionsByAddress", params)
+            res = data.get("result") or {}
+            batch = res.get("transactions") or []
+            txs.extend(batch)
+            page_token = res.get("nextPageToken")
+            if not batch or not page_token: break
+            try: oldest = int(batch[-1].get("blockNumber", "0"), 16)
+            except Exception: oldest = 0
+            if oldest <= FROM_BLOCK: break
+            time.sleep(1.0)
+        inw = []
+        for t in txs:
+            try: bni = int(t.get("blockNumber"), 16)
+            except Exception: continue
+            if bni <= FROM_BLOCK: continue
+            max_block = max(max_block, bni)
+            try: ts = int(t.get("timestamp", "0"), 16)
+            except Exception: ts = 0
+            inw.append({"hash": t.get("hash"), "block": bni, "to": t.get("to"),
+                        "value": t.get("value"), "status": t.get("status"), "ts": ts,
+                        "time_wib": datetime.datetime.fromtimestamp(ts, tz=jak).strftime("%Y-%m-%d %H:%M:%S WIB") if ts else None,
+                        "input_prefix": (t.get("input") or "")[:10]})
+        sent["results"][w] = {"ok": True, "in_window": inw, "retried": True}
+        print(f"[{i+1}/{len(failed_wallets)}] {w[:10]} OK in_window={len(inw)}", flush=True)
+    except Exception as e:
+        sent["results"][w] = {"ok": False, "error": str(e)[:300], "retried": True}
+        print(f"[{i+1}/{len(failed_wallets)}] {w[:10]} STILL FAILING {e}", flush=True)
+    time.sleep(1.5)
+sent["max_block"] = max_block
+total = sum(len(r.get("in_window", [])) for r in sent["results"].values() if r.get("ok"))
+still_failed = [w for w, r in sent["results"].items() if not r.get("ok")]
+print(f"RETRY DONE total_in_window={total} max_block={max_block} still_failed={len(still_failed)}", flush=True)
+json.dump(sent, open(P, "w"), indent=1)
+print("merged run69-sent.json", flush=True)

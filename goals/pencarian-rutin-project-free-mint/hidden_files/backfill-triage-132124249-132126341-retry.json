@@ -1,0 +1,71 @@
+{
+ "name": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dat",
+ "symbol": "",
+ "free_quota": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError",
+ "freeGranted_user": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError",
+ "max_per_wallet": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError",
+ "max_supply": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed.binance.org/: OSEr",
+ "totalMinted": 362,
+ "mintedBy_user": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: OSError",
+ "priceFor_user_1": "revert-or-short: ERROR OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: OSError",
+ "price_paid": "revert-or-short: ERROR OSError: all endpoints failed: https://bnb.api.onfinality.io/public/: OSError; https://bsc-rpc.publicnode.com/: OSError; https://bsc-dataseed2.bnbchain.or",
+ "agentRegistry": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f",
+ "owner": "ERROR OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: TimeoutError",
+ "mint_fn": [
+  {
+   "name": "mint",
+   "type": "function",
+   "inputs": [
+    {
+     "name": "qty",
+     "type": "uint256",
+     "internalType": "uint256"
+    }
+   ],
+   "outputs": [],
+   "stateMutability": "payable"
+  }
+ ],
+ "priceFor_fn": [
+  {
+   "name": "priceFor",
+   "type": "function",
+   "inputs": [
+    {
+     "name": "wallet",
+     "type": "address",
+     "internalType": "address"
+    },
+    {
+     "name": "qty",
+     "type": "uint256",
+     "internalType": "uint256"
+    }
+   ],
+   "outputs": [
+    {
+     "name": "",
+     "type": "uint256",
+     "internalType": "uint256"
+    }
+   ],
+   "stateMutability": "view"
+  }
+ ],
+ "freeGranted_fn": [
+  {
+   "name": "freeGranted",
+   "type": "function",
+   "inputs": [],
+   "outputs": [
+    {
+     "name": "",
+     "type": "uint256",
+     "internalType": "uint256"
+    }
+   ],
+   "stateMutability": "view"
+  }
+ ],
+ "free_quota_fn": []
+}

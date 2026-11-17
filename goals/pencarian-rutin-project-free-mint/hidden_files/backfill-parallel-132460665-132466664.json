@@ -1,0 +1,71 @@
+{
+ "parallel": true,
+ "chunk_id": "132460665-132466664",
+ "watermark_before": 132460664,
+ "watermark_after": 132462264,
+ "head_block": 132474625,
+ "chunks": [
+  {
+   "from": 132460665,
+   "to": 132462664,
+   "rc": 2,
+   "out": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132460665-132462664.json",
+   "log": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132460665-132462664.worker.log",
+   "first_seen_count": 1,
+   "watermark_advanced_to": 132462264
+  },
+  {
+   "from": 132462665,
+   "to": 132464664,
+   "rc": 2,
+   "out": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132462665-132464664.json",
+   "log": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132462665-132464664.worker.log",
+   "first_seen_count": 2,
+   "watermark_advanced_to": 132463814
+  },
+  {
+   "from": 132464665,
+   "to": 132466664,
+   "rc": 2,
+   "out": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132464665-132466664.json",
+   "log": "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/backfill-132464665-132466664.worker.log",
+   "first_seen_count": 1,
+   "watermark_advanced_to": 132465814
+  }
+ ],
+ "first_seen_total": 3,
+ "failed_chunks": [],
+ "failed_sub_chunks": [
+  {
+   "chunk": "132460665-132462664",
+   "from": 132462265,
+   "to": 132462314,
+   "topic": "Transfer"
+  },
+  {
+   "chunk": "132462665-132464664",
+   "from": 132463815,
+   "to": 132463864,
+   "topic": "Transfer"
+  },
+  {
+   "chunk": "132462665-132464664",
+   "from": 132464265,
+   "to": 132464314,
+   "topic": "Transfer"
+  },
+  {
+   "chunk": "132464665-132466664",
+   "from": 132465815,
+   "to": 132465864,
+   "topic": "Transfer"
+  },
+  {
+   "chunk": "132464665-132466664",
+   "from": 132466265,
+   "to": 132466314,
+   "topic": "Transfer"
+  }
+ ],
+ "elapsed_secs": 780.7
+}

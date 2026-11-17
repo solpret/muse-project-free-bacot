@@ -1,0 +1,711 @@
+{
+ "run": "backfill 2026-11-08 ~21:16 WIB",
+ "window": [
+  132404142,
+  132407133
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0xD311A0E7dFE0BE77A917D0D00cA73Cb99043D0aE",
+   "first_block": 132404625,
+   "mint_total_window": 100,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794146314,
+   "first_block_wib": "2026-11-08 20:58:34 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 13390,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0xe00183a6ff1ab796e6105b986c4dde607aa54485"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x63eC47fE22c0F2FF731369ddF0Ca122bB070569e",
+   "first_block": 132404983,
+   "mint_total_window": 100,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc.drpc.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 13390,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0xe00183a6ff1ab796e6105b986c4dde607aa54485"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0xeEdd6F512Fec64AD5A4aa64722ef6C5689937B50",
+   "first_block": 132405024,
+   "mint_total_window": 46,
+   "scan_name": "NUMBI",
+   "scan_symbol": "NUMBI",
+   "first_block_timestamp": 1794146494,
+   "first_block_wib": "2026-11-08 21:01:34 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 42,
+   "abi_fn_names": [
+    "FREE_POOL",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "PAID_PRICE",
+    "TOKEN_PER_MINT",
+    "agentRegistry",
+    "approve",
+    "balanceOf",
+    "freeMint",
+    "freeMinted",
+    "freeUsed",
+    "getApproved",
+    "isApprovedForAll",
+    "mintOpen",
+    "mintPaid",
+    "mintPrice",
+    "mintedCount",
+    "name",
+    "owner",
+    "ownerOf",
+    "paused",
+    "puzzleSigner",
+    "renounceOwnership",
+    "rewardToken",
+    "royaltyInfo",
+    "royaltyReceiver",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setMintOpen",
+    "setPuzzleSigner",
+    "setRoyaltyReceiver",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "walletStatus",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "FREE_POOL()",
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "PAID_PRICE()",
+    "TOKEN_PER_MINT()",
+    "agentRegistry()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "freeMint(uint256,bytes)",
+    "freeMinted()",
+    "freeUsed(address)",
+    "getApproved(uint256)",
+    "isApprovedForAll(address,address)",
+    "mintOpen()",
+    "mintPaid(uint256)",
+    "mintPrice()",
+    "mintedCount(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "paused()",
+    "puzzleSigner()",
+    "renounceOwnership()",
+    "rewardToken()",
+    "royaltyInfo(uint256,uint256)",
+    "royaltyReceiver()",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setBaseURI(string)",
+    "setMintOpen(bool)",
+    "setPuzzleSigner(address)",
+    "setRoyaltyReceiver(address)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalMinted()",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "walletStatus(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": null,
+   "code_error": "OSError: all endpoints failed: https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed.binance",
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+   },
+   "agentRegistry_exact_match": true,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "NUMBI"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "NUMBI"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 62
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 10000
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "mintPrice": {
+    "fn": "mintPrice()",
+    "value": 1000000000000000
+   },
+   "totalMinted": {
+    "fn": "totalMinted()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed1.defibit.io/: Ti"
+   },
+   "mintedCount": {
+    "fn": "mintedCount()",
+    "error": "OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https:"
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0x49d45e8a123d0d5e1d2a090a83fedac39c9c85b6"
+   },
+   "freeMinted()": {
+    "fn": "freeMinted()",
+    "value": 62
+   },
+   "FREE_POOL()": {
+    "fn": "FREE_POOL()",
+    "value": 3000
+   },
+   "freeUsed(address)": {
+    "fn": "freeUsed(address)",
+    "value": 0
+   },
+   "freeMint(uint256,bytes)": {
+    "fn": "freeMint(uint256,bytes)",
+    "error": "unsupported input type bytes"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x71144EA489539EdbD58faB4D53b0ba5C2E446263",
+   "first_block": 132406152,
+   "mint_total_window": 1,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794147003,
+   "first_block_wib": "2026-11-08 21:10:03 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": null,
+   "code_error": "OSError: all endpoints failed: https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-dataseed2.bnbc",
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "error": "OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: Ti"
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x26E009350Ef80cb542785d57c27c686a582bf605",
+   "first_block": 132406645,
+   "mint_total_window": 18,
+   "scan_name": "SHACHO CLUB",
+   "scan_symbol": "SHACHO",
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bnb.api.onfinality.io/public/: OSError",
+   "sourcify": "exact_match",
+   "abi_fn_count": 41,
+   "abi_fn_names": [
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "agentIds",
+    "agentTokenIdOf",
+    "approve",
+    "balanceOf",
+    "bogo",
+    "costOf",
+    "freeLeft",
+    "freeOf",
+    "getApproved",
+    "isApprovedForAll",
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "name",
+    "owner",
+    "ownerOf",
+    "price",
+    "renounceOwnership",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setFree",
+    "setMintOpen",
+    "setPrice",
+    "setTreasury",
+    "supportsInterface",
+    "symbol",
+    "teamMint",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "treasury",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "agentIds()",
+    "agentTokenIdOf(string)",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "bogo()",
+    "costOf(address,uint256)",
+    "freeLeft()",
+    "freeOf(address,uint256)",
+    "getApproved(uint256)",
+    "isApprovedForAll(address,address)",
+    "mint(string,uint256)",
+    "mint(uint256)",
+    "mintOpen()",
+    "mintWithAgentTokenId(uint256,uint256)",
+    "mintedBy(address)",
+    "mintedByAgent(uint256)",
+    "mintsLeft(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "price()",
+    "renounceOwnership()",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setBaseURI(string)",
+    "setFree(uint256,bool)",
+    "setMintOpen(bool)",
+    "setPrice(uint256)",
+    "setTreasury(address)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "teamMint(address,uint256)",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "treasury()",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 15608,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: OSError"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "SHACHO CLUB"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "SHACHO"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 122
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 1888
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed2.bnbchain"
+   },
+   "price": {
+    "fn": "price()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode"
+   },
+   "owner": {
+    "fn": "owner()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbcha"
+   },
+   "freeLeft()": {
+    "fn": "freeLeft()",
+    "value": 1763
+   },
+   "freeOf(address,uint256)": {
+    "fn": "freeOf(address,uint256)",
+    "value": 1
+   },
+   "agentTokenIdOf_masgayut.ai": {
+    "fn": "agentTokenIdOf(string)",
+    "value": 107187496765866644729837695198686237165740365523485558112864918211974996443404
+   },
+   "costOf(address,uint256)": {
+    "fn": "costOf(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc.drpc.org/: OSError"
+   },
+   "agentIds": {
+    "fn": "agentIds()",
+    "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "mintsLeft(address)": {
+    "fn": "mintsLeft(address)",
+    "value": 10
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0xeEdd6F512Fec64AD5A4aa64722ef6C5689937B50",
+   "first_block": 132405024,
+   "mint_total_window": 46,
+   "scan_name": "NUMBI",
+   "scan_symbol": "NUMBI",
+   "first_block_timestamp": 1794146494,
+   "first_block_wib": "2026-11-08 21:01:34 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 42,
+   "abi_fn_names": [
+    "FREE_POOL",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "PAID_PRICE",
+    "TOKEN_PER_MINT",
+    "agentRegistry",
+    "approve",
+    "balanceOf",
+    "freeMint",
+    "freeMinted",
+    "freeUsed",
+    "getApproved",
+    "isApprovedForAll",
+    "mintOpen",
+    "mintPaid",
+    "mintPrice",
+    "mintedCount",
+    "name",
+    "owner",
+    "ownerOf",
+    "paused",
+    "puzzleSigner",
+    "renounceOwnership",
+    "rewardToken",
+    "royaltyInfo",
+    "royaltyReceiver",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setMintOpen",
+    "setPuzzleSigner",
+    "setRoyaltyReceiver",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "walletStatus",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "FREE_POOL()",
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "PAID_PRICE()",
+    "TOKEN_PER_MINT()",
+    "agentRegistry()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "freeMint(uint256,bytes)",
+    "freeMinted()",
+    "freeUsed(address)",
+    "getApproved(uint256)",
+    "isApprovedForAll(address,address)",
+    "mintOpen()",
+    "mintPaid(uint256)",
+    "mintPrice()",
+    "mintedCount(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "paused()",
+    "puzzleSigner()",
+    "renounceOwnership()",
+    "rewardToken()",
+    "royaltyInfo(uint256,uint256)",
+    "royaltyReceiver()",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setBaseURI(string)",
+    "setMintOpen(bool)",
+    "setPuzzleSigner(address)",
+    "setRoyaltyReceiver(address)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalMinted()",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "walletStatus(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": null,
+   "code_error": "OSError: all endpoints failed: https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed.binance",
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+   },
+   "agentRegistry_exact_match": true,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "NUMBI"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "NUMBI"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 62
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 10000
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "mintPrice": {
+    "fn": "mintPrice()",
+    "value": 1000000000000000
+   },
+   "totalMinted": {
+    "fn": "totalMinted()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed1.defibit.io/: Ti"
+   },
+   "mintedCount": {
+    "fn": "mintedCount()",
+    "error": "OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https:"
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0x49d45e8a123d0d5e1d2a090a83fedac39c9c85b6"
+   },
+   "freeMinted()": {
+    "fn": "freeMinted()",
+    "value": 62
+   },
+   "FREE_POOL()": {
+    "fn": "FREE_POOL()",
+    "value": 3000
+   },
+   "freeUsed(address)": {
+    "fn": "freeUsed(address)",
+    "value": 0
+   },
+   "freeMint(uint256,bytes)": {
+    "fn": "freeMint(uint256,bytes)",
+    "error": "unsupported input type bytes"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  },
+  {
+   "address": "0x26E009350Ef80cb542785d57c27c686a582bf605",
+   "first_block": 132406645,
+   "mint_total_window": 18,
+   "scan_name": "SHACHO CLUB",
+   "scan_symbol": "SHACHO",
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bnb.api.onfinality.io/public/: OSError",
+   "sourcify": "exact_match",
+   "abi_fn_count": 41,
+   "abi_fn_names": [
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "agentIds",
+    "agentTokenIdOf",
+    "approve",
+    "balanceOf",
+    "bogo",
+    "costOf",
+    "freeLeft",
+    "freeOf",
+    "getApproved",
+    "isApprovedForAll",
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "name",
+    "owner",
+    "ownerOf",
+    "price",
+    "renounceOwnership",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setFree",
+    "setMintOpen",
+    "setPrice",
+    "setTreasury",
+    "supportsInterface",
+    "symbol",
+    "teamMint",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "treasury",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "agentIds()",
+    "agentTokenIdOf(string)",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "bogo()",
+    "costOf(address,uint256)",
+    "freeLeft()",
+    "freeOf(address,uint256)",
+    "getApproved(uint256)",
+    "isApprovedForAll(address,address)",
+    "mint(string,uint256)",
+    "mint(uint256)",
+    "mintOpen()",
+    "mintWithAgentTokenId(uint256,uint256)",
+    "mintedBy(address)",
+    "mintedByAgent(uint256)",
+    "mintsLeft(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "price()",
+    "renounceOwnership()",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setBaseURI(string)",
+    "setFree(uint256,bool)",
+    "setMintOpen(bool)",
+    "setPrice(uint256)",
+    "setTreasury(address)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "teamMint(address,uint256)",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "treasury()",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 15608,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: OSError"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "SHACHO CLUB"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "SHACHO"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 122
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 1888
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed2.bnbchain"
+   },
+   "price": {
+    "fn": "price()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode"
+   },
+   "owner": {
+    "fn": "owner()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbcha"
+   },
+   "freeLeft()": {
+    "fn": "freeLeft()",
+    "value": 1763
+   },
+   "freeOf(address,uint256)": {
+    "fn": "freeOf(address,uint256)",
+    "value": 1
+   },
+   "agentTokenIdOf_masgayut.ai": {
+    "fn": "agentTokenIdOf(string)",
+    "value": 107187496765866644729837695198686237165740365523485558112864918211974996443404
+   },
+   "costOf(address,uint256)": {
+    "fn": "costOf(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc.drpc.org/: OSError"
+   },
+   "agentIds": {
+    "fn": "agentIds()",
+    "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "mintsLeft(address)": {
+    "fn": "mintsLeft(address)",
+    "value": 10
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false
+  }
+ ],
+ "same_owner_discards": []
+}

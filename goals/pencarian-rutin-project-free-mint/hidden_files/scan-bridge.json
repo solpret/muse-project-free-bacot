@@ -1,0 +1,1179 @@
+{
+ "seeded": "2026-11-03 ~11:41 WIB",
+ "writer": "tracked-wallet-mint-scan-hourly only",
+ "contracts": {
+  "0x64295d2dea0acb8d0ed0d00c009c7d25eb3a0446": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "BNB Bull Pass (BNBULLPASS) #113, free (tx value 0), run-1 finding, 1 entity (future1001.ai) only - NOT a signal/lead, NOT auto-mint. Run-124 pointer (backfill): contractURI() read FAILED (fast_rpc race outage, all endpoints failed - pointer incomplete, not proven absent); tokenURI #113 base64 JSON, no URL; Sourcify sources only generic doc/GitHub URLs; ABI no site function - website_no_pointer_found with caveat.",
+   "gate": "website_no_pointer_found",
+   "website": null,
+   "freebacot_tier": "unassigned_in_scan",
+   "same_owner_discarded": false
+  },
+  "0xfe5ab5ce9b1d86a55d70e7d0573a14d559029c18": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "ERC1155 unnamed (name/symbol read failed) #1003, free (tx value 0), run-1 finding, 1 entity (future1001.ai) only - NOT a signal/lead, NOT auto-mint. Run-124 pointer (backfill): contractURI() read FAILED (fast_rpc race outage - pointer incomplete, not proven absent); tokenURI uri(1003) = https://build-100.com/lab/meta/{id}.json -> HTTP 404; Sourcify sources only generic doc/GitHub URLs; ABI no site function - website_no_pointer_found with caveat.",
+   "gate": "website_no_pointer_found",
+   "website": null,
+   "freebacot_tier": "unassigned_in_scan",
+   "same_owner_discarded": false
+  },
+  "0xe5e2c43746f3a5e713c246592095d7cf82e808cc": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "TRACE Genesis (TRACE-NFT) #1544-1545, free (tx value 0), run-1 finding, 1 entity (future1001.ai) only - NOT a signal/lead, NOT auto-mint. Run-124 pointer (backfill): contractURI() read FAILED (fast_rpc race outage - pointer incomplete, not proven absent); tokenURI #1544 -> https://tracea.cc/nft/v1/metadata/1544.json (metadata host, external_url tracea.cc/nft/?token=<redacted> fetched HTTP 200 but does NOT print the exact contract - metadata host only, not website evidence per strict print standard); Sourcify 404 (unverified, no ABI/sources to grep) - website_no_pointer_found with caveat.",
+   "gate": "website_no_pointer_found",
+   "website": null,
+   "freebacot_tier": "unassigned_in_scan",
+   "same_owner_discarded": false
+  },
+  "0xf464550f1d744793893c0ce09b89269ed726d796": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": true,
+   "note": "DigDown (DIG) #2657, free (tx value 0), run-1 finding, 1 entity (future1001.ai) only - finding for routine Free Bacot job via bridge, NOT a signal, NOT an early/strong lead by scan job, NOT auto-mint (trigger >25% not met). Already in Free Bacot snapshot (contracts/DigDown). Run-124 pointer (backfill): VERIFIED via contractURI - contractURI base64 JSON external_link https://digdown.xyz (also in tokenURI #2657 + Sourcify sources + siteURL() in ABI); fetched https://digdown.xyz HTTP 200 and prints the exact contract. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job.",
+   "gate": "website_verified_via_pointer",
+   "website": "https://digdown.xyz",
+   "freebacot_tier": "unassigned_in_scan",
+   "same_owner_discarded": false
+  },
+  "0x37cfee3b63c36ca9ca27e268345daf9f4443d758": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Agrifarm (AGRIF) #307-308, free (tx value 0), run-1 finding, 1 entity (future1001.ai) only - NOT a signal/lead, NOT auto-mint. Run-124 pointer (backfill): contractURI() base64 JSON (read OK), no URL; tokenURI #307 base64 JSON, no URL; Sourcify sources only generic doc/GitHub URLs; ABI no site function - website_no_pointer_found.",
+   "gate": "website_no_pointer_found",
+   "website": null,
+   "freebacot_tier": "unassigned_in_scan",
+   "same_owner_discarded": false
+  },
+  "0x6c90d2302bf0a9daaf453f3af2cd79f3c9b79cf8": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": false,
+   "note": "Seeded saat penggabungan 2026-11-03 ~11:41 WIB: temuan scan yang sudah dilaporkan, bukan lead baru. Run-125 pointer (backfill): contractURI() empty on retry (first pass: fast_rpc race outage, all endpoints failed); tokenURI #77 -> https://emberforge-b9w.pages.dev/77.json fetched HTTP 200, metadata JSON only (Tier Legendary, no external_url, does NOT print contract) - metadata host only, not website evidence; Sourcify sources no project URL; ABI no site function - website_no_pointer_found.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xe5ba385649a5655188f3a11916cb22da36d3517e": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Seeded saat penggabungan 2026-11-03 ~11:41 WIB: temuan scan yang sudah dilaporkan, bukan lead baru. Run-125 pointer (backfill): contractURI() + tokenURI #345 both base64 JSON on retry (first pass: fast_rpc race outage), decoded, NO URLs in either; Sourcify sources no project URL; ABI no site function - website_no_pointer_found.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xf11c5f7ac5d42b912b8e611b55b825134c3679ba": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Seeded saat penggabungan 2026-11-03 ~11:41 WIB: temuan scan yang sudah dilaporkan, bukan lead baru. Run-125 pointer (backfill): contractURI() empty + tokenURI #8 empty on retry (first pass: fast_rpc race outage) - no pointer on-chain; Sourcify sources no project URL; ABI no site function - website_no_pointer_found.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0x7561c414a7a6ff44fc81e9bfc2eda8f57c3ec61e": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Seeded saat penggabungan 2026-11-03 ~11:41 WIB: temuan scan yang sudah dilaporkan, bukan lead baru. Run-125 pointer (backfill): contractURI() empty on retry (first pass: fast_rpc race outage); tokenURI #867 -> https://agentpandabnb.xyz/metadata/867, but metadata host AND site root both unreachable (Remote end closed connection without response) - fetch failed, NOT a verified website, pointer incomplete on that hop; Sourcify sources only generic doc/GitHub URLs; ABI no site function - website_no_pointer_found with fetch-failure caveat.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xde1f985f8a49d022811c49cf1d8506ca38abf86c": {
+   "source": "scan-tracked",
+   "first_seen": "run-1",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Seeded saat penggabungan 2026-11-03 ~11:41 WIB: temuan scan yang sudah dilaporkan, bukan lead baru. Run-125 pointer (backfill): VERIFIED via contractURI + tokenURI - contractURI returns https://aigentcards.com/meta/collection.json, tokenURI #1744 external_url https://aigentcards.com/; fetched https://aigentcards.com/ HTTP 200 and prints the exact contract. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job.",
+   "website": "https://aigentcards.com/",
+   "gate": "website_verified_via_pointer"
+  },
+  "0x7169a6b08210d7568f146da02431a8d4270ce63c": {
+   "source": "scan-tracked",
+   "first_seen": "run-2",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 126 pointer: tokenURI #20 -> talviogenerate.com metadata host; site root fetched HTTP 200, prints exact contract. Method: tokenURI. Hint for routine job only, NOT a new lead by scan job (already reported as finding run 2).",
+   "website": "https://talviogenerate.com/",
+   "gate": "website_verified_via_pointer"
+  },
+  "0xb64c3bd93aaaa90e8d711bdf7d37ed9865cd7c81": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 126 pointer: contractURI read failed (fast_rpc race timeout, both passes); tokenURI #201 -> poagi.top metadata JSON (no external_url, does not print contract); site root poagi.top HTTP 200 does NOT print contract = metadata host only. Sourcify 404 unverified. Method: tokenURI.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xa0e09358a022bff0a8dfbdead35fbf68b4daab08": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 126 pointer: contractURI + tokenURI #1472 both base64 JSON decoded in full (8679 chars) - name/description/on-chain SVG image only, no external_url/website/URL anywhere; Sourcify only generic docs/GitHub URLs; ABI no site functions. Method: contractURI/tokenURI/sourcify/abi.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xc13f995d7e2ab6b4267dec8eeb2761464056d07b": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": false,
+   "note": "Run 126 pointer: contractURI + tokenURI #1396 both base64 JSON decoded in full (9136 chars) - name/description/on-chain SVG image only, no external_url/website/URL anywhere; Sourcify only generic docs/GitHub URLs; ABI no site functions. Method: contractURI/tokenURI/sourcify/abi.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0x34fc2a5cff16969e814d6d5e8ed13dcb00f0f943": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 126 pointer WITH CAVEAT: contractURI + tokenURI reads FAILED on all retries (fast_rpc race timeouts, all endpoints) - pointer incomplete, not proven absent; Sourcify only generic docs/GitHub URLs. Method attempted: contractURI/tokenURI/sourcify/abi.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0x508468bad31de925a533b88b17a233ec377c641d": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": false,
+   "note": "Run 127 pointer: contractURI + tokenURI #1328 base64 JSON decoded in full (name/description/on-chain SVG image only, no external_url/website/URL anywhere); Sourcify only generic docs/GitHub URLs; ABI no site functions. Method: contractURI+tokenURI.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0x7ba27f90c7b509af1dfbda2a788fe4488ff3aab4": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": false,
+   "note": "Run 127 pointer: contractURI + tokenURI #1295 base64 JSON decoded in full (name/description/on-chain SVG image only, no external_url/website/URL anywhere); Sourcify only generic docs/GitHub URLs; ABI no site functions. Method: contractURI+tokenURI.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xf6ab7131b01f0a94e8860c284fc904d09ed0373b": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": false,
+   "note": "Run 127 pointer: contractURI + tokenURI #1678 base64 JSON decoded in full (name/description/on-chain SVG image only, no external_url/website/URL anywhere); Sourcify only generic docs/GitHub URLs; ABI no site functions. Method: contractURI+tokenURI.",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0xbf3488e453c68e9771c26d448e99d0ec5395135f": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 127 pointer: tokenURI #7812 base64 JSON decoded (name/description/on-chain SVG only, no external_url/website/URL); Sourcify only generic docs/GitHub URLs; ABI no site functions; contractURI read FAILED first pass AND retry (3 tries, fast_rpc race outage) - pointer incomplete, not proven absent. Method: tokenURI (+contractURI failed).",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0x9da90fe302a987d979c21d7c3ae421cb0b2cf8b0": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 127 pointer: tokenURI #2063 -> orb.apeagent.online metadata JSON with external_url https://orb.apeagent.online/; site root fetched HTTP 200, prints exact contract. contractURI read failed first pass + retry (race outage) - does not change verified outcome. Method: tokenURI. Hint for routine job only, NOT a new lead by scan job (already reported as finding run 3; already in Free Bacot snapshot as bridge-0x9da90fe3).",
+   "website": "https://orb.apeagent.online/",
+   "gate": "website_verified_via_pointer"
+  },
+  "0x5063025fb6ab1859b91c312237a772ca21db44e6": {
+   "source": "scan-tracked",
+   "first_seen": "run-3",
+   "reported_as": "finding",
+   "in_freebacot_snapshot": false,
+   "already_in_snapshot_flag": false,
+   "note": "Run 128 pointer: contractURI base64 JSON decoded in full (name/description/seller_fee only, no external_url/website/URL); tokenURI #247 base64 JSON decoded in full (name/description/on-chain SVG image only, no URLs); Sourcify only generic docs/EIP URLs; ABI no site functions. Method: contractURI+tokenURI. Hint for routine job only, NOT a new lead by scan job (already reported as finding run 3).",
+   "website": null,
+   "gate": "website_no_pointer_found"
+  },
+  "0x4673c787fb192285a7ecd69860503ca3e95bd765": {
+   "source": "scan-tracked",
+   "first_seen": "run-4 (2026-11-03 12:05 WIB window, mint 11:11:04 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://polarbear-nft.pages.dev",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "Polar Bear (POLAR) #995-996, free (tx value 0), 1 entity (future1001.ai) only - finding for routine Free Bacot job via bridge, NOT a signal, NOT an early/strong lead by scan job, NOT auto-mint (trigger >25% not met). Owner 0xd6e9ac277c24959bbf656203a21056544663694a, not a listed factory prefix. Run-14 pointer: VERIFIED via tokenURI/metadata hop \u2014 tokenURI #995 -> polarbear-art.pages.dev (metadata host) which names mint site polarbear-nft.pages.dev; that site prints the exact contract 0x4673c787Fb192285a7eCD69860503CA3e95bD765 twice (Contract field + mint instructions). Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0xb792bf600df37eb7638fb16434e813fc0c90c3c8": {
+   "source": "scan-tracked",
+   "first_seen": "run-4 (2026-11-03 12:05 WIB window, mint 11:43:24 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Cryptlichor (LICH) #1197, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Already in Free Bacot snapshot (Cryptlichor). Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d in the AUTO-MINT >25% same-owner discard list: discarded for auto-mint purposes even if a trigger were met. Run-14 pointer: contractURI keys name/description/seller_fee_basis_points (no URL); tokenURI #1197 base64 JSON keys name/description/image/attributes (no URL); Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions."
+  },
+  "0x6ce55cef08ce723257dafae4c7e5f9eb80548b18": {
+   "source": "scan-tracked",
+   "first_seen": "run-4 (2026-11-03 12:05 WIB window, mint 11:53:02 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Zelyum (ZELYUM) #239, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd8b956e5d50ffb592ed06fbc37664056c2c18165, not a listed factory prefix. Run-14 pointer WITH CAVEATS: contractURI read failed on all endpoints (not proof of absence); tokenURI #239 -> https://zelyum.xyz/meta/239; host zelyum.xyz unreachable by DNS in both text fetch and live-browser check (browser error page only, no site content, no metadata JSON received) \u2014 so neither contract-print nor external_url could be verified; Sourcify 404 unverified. Pointer incomplete, NOT proven absent; retry another time/network."
+  },
+  "0x885ffc03f68d444e8d33da81c4a8b37349f6c481": {
+   "source": "scan-tracked",
+   "first_seen": "run-4 (2026-11-03 12:05 WIB window, mint 12:11:16 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "JADESTX (JADESTX) #53-55, PAID mint (tx value 0.0003 BNB) - not a free mint, 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x9841e12ed7e35cc805983a58417e13d4ac29184c, not a listed factory prefix. Run-14 pointer WITH CAVEATS: contractURI read failed on all endpoints (not proof of absence); tokenURI #53 returned no data; Sourcify 404 unverified. Pointer incomplete, NOT proven absent."
+  },
+  "0x417619ea3eeac72766ed78e7e61ad58e6414b859": {
+   "source": "scan-tracked",
+   "first_seen": "run-4 (2026-11-03 12:05 WIB window, mint 12:11:53 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Likhin (LIKHIN) ERC20 mint 50,000,000 LIKHIN (Transfer from zero address), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner UNVERIFIED (owner() eth_call failed repeatedly on fast_rpc endpoints) - not proven discarded, do not treat as discarded. Run-14 pointer WITH CAVEATS (ERC20, tokenURI n/a): contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified. Pointer incomplete, NOT proven absent."
+  },
+  "0xd8e24465f2f5a8fb9b3b24e3042f26a4b10c020f": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ERROR (metadata name 'ERROR Tier 1 - Intact', traits Tier 1 / Corruption Tier 1 - Intact) #41, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. On-chain name()/symbol() read failed at scan time; identity above is from token metadata only. Owner 0xa96b43fc51ef1cf5dd9f72da26fc67d63036c806, not a listed factory prefix. Run-15 pointer: website_no_pointer_found (contractURI read failed on all endpoints; tokenURI #41 -> IPFS metadata fetched via Pinata gateway: fields name/description/image/attributes only, NO external_url and NO website field, image is an ipfs:// link only; Sourcify sources contain no website string)."
+  },
+  "0xf00d595f9fbb8308fb03eeec7406e6883b157413": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://agent-oil.pages.dev",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "Agent Oil Rig (AORIG) #69, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x41a192cb1cc16cc1ff98dfa9c338f436b41fa5b3, shared with Agent Harvest Land, not a listed factory prefix. Run-15 pointer: VERIFIED via tokenURI - tokenURI #69 -> https://agent-oil.pages.dev/metadata/69, which serves the project site content that prints the exact contract 0xF00D595F9fbb8308Fb03eeEC7406e6883B157413 (Agent Prompt section + staking section). Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x0d463ce4ad0c24ab902f7443ef6c725207c6eb9f": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Neonagent (NEONAGENT) #197-198, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Run-15 pointer: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #197 base64 JSON only name/description/data-URI image, no external_url; Sourcify sources contain no website string; ABI no site functions)."
+  },
+  "0x08be8a0727b6fc801171c1f4f4dd547ea44ca339": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "M3MO (M3MO) #229, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x118ea9a614701f5a69b8d62d341274708f844615, not a listed factory prefix. Run-15 pointer WITH CAVEATS: website_no_pointer_found but pointer incomplete, NOT proven absent - contractURI read failed on all endpoints; tokenURI #229 -> IPFS CID bafybeicshzdi7dthnr5vlqzulc6tvnkewmegj56vhmiqvk3uvnbplvzyua/229 could NOT be fetched (ipfs.io/dweb.link bot-wall 'request blocked' after Cloudflare check, Pinata timeout, other gateways 504/500/no providers/DNS failures, browser environment move already spent); Sourcify M3MO source shows no website function (functions are mint/openMint/closeMint/setBaseURI/royalty). Retry the IPFS fetch on a later run/route before treating absence as proven."
+  },
+  "0xacf150d9ec909e3d339bf4c6d090b18495674e66": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Agent Harvest Land (AHLAND) #5106, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x41a192cb1cc16cc1ff98dfa9c338f436b41fa5b3, shared with Agent Oil Rig, not a listed factory prefix. Run-17 pointer backfill WITH CAVEAT: contractURI/tokenURI/name/symbol/owner eth_calls failed on all endpoints; Sourcify ABI grep found no website function/URL - pointer incomplete, NOT proven absent."
+  },
+  "0x1591f1ed9f3dbec3a922dc63f5782daf17eeba1e": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "FLAPPY (FLPNFT) #777, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x579c5bc78e2f7ed6b3956f17d6e7d144f3fbffbd, not a listed factory prefix. Run-17 pointer backfill WITH CAVEAT: contractURI/tokenURI/name/symbol/owner eth_calls failed on all endpoints; Sourcify ABI grep found no website function/URL - pointer incomplete, NOT proven absent."
+  },
+  "0x1cf9e60218493149ace7dc953497c07175aa625e": {
+   "source": "scan-tracked",
+   "first_seen": "run-5 (2026-11-03 13:05 WIB window, mint times 12:18-13:08 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Wise Owl Society (OWLS) #2704, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x9e7cc3e1f21accb89e98c78778b0ece3b798ec9d, not a listed factory prefix. Run-17 pointer backfill WITH CAVEAT: contractURI/tokenURI/name/symbol/owner eth_calls failed on all endpoints; Sourcify ABI grep found no website function/URL (eip712Domain is EIP-712, NOT a website function) - pointer incomplete, NOT proven absent."
+  },
+  "0x88313a88836783dcc4008fee2b8c743bb1029ef7": {
+   "source": "scan-tracked",
+   "first_seen": "run-6 (2026-11-03 14:05 WIB window, mint 13:19:37-13:19:42 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Find ID NFT (FIDNFT) #5 and #11, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xcea7e510730dfeb8c8cd495fe315570a7dc050a2, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-18 pointer: tokenURI #5 -> IPFS common.json fetched via Pinata gateway: fields name/description/image/attributes only (Tier Common), NO external_url and NO website; Sourcify ABI no site functions; contractURI read failed on all endpoints (caveat, pointer partially incomplete)."
+  },
+  "0xc06091bc9a1d1b8e7d79ed238727b28ac52b996e": {
+   "source": "scan-tracked",
+   "first_seen": "run-6 (2026-11-03 14:05 WIB window, mint 13:37:14 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Awkwardbear (Awkwardbear) #21214, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xf309558bc818e239c32c56a2825870b82ae405c9, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-18 pointer: tokenURI #21214 -> storage.googleapis.com/abdao/metadata/21214.json fetched: fields name/description/image/attributes only, NO external_url and NO website; Sourcify ABI no site functions; contractURI read failed on all endpoints (caveat, pointer partially incomplete)."
+  },
+  "0x90f9de2a0ab81052a0959bd71b46cdcfd57152eb": {
+   "source": "scan-tracked",
+   "first_seen": "run-6 (2026-11-03 14:05 WIB window, mint 13:43:22 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Spookagent (SPOOKAGENT) #151-152, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, shared with Robogent/Drakogent/Orbitagent/Neonagent, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-18 pointer: contractURI base64 JSON (name/description/seller_fee_basis_points only, no URL) and tokenURI #151 base64 JSON (name/description/data-URI image/attributes only, no external_url); Sourcify ABI no site functions."
+  },
+  "0x2eb3f13adb66ef9d0ecdf890d3ba94cb0a8913fe": {
+   "source": "scan-tracked",
+   "first_seen": "run-6 (2026-11-03 14:05 WIB window, mint 13:59:06 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Anonymous Agent (ANON) NFT #15, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x67230d320f714ac82c6ec253d238cfa309fb1b85, same owner as ERC20 token 0x38cb550c1909dabd80a2c6ac6e9e0b107d02052f (100,000 ANON minted same window). Not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-18 pointer WITH CAVEAT: contractURI read failed on all endpoints and tokenURI #15 returned no data (not proof of absence); Sourcify ABI no site functions/URLs. Pointer incomplete, NOT proven absent."
+  },
+  "0x38cb550c1909dabd80a2c6ac6e9e0b107d02052f": {
+   "source": "scan-tracked",
+   "first_seen": "run-6 (2026-11-03 14:05 WIB window, mint 13:59:25 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Anonymous Agent (ANON) ERC20 mint 100,000 ANON (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x67230d320f714ac82c6ec253d238cfa309fb1b85, same owner as NFT 0x2eb3f13adb66ef9d0ecdf890d3ba94cb0a8913fe (#15 same window). Not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-19 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x895087300b81956e3242be7132d55db90af0debd": {
+   "source": "scan-tracked",
+   "first_seen": "run-6 (2026-11-03 14:05 WIB window, mint 14:09:56 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Chromagent (CHROMAGENT) #205-206, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, shared with Robogent/Drakogent/Orbitagent/Spookagent/Neonagent, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-19 pointer: contractURI base64 JSON (name/description/seller_fee_basis_points only, no URL); tokenURI #205 base64 JSON (name/description/data-URI image/attributes only, no external_url); Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions."
+  },
+  "0x7b04d2b20462b11d019e3fea2c957a3e593b0fa7": {
+   "source": "scan-tracked",
+   "first_seen": "run-7 (2026-11-03 15:05 WIB window, mint 14:30:46 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "AgentVOLT (AVOLT) NFT #37, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x2cbc3639d0c33453e71879a22d2114e816c5401c, same owner as VOLT token 0x39c9778c6aab547a6c265c2e556217636bbe680a (1,000,000 VOLT in same tx), not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-19 pointer (candidate link found, NOT verified under strict print standard): tokenURI #37 -> https://www.agentvolt.site/metadata/37.json, whose external_url is https://www.agentvolt.site/ ; fetched homepage text does NOT print the exact contract 0x7b04d2b20462b11d019e3fea2c957a3e593b0fa7, and the homepage-linked skill file https://agentvolt-mint.vercel.app/agent-skill.md is 404 (text fetch and live-browser check) with no contract printed. ContractURI read failed on all endpoints (caveat, pointer partially incomplete). Candidate link recorded only, NOT a verified website."
+  },
+  "0x39c9778c6aab547a6c265c2e556217636bbe680a": {
+   "source": "scan-tracked",
+   "first_seen": "run-7 (2026-11-03 15:05 WIB window, mint 14:30:46 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "AgentVOLT (VOLT) ERC20 mint 1,000,000 VOLT (decimals 18 verified) in same tx as AVOLT NFT #37, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x2cbc3639d0c33453e71879a22d2114e816c5401c, same owner as NFT 0x7b04d2b20462b11d019e3fea2c957a3e593b0fa7, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-19 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify sources/ABI contain no website URL or site function; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent. Same project family as AgentVOLT NFT 0x7b04... (see its run-19 pointer note)."
+  },
+  "0x39dba415c7f84e59074a3f0dc050dfcb1b0d9840": {
+   "source": "scan-tracked",
+   "first_seen": "run-7 (2026-11-03 15:05 WIB window, mint 14:27:57 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "\u5e01\u5b89\u4eba\u751f (\u5e01\u5b89\u4eba\u751f) ERC20 mint 500,000 tokens (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x0edb9c1466040999ce80792204840928e6768a4d, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-19 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0xcbde1219862e61e3b2e9f417016f2c04f2e033cf": {
+   "source": "scan-tracked",
+   "first_seen": "run-8 (2026-11-03 16:05 WIB window, mint 15:16:21 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Egg (EGG) #914, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x986f2e6cf3eb2ff385c5c58b8d14b04b218f6817, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-20 pointer backfill WITH CAVEATS: contractURI read failed on all endpoints (not proof of absence); tokenURI #914 returned no data; Sourcify ABI no site functions/URLs. Pointer incomplete, NOT proven absent."
+  },
+  "0x95ce945bef11643a8c7a97148b36f9a52c48d0f0": {
+   "source": "scan-tracked",
+   "first_seen": "run-8 (2026-11-03 16:05 WIB window, mint 15:26:21 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "FAMULI (FAMU) #3302, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd327add91a351e1258a4a9f35590926183c12aa3, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-20 pointer backfill (candidate link found, NOT verified under strict print standard): tokenURI #3302 -> https://famuli.pages.dev/m/3302.json, whose external_url is https://famuli.pages.dev; the fetched site root text does NOT print the exact contract 0x95ce945bef11643a8c7a97148b36f9a52c48d0f0 (CONTRACT section shows a blank/dash, JS-loaded). contractURI file https://famuli.pages.dev/m/collection.json could NOT be read: text fetch failed twice (network error) and live-browser check 2026-11-04 04:30 WIB failed with ERR_TOO_MANY_REDIRECTS (redirect loop), so that file's content/fields are unverified. Candidate link recorded only, NOT a verified website."
+  },
+  "0xf9a314e76855cab1f676ddbe77a5a91fa163da53": {
+   "source": "scan-tracked",
+   "first_seen": "run-8 (2026-11-03 16:05 WIB window, mint 15:54:58 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Agent Onyx (AONX) #47, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x080c00e3aa2e114ccc65df557c946b08552e8189, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-20 pointer backfill: contractURI read failed on all endpoints (caveat, pointer partially incomplete); tokenURI #47 base64 JSON only name/description/image/attributes, NO external_url and NO website; Sourcify ABI no site functions/URLs. Run-26: second entity doctordefi.ai minted #448 free (tx 0x49b77c6dc235b8cad2c4552daf3d798816a7ea87283b79def593b0bbce74269a) - Agent Onyx now at 2 entities total since baseline, still far below the 12-entity signal and 14-entity auto-mint thresholds; gate unchanged from run-20 pointer."
+  },
+  "0x09bf84e67785974021222b72660b94d81e2901e6": {
+   "source": "scan-tracked",
+   "first_seen": "run-9 (2026-11-03 17:05 WIB window, mint 17:04:56 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 1157170117560.735252623072814797 tokens (decimals 18 verified), PAID (tx value 0.075 BNB), 1 entity only (AFeng, feed-only) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker, so mint classification beyond the zero-address Transfer is unverified. Owner 0x28f41ebbaa6a6fb53b83440aede54251163e196f, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-21 pointer backfill WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x2b8ae9ef424e0791c1ad526a052bd8f18d6b3625": {
+   "source": "scan-tracked",
+   "first_seen": "run-9 (2026-11-03 17:05 WIB window, mint 16:40:49 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "AgentVOLT (AVOLT) NFT #658 + 1,000,000 VOLT (decimals 18 verified) in same tx, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Second AgentVOLT NFT contract: same name/symbol/owner as run-7 AgentVOLT NFT 0x7b04d2b20462b11d019e3fea2c957a3e593b0fa7, distinct address. Owner 0x2cbc3639d0c33453e71879a22d2114e816c5401c, not a listed factory prefix. Not in Free Bacot snapshot at scan time (VOLT token itself already in snapshot). Run-21 pointer backfill (candidate link found, NOT verified under strict print standard): tokenURI #658 -> https://www.agentvolt.site/metadata/658.json, whose external_url is https://www.agentvolt.site/; fetched homepage text does NOT print the exact contract 0x2b8ae9ef424e0791c1ad526a052bd8f18d6b3625. contractURI read failed on all endpoints (caveat, pointer partially incomplete); Sourcify sources/ABI contain no website URL (word 'external' only). Candidate link recorded only, NOT a verified website."
+  },
+  "0x42bdfff914afcf12047922ae58be397c1f351a27": {
+   "source": "scan-tracked",
+   "first_seen": "run-9 (2026-11-03 17:05 WIB window, mint 16:14:50 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://sailagent.vercel.app",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "SailPixels (SPXL) #110, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xb6467fcf9aa654947ed8c48816b86d2956b7ddfd, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-21 pointer backfill: VERIFIED via tokenURI - tokenURI #110 base64 JSON image host sailagent.vercel.app; site root https://sailagent.vercel.app prints the exact contract 0x42bDFFf914afCF12047922AE58be397c1F351a27 in its SailPixels mint guide (line for NFT contract). contractURI read failed on all endpoints (caveat); Sourcify fetch failed with transport errors (IncompleteRead/closed connection, not a 404 verdict). Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x6eee003e2aebe75be551ac509eb485cc25e404fb": {
+   "source": "scan-tracked",
+   "first_seen": "run-9 (2026-11-03 17:05 WIB window, mint 16:54:21 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "AnthroBit Bound Points (BP) ERC20 mint 2 BP (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Minted via sale contract 0xc7b7593aa572701d26301d9707e93b0c511e636a, same contract as the paid ANTHRO NFT in this run. owner() returned the zero address, not a listed factory prefix and not proven discarded. Not in Free Bacot snapshot at scan time. Run-21 pointer backfill WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify sources/ABI fetch failed with transport errors (IncompleteRead), NOT a 404 verdict; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent. Candidate site note only: https://anthrobit.fun (verified for the sibling AnthroBit NFT contract 0xc7b7... in this same run) lists AnthroBitPoints/BP contract 0x6EEe003e2aEBE75bE551Ac509Eb485cc25E404Fb in its Verified contracts section - that linkage comes via the sibling NFT pointer, not via a BP-owned pointer, so it is recorded as a candidate hint only, NOT a verified website for BP under the pointer rule."
+  },
+  "0xc7b7593aa572701d26301d9707e93b0c511e636a": {
+   "source": "scan-tracked",
+   "first_seen": "run-9 (2026-11-03 17:05 WIB window, mint 16:49:55 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://anthrobit.fun",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "AnthroBit Agents (ANTHRO) NFT #6292, PAID mint (tx value 0.001 BNB) - not a free mint, 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Sale contract for the BP token mint in this run as well. owner() returned the zero address, not a listed factory prefix and not proven discarded. Not in Free Bacot snapshot at scan time. Run-21 pointer backfill: VERIFIED via tokenURI - tokenURI #6292 base64 JSON image host anthrobit.fun; site root https://anthrobit.fun prints the exact contract 0xc7b7593Aa572701d26301D9707E93b0c511e636A (Mint contract + Verified contracts sections). contractURI read failed on all endpoints (caveat); Sourcify fetch failed with transport errors (IncompleteRead, not a 404 verdict). Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x39f61c0a379f132d66fb8c2adab293e6a7595b0a": {
+   "source": "scan-tracked",
+   "first_seen": "run-10 (2026-11-03 18:05 WIB window, mint 2026-11-03 17:24:36 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "The Orzo (ORZO) #180, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x0c2f1069e529e04a0f876cf32a25fee47421e76a, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-23 pointer backfill (strict print standard): contractURI https://theorzo.world/meta/collection.json and tokenURI #180 https://theorzo.world/meta/180.json both carry external_url https://theorzo.world; fetched theorzo.world root + /mint text do NOT print the exact contract 0x39f61c0a379f132d66fb8c2adab293e6a7595b0a (find negative on both pages); Sourcify fetch failed with transport IncompleteRead, NOT a 404 verdict. Candidate link theorzo.world recorded only, NOT a verified website under the strict print rule. Hint for routine Free Bacot job only."
+  },
+  "0x751f8124304405154b67b9571723c23386c6b3db": {
+   "source": "scan-tracked",
+   "first_seen": "run-10 (2026-11-03 18:05 WIB window, mint 2026-11-03 17:24:41 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ZENT (ZENT) ERC20 mint 10000 ZENT (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Minted via call to 0xdc46a6a1efc5b8ee95363e5bf9566e3f401974ec. owner() unverified (eth_call failed repeatedly), NOT proven discarded. Not in Free Bacot snapshot at scan time. Run-23 pointer backfill WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify sources/ABI HTTP 200, no URLs found, no site function (word 'external' only); tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x4c54c3d3cc77f2c9ece2452d5670a6cc2805534d": {
+   "source": "scan-tracked",
+   "first_seen": "run-10 (2026-11-03 18:05 WIB window, mint 2026-11-03 17:35:25 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Agent Fish (AFISH) #274, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6fe4604689912262a9e806ef7ee2623d34e815fa, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-23 pointer backfill (candidate link found, NOT verified under strict print standard): contractURI read failed on all endpoints (caveat); tokenURI #274 -> https://agentfish-meta.pages.dev/metadata/common/274.json, fields name/description/image/attributes only, NO external_url; image host https://agentfish.pages.dev root fetched, text does NOT print the exact contract 0x4c54c3d3cc77f2c9ece2452d5670a6cc2805534d; Sourcify fetch failed with transport IncompleteRead, NOT a 404 verdict. Candidate link recorded only, NOT a verified website."
+  },
+  "0x563a23b9b3bd563220cab13d028a6904ef3fa7e7": {
+   "source": "scan-tracked",
+   "first_seen": "run-10 (2026-11-03 18:05 WIB window, mint 2026-11-03 17:47:13 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "PEPE404 (PEPE404) #895, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xdbc7b4ee06f20076774023bfd6c358de11f4bfa4, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-23 pointer backfill: contractURI read failed on all endpoints (caveat); tokenURI #895 -> https://pepe404-assets.pages.dev/metadata/895, fields name/description/image/attributes only, NO external_url and NO website; Sourcify fetch failed with transport IncompleteRead, NOT a 404 verdict. Metadata host only, NOT website evidence; PEPE404-class custom-domain site without on-chain pointer still cannot be found automatically - do not guess a domain from the metadata host."
+  },
+  "0x94b7e6eadf5182c824b160166aaba6fb0a1b134a": {
+   "source": "scan-tracked",
+   "first_seen": "run-10 (2026-11-03 18:05 WIB window, mint 2026-11-03 18:06:48 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "QAGENT DRAW (QDRAW) ERC20 mint 10000000 QDRAW (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Minted via call to 0x4538f9bb4edcf89d36d943478e1b6727e2281b55. owner() unverified (eth_call failed repeatedly), NOT proven discarded. Not in Free Bacot snapshot at scan time. Run-23 pointer backfill WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x18450b11144f516fbba425fb116d9a82bd7c581b": {
+   "source": "scan-tracked",
+   "first_seen": "run-11 (2026-11-03 19:05 WIB window, mint 2026-11-03 18:41:04 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Golden Egg Token (EGG) ERC20 mint 10000 EGG (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. owner() unverified (eth_call failed repeatedly), NOT proven discarded. Not in Free Bacot snapshot at scan time. Note: symbol EGG collides with the earlier Egg NFT (0xcbde...); distinct contract, not merged. Run-24 pointer: website_no_pointer_found WITH CAVEAT - contractURI read failed on all endpoints (not proof of absence); Sourcify sources/ABI fetch failed with transport IncompleteRead, NOT a 404 verdict; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x3d3b580094f93ebd2421ed2f94a67eb96986a993": {
+   "source": "scan-tracked",
+   "first_seen": "run-11 (2026-11-03 19:05 WIB window, mint 2026-11-03 19:02:33 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "HEART OF AFRICA (HOA) ERC20 mint 5000 HOA (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. owner() unverified (eth_call failed repeatedly), NOT proven discarded. Not in Free Bacot snapshot at scan time. Run-24 pointer: website_no_pointer_found WITH CAVEAT - contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x97f8846edb01eb5a24fd40731786e2233077af36": {
+   "source": "scan-tracked",
+   "first_seen": "run-11 (2026-11-03 19:05 WIB window, mint 2026-11-03 18:41:54-18:43:20 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "666mine (666MINE) #20, #25, #30, #34, #38 (5 txs), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xdcbdb53fb3b2f756c364e6505747fa0778aee368, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-24 pointer: website_no_pointer_found - tokenURI #20 base64 JSON keys name/description/attributes/image only, NO external_url and NO website; Sourcify 404 unverified; contractURI read failed on all endpoints (caveat, pointer partially incomplete)."
+  },
+  "0x1db6fa45ec462c23cdc4b67d6301c3d5bcc3107a": {
+   "source": "scan-tracked",
+   "first_seen": "run-12 (2026-11-03 20:05 WIB window, mint 2026-11-03 19:08:37 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Phoenixgent (PHOENIXGENT) #242, free (tx value 0), 1 entity only (future1001.ai) - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 12: website_no_pointer_found (pointer on-chain dicoba: contractURI base64 JSON hanya name/description/fee, tanpa URL; tokenURI base64 JSON hanya name/description/data-URI image, tanpa external_url; grep sumber Sourcify hanya URL generik docs/GitHub, tanpa URL proyek; ABI tanpa fungsi website/siteURL/domain/external)"
+  },
+  "0xda552a0b709d09a2532689c6e39d981f527817b6": {
+   "source": "scan-tracked",
+   "first_seen": "run-12 (2026-11-03 20:05 WIB window, mint 2026-11-03 19:41:25-19:41:32 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Glitchpilotfox (GLITCHPILOTFOX) #235 dan #244, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 12: website_no_pointer_found (pointer on-chain dicoba: contractURI base64 JSON hanya name/description/fee, tanpa URL; tokenURI base64 JSON hanya name/description/data-URI image, tanpa external_url; grep sumber Sourcify hanya URL generik docs/GitHub, tanpa URL proyek; ABI tanpa fungsi website/siteURL/domain/external)"
+  },
+  "0xd06518ea638cab567328ccd7b67e43a119c275e0": {
+   "source": "scan-tracked",
+   "first_seen": "run-12 (2026-11-03 20:05 WIB window, mint 2026-11-03 19:42:06 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://monkeagents.xyz",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "Monke Agents (MONKE) #431, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xe5220c6fc3fd11b05f22456625ce1707052c3f06, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 12: website VERIFIED via tokenURI - tokenURI #431 image host monkeagents.xyz, file /mint.txt situs mencetak kontrak persis 0xD06518eA638cab567328ccD7b67e43A119C275E0; contractURI read gagal berulang (bukan bukti tidak ada)."
+  },
+  "0xde94d86fdd2eeb66aaef837e43134a5d505dc39d": {
+   "source": "scan-tracked",
+   "first_seen": "run-12 (2026-11-03 20:05 WIB window, mint 2026-11-03 19:56:36-19:56:43 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Cogentbyte (COGENTBYTE) #182 dan #185, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 12: website_no_pointer_found (pointer on-chain dicoba: contractURI base64 JSON hanya name/description/fee, tanpa URL; tokenURI base64 JSON hanya name/description/data-URI image, tanpa external_url; grep sumber Sourcify hanya URL generik docs/GitHub, tanpa URL proyek; ABI tanpa fungsi website/siteURL/domain/external)"
+  },
+  "0x6124b3ae64ada7b73581ccd01fef89e583e8742c": {
+   "source": "scan-tracked",
+   "first_seen": "run-12 (2026-11-03 20:05 WIB window, mint 2026-11-03 19:56:54-19:57:00 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Saturnode (SATURNODE) #214 dan #217, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 12: website_no_pointer_found (pointer on-chain dicoba: contractURI base64 JSON hanya name/description/fee, tanpa URL; tokenURI base64 JSON hanya name/description/data-URI image, tanpa external_url; grep sumber Sourcify hanya URL generik docs/GitHub, tanpa URL proyek; ABI tanpa fungsi website/siteURL/domain/external)"
+  },
+  "0xe43818c2c6080e9d2bef53db14092806b51711d2": {
+   "source": "scan-tracked",
+   "first_seen": "run-12 (2026-11-03 20:05 WIB window, mint 2026-11-03 20:06:38-20:06:44 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Botkirin (BOTKIRIN) #234 dan #237, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Now also in Free Bacot snapshot (routine job, lastRead 2026-11-03 20:45 WIB). Pointer run 13: website_no_pointer_found (contractURI/tokenURI base64 JSON only name/description/image/attributes, no URL; Sourcify generic URLs only; ABI no site functions)."
+  },
+  "0x7b48474d25431dfad4337735a0a2e57b63573abb": {
+   "source": "scan-tracked",
+   "first_seen": "run-13 (2026-11-03 21:05 WIB window, mint 2026-11-03 20:49:31 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Ore (ORE) ERC20 mint 196.98388877204962 ORE (decimals 18 verified), PAID (tx value 0.03 BNB) via call to 0x91268277720ea369ea4e91abe8ae1c3fbb4c4180, 1 entity only (future1001.ai) - finding, NOT a signal/lead, NOT auto-mint. Owner 0xb3399820e8512acbe8f3ee5c677d133532e22222, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 13: website_no_pointer_found under the strict print standard - ABI website() returns https://www.ore.autos but homepage and /ieo fetched text do not print the exact contract; contractURI read failed repeatedly (not proof of absence). ore.autos remains DROPPED for user action - scan finding only."
+  },
+  "0x53ba295180ae4b730f9b2a031f77c1bcdb009509": {
+   "source": "scan-tracked",
+   "first_seen": "run-13 (2026-11-03 21:05 WIB window, mint-pattern 2026-11-03 20:18:46 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 16888144233158.438 tokens (decimals 18 verified), PAID (tx value 0.01 BNB) via aggregator call to 0x296b00198dc7ec3410e12da814d9267bb8df506a, 1 entity only (0x2325...) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker, so mint classification beyond the zero-address Transfer is unverified. Distinct contract from AFeng tracker 0x09bf... (same name/symbol, different address). Owner 0x1f3f5679700115ca6c7570e122f958c743d3a44a, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 13: website_no_pointer_found with caveats - contractURI read failed on all endpoints after retries (not proof of absence), Sourcify 404 (contract unverified), tokenURI n/a (ERC20); pointer incomplete, not proven absent."
+  },
+  "0xc8c5d3dcda296320958f809413aa18712f80cabc": {
+   "source": "scan-tracked",
+   "first_seen": "run-15 (2026-11-03 23:05 WIB window, mint 2026-11-03 23:02:07 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Agent Zero (ZERO) ERC20 mint 1000 ZERO (decimals 18 verified), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Minted via call to sale contract 0x5a67db8389a08762d6120903eec43e719cf67c43 (selector 0xd56a5cf5, string arg 'future1001'). Owner UNVERIFIED (owner() eth_call failed on fast_rpc endpoints) - not proven discarded. Not in Free Bacot snapshot at scan time. Pointer run 15: website_no_pointer_found with caveat - contractURI read failed on all endpoints (ERC20 ZeroToken source on Sourcify shows no contractURI/website function; sources contain no website/siteURL string); tokenURI n/a (ERC20). Sourcify source notes ZeroToken is minted only by the ZeroLaunch contract and transfers are locked until the launch opens the PCS pool."
+  },
+  "0x02b9a3074e74ac73b144c212f3d2b7cd224a69d7": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Marsgent (MARSGENT) #668, free (tx value 0), 1 entity (0xd124dd) only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-24 pointer: website_no_pointer_found WITH CAVEAT - contractURI base64 JSON (name/description/seller_fee_basis_points only, no URL) and tokenURI #668 base64 JSON (name/description/image/attributes only, no external_url); Sourcify sources/ABI fetch failed with transport IncompleteRead, NOT a 404 verdict. Pointer partially incomplete."
+  },
+  "0x2252ee71d079ab2e4527edf8ab3b93e20d2222f4": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Owlagent (OWLAGT) #622, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d -> same-owner discarded for auto-mint. Run-24 pointer: website_no_pointer_found WITH CAVEAT - contractURI base64 JSON (name/description/seller_fee_basis_points only, no URL) and tokenURI #622 base64 JSON (name/description/image/attributes only, no external_url); Sourcify sources/ABI fetch failed with transport IncompleteRead, NOT a 404 verdict. Pointer partially incomplete."
+  },
+  "0x250e800025a9a7861970e253bab6975a57f80567": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Wuyuhive (WUYUHIVE) #589, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-25 pointer backfill: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #589 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x2b62a2f831141e140ee88e2752915ad2de0f1a41": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Rimeagent (RIMAG) #531, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d -> same-owner discarded for auto-mint. Already in Free Bacot snapshot at fresh check. Run-25 pointer backfill: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #531 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x2df7435f5bce0577bee213e13da68313c74d7d0b": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Agentdragon (AGENTDRAGON) #598, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-25 pointer backfill: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #598 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x3364aa233254873107b015926b337f32c50d17f4": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Octagent (OCTAGT) #674, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d -> same-owner discarded for auto-mint. Run-25 pointer backfill: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #674 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x38cb2df1d6fdac4115883e6ec7d2ff39e20c1e61": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Yydsgent (YYDSGENT) #363, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-25 pointer backfill: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #363 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x3d8d32959f93d77b359d2c1674cb75bb73306fa0": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Astragent (ASTGNT) #553, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d -> same-owner discarded for auto-mint. Already in Free Bacot snapshot at fresh check. Run-26 pointer: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #553 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x4443ea727b0761de5ff91ac5e9f5f65c5e3c8b8c": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Unbroken (UBK) #3488, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x7acbd7c47061545313acf6c0383b8db2b09f1bbd, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-26 pointer: website_no_pointer_found (contractURI base64 JSON only name/description, no URL; tokenURI #3488 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x754c3c8996e5964fb5ef08420842fd3772cae27d": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Droidneon (DROIDNEON) #558, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-26 pointer: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #558 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x7c6f57a0c4f3706c557b3b5e59448b2e6782dee9": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Pandadroid (PNDRD) #634, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d -> same-owner discarded for auto-mint. Already in Free Bacot snapshot at fresh check. Run-26 pointer: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #634 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0xc41372177af03dd19d843a4ad7510505d00d2809": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Ghostpilotcat (GHOSTPILOTCAT) #584, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-26 pointer: website_no_pointer_found (contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #584 base64 JSON only name/description/data-URI image/attributes, no external_url; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions)."
+  },
+  "0x396ce471230c0c30a7e52bbccbbf87bec1f52492": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Kingdom Boss Weapons #1561 (name now decoded from tokenURI base64 JSON; was unverified-name), free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-27 pointer: tokenURI JSON only name/description/image/attributes, NO external_url and NO website; contractURI read failed on all endpoints; Sourcify sources only generic docs/GitHub URLs, ABI no site functions. Pointer incomplete, NOT proven absent. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x9d78b216ae96060895837c60df84893cd5ac34f2": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Unverified-name contract #1028, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-27 pointer: tokenURI read returned null, contractURI read failed on all endpoints; Sourcify sources only generic docs/GitHub URLs, ABI no site functions. Pointer incomplete, NOT proven absent. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x76437a85b768bb5612e8a466e492d89d8ef634b1": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Ikigai (IKIGAI) ERC20 mint-pattern, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Name from Free Bacot snapshot entry (Ikigai-Ihigi token); fresh name()/owner() read failed, NOT proven discarded. Already in Free Bacot snapshot at fresh check. Run-27 pointer: contractURI read failed on all endpoints; tokenURI n/a (ERC20); Sourcify sources only generic EIP URL, ABI no site functions. Pointer incomplete, NOT proven absent. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0xafb50403c0838d5b45f8748138ba33a70e23b8cf": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint times 23:42-23:49 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "PIXEL BOYZ (PBOYZ) #3693, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Name from Free Bacot snapshot entry; fresh name()/owner() read failed, NOT proven discarded. Already in Free Bacot snapshot at fresh check. Run-27 pointer: tokenURI -> https://asset.pixelboyz.shop/metadata/3693 returns HTTP 404 in BOTH text fetch and live-browser read-only check (2026-11-04 11:43 WIB, custom PIXEL BOYZ 404 page, no metadata fields, no external_url); live-browser 404-page footer links BscScan 'NFT Contract' for this exact address, but that is site chrome on a 404 page, NOT metadata and NOT a project page printing the contract, so NOT counted as verified website under the strict print standard. Candidate domain pixelboyz.shop noted as hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0xd514eb87c957514979360d9913e1bebcdd90129d": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint 23:42:08 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://lunabirds.xyz",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "LunaBirds (LBIRD) #700, free (tx value 0), 1 entity (0xd124dd) only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x583f7c90cae37c44706f8641b411478ed69e6ced, not a listed factory prefix. Run-16 pointer: VERIFIED via contractURI - contractURI external_url https://lunabirds.xyz; browser live read 01:20-01:25 WIB: homepage shows abbreviated address only, but FAQ 'What are the contracts?' prints the full checksummed contract 0xd514eB87c957514979360d9913e1bEBcDd90129d (same hex value as the lowercase form) + Market 0x1A04cb69eC7F00365aDe1788B14a98450456CE45. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x10b80088fdaf9363d83671be66b64f231f9e92f6": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint 23:42-23:45 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "PACTURE mint-pattern, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-16 pointer WITH CAVEAT: contractURI read failed on all endpoints, Sourcify incomplete/404, tokenURI n/a or empty - pointer incomplete, NOT proven absent. Owner unverified, NOT proven discarded. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0xa8e36d374de1cb2664d4631e7035481ad3b4a877": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint 23:42-23:45 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Cz Agent mint-pattern, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-16 pointer WITH CAVEAT: contractURI read failed on all endpoints, Sourcify incomplete/404, tokenURI n/a or empty - pointer incomplete, NOT proven absent. Owner unverified, NOT proven discarded. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x26e374c049a898d01120c5003adfc9f250e7a8aa": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint 23:42-23:45 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "PoPAgent mint-pattern, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-16 pointer WITH CAVEAT: contractURI read failed on all endpoints, Sourcify incomplete/404, tokenURI n/a or empty - pointer incomplete, NOT proven absent. Owner unverified, NOT proven discarded. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x53a8bfef643bcaee7407ae25de35f169d66c8b59": {
+   "source": "scan-tracked",
+   "first_seen": "run-16 (window 131461916-131471150, mint 23:42-23:45 WIB 2026-11-03)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Pop Agent mint-pattern, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-16 pointer WITH CAVEAT: contractURI read failed on all endpoints, Sourcify incomplete/404, tokenURI n/a or empty - pointer incomplete, NOT proven absent. Owner unverified, NOT proven discarded. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0xd6fcf9db58a559aafbbf9fd823f4f081e6701311": {
+   "source": "scan-tracked",
+   "first_seen": "run-17 (window 131471151-131483364, mint 01:31:46 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Osiris Guardians (OSIRIS) #490, free (tx value 0), 1 entity (0xd124dd) only - finding, NOT a signal/lead, NOT auto-mint. Already in Free Bacot snapshot at fresh check (early-lead-reported-2026-11-03 by routine job, FREE_SUPPLY 2222). Run-17 pointer WITH CAVEAT: contractURI/tokenURI/name/symbol/owner eth_calls failed on all endpoints; Sourcify ABI grep found no website function/URL - pointer incomplete, NOT proven absent. Owner unverified, NOT proven discarded. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x775ee7b19c6aedc50598284f4da64c69f9ce69dd": {
+   "source": "scan-tracked",
+   "first_seen": "run-17 (window 131471151-131483364, mint 01:31:49 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Unverified-name contract #262, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Run-17 pointer WITH CAVEAT: contractURI/tokenURI/name/symbol/owner eth_calls failed on all endpoints; Sourcify 404 unverified - pointer incomplete, NOT proven absent. Owner unverified, NOT proven discarded. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x63dea5acdbe1f27c968907d08610a5f0a0284ba6": {
+   "source": "scan-tracked",
+   "first_seen": "run-18 (window 131483365-131487488, mint 2026-11-04 01:50:00 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Agentic Coin (AGC) ERC20 mint 2,240,000 AGC (decimals 18 verified), free (tx value 0), 1 entity only (future1001.ai) - finding, NOT a signal/lead, NOT auto-mint. Minted via call to sale contract 0x6288dfe86f22b53eeb6886ae2d78941de7483743 (selector 0x73fc9ccc). Owner UNVERIFIED (owner() eth_call failed repeatedly - not proven discarded). Distinct contract from the earlier AGC token 0x2542bbb40a49ca1fc0bdb1265dfc6631bc0542a1; do not merge by symbol. Not in Free Bacot snapshot at scan time. Run-18 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); tokenURI n/a (ERC20); Sourcify ABI no site functions/URLs, sources only generic EIP/OpenZeppelin URLs. Pointer incomplete, NOT proven absent."
+  },
+  "0x44a6c3b3769d7526eabe1f5e631dbd35a7a7874c": {
+   "source": "scan-tracked",
+   "first_seen": "run-20 (2026-11-04 04:05 WIB window, mint 2026-11-04 03:41:36 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://obscura-passkey.pages.dev",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "in_freebacot_snapshot": false,
+   "note": "OBSCURA PASSKEY (OBSCURA) #13, free (tx value 0), 1 entity only (tier-ab wallet 0xd124dd...) - finding, NOT a signal/lead, NOT auto-mint (trigger >25% not met). Owner 0x49c6faefa4b18c0060b86795a36be0142a93c8ea, not a listed factory prefix. Same tx also transferred OBSCURA ERC20 (0xb6940ac7ed25dcc1c2a2125445846b14fba61bff) to the wallet. Not in Free Bacot snapshot at scan time. Run-20 pointer: VERIFIED via tokenURI - tokenURI #13 -> obscura-passkey.pages.dev (media host) and the site root https://obscura-passkey.pages.dev prints the exact contract 0x44a6c3b3769d7526eabe1f5e631dbd35a7a7874c (Contract section, Passkey line) and the same deployer/owner address. contractURI read failed on all endpoints (caveat, pointer partially incomplete); Sourcify 404 unverified. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x3054a5530f1852c33bd2749bfaf7155f162a581b": {
+   "source": "scan-tracked",
+   "first_seen": "run-20 (2026-11-04 04:05 WIB window, mint 2026-11-04 03:41:33 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://pixeltrump.pages.dev",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "in_freebacot_snapshot": true,
+   "already_in_snapshot_flag": true,
+   "note": "Pixel Trump (PixelTrump) #423, free (tx value 0), 1 entity only (tier-ab wallet 0xd124dd...) - finding, NOT a signal/lead, NOT auto-mint (trigger >25% not met). Already in Free Bacot snapshot as 'Pixel Trump' (early-lead-reported-2026-11-03) - reported here only as sudah dikenal Free Bacot, bukan baru. Owner 0xb6467fcf9aa654947ed8c48816b86d2956b7ddfd, same owner as SailPixels run-9, not a listed factory prefix. Run-20 pointer: VERIFIED via tokenURI - tokenURI #423 -> pixeltrump.pages.dev/collection/meta/423.json (metadata: Tier Epic, no external_url field) and the site root https://pixeltrump.pages.dev prints the exact contract 0x3054a5530F1852C33bD2749BFAF7155F162A581b in its agent-mint prompt. contractURI read failed on all endpoints (caveat, pointer partially incomplete); Sourcify ABI has no site function. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x01f9ca4ff95d49594cc8b6591022186dc5c1bc72": {
+   "source": "scan-tracked",
+   "first_seen": "run-22 (window 131509858-131518186, mint 05:40 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "DGF CARD (DGFCARD) #123, free (tx value 0), 1 entity (0xd124dd) only - finding, NOT a signal/lead, NOT auto-mint. Owner UNVERIFIED (owner() eth_call failed repeatedly on fast_rpc endpoints) - not proven discarded. Not in Free Bacot snapshot at scan time. Run-22 pointer: website_no_pointer_found WITH CAVEATS - contractURI read failed on all endpoints (not proof of absence); tokenURI #123 base64 JSON only name/description/image/attributes, NO external_url and NO website (description notes first mint free (Bronze) for Agent ID holders, mints #2-5 cost 0.0008 BNB flat - that is metadata text, not a verified free quota for the user wallet); Sourcify sources transport error (closed connection) and ABI 404 unverified. Pointer incomplete, NOT proven absent."
+  },
+  "0x0aa11f327313682cdf072affff26d0dffc804483": {
+   "source": "scan-tracked",
+   "first_seen": "run-22 (window 131509858-131518186, mint 05:40 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": true,
+   "note": "Krillfarm (KRILL) #260, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 matches proven factory prefix 0xd76d -> same-owner discarded for auto-mint. Already in Free Bacot snapshot at fresh check. Run-22 pointer: website_no_pointer_found - contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #260 base64 JSON only name/description/image/attributes, no external_url; Sourcify sources/ABI grep incomplete due to transport errors (IncompleteRead), not a 404 verdict."
+  },
+  "0xf45fe22b3a9a748c59a7099e2e7b69f41216b1cd": {
+   "source": "scan-tracked",
+   "first_seen": "run-22 (window 131509858-131518186, mint 05:40 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Mummyhive (MUMMYHIVE) #248, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-22 pointer: website_no_pointer_found - contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #248 base64 JSON only name/description/image/attributes, no external_url; Sourcify sources/ABI grep incomplete due to transport errors (IncompleteRead), not a 404 verdict."
+  },
+  "0xc1a54df271a455e236169f8ff65b084ebfb00e15": {
+   "source": "scan-tracked",
+   "first_seen": "run-22 (window 131509858-131518186, mint 05:40 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Pilotphoenix (PILOTPHOENIX) #233, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-22 pointer: website_no_pointer_found - contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #233 base64 JSON only name/description/image/attributes, no external_url; Sourcify sources/ABI grep incomplete due to transport errors (IncompleteRead), not a 404 verdict."
+  },
+  "0xe3f0085fd94d4fb2ae9acb4b49f6c0504e3546a0": {
+   "source": "scan-tracked",
+   "first_seen": "run-22 (window 131509858-131518186, mint 05:40 WIB 2026-11-04)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Glitchdroid (GLITCHDROID) #223, free (tx value 0), 1 entity only - finding, NOT a signal/lead, NOT auto-mint. Owner 0x6f244724f61d8c7fc9af40dd37ff7c82bf2b8f5d, not a listed factory prefix. Already in Free Bacot snapshot at fresh check. Run-22 pointer: website_no_pointer_found - contractURI base64 JSON only name/description/seller_fee_basis_points, no URL; tokenURI #223 base64 JSON only name/description/image/attributes, no external_url; Sourcify sources/ABI grep incomplete due to transport errors (IncompleteRead), not a 404 verdict."
+  },
+  "0xdc11764a5664e333c8d303eb465e89a1caadb85b": {
+   "source": "scan-tracked",
+   "first_seen": "run-26 (2026-11-04 10:05 WIB window, mint 2026-11-04 09:31:41 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Jolly (JOLLY) #2472, free (tx value 0), 1 entity only (doctordefi.ai, Tier C) - finding, NOT a signal/lead, NOT auto-mint. Owner 0x11b38f8854060515cd93f03f3f198ea675ad9c91, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-26 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); tokenURI #2472 -> ipfs://bafybeia7wj7yrqbdh7lq233x3gksvinc4gnrnohf7zdpdu7zmbhmozl6jy/2472.json could NOT be fetched (Pinata gateway timeout, ipfs.io/dweb.link HTTP 403) so external_url is unverified; Sourcify sources only generic docs/EIP/GitHub URLs; ABI no site functions. Pointer incomplete, NOT proven absent."
+  },
+  "0x65b1721bf9ba3ea504bb13fd89d47abc13c739a5": {
+   "source": "scan-tracked",
+   "first_seen": "run-26 (2026-11-04 10:05 WIB window, mint 2026-11-04 09:31:32 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "STARRY (STARRY) ERC20 mint 45,004.500450045 STARRY (raw 45004500450045004500450, decimals 18 verified), free (tx value 0), 1 entity only (doctordefi.ai, Tier C) - finding, NOT a signal/lead, NOT auto-mint. Owner 0x9a6da9e6f2beef402c6a23e2fa1ee7c003cd31b4, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-26 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify sources only generic docs/EIP URLs ('domain' word is EIP-712, not a site function); ABI no site functions/URLs; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0xad6278f2903dd406ab3b86c02971bfbbc6386628": {
+   "source": "scan-tracked",
+   "first_seen": "run-27 (window 131550112-131558101, mint 2026-11-04 10:36:55 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "AiGentAuto (AGAUTO) 10 token #3824, #3029, #863, #751, #1803, #1005, #2511, #1515, #1719, #1614, BERBAYAR 0.009 BNB (tx value, bukan free mint), 1 entity only (future1001.ai) - finding, NOT a signal/lead, NOT auto-mint (trigger >25% not met). Owner UNVERIFIED (owner() eth_call failed on all fast_rpc endpoints, retry also failed - not proven discarded). Not in Free Bacot snapshot at scan time. Run-27 pointer: pointer host FOUND but NOT counted as verified website under strict print standard - contractURI -> https://aigentauto.app/meta/collection.json and tokenURI #3824 external_url -> https://aigentauto.app/ ; fetched homepage text does NOT print the exact contract (find 0xad62 empty); Sourcify 404 unverified. Candidate URL https://aigentauto.app noted as hint for routine Free Bacot job only, NOT a promotion/execution by scan job. Run-28: second entity doctordefi.ai minted #1434 FREE (tx value 0, tx 0xf46144d0ac7cbf88fff467cf02868bc743090c026d912a68c840c300947666cb, 2026-11-04 11:39:14 WIB, block 131562324, receipt status 1) - AiGentAuto now at 2 entities total since baseline, still far below the 12-entity signal and 14-entity auto-mint thresholds; gate unchanged (website_no_pointer_found); now also in Free Bacot snapshot as watchlist-only-pelengkap-scan."
+  },
+  "0xc7c171e479f6ad8a728e77b7484bb7d0b4984d0f": {
+   "source": "scan-tracked",
+   "first_seen": "run-32 (2026-11-04 16:05 WIB window, mint 2026-11-04 15:34:11 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Notbnb (NOTBNB) ERC20 mint 25,000,000 NOTBNB (decimals 18 verified), free (tx value 0), 1 entity only (doctordefi.ai, Tier C) - finding, NOT a signal/lead, NOT auto-mint. Minted via call to 0x88a4c4bd8071213b2bc20ec8ee80b0b456eb8486 (selector 0xf366afc9); receipt status 1, block 131593643, tx 0xaf658b6c5a22c982d807d2edac733517f07f477d3a1778c70039de14841b295d. Owner UNVERIFIED (owner() eth_call failed repeatedly on fast_rpc endpoints) - not proven discarded. Not in Free Bacot snapshot at scan time. Ankr getLogs on this contract in window: 66 logs, all 25,000,000 NOTBNB to distinct recipients, only 1 tracked (doctordefi.ai) - mass distribution pattern, not tracked-only. Run-32 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x28a38a372639e8c481ad41b9b16e52c3c6366acc": {
+   "source": "scan-tracked",
+   "first_seen": "run-34 (2026-11-04 18:05 WIB window, mint 17:35:58 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": "https://acatnft.app/",
+   "gate": "website_verified_via_pointer",
+   "same_owner_discarded": false,
+   "note": "ACAT ERC721 #2546, free (tx value 0), 1 entity only (tier-ab 0xd124...) - finding, NOT a signal/lead, NOT auto-mint. Already in Free Bacot snapshot as ACAT-28a3 (tier EARLY, reported run1731). Owner UNVERIFIED (owner() eth_call failed on fast_rpc endpoints) - not proven discarded, do not treat as discarded. Run-34 pointer: VERIFIED via pointer + live-browser check - contractURI https://acatnft.app/meta/collection.json and tokenURI #2546 https://acatnft.app/meta/2546.json both carry external_url https://acatnft.app/; live-browser check 2026-11-04 ~18:26 WIB found the exact contract 0x28a38A372639E8C481aD41B9B16E52c3c6366ACC printed in the homepage footer with label 'NFT CONTRACT' + BscScan link (text-fetch root alone did NOT show it, JS-rendered footer did). Mint section (https://acatnft.app/#mint) shows 0.001 BNB, 'first cat can be free', up to 10 cats/wallet, 2566/5999 minted at check. Hint for routine Free Bacot job only, NOT a promotion/execution by scan job."
+  },
+  "0x397bf425926f521ac5bebe5062793bb224e3ef8f": {
+   "source": "scan-tracked",
+   "first_seen": "run-34 (2026-11-04 18:05 WIB window, mint 17:35:55 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "\u5e01\u5b89\u52a0\u6cb9 ERC20 mint 50,000,000 tokens (= 1 free share, same size as the user's own 2026-11-04 ~17:00 WIB mint of the same sale 0xc9b4...), free (tx value 0), 1 entity only (tier-ab 0xd124...) - finding, NOT a signal/lead, NOT auto-mint. Owner UNVERIFIED (owner() returned no data) - not proven discarded. Not in Free Bacot snapshot at scan time. Run-34 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify sources/ABI HTTP 200, no project URLs, no site function (word 'external' only); tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent. Separate note (NOT a pointer verification): the user already minted this same sale+token pair 2026-11-04 ~17:00 WIB via bianjiayou.xyz, whose site JS config printed the contracts exactly per that mint's gate check - that knowledge comes from the user's own mint, not from this scan pointer step, so bridge website stays null under the pointer rule."
+  },
+  "0x7e2da878217eb995f9e5d36ed32c9cea52442681": {
+   "source": "scan-tracked",
+   "first_seen": "run-35 (2026-11-04 19:05 WIB window, mint 2026-11-04 18:09:36 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Zhenzhu/\u73cd\u73e0\u5e01 (name/symbol both \u73cd\u73e0\u5e01, verified on-chain fresh) ERC20 mint 88.58675275 tokens (raw 8858675275, decimals 8 verified), FREE (tx value 0), 1 entity only (future1001.ai, Tier C) - finding, NOT a signal/lead, NOT auto-mint. Minted via direct call to the token contract itself (selector 0x106c9da1), receipt status 1, block 131614358, tx 0x041171c88c985981ee28b656471e9b4ff3d2ce1f5e7f3098f8bec55302dacadb. Owner 0x000000000000000000000000000000000000dead (burn/dead address, not a listed factory prefix). Not in Free Bacot snapshot at scan time. Targeted Ankr getLogs topic-filtered for this contract in window returned exactly 1 log = the sent-pass tx, 0 inbound-only new (unfiltered getLogs hit the 1000-log cap, so no distribution total is claimed). Run-35 pointer WITH CAVEAT: contractURI read failed on all fast_rpc endpoints (not proof of absence); Sourcify HTTP 200 verified but sources contain only generic docs/GitHub URLs, ABI contains no site function; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x4fd920d734c98a6946132aa7f7ed9977e6e3b47b": {
+   "source": "scan-tracked",
+   "first_seen": "run-35 (2026-11-04 19:05 WIB window, mint-pattern 2026-11-04 18:14:29 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 42,984,387,120.688455... tokens (raw 42984387120688455244550037505013, decimals 18 verified), PAID (tx value 0.075 BNB), 1 entity only (AFeng, feed-only) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker, so mint classification beyond the zero-address Transfer is unverified. Third distinct tracker contract with this same name/symbol (after 0x09bf... run 9 and 0x53ba... run 13), NOT merged by contract identity. Owner 0x86bf17aa3d418ccbd46bcc372542c67b0ec70ae6, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Targeted Ankr getLogs topic-filtered for this contract in window returned exactly 1 log = the sent-pass tx, 0 inbound-only new (unfiltered getLogs hit the 1000-log cap, so no distribution total is claimed). Run-35 pointer WITH CAVEAT: contractURI read failed on all fast_rpc endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0xe246bd46dee32c99a6d30b67636778bc61d6c186": {
+   "source": "scan-tracked",
+   "first_seen": "run-36 (2026-11-04 20:05 WIB window, mint 2026-11-04 19:37:28 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "WATER Cup (WCUP) #140, free (tx value 0), 1 entity only (doctordefi.ai) - finding, NOT a signal/lead, NOT auto-mint. Already in Free Bacot snapshot as Unnamed-miner-E246-1401 (agent-shaped-free-miner-claim, tier unassigned, pending parent decision). Owner 0x5f34f6a829fd290c02a17aee852021b4c9f80e33 matches snapshot owner, not a listed factory prefix. Run-36 pointer WITH CAVEATS: contractURI read failed on all endpoints (not proof of absence); tokenURI(140) returned no decodable string; Sourcify sources HTTP 200 contain only generic docs/EIP/GitHub URLs plus docs.space.id/agent-id (registry docs, not a project site); ABI no site functions. Pointer incomplete, NOT proven absent."
+  },
+  "0x493d51ca30c99ab3f40e3d713290ef70a6582486": {
+   "source": "scan-tracked",
+   "first_seen": "run-36 (2026-11-04 20:05 WIB window, mints 2026-11-04 19:34:10 and 19:37:25 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Panda Emoji Pack (PANBA) ERC20 mint 2000 PANBA each (decimals 18 verified) via pack sale 0xb8cf650b96810f9f84b8d63353590911e437455b, free (tx value 0), 2 entities (doctordefi.ai + future1001.ai) - finding, NOT a signal (2 < 12), NOT an auto-mint trigger (2 < 14), NOT a lead by itself. Already in Free Bacot snapshot as PACK-B8Cf (pack sale, watchlist-only, shape unverified; snapshot: free packs being taken but isLaunched 0, user slot unverified). Owner UNVERIFIED (owner() eth_call failed in pointer run) - not proven discarded. Run-36 pointer WITH CAVEATS: contractURI read failed on all endpoints (not proof of absence); Sourcify sources HTTP 200 contain only generic EIP/GitHub URLs; ABI no site functions; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0xea2390207d2e36779b47bf9839d37746e805c4ed": {
+   "source": "scan-tracked",
+   "first_seen": "run-37 (2026-11-04 21:05 WIB window, mint 2026-11-04 21:02:37 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Bored Ape Yacht (BAYC) ERC20 mint 950 BAYC (decimals 18 verified), free (tx value 0), 1 entity only (doctordefi.ai) - finding, NOT a signal/lead, NOT auto-mint. Minted via call to sale 0xa178dd21fd274b25e92c4ab4a58a8d0b6bdfae6b (selector 0xf366afc9); receipt status 1 with Transfer from zero address. Owner UNVERIFIED (owner() eth_call failed on fast_rpc endpoints) - not proven discarded. Not in Free Bacot snapshot at scan time. Run-37 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify HTTP 200 only generic EIP/OpenZeppelin/GitHub URLs, ABI no site functions; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x9f894d1fb964d410c4406277f90e78fac1b370e2": {
+   "source": "scan-tracked",
+   "first_seen": "run-37 (2026-11-04 21:05 WIB window, mint-pattern 2026-11-04 20:52:57 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 12.466974655858231163 tokens (decimals 18 verified), PAID (tx value 0.06 BNB) via aggregator call to 0x296b00198dc7ec3410e12da814d9267bb8df506a (selector 0x27772d13), 1 entity only (0x2325...) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker (fourth distinct ETHBack tracker contract after 0x09bf run 9, 0x53ba run 13, 0x4fd9 run 35; same name/symbol, different address, not merged), so mint classification beyond the zero-address Transfer is unverified. Owner unverified (owner() read returned null/failed) - not proven discarded. Not in Free Bacot snapshot at scan time. Run-37 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x5072e410ec06f8444f9c64d9bb6289935835b7ad": {
+   "source": "scan-tracked",
+   "first_seen": "run-39 (2026-11-04 23:05 WIB window, mints 22:39:03 and 22:39:25 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Constella (CSTL) #7 free (tx value 0) to future1001.ai itself, 1 entity only - finding, NOT a signal/lead, NOT auto-mint. #8 in the same run was minted by the same tracked wallet to non-tracked 0x9c38... (not a tracked receive, no second entity). Owner 0x554d92a2a933029dc5d0e8c7d07d28c91ffdcdf4, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-39 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); tokenURI #7 base64 JSON keys name/description/image/attributes only, NO external_url and NO website; Sourcify sources HTTP 200 only generic docs/EIP/GitHub URLs, ABI fetch transport IncompleteRead (not a verdict). Pointer incomplete, NOT proven absent."
+  },
+  "0xecd2eed46c70c7ea047ad17d5773f70918bd7f46": {
+   "source": "scan-tracked",
+   "first_seen": "run-39 (2026-11-04 23:05 WIB window, mint-pattern 22:36:30 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 170933050045223.78 tokens (decimals 18 verified), PAID (tx value 0.06 BNB) via aggregator call to 0x296b..., 1 entity only (0x2325...) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker, so mint classification beyond the zero-address Transfer is unverified. Distinct contract from AFeng tracker 0x09bf... (run-9) and aggregator tracker 0x53ba... (run-13), same name/symbol. Owner 0x927b0b5e61db4e7caf8503ce5797ba5b1bfb0a8b, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-39 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify sources 404 unverified, ABI fetch transport closed (not a verdict); tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x76439992cce24651080040a6f9c62eb6387ae672": {
+   "source": "scan-tracked",
+   "first_seen": "run-40 (2026-11-05 00:05 WIB window, mint-pattern 2026-11-04 23:10:39 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 10.122700654547698 tokens (decimals 18 verified), PAID (tx value 0.03 BNB) via aggregator call to 0x296b00198dc7ec3410e12da814d9267bb8df506a (selector 0x27772d13), 1 entity only (0x2325..., tier-ab/feed) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker, so mint classification beyond the zero-address Transfer is unverified; contract is the SIXTH distinct tracker contract with this name/symbol (after 0x09bf... run 9, 0x53ba... run 13, 0x4fd9... run 35, 0x9f89... run 37, 0xecd2... run 39), different address, not merged. Owner 0xf84eae85c6a9e5358a5458cda9150a45ce0ef9f3, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Run-40 pointer WITH CAVEAT: contractURI read failed on all endpoints (not proof of absence); Sourcify 404 unverified; tokenURI n/a (ERC20). Pointer incomplete, NOT proven absent."
+  },
+  "0x636fdfa9bc3db42c690c09e87b9017d05b36c743": {
+   "source": "scan-tracked",
+   "first_seen": "run-70 (2026-11-06 07:05 WIB window, mint 07:12:50 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Unnamed ERC20 (name/symbol empty on-chain, decimals 18 verified, totalSupply 913191475743305484379828919270124) mint-pattern 1024207770370.437134085157116837 tokens (raw 1024207770370437134085157116837, decimals 18), PAID (tx value 0.15 BNB), 1 entity only (AFeng, feed-only) - finding, NOT a signal/lead, NOT auto-mint. Via the same sale contract 0x1de460f363af910f51726def188f9004276bf4bc + selector 0x4d819a2a as the run-3 ETHBack_Dividen_Tracker finding; contract is likely a dividend tracker, so mint classification beyond the zero-address Transfer is unverified. Owner 0x10b389eed857fdb84089a64188aab6afbbe2cc2a, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer discovery run-70: contractURI() reverts on two direct RPCs (function absent, not a read failure); Sourcify 404 unverified; tokenURI n/a (ERC20). No pointer found."
+  },
+  "0x93bf08d2936aefe0cd2ceba8f76cb566fdf9e1c9": {
+   "source": "scan-tracked",
+   "first_seen": "run-71 (2026-11-06 09:05 WIB window, mint-pattern 07:22:53 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "Unnamed ERC20 (name()/symbol() both return EMPTY strings on-chain, decimals 18 verified, totalSupply 2546375629583187808604863069959643) mint-pattern 57779323996.508220387519030261165 tokens (raw 57779323996508220387519030261165, decimals 18), PAID (tx value 0.03 BNB), 1 entity only (0x2325..., tier-ab) - finding, NOT a signal/lead, NOT auto-mint. Via aggregator call to 0x296b00198dc7ec3410e12da814d9267bb8df506a + selector 0x27772d13. In-window zero-address Transfers from this contract: 15 logs to 11 distinct recipients, only 0x2325... tracked - distribution/tracker-like pattern, so mint classification beyond the zero-address Transfer is UNVERIFIED (same caveat as the ETHBack tracker findings). Owner 0xfc48a848dc97233a06dc924af764a0994e457274, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer discovery run-71: contractURI() REVERTS via direct curl (function absent, not a read failure); Sourcify 404 unverified (sources + ABI); tokenURI n/a (ERC20). No pointer found."
+  },
+  "0xf75cf7f9be878cf487d5aeacd5560d96737b63f8": {
+   "source": "scan-tracked",
+   "first_seen": "run-123 (2026-11-08 20:05 WIB window, mint-pattern 2026-11-08 19:17:40 WIB)",
+   "reported_as": "finding",
+   "freebacot_tier": "unassigned_in_scan",
+   "website": null,
+   "gate": "website_no_pointer_found",
+   "same_owner_discarded": false,
+   "note": "ETHBack_Dividen_Tracker (ETHBack_Dividend_Tracker) ERC20 mint-pattern 300891396536899.8 tokens (decimals 18 verified), PAID (tx value 0.1 BNB) via aggregator call to 0x296b00198dc7ec3410e12da814d9267bb8df506a, 1 entity only (0x2325...) - finding, NOT a signal/lead, NOT auto-mint. Contract is a dividend tracker (7th ETHBack clone with same name/symbol, different address), so mint classification beyond the zero-address Transfer is unverified. Owner 0x1b03e3d156a6eb9034cf45c6f0bb7b474f023086, not a listed factory prefix. Not in Free Bacot snapshot at scan time. Pointer run 123: contractURI() reverts (no such function), tokenURI n/a (ERC20), Sourcify v2 /56/<addr>?fields=abi HTTP 404 via text fetch + live-browser recheck confirms match/creationMatch/runtimeMatch all null (unverified, no ABI/sources to grep) - website_no_pointer_found."
+  }
+ }
+}

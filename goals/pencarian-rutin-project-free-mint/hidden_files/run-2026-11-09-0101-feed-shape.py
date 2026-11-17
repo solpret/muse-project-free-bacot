@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+"""Shape-check the 2 Sourcify items new since hot-leg 0109. Read-only."""
+import json, urllib.request
+REG = "60b9262456de011f7d15a54cdd8c48baaa8b022f"
+def sourcify(addr):
+    url = f"https://sourcify.dev/server/v2/contracts/56/{addr}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.load(r)
+    except Exception as e:
+        return {"_error": str(e)}
+out = {}
+for addr in ["0x2fA02Affac0bF8797eE84020423d41d315Fe5784",
+             "0xD41cE210509Bcd401517702Add6e515231BEb409"]:
+    sc = sourcify(addr)
+    abi = None
+    try:
+        abi = sc.get("stdJson", {}).get("output", {}).get("abi") or sc.get("abi")
+    except Exception:
+        pass
+    if abi:
+        fns = [f.get("name") for f in abi if f.get("type") == "function"]
+        free = [f for f in fns if "free" in f.lower()]
+        mint = any("mint" in f.lower() for f in fns)
+        quote = any("quote" in f.lower() or "cost" in f.lower() or "price" in f.lower() for f in fns)
+        agent = any("agent" in f.lower() or "registry" in f.lower() for f in fns)
+        token = all(x in fns for x in ["name", "symbol", "decimals", "totalSupply"])
+        out[addr] = {"S1": bool(mint and quote and free and agent),
+                     "S2": bool(token and free and agent),
+                     "mint": mint, "quote": quote, "free": free, "agent": agent,
+                     "token": token, "fns": len(fns),
+                     "registry_bytes": REG in json.dumps(sc).lower()}
+    else:
+        out[addr] = {"error": sc.get("_error"), "verified": False}
+    print(addr, json.dumps(out[addr]), flush=True)
+json.dump(out, open("run-2026-11-09-0101-feed-shape.json", "w"), indent=1)
+print("FEED-SHAPE DONE", flush=True)

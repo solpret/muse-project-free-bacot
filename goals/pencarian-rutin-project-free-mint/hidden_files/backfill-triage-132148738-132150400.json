@@ -1,0 +1,274 @@
+{
+ "run": "backfill 2026-11-07 ~13:22 WIB",
+ "window": [
+  132148738,
+  132150400
+ ],
+ "watermark_after": 132148737,
+ "first_seen_triage": [
+  {
+   "address": "0x279991aaa16d3bB2E5AA38f99D147627C62e9223",
+   "kind": "ERC721",
+   "mint_count": 67,
+   "distinct_minters": 5,
+   "first_block": 132149714,
+   "last_block": 132150136,
+   "name": "ZeBroker",
+   "symbol": "ZEBROKER",
+   "scan_registry_bytes_hit": false,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc.drpc.org/: TimeoutError; https://bnb.api.onfinality.io/public/: TimeoutError",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": false,
+   "code_registry_bytes_hit": null,
+   "code_error": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed.binanc",
+   "owner": null,
+   "owner_call": "ERROR OSError: all endpoints failed: https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc-dataseed1.bnbchain.org/: TimeoutError; http",
+   "owner_in_discards": false,
+   "owner_verdict": "unverified (owner() revert, per body rule - not forced)"
+  },
+  {
+   "address": "0xc9002A975F67f9Bdf300832E8A522F0635565eA7",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 132149290,
+   "last_block": 132149290,
+   "name": "N1007",
+   "symbol": "NX7",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": null,
+   "code_error": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-data",
+   "owner": null,
+   "owner_call": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed-publ",
+   "owner_in_discards": false,
+   "owner_verdict": "unverified (owner() revert, per body rule - not forced)"
+  },
+  {
+   "address": "0x3514088cE548faA76aC3A30Aad25a32fcc7fD705",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 132149936,
+   "last_block": 132149936,
+   "name": "V11",
+   "symbol": "V91",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bnb.api.onfinality.io/public/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc.drpc.org/: TimeoutError",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": true,
+   "code_len": 5386,
+   "owner": "0x0000000000000000000000000000000000000000",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  },
+  {
+   "address": "0xCBFB5995C06F87c522A9581bF99B103e3097F1F8",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 132150265,
+   "last_block": 132150265,
+   "name": "V12",
+   "symbol": "V92",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": 1794031815,
+   "first_block_wib": "2026-11-07 13:10:15 WIB",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": true,
+   "code_len": 5386,
+   "owner": "0x0000000000000000000000000000000000000000",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  },
+  {
+   "address": "0xfde9885369215A34AebE239EE9c0Fc7B36b1D55B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132149445,
+   "last_block": 132149445,
+   "name": null,
+   "symbol": null,
+   "scan_registry_bytes_hit": null,
+   "scan_sourcify": null,
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": 1794031446,
+   "first_block_wib": "2026-11-07 13:04:06 WIB",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": false,
+   "code_registry_bytes_hit": null,
+   "code_error": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://",
+   "owner": "0x443b9accc345ec8780459eb2e5f1343521264f52",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0xc9002A975F67f9Bdf300832E8A522F0635565eA7",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 132149290,
+   "last_block": 132149290,
+   "name": "N1007",
+   "symbol": "NX7",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": null,
+   "code_error": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-data",
+   "owner": null,
+   "owner_call": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed-publ",
+   "owner_in_discards": false,
+   "owner_verdict": "unverified (owner() revert, per body rule - not forced)"
+  },
+  {
+   "address": "0x3514088cE548faA76aC3A30Aad25a32fcc7fD705",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 132149936,
+   "last_block": 132149936,
+   "name": "V11",
+   "symbol": "V91",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": null,
+   "first_block_wib": "OSError: all endpoints failed: https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bnb.api.onfinality.io/public/: TimeoutError; https://bsc-dataseed4.bnbchain.org/: TimeoutError; https://bsc.drpc.org/: TimeoutError",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": true,
+   "code_len": 5386,
+   "owner": "0x0000000000000000000000000000000000000000",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  },
+  {
+   "address": "0xCBFB5995C06F87c522A9581bF99B103e3097F1F8",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 132150265,
+   "last_block": 132150265,
+   "name": "V12",
+   "symbol": "V92",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132148738-132150400.json"
+   ],
+   "first_block_timestamp": 1794031815,
+   "first_block_wib": "2026-11-07 13:10:15 WIB",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": true,
+   "code_len": 5386,
+   "owner": "0x0000000000000000000000000000000000000000",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  }
+ ],
+ "track_c_5c": {
+  "merged_erc20": 453,
+  "ge10": 76,
+  "new_checked": 6,
+  "transport_failed": [],
+  "results": [
+   {
+    "address": "0x2546696ee7b7313687E43Cebe8309c8E2e77b112",
+    "mint_count": 36,
+    "distinct_minters": 9,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xe919ccEB5eE23f873D28551391F1ba6e7d17198b",
+    "mint_count": 36,
+    "distinct_minters": 13,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xcE32c8564C72Fd765965737B8Fc84C76b1855d61",
+    "mint_count": 35,
+    "distinct_minters": 8,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x626Df8E95ab07b866a44D7B8f048391c79b3013b",
+    "mint_count": 17,
+    "distinct_minters": 8,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xA26b857B18C39E8949491A81a70fC04adcFe3b69",
+    "mint_count": 11,
+    "distinct_minters": 11,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x980Aeeb005918b1cE558898a6B6a9173B1d2Ae28",
+    "mint_count": 11,
+    "distinct_minters": 11,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   }
+  ]
+ },
+ "sale_shape_hits": []
+}

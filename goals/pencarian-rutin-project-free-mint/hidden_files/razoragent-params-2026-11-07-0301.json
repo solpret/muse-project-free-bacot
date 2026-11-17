@@ -1,0 +1,301 @@
+{
+  "addresses": {
+    "agentIdRegistrar": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+    "bnbUsdFeed": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE",
+    "deployer": "0x7419CE2a4b88B2F9e76325d7A69c5ceCa66F8B1D",
+    "lpVault": "0x60FdE00670006d3499825B95B538E59AdEA3982E",
+    "mint": "0x10E80B0365A3b5e3DD66f55E05A748D0BB031fA1",
+    "note": "Contract addresses (mint, token, lpVault, pair) are published here and in config.js immediately after mainnet deployment, before any announcement. An empty string means not yet deployed.",
+    "pair": "",
+    "quotaSigner": "0xa7F6091B833Dd3db57293b49cB6c24CA0c487CD9",
+    "token": "0xD5c03f871A34a01373d68ee38f6e67AC195cd66B",
+    "treasurySafe": "0xC82d07450301152779112eFFF5c867bcf75D1537",
+    "usdt": "0x55d398326f99059fF775485246999027B3197955"
+  },
+  "admin": {
+    "deadlineEffect": "Every second paused extends the genesis deadline by one second (1:1).",
+    "pauseAfterOpen": "Pause is permanently dead once the pool opens.",
+    "pauseBy": "Deployer wallet only",
+    "pauseCumulativeMaxHours": 48,
+    "pauseScope": "Pre-open only",
+    "renounceRule": "Renounce runs in two steps: pause is disabled first (disablePauseForever), then ownership is renounced (renounce). Pool blocking on the token and the 2 percent tax ceiling are hardcoded and survive renounce.",
+    "snapshotImport": "Does not exist. There is no function in the contract that can mint outside the public curve: not locked, not gated, absent from the bytecode.",
+    "sunsetRule": "After opening, admin power ends through the deployer's renounce ceremony and cannot be exercised again.",
+    "teamTokenAllocation": 0
+  },
+  "dependencies": {
+    "feed": "Chainlink BNB/USD feed (0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE). BNB quotes read this feed. A stale or out-of-range reading makes bnbQuote revert (StalePrice) and closes the BNB method; USDT minting is unaffected.",
+    "pancakeswap": "The pool is a PancakeSwap pair created by the mint contract at opening, funded with the escrowed USDT leg and the accumulated pool inventory. The token hard-rejects the PancakeSwap v3 PoolManager and the Infinity Vault as counterparties, permanently.",
+    "publicRpc": "This site and the social Worker read chain state from public BSC RPC endpoints, in the configured order, with fallback. If every endpoint fails, the last successful read stays on screen under a STALE plate with its read time and minting is disabled until a fresh read succeeds. If the first read fails on every endpoint, pages show READ ERROR with a retry control and no figures.",
+    "registrar": "Binance Agent ID registrar (0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F). The mint contract resolves the caller's Agent ID from the registrar on every mint and claim. A wallet the registrar cannot resolve cannot mint, and there is no manual override.",
+    "socialWorker": "Social quota claims depend on one claim-only Cloudflare Worker. It runs the task checks and signs vouchers; it has no mint, refund, fund-transfer, or contract-admin capability.",
+    "telegramBotApi": "The Telegram task is verified through the Telegram Bot API: the project bot looks up the claimant's membership of @razoragentai with getChatMember. If the Bot API is unreachable, the check answers unavailable and no voucher is issued.",
+    "xApi": "The two X tasks are verified through the X API, using read-only OAuth reads on the claimant's own account (follow list, liked posts, quote search). If the X API is unreachable or rate-limits, the check answers unavailable and no voucher is issued."
+  },
+  "genesis": {
+    "freeFirstShare": {
+      "carriesPoolInventory": false,
+      "consumesQuota": true,
+      "countsTowardOpenAt": true,
+      "earnsReferralPoints": false,
+      "perAgentId": 1,
+      "scope": "Genesis only. The first share minted by each Agent ID during genesis is free, while the global cap lasts."
+    },
+    "freeShareCap": 3333,
+    "maxPauseHours": 48,
+    "openAtShares": 10000,
+    "priceCents": 115,
+    "priceUsdt": 1.15,
+    "startTrigger": "Deployer calls startGenesis() once. The contract is deployed dormant: minting reverts until genesis starts, so the code and these parameters can be audited before the clock runs.",
+    "windowDays": 10
+  },
+  "ladder": {
+    "bands": [
+      {
+        "fromShare": 1,
+        "name": "Genesis",
+        "note": "Flat. First share per Agent ID free while the 3,333 free-share cap lasts.",
+        "priceEndUsdt": 1.15,
+        "priceStartUsdt": 1.15,
+        "toShare": 10000
+      },
+      {
+        "fromShare": 10001,
+        "priceEndUsdt": 1.5,
+        "priceStartUsdt": 1.25,
+        "toShare": 20000
+      },
+      {
+        "fromShare": 20001,
+        "priceEndUsdt": 2.0,
+        "priceStartUsdt": 1.5,
+        "toShare": 50000
+      },
+      {
+        "fromShare": 50001,
+        "priceEndUsdt": 2.6,
+        "priceStartUsdt": 2.0,
+        "toShare": 100000
+      },
+      {
+        "fromShare": 100001,
+        "priceEndUsdt": 3.4,
+        "priceStartUsdt": 2.6,
+        "toShare": 300000
+      },
+      {
+        "fromShare": 300001,
+        "priceEndUsdt": 4.2,
+        "priceStartUsdt": 3.4,
+        "toShare": 700000
+      },
+      {
+        "fromShare": 700001,
+        "priceEndUsdt": 5.0,
+        "priceStartUsdt": 4.2,
+        "toShare": 1500000
+      },
+      {
+        "fromShare": 1500001,
+        "priceEndUsdt": 5.7,
+        "priceStartUsdt": 5.0,
+        "toShare": 3000000
+      },
+      {
+        "fromShare": 3000001,
+        "priceEndUsdt": 6.3,
+        "priceStartUsdt": 5.7,
+        "toShare": 4444000
+      }
+    ],
+    "interpolation": "linearPerShareWithinBand",
+    "interpolationNote": "Within each band, the price rises linearly from the band start price to the band end price as shares are minted.",
+    "postOpenMintTerms": "Post-genesis mints pay the ladder price for each share: 20 percent to the treasury, 80 percent paired into the pool. The tokens issued for a post-open share are priced against the live pool at 99 percent of the pool spot price, so the buyer receives about 1 percent more tokens than the same payment converted at spot. Post-open minting is permissionless and never expires."
+  },
+  "links": {
+    "agentPack": "https://razoragent.fun/agent-pack.json",
+    "params": "https://razoragent.fun/params.json",
+    "site": "https://razoragent.fun",
+    "telegram": "https://t.me/razoragentai",
+    "x": "https://x.com/Razor_Agent"
+  },
+  "opening": {
+    "lpCustody": "All LP tokens (from pool opening and from every post-open curve mint) are minted to the RazorLpVault contract, never to a burn address and never to a wallet.",
+    "lpDestination": "lpVault",
+    "lpRules": "While Locked, LP cannot move. The treasury Safe, and only the Safe, may call beginSunset(), which starts a public 30-day notice visible on-chain. During the notice the pool stays 100 percent intact and anyone may exit. The Safe may cancel the notice before day 30; nobody can shorten it. After 30 full days, LP can be released only to the treasury Safe address, hard-coded as the vault's sole beneficiary.",
+    "lpStates": [
+      "Locked",
+      "Notice",
+      "Released"
+    ],
+    "lpSunsetNoticeDays": 30,
+    "openingPrice": "Exactly the genesis break-even: $1.15 per 50,000,000 tokens.",
+    "preOpenQuotes": "A pre-opening price quote has no effect on any pool or price. Nothing callable before opening can create a pool or set its price.",
+    "ratioRule": "Pool USDT = paid shares x $0.92; pool tokens = paid shares x 40,000,000, so the opening price is exactly the genesis price, $1.15 per 50,000,000 tokens, for any mix of free and paid shares. Free shares add no pool inventory and no USDT, and the ratio still holds.",
+    "trigger": "The transaction that mints share number 10,000 opens the pool in the same transaction. No manual opening transaction exists."
+  },
+  "payments": {
+    "denomination": "All prices are denominated in USD (the ladder). USDT payments settle 1:1 in USDT. BNB payments convert at the live Chainlink BNB/USD feed price with 1 percent headroom.",
+    "methods": [
+      {
+        "approval": "Approve the mint contract to spend the exact quoted USDT amount before calling mint().",
+        "asset": "USDT (BEP-20) on BNB Smart Chain, 18 decimals",
+        "exactness": "Exact. quote(user, shares) returns the exact USDT amount due; the contract pulls exactly that amount via transferFrom. There is no conversion and no friction on this path.",
+        "function": "mint(uint256 shares, address referrer, uint256 maxCost)",
+        "maxCost": "maxCost is a slippage guard denominated in USDT (18 decimals): the transaction reverts if the cost at execution exceeds maxCost. Set it to the exact quote(user, shares) result.",
+        "method": "USDT",
+        "primary": true
+      },
+      {
+        "feed": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE",
+        "feedName": "Chainlink BNB/USD",
+        "frictionBearer": "minter",
+        "frictionRule": "All conversion friction is borne by the minter, never by the pool or the treasury. The contract swaps the BNB to USDT internally: if the swap output falls short of the USDT cost, the transaction reverts (SwapShort) and no BNB is taken. Any surplus above the cost goes to escrow and then to the treasury at opening.",
+        "function": "mintWithBnb(uint256 shares, address referrer, uint256 maxCost)",
+        "headroomPercent": 1,
+        "method": "BNB",
+        "primary": false,
+        "quoteFunction": "bnbQuote(user, shares) returns the exact BNB amount to send (18 decimals). Send it as the transaction value and pass the same amount as maxCost.",
+        "refundBasis": "recordedUsdtValue",
+        "shortfallBehavior": "revert",
+        "staleFeedBehavior": "A stale or out-of-range feed reading makes bnbQuote revert (StalePrice) and closes the BNB method; USDT is unaffected.",
+        "surplusDestination": "escrowThenTreasury"
+      }
+    ]
+  },
+  "project": {
+    "chain": "BNB Smart Chain",
+    "chainId": 56,
+    "name": "Razor Agent",
+    "ticker": "RZAG",
+    "tokenName": "RAZOR AGENT"
+  },
+  "quota": {
+    "base": 10,
+    "gating": "Minting requires a Binance Agent ID. The contract resolves the caller's Agent ID from the registrar (handle -> uint256(keccak256(handle))). Wallets without an Agent ID cannot mint.",
+    "inviteCap": 20,
+    "inviteCreditRule": "firstPaidMintOnly",
+    "maxPerTx": 10,
+    "maxTotal": 33,
+    "socialMax": 3,
+    "socialTasks": [
+      {
+        "description": "Follow @Razor_Agent on X",
+        "id": "FOLLOW",
+        "quotaGranted": 1
+      },
+      {
+        "description": "Like and quote-tweet the official announcement post",
+        "id": "QUOTE_TWEET",
+        "postUrl": "",
+        "quotaGranted": 1
+      },
+      {
+        "channelUrl": "https://t.me/razoragentai",
+        "description": "Join the project Telegram channel",
+        "id": "JOIN_TELEGRAM",
+        "quotaGranted": 1
+      }
+    ],
+    "socialVerification": {
+      "antiAbuse": "One social account can be bound to exactly one Agent ID, forever. Each task can be claimed once per Agent ID.",
+      "followCheck": "ownAccountFollowsList",
+      "likeCheck": "ownAccountLikedTweets",
+      "likeLinkFallback": false,
+      "manualIssuance": false,
+      "mechanism": "Each claim requires an EIP-712 voucher signed by the immutable quotaSigner. Vouchers are issued only after the task is actually verified by the verification service. There is no self-attestation path and no manual issuance.",
+      "mode": "automaticOAuthWorker",
+      "oauthScopes": [
+        "users.read",
+        "tweet.read",
+        "follows.read",
+        "like.read"
+      ],
+      "quoteCheck": "ownAccountQuoteSearch",
+      "quoteLinkFallback": "quoteHalfOnly",
+      "signerNote": "The quotaSigner address is embedded in the contract at deployment and can never be changed by anyone (immutable).",
+      "telegram": {
+        "channel": "@razoragentai",
+        "channelUrl": "https://t.me/razoragentai",
+        "mode": "botDeepLinkGetChatMember"
+      }
+    }
+  },
+  "referral": {
+    "binding": "The inviter is bound at the invitee's first paid mint. A credited invite requires the invitee's Agent ID to have never minted before that mint; the inviter record is then permanent.",
+    "commission": "None. Referral rewards are quota only; no money flows to referrers.",
+    "freeMintEarnsPoints": false,
+    "howItWorks": "Pass the referrer's wallet address as the referrer argument of the mint call. When the invitee completes their FIRST PAID mint, the referrer earns +1 quota. A free mint never credits and never binds.",
+    "inviteCap": 20,
+    "inviteCreditRule": "firstPaidMintOnly"
+  },
+  "refunds": {
+    "bnbPayments": "recordedUsdtValue",
+    "claimDeadline": "none",
+    "claimRule": "Refunds are paid in USDT: the exact amount paid for USDT payments, and the recorded USDT conversion value for BNB payments (never the BNB amount). Claimable by each buyer via claimRefund(), at any time, forever. There is no claim window and no sweep function: unclaimed funds stay locked in the contract forever and cannot be taken by anyone, including the team.",
+    "refundPercent": 100,
+    "treasuryReceives": 0,
+    "trigger": "Deadline passes with totalMinted below 10,000.",
+    "usdtPayments": "exactAmount"
+  },
+  "risks": [
+    "Genesis can fail. If fewer than 10,000 shares are minted by the deadline, no pool opens and the token never trades. Every payment is then refundable in full, claimable forever, and the treasury receives zero.",
+    "BNB payments carry conversion risk, and the published rule puts all of it on the minter: if the internal swap falls short of the USDT cost the mint reverts (SwapShort) and no BNB is taken, any surplus above the cost goes to escrow and then to the treasury at opening, and a refund pays the USDT value recorded at payment time, never the BNB amount, so BNB price moves between payment and refund are the payer's. USDT payments are exact and carry no conversion risk.",
+    "The deadline is start plus 10 days, extended second for second by any pause. The deployer can pause minting before opening for at most 48 hours in total; a pause extends the deadline by the same duration and cannot move funds.",
+    "There is no liquidity before the pool opens: tokens cannot move before opening except sends from the mint contract itself. After opening, trading is enforced on the official pair only; the token rejects other pairs and pools.",
+    "LP tokens are not burned. They sit in the RazorLpVault and can be released only to the treasury Safe after the Safe starts a public 30-day sunset notice on chain; during the notice the pool stays intact and anyone may exit.",
+    "The ladder fixes mint prices only. After the pool opens, secondary trades happen at pool prices, which the contract does not fix or guarantee.",
+    "Published readings depend on public RPC endpoints. When every endpoint fails, the site shows its last successful read as STALE and disables minting rather than substituting computed figures.",
+    "Social quota depends on the X API and the Telegram Bot API being reachable. When a check is unavailable, no voucher is issued and no quota is granted; there is no manual path around it.",
+    "Trading confinement is best-effort. The token contract blocks the major system venues and rejects standard detected pairs, but unofficial pairs created through adversarial contracts cannot be fully prevented on-chain. Only the pair linked from razoragent.fun is official; trades anywhere else are outside the project's tax and price design."
+  ],
+  "share": {
+    "maxPerTx": 10,
+    "maxSupply": 444000000000000,
+    "note": "A share is one mint unit. Tokens are never sold directly; shares are. maxSupply is the token contract supply cap, covering buyer tokens and pool inventory. Tokens are minted at share purchase, against payment. No premint.",
+    "poolTokensPerPaidShare": 40000000,
+    "tokensPerShare": 50000000,
+    "totalShares": 4444000
+  },
+  "split": {
+    "cutEscrowedUntilOpen": true,
+    "perPaidShareUsdt": {
+      "toPoolLeg": 0.92,
+      "toTreasuryCut": 0.23
+    },
+    "poolPercent": 80,
+    "rule": "100 percent of genesis payments, the pool leg AND the treasury cut, stay locked inside the mint contract until the pool opens. The treasury receives nothing before opening.",
+    "treasuryCutPercent": 20,
+    "treasuryReceivesOnFailure": 0
+  },
+  "taxes": {
+    "buyPercent": 1,
+    "buyRoute": "Treasury Safe",
+    "ceiling": "The code caps the buy tax and the sell tax at 2 percent each, permanently. The caps and the pool blocking are hardcoded and survive renounce.",
+    "immutable": true,
+    "scope": "Pool trades only. Wallet-to-wallet transfers are untaxed. Genesis mints are untaxed.",
+    "sellPercent": 2,
+    "sellSplit": {
+      "burnPercent": 1,
+      "treasuryPercent": 1,
+      "treasuryRoute": "Treasury Safe"
+    },
+    "taxSwapCaps": "Tax swaps run at most once per block and at most 0.1 percent of the pool's token reserves per swap."
+  },
+  "trading": {
+    "officialPairOnly": "Trading is enforced on the official pair only, in code: the token rejects transfers to other pairs and pools, to the PancakeSwap v3 PoolManager, and to the Infinity Vault. This keeps the tax rules unbypassable.",
+    "transfersBeforeOpen": "Tokens cannot move before the pool opens, except sends from the mint contract itself."
+  },
+  "treasury": {
+    "incomeStreams": [
+      "genesisCut20",
+      "postOpenMintCut20",
+      "buyTax1",
+      "sellTax1"
+    ],
+    "nature": "The 20 percent cut is operator revenue: escrowed until opening, zero if genesis fails. The same cut applies to post-opening ladder mints, plus the buy and sell tax streams to the Safe.",
+    "threshold": "2-of-3"
+  },
+  "updatedAt": "2026-10-31",
+  "version": 1
+}

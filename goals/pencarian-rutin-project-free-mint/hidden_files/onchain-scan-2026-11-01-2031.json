@@ -1,0 +1,4160 @@
+{
+ "latest_block": 131057467,
+ "from_block": 131056868,
+ "to_block": 131057467,
+ "ankr_calls": 24,
+ "errors": [],
+ "erc20_mint_contracts": 477,
+ "contracts": [
+  {
+   "address": "0x0CE20E838CDa5f6ccc8A59ef78Bc0E9bF4628d89",
+   "kind": "ERC721",
+   "mint_count": 358,
+   "distinct_minters": 358,
+   "minters_sample": [
+    "0x00be74f88d78ecb34db3426bf688c51e4f9f3998",
+    "0x01f8d6ef16752c43e97b6a80be2285883273c679",
+    "0x024c7257dafc7a04bacd1e20e9581ed40ce2acb4",
+    "0x026135a1e95a46a599578079f37dd15d98b34671",
+    "0x032732541d6b51ff3ee3b2d2a6f7a8cc9c86919d"
+   ],
+   "first_block": 131056870,
+   "last_block": 131057466,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintEnd",
+    "mintStart"
+   ],
+   "name": "Agent Radar Pass",
+   "symbol": "RPASS"
+  },
+  {
+   "address": "0x83Ec9F10CEA61ED892B507dcE9E57fA8d4777C2e",
+   "kind": "ERC721",
+   "mint_count": 295,
+   "distinct_minters": 169,
+   "minters_sample": [
+    "0x02c7bbbc458af44472c41ae0934e144ec19878d6",
+    "0x0497725aaee35efc849368934d8c8e92bcf031ac",
+    "0x095a02fb31421f7b74caedf22e2a0ece86b9009e",
+    "0x09e54476dc179fcc174e234b15f7433917cb0142",
+    "0x0a20797e4b059ed4171f4aba49daf8ecea86e240"
+   ],
+   "first_block": 131056868,
+   "last_block": 131057048,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintedBy",
+    "totalMinted"
+   ],
+   "name": "Hourglass Agent",
+   "symbol": "HOUR"
+  },
+  {
+   "address": "0x673A2506f95F66FA65a0bB7A4CE8b0D32d728CF2",
+   "kind": "ERC721",
+   "mint_count": 260,
+   "distinct_minters": 78,
+   "minters_sample": [
+    "0x072fc9025aaad16bd925710abb0d1ed10ee58ac3",
+    "0x0761dec5cf49e5b9fb74561a16208c6782f35289",
+    "0x0bf496d5ada73b984a2956d285637a4764e9ed95",
+    "0x0edabdc6f7377018ab73579d76df560b18f191f0",
+    "0x12b437f4ed78e2cea58cf281060f5840f4335152"
+   ],
+   "first_block": 131056868,
+   "last_block": 131057457,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BNB WOLF",
+   "symbol": "BWOLF"
+  },
+  {
+   "address": "0x55f4c8abA71A1e923edC303eb4fEfF14608cC226",
+   "kind": "ERC721",
+   "mint_count": 100,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x05e5ccb005ba0aa0601e96d37034ae842a8095ba",
+    "0x444689fb0b2bc272c34542215844702573b22982"
+   ],
+   "first_block": 131056871,
+   "last_block": 131057462,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Pancakeswap Infinity Positions NFT",
+   "symbol": "PCS-INFINITY-POSM"
+  },
+  {
+   "address": "0xFF8BfeF2c0d16BDa6E8667812bCa35Ecb42A1a37",
+   "kind": "ERC721",
+   "mint_count": 73,
+   "distinct_minters": 73,
+   "minters_sample": [
+    "0x0398ce7621e43589092838ad3744ea2533ec4faf",
+    "0x048edb9d903e59168ef3241f9e5586b43f681211",
+    "0x054b8df192d28d227df8f0ebaf0557b752d7536f",
+    "0x0cf93134d457635936b62e0080d78f9f8b4d4ebf",
+    "0x11fb6127dd2e5e1084001159537a4abe0a756fc0"
+   ],
+   "first_block": 131056869,
+   "last_block": 131057443,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "devMinted",
+    "freeMinted",
+    "mint",
+    "mintedByWallet",
+    "ownerMintDev",
+    "ownerMintReward",
+    "paidMinted",
+    "publicMinted",
+    "rewardMinted"
+   ],
+   "name": "Agent Zet",
+   "symbol": "AZET"
+  },
+  {
+   "address": "0x409Cfe3747f1ac20f267B50BCbB6a4E9406DA3a8",
+   "kind": "ERC721",
+   "mint_count": 51,
+   "distinct_minters": 51,
+   "minters_sample": [
+    "0x013968fe6b9b07f2bf29e050e584d3e546d34184",
+    "0x03641104dc7decf004cc3aa6357d34fddecedbf9",
+    "0x06408b9867adc32e2f9820eb35cd5844982f7a37",
+    "0x06bc43ac79860947faff6c09df5eb8ac0ca62e7f",
+    "0x0e06d76adfb6e59ffacc1902ead62c31eadffc48"
+   ],
+   "first_block": 131056887,
+   "last_block": 131057436,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMint"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "mint",
+    "mintOpen",
+    "totalMinted"
+   ],
+   "name": "sidecoo Daily",
+   "symbol": "SCDAILY"
+  },
+  {
+   "address": "0x05D16222738A09bfe49470fAc6Cd5959522889f2",
+   "kind": "ERC721",
+   "mint_count": 44,
+   "distinct_minters": 44,
+   "minters_sample": [
+    "0x0152f51e7b657f3eb730804070ce9a94eca89b02",
+    "0x03641104dc7decf004cc3aa6357d34fddecedbf9",
+    "0x048edb9d903e59168ef3241f9e5586b43f681211",
+    "0x049b01c4ebe0463080a98ffc0f8c4e46fbcee3e1",
+    "0x05dc2eea117941793e055f3bcbf3a955dd0c7d11"
+   ],
+   "first_block": 131056874,
+   "last_block": 131057455,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "totalMinted"
+   ],
+   "name": "Aetheris",
+   "symbol": "AETH"
+  },
+  {
+   "address": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+   "kind": "ERC721",
+   "mint_count": 28,
+   "distinct_minters": 28,
+   "minters_sample": [
+    "0x128d5d5d4ce6fd5adc4339a6248fc104fa11bc51",
+    "0x18f4f55584ac123f5e9ef7ce32afbbf3d5dbb7cc",
+    "0x1e6cb2e6a8cfc774ee811683a2f805ae37a74db8",
+    "0x279874ed973555d64262702033d5823b925cbba8",
+    "0x2b92cb22379b89c84bae881ea39c58ab5f2d81c3"
+   ],
+   "first_block": 131056888,
+   "last_block": 131057460,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SPACE ID Agent ID",
+   "symbol": "AI"
+  },
+  {
+   "address": "0x03e2FB93E1BeD27BfBdB022Da8c6957D4483eA82",
+   "kind": "ERC721",
+   "mint_count": 24,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x157b724c8fa46a8b65af9b6af978c882b338343b",
+    "0x615ca7ee92e02de96394c9a145b5e7adbf7d51d2",
+    "0x7b1f4caeaf1ffc467b719e340d38f480430a5022",
+    "0xcfab413415af71a12de9e0363d283eb5ec0d3612",
+    "0xd75dd2bf776da5b1c0248c31200729d6ef967bfc"
+   ],
+   "first_block": 131056887,
+   "last_block": 131057448,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintedBy",
+    "totalMinted"
+   ],
+   "name": "BNB AI Mining",
+   "symbol": "BAM"
+  },
+  {
+   "address": "0x6d4337785a9A0beedF4EFf6b3Aa623FD307FAB56",
+   "kind": "ERC721",
+   "mint_count": 24,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x05dc2eea117941793e055f3bcbf3a955dd0c7d11",
+    "0x67e44dba9a1dc02712c10e89b67f78227c54f212",
+    "0xa8452e41ff70357bf8b8c233f9710ee385fd1be7",
+    "0xda86dd90aaf2fea9c96d3dfb3f1b561d6437f056",
+    "0xfe56d0ab09f9eeeeb1e68191e5c6b79c28fd195c"
+   ],
+   "first_block": 131057111,
+   "last_block": 131057454,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Sprout Agent",
+   "symbol": "SPRAGENT"
+  },
+  {
+   "address": "0xc205F8c74733D914776D66cBc4Cf10BF701D96Aa",
+   "kind": "ERC721",
+   "mint_count": 23,
+   "distinct_minters": 23,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x1f85a2ad8c7cbb17e3372afae14c17d9901efd0b",
+    "0x26978a8ea15b5cda98e9f97eb1dafa24ecefa313",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x339e01f192ee9acb1920073b694047943c493957"
+   ],
+   "first_block": 131056897,
+   "last_block": 131057448,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Bubblebruin",
+   "symbol": "BBRUIN"
+  },
+  {
+   "address": "0x1d3B27e222EFDEd06736C503D52c4884BF0a9117",
+   "kind": "ERC721",
+   "mint_count": 23,
+   "distinct_minters": 23,
+   "minters_sample": [
+    "0x32573d8c9c69c4d365ec224df2c743583a308615",
+    "0x3df895ea31bc9ec261c8aec97d6493c0a307b581",
+    "0x43d4dc17de658c35a48d985e2a2bf05a5f83c76e",
+    "0x48cc76f529854f9aab901189d389669fdf36bf37",
+    "0x5ef5e2994f343b4d4c042530fd7ed5a601e88745"
+   ],
+   "first_block": 131056897,
+   "last_block": 131057400,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BNB Guardian AI",
+   "symbol": "GUARD"
+  },
+  {
+   "address": "0x5b9fe53468F1Aa4EDbe2b96a4387910D335e2eDB",
+   "kind": "ERC721",
+   "mint_count": 21,
+   "distinct_minters": 21,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x28fad1df6485aadce7f81c08c9db440fb99da09e",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x375289d50f459e096b76b21fa6074522761a05e0"
+   ],
+   "first_block": 131056874,
+   "last_block": 131057436,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentLattice",
+   "symbol": "LTTC"
+  },
+  {
+   "address": "0x67f9270EBe04BF403512347E397324D508204ACe",
+   "kind": "ERC721",
+   "mint_count": 21,
+   "distinct_minters": 21,
+   "minters_sample": [
+    "0x06fbb2b315c0d6a748270761062698eea6c5a9f1",
+    "0x17d71d1d866a8f02009a5fa8c4b14defc6bcc248",
+    "0x1c33e8474e8047228ac46fdbb4b40b0fa5f8c18f",
+    "0x1d9a831dd598f406d8dc19327697889ce8156e8f",
+    "0x23876fc6b751c2895593f1dbe860f0f3e4110922"
+   ],
+   "first_block": 131057039,
+   "last_block": 131057423,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintAddr",
+    "mintAddrsNums",
+    "mintLimit",
+    "setMintLimit",
+    "setSwitchMint",
+    "switchMint"
+   ],
+   "name": "FairSharesDailyNFT",
+   "symbol": "FSD"
+  },
+  {
+   "address": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+   "kind": "ERC721",
+   "mint_count": 19,
+   "distinct_minters": 19,
+   "minters_sample": [
+    "0x13a3949fb3b92d7332c34d9e3113a6c3b8a23772",
+    "0x1d1debe34dfe3d5ccd8784edf257984b5fb3a312",
+    "0x353f947c3fcf0d9a40eaebad3ad85db87dd95b90",
+    "0x38081ffe5d92e80daaf08d4f38f1c181d02ba128",
+    "0x3847530c828c0aa551e2fa68fb5e55903de744a4"
+   ],
+   "first_block": 131056897,
+   "last_block": 131057433,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintCloseTime",
+    "mintOpen",
+    "mintSeries",
+    "seriesMinted",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Ptah Proof of Agent",
+   "symbol": "POA"
+  },
+  {
+   "address": "0x04a7bEfaD54a221914fBB8c918d699165b7A4c3D",
+   "kind": "ERC721",
+   "mint_count": 18,
+   "distinct_minters": 18,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x28fad1df6485aadce7f81c08c9db440fb99da09e",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922"
+   ],
+   "first_block": 131056910,
+   "last_block": 131057405,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SageCircuit",
+   "symbol": "SCRC"
+  },
+  {
+   "address": "0x6C449d581548aD896c4aE42b7337092Cbf21215E",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x0a20797e4b059ed4171f4aba49daf8ecea86e240",
+    "0x22b7fec2e7daa22bf8c2cc7dc3c1046985033a09",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2d4f0cd7f4cb32e6813eb290d20455e15fc7b953",
+    "0x3ace3160faa4aa2cf4bd920097a13d9ae26609f3"
+   ],
+   "first_block": 131056891,
+   "last_block": 131057281,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "DataDynasty",
+   "symbol": "DDYN"
+  },
+  {
+   "address": "0xFA47AcC21E2F937b014932c154aB7Cd39eEC245a",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x1f85a2ad8c7cbb17e3372afae14c17d9901efd0b",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922"
+   ],
+   "first_block": 131056936,
+   "last_block": 131057465,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentMosaic",
+   "symbol": "MOSA"
+  },
+  {
+   "address": "0xDEcD7bd75A26E5951573580C7cFe0E66636D9D48",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x1f85a2ad8c7cbb17e3372afae14c17d9901efd0b",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922"
+   ],
+   "first_block": 131056920,
+   "last_block": 131057408,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ReasonRangers",
+   "symbol": "RNGR"
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "kind": "ERC721",
+   "mint_count": 16,
+   "distinct_minters": 16,
+   "minters_sample": [
+    "0x0ffb83a0a36a267bcb298710bb588a704f81de75",
+    "0x1e4ff86ce7d92612f5bdd9b79fd5f52e0f1207b8",
+    "0x277e2fe20aa5dc997d8a155ffffefebe62c2e3f6",
+    "0x285f091889e13cd015fd21ea021575b677a2558d",
+    "0x28afbee9ac92646d56b4d2f9ca7b32fa37e6b4f9"
+   ],
+   "first_block": 131056876,
+   "last_block": 131057168,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentIdentity",
+   "symbol": "AGENT"
+  },
+  {
+   "address": "0x879B0005D99c76ba8A201C50D978517C4CAF874D",
+   "kind": "ERC721",
+   "mint_count": 16,
+   "distinct_minters": 16,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x1f85a2ad8c7cbb17e3372afae14c17d9901efd0b",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922"
+   ],
+   "first_block": 131056941,
+   "last_block": 131057389,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentBeacon",
+   "symbol": "BCON"
+  },
+  {
+   "address": "0x63206Bdc34Fbecba76c31cfCDf2AF0fA0949E7c5",
+   "kind": "ERC721",
+   "mint_count": 16,
+   "distinct_minters": 16,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x1f85a2ad8c7cbb17e3372afae14c17d9901efd0b",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922"
+   ],
+   "first_block": 131056930,
+   "last_block": 131057448,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NeuralTavern",
+   "symbol": "NTVN"
+  },
+  {
+   "address": "0xc2C8adBd5C65938d6Abc0EFf1A53572B10c35E67",
+   "kind": "ERC721",
+   "mint_count": 15,
+   "distinct_minters": 15,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x1f85a2ad8c7cbb17e3372afae14c17d9901efd0b",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x3133004d98456ffbe479340d2d61654f60c91b51"
+   ],
+   "first_block": 131056890,
+   "last_block": 131057356,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ContextCrew",
+   "symbol": "CTXT"
+  },
+  {
+   "address": "0x5dA50e3d24dF33F4e3c6727B9fa4A6FC3d94F6eC",
+   "kind": "ERC721",
+   "mint_count": 12,
+   "distinct_minters": 10,
+   "minters_sample": [
+    "0x09a8f39428912d2ca73c083165cb8baceb5c4762",
+    "0x19331231c9b85c20e2c9f3244a326ca4a03faabe",
+    "0x1da4845086531034cc72753376e54af9b5b99e38",
+    "0x27e2c221f0bf63c5f5d8fa331b355fa2c2a392ef",
+    "0x29774df60df6bca5d0c46752e04d4c6d4196f1e3"
+   ],
+   "first_block": 131056967,
+   "last_block": 131057452,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Derpagent",
+   "symbol": "DERP"
+  },
+  {
+   "address": "0xB073e08d511BF7FDF425C27B7a11EdDF2cf7C63C",
+   "kind": "ERC721",
+   "mint_count": 12,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x363db68bbcfec0502a597585b1096e17ef54a0bc",
+    "0x4d4a0f6965df272f6823d3b327cdace8de245c59",
+    "0x99fd4561371eb7b3945d6299d076da184950d2c2",
+    "0xa72d77cee547118dfc6b4a3ad3429584a464cdc4",
+    "0xda86dd90aaf2fea9c96d3dfb3f1b561d6437f056"
+   ],
+   "first_block": 131056918,
+   "last_block": 131057419,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Eagle AI Moods",
+   "symbol": "EAGLEM"
+  },
+  {
+   "address": "0x4a318Eb842C8c95876e895258bC70D0BEe767deF",
+   "kind": "ERC721",
+   "mint_count": 12,
+   "distinct_minters": 12,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x434368fd4151f9203dc4ce5a427ddcc44c5b84cc",
+    "0x5014312eed4afa4993afabab9e3c042a33fef58b",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a"
+   ],
+   "first_block": 131056933,
+   "last_block": 131057208,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Wraith",
+   "symbol": "WRAITH"
+  },
+  {
+   "address": "0x55B0957611df246dc7e3EF5f9bCA126E5f3f9c4E",
+   "kind": "ERC721",
+   "mint_count": 11,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x077ea6b4c1dfc7f7ec253d736c56898dfc192ea5"
+   ],
+   "first_block": 131057098,
+   "last_block": 131057098,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "TATO404",
+   "symbol": "TATO404"
+  },
+  {
+   "address": "0xa3a28CF631502FADf7aB94c2f0c335FA9ACa4F31",
+   "kind": "ERC721",
+   "mint_count": 11,
+   "distinct_minters": 9,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x511911a60318e0a85f6d6fcd9057eb45841ef1f4",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a"
+   ],
+   "first_block": 131057202,
+   "last_block": 131057302,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Avocadoo",
+   "symbol": "AVOCADOO"
+  },
+  {
+   "address": "0xE74f6E7FdB8c062C640335697DC468ccBDc20e8C",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6070ab0837ce2b220c4f659efa9ef5087df2cbae"
+   ],
+   "first_block": 131056893,
+   "last_block": 131056893,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Prompt Horizons",
+   "symbol": "PRHOR"
+  },
+  {
+   "address": "0x48b5e5573e76CaAa41a893496dE6C857720E6b40",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 10,
+   "minters_sample": [
+    "0x0e89ba602caf5eb8f378903dc9fa8aefb3b4aedd",
+    "0x2283469f23894b88dab37f2b8535f687e2b06954",
+    "0x2d9933c6dc6bcb2c35bf810f937b4bb39c8ceffc",
+    "0x381c4dd693e404ecf041110114861568c11afc72",
+    "0x38b62463a66365101d82fa6f9a872a03acdfd279"
+   ],
+   "first_block": 131056959,
+   "last_block": 131057438,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Nomio",
+   "symbol": "NOMIO"
+  },
+  {
+   "address": "0xDd8BdfC91cbD572935B09863A742d8296fed0ACf",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x483e18f29532ac1bc176aed2c55c0d8ce98bce88",
+    "0x500667055d31b5b58f77f4e0d9f08de322cf16f2",
+    "0x50b0757ea4429ef29e42e420b793e36e67d6894c",
+    "0x6dd132c988cc4b3ce4eb3f320aac688b55f8872d",
+    "0xc25ac149cbd6fc863f4c98c8f914ba351e61046b"
+   ],
+   "first_block": 131057019,
+   "last_block": 131057247,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Nemotron Sigil",
+   "symbol": "SIGIL"
+  },
+  {
+   "address": "0x1f974998031c6DD8137E8D7aC6c2287357A2ddeb",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x511911a60318e0a85f6d6fcd9057eb45841ef1f4",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a"
+   ],
+   "first_block": 131057240,
+   "last_block": 131057430,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Cassetto",
+   "symbol": "CASSETTO"
+  },
+  {
+   "address": "0x7412e4Ac92E1c3643D02141ecf7e082E7234435e",
+   "kind": "ERC721",
+   "mint_count": 9,
+   "distinct_minters": 9,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x434368fd4151f9203dc4ce5a427ddcc44c5b84cc",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a"
+   ],
+   "first_block": 131057058,
+   "last_block": 131057164,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Technocturnal",
+   "symbol": "TECHNOCTURNAL"
+  },
+  {
+   "address": "0xb57b295d59EEf53f3009154f645a3Dec648B9fF8",
+   "kind": "ERC721",
+   "mint_count": 9,
+   "distinct_minters": 9,
+   "minters_sample": [
+    "0x02aa1faaba3095b817b63f46b69b2afabb15948c",
+    "0x0897028af9c0cd94910a0ae5687030d2b3941409",
+    "0x2b4acf10739f0a4635eef5bc2dd0e98a4c30cf06",
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d",
+    "0x5893de2631ce95df98930a7bc75f44be5d34e1f6"
+   ],
+   "first_block": 131057148,
+   "last_block": 131057338,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "agentMint",
+    "agentMintOpen",
+    "mint",
+    "mintRevenue",
+    "publicMintOpen",
+    "publicMinted",
+    "setAgentMintOpen",
+    "setPublicMintOpen",
+    "totalMinted",
+    "withdrawMint"
+   ],
+   "name": "KENRAI",
+   "symbol": "KNRI"
+  },
+  {
+   "address": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x0917406c920e3bb7f28430739e7b50fd7c8e6f02",
+    "0x0a5881b4ce42ad2c5c5e4a4089c7eebe62755ebd",
+    "0x146ec2ecc2fb29b879f7e2eba5bf7fee5c140031",
+    "0x6a828330e87bcc9d66940105a36ad0886e8f181f",
+    "0xa2203723ac785470e44084804283f9e99bcb3ab9"
+   ],
+   "first_block": 131056917,
+   "last_block": 131057376,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "pancakeV3MintCallback"
+   ],
+   "name": "Pancake V3 Positions NFT-V1",
+   "symbol": "PCS-V3-POS"
+  },
+  {
+   "address": "0x37896F6e9b8a18e4FB2be1989fA8bB5A4247179D",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x45861ede3cf72306b19833e5667dea580544158b",
+    "0x64396ee0f809ad76a6751c40118e39a64a194646",
+    "0x6f4b16e3af963bbabbefd57ec25e5fe5dbafed20"
+   ],
+   "first_block": 131056873,
+   "last_block": 131057386,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentSummit",
+   "symbol": "SMMT"
+  },
+  {
+   "address": "0xd527109571b039298b65bCB26313dcbED0978c97",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x77999f2c572b9b7eac018aa5d21bbcc136122d19",
+    "0x894289090307e4617222e6776f247109c1a4a98c",
+    "0xc36731814e6673ee22addae904ee04b5bcf2ab47",
+    "0xf3f17c9bf22956fbe269a4a2a20ef58da7324fe0"
+   ],
+   "first_block": 131056889,
+   "last_block": 131057376,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Andvari's Gold",
+   "symbol": "GULL"
+  },
+  {
+   "address": "0x57B70eDD8c70A655855C0BF92FF9B195394E1860",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x60677b135603831b75b10965a8ad2a3832f0400e",
+    "0xa1cd411f56b748871e7217325e7942fcd34837e6",
+    "0xb3aa8266a00199afa2bb3cb8a15c975360ada1e6",
+    "0xb8fc01fc9b80b5ff282056b46efd14c1b549412a",
+    "0xe49b8497d57242cbf5bfc25b667e7c9b37a8032e"
+   ],
+   "first_block": 131056875,
+   "last_block": 131057294,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "spr Deposit Certificate",
+   "symbol": "spr-DC"
+  },
+  {
+   "address": "0xc99bAE3e2d91c7B194c569dd9Ff6eB1344E5812b",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x05dc2eea117941793e055f3bcbf3a955dd0c7d11",
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d",
+    "0xb259df91b536ee02018b74e205bbd1697ce0d680",
+    "0xc662e47397963725f1192d8880d0780139259c91",
+    "0xd7f8490c435e7021cb3675fb085e014e07f4391b"
+   ],
+   "first_block": 131056947,
+   "last_block": 131057462,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Swarm Threshold",
+   "symbol": "SWARM"
+  },
+  {
+   "address": "0x11921d7d53484b1E5E1b88947970a09a3b920C2E",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x434368fd4151f9203dc4ce5a427ddcc44c5b84cc",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a"
+   ],
+   "first_block": 131057077,
+   "last_block": 131057122,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "WerewolfWhispers",
+   "symbol": "WEREWOLFWHISPERS"
+  },
+  {
+   "address": "0xf63149103aeB2470a13FED40B66aAE2eE05b8849",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x45861ede3cf72306b19833e5667dea580544158b",
+    "0x64396ee0f809ad76a6751c40118e39a64a194646",
+    "0x7f2eeb6663b21cedc72bda5d175b06dc8078ed87"
+   ],
+   "first_block": 131056899,
+   "last_block": 131057464,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "MindLantern",
+   "symbol": "MLNT"
+  },
+  {
+   "address": "0x030955fC8F61EF39fccEfD90B7fF420CEE6eC4a0",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a",
+    "0x92c0394a99b8d99a0a14c4265692058b6b35c387"
+   ],
+   "first_block": 131056999,
+   "last_block": 131057031,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SorcererSociety",
+   "symbol": "SORCERERSOCIETY"
+  },
+  {
+   "address": "0xADa9209E18b3cDB4Fcf4823019D20390caA990E9",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a",
+    "0x92c0394a99b8d99a0a14c4265692058b6b35c387"
+   ],
+   "first_block": 131057037,
+   "last_block": 131057071,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BroomstickBrigade",
+   "symbol": "BROOMSTICKBRIGADE"
+  },
+  {
+   "address": "0xF3416AeceC242BdD3F56A4Ac3d550677e99D8c26",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x1198dfc76372d641a9cd071758accfb168fe201f",
+    "0x1715fe2fe1dfe9b01cdb32b8d16348a11b3c5b26",
+    "0x7774b08c6d479e93e9b57a807ca756a1e8beb24a",
+    "0x8ae4a93b6f426cf75aa389e3f7a19eb59f0a412a",
+    "0x92c0394a99b8d99a0a14c4265692058b6b35c387"
+   ],
+   "first_block": 131057278,
+   "last_block": 131057313,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "GloomyGardens",
+   "symbol": "GLOGAR"
+  },
+  {
+   "address": "0xEfd3d7f8A567Df6dFe2D06A01f1cf7DAef04d5b2",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x45861ede3cf72306b19833e5667dea580544158b",
+    "0x8602e6770257f831f1102e70cde5285ac60dbd28",
+    "0xa8452e41ff70357bf8b8c233f9710ee385fd1be7",
+    "0xd079c3295a2ab9c26b70539019993ff6e4a5265d"
+   ],
+   "first_block": 131056914,
+   "last_block": 131057448,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Believers",
+   "symbol": "BELIEVERS"
+  },
+  {
+   "address": "0x2303f9B21f81d81A3525f025445C6B2aC82c98BA",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x64396ee0f809ad76a6751c40118e39a64a194646",
+    "0x7f2eeb6663b21cedc72bda5d175b06dc8078ed87",
+    "0x8fd909f9edd916defcda837ab5bcad1e960a58ed"
+   ],
+   "first_block": 131056887,
+   "last_block": 131057355,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "TokenTinkerers",
+   "symbol": "TINK"
+  },
+  {
+   "address": "0x82Eea4Aeb666e978d904722066436ae69A196ac7",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x163822c45d1621fdeb173503aff00b4485faaa82",
+    "0x2801a7c2cda189a76d5ab81d72f2a0c185b78105",
+    "0x4e88da429b6f7fb9e11b539237b78ab238d15667",
+    "0x95ded2784de741f1ea5c12d136a5ed2e89ed5266",
+    "0xc541af59123b8ba9413b11d8e92ddc72506dcad4"
+   ],
+   "first_block": 131056887,
+   "last_block": 131057104,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintPrice",
+    "mintSeason",
+    "mintedPerId",
+    "paidMintsInSeason"
+   ],
+   "name": "EMBER Spark",
+   "symbol": "SPARK"
+  },
+  {
+   "address": "0x9d0bFB7431305823bB2A4f518e71221EEF70E82e",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x3006c4dfd52cecde3d7f637ccc5b21da6547bd44",
+    "0x87306af3cd7c7060e8e20da22f3112976782d16a",
+    "0x8d5260ce59cb9bf0cbe290c4edd7bb602eff9f5e",
+    "0xc63bba7a409f3e18a0e0be70f0e11e5d91e27408",
+    "0xc7c61bda6cdb430f5a48fd4aa07da2e423bbea25"
+   ],
+   "first_block": 131057010,
+   "last_block": 131057431,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Voidseer",
+   "symbol": "VDSEER"
+  },
+  {
+   "address": "0x07A6f668a15a28D0Ae489634bC42E42F1810ec54",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x006c03c63331b4738377dba14aaf2cefe24b5ba4",
+    "0x247d909ab9b21055fa10e4d876437f85e8249b37",
+    "0xa577969980ce902ac228fa823a902d57e87e8f21",
+    "0xba90b960752c4ef7e549b89124031c4e1c05f7e4",
+    "0xbf041f544d9fa3cbb1a81123ec37b9390d14bc0e"
+   ],
+   "first_block": 131057019,
+   "last_block": 131057105,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "PocketAgents",
+   "symbol": "PCKT"
+  },
+  {
+   "address": "0x4b20dDaECBaA8C88E0B4c084e13Be23a5908357a",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x006c03c63331b4738377dba14aaf2cefe24b5ba4",
+    "0x247d909ab9b21055fa10e4d876437f85e8249b37",
+    "0xa577969980ce902ac228fa823a902d57e87e8f21",
+    "0xba90b960752c4ef7e549b89124031c4e1c05f7e4",
+    "0xbf041f544d9fa3cbb1a81123ec37b9390d14bc0e"
+   ],
+   "first_block": 131057213,
+   "last_block": 131057281,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "CognitiveCore",
+   "symbol": "CCOR"
+  },
+  {
+   "address": "0x22984F428Bb8F6f070A66b1752912240050a67DB",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x4e3f9d64a9a2cc6d341f5b6c1d1f97bbeb74f8b8",
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d",
+    "0x5d831f8a48a4d935e1b49e1c92e4434b8f1f9652",
+    "0x7701849f2bf5e1bc3631e40fac37c4805b65523c",
+    "0xc490f68bd48673c43eea8ed894fd4d27b6c578bd"
+   ],
+   "first_block": 131056947,
+   "last_block": 131057341,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintQuote",
+    "mintedBy",
+    "nextMintQuote",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Shardblade Protocol",
+   "symbol": "SHARD"
+  },
+  {
+   "address": "0xCBde1219862E61e3B2e9f417016f2C04f2E033Cf",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x4e9a4732978a57d474732e465ac7587f98555086",
+    "0x5f360e170cc7a4f8d99a8614e2094c3885e2de5c",
+    "0x674a34622391593c13db3c3318e51439acc9a7bb",
+    "0x96d396f0091c9b102475872add7dfb66e5803f20",
+    "0xb3c2737fd7419e68a0a9866f1c8567b3db85791d"
+   ],
+   "first_block": 131057012,
+   "last_block": 131057363,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_ACCOUNT",
+    "freeClaimed",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "MAX_MINTED_PER_ACCOUNT",
+    "canMintNow",
+    "freeMinted",
+    "mint",
+    "mintPriceWei",
+    "mintStatus",
+    "mintedBy",
+    "openPublicMint",
+    "publicMintOpen",
+    "remainingMintQuota"
+   ],
+   "name": "Egg",
+   "symbol": "EGG"
+  },
+  {
+   "address": "0x452a5a324dA0386ccd8756F3b4b00bBE374985A1",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x71949d4229cf60142560444c455aafc9f8df41b5",
+    "0x8ec740b720a44794d44d54eb8e2d16f22e73a7c6",
+    "0xb7ce8c98d857e7b34429e63b7ff37fd7d5cd1604",
+    "0xd76fd6c1dac02ed690d1c9c6c3a9c618a322d2e9",
+    "0xe5c978b69d85a90a48f11867d559973e93e1bd46"
+   ],
+   "first_block": 131056995,
+   "last_block": 131057267,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "GEN Genesis",
+   "symbol": "GENG"
+  },
+  {
+   "address": "0x9429D09F0048A1265C58C62eAD9C9Faa14dF8d40",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x67e44dba9a1dc02712c10e89b67f78227c54f212",
+    "0x7f2eeb6663b21cedc72bda5d175b06dc8078ed87",
+    "0xa8452e41ff70357bf8b8c233f9710ee385fd1be7",
+    "0xfe56d0ab09f9eeeeb1e68191e5c6b79c28fd195c"
+   ],
+   "first_block": 131056990,
+   "last_block": 131057391,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Sprout Agent",
+   "symbol": "SPRAGENT"
+  },
+  {
+   "address": "0xf3f0F05EbEB73543F569369DF5Dc29c0f0418f99",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x1ace28cf950d128cce1367ed5f53741b3d0347d9",
+    "0x2d6663a474a67327984fe7360eb9a19b28a186de",
+    "0x6de9d4f9375aa628a0311273a0b7c4ed447fd143",
+    "0x8602e6770257f831f1102e70cde5285ac60dbd28",
+    "0xef7edddff4424a3b6e336f321bcd4afb3cd4fa44"
+   ],
+   "first_block": 131056976,
+   "last_block": 131057331,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "claimedFree",
+    "freeClaimed",
+    "freeMint",
+    "freeMinted",
+    "freeRemaining",
+    "mintFree"
+   ],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "freeMint",
+    "freeMinted",
+    "goldMinted",
+    "goldMintedBy",
+    "mint",
+    "mintFree",
+    "mintGold",
+    "mintOpen",
+    "mintPrice"
+   ],
+   "name": "sidecoo Agent Pass",
+   "symbol": "SCPASS"
+  },
+  {
+   "address": "0xF3857306a37264f15a19ad37DA8A9485e5f7CfB3",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x0fe64a8d1f629ae3cc83f4d41abbdce063fdff30"
+   ],
+   "first_block": 131057345,
+   "last_block": 131057345,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "addMinter",
+    "getMintBatchLimit",
+    "mint",
+    "mintBatch",
+    "removeMinter",
+    "setMintBatchLimit"
+   ],
+   "name": "AlienWorlds-NFT",
+   "symbol": "AW-NFT"
+  },
+  {
+   "address": "0x156978860a2AB9A8a75603327A06AD5258c752b2",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922",
+    "0x4845d6f4857721ee138ab05dbebd26f1bc399412",
+    "0xb4961b31bad9d471fa80567ebbc8fabc8a36838e",
+    "0xded4a693e9ec8adbeaf4e3849c0a2edb56e071b3"
+   ],
+   "first_block": 131057411,
+   "last_block": 131057412,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BLUM",
+   "symbol": "BLUM"
+  },
+  {
+   "address": "0x5cb59A8D8E9DE5FDf39C709324B4c86AB90F534B",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x15c759b4077406919923b1b8f44388950c662509",
+    "0x3c06f378b7e7dae9e903b52c5f9c3fae4b24e922",
+    "0x4845d6f4857721ee138ab05dbebd26f1bc399412",
+    "0xb4961b31bad9d471fa80567ebbc8fabc8a36838e",
+    "0xded4a693e9ec8adbeaf4e3849c0a2edb56e071b3"
+   ],
+   "first_block": 131057442,
+   "last_block": 131057442,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "PLUTO",
+   "symbol": "PLUTO"
+  },
+  {
+   "address": "0x216729A1B9A734352dc7817fFeF9EcBe5c857F76",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x22b7fec2e7daa22bf8c2cc7dc3c1046985033a09",
+    "0x3b956d29035b4ec63fc33c4ec2a61ed21992a918",
+    "0x88b2c9b9747b4b5c8409a8b9ca667d930fd3cbe6",
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131056899,
+   "last_block": 131056971,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentRadiant",
+   "symbol": "RDNT"
+  },
+  {
+   "address": "0xE9522648503C626AD84E5bc7445D1e26c89f6FEc",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x13d4159ae9f70def8d9aff7bb400d8bc3c9385a0",
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d",
+    "0x5772b89e4e4674e609813413ca9ce801814b14ac"
+   ],
+   "first_block": 131057186,
+   "last_block": 131057462,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintStartTime",
+    "mintedBy",
+    "mintedInWindow",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Genesis Seeds",
+   "symbol": "GSEED"
+  },
+  {
+   "address": "0xcAA6f51A24531fb6A1719cc2dd3F11f283669d40",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xea420e52217a8189327e04d3e2f37918c401b48e"
+   ],
+   "first_block": 131056871,
+   "last_block": 131056916,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Fiddlix",
+   "symbol": "FIDDLIX"
+  },
+  {
+   "address": "0x074829022320096dfdbB0FECE9dD021f1d309933",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x7701849f2bf5e1bc3631e40fac37c4805b65523c",
+    "0x9bfc615b99817c5c93a2894f95e82fd1fc6bda3b",
+    "0xeabc98bd0e53dc06c55ebb4dc08b6e106dd36989"
+   ],
+   "first_block": 131056908,
+   "last_block": 131057156,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Byteshi",
+   "symbol": "BYTESHI"
+  },
+  {
+   "address": "0xA55E24517BB267350dcf9e77463DD120450dE533",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x608fdbdd4cd1732ae4c60b97582286208257bec9",
+    "0xa577969980ce902ac228fa823a902d57e87e8f21",
+    "0xba90b960752c4ef7e549b89124031c4e1c05f7e4"
+   ],
+   "first_block": 131056885,
+   "last_block": 131056989,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentCitadel",
+   "symbol": "CTDL"
+  },
+  {
+   "address": "0x3Ed6B33F9Ea597A6f210b5e70029ddD92E93aE85",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x212a09a1530c6aa4405c457d1e2505c7b2ef5290",
+    "0x428d909e3deb86d8e1da37f615005df1d1a6d542",
+    "0xf06a0bcf9a253e6bffeae1bc316665f648599ce8"
+   ],
+   "first_block": 131056900,
+   "last_block": 131057439,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintCost",
+    "minted"
+   ],
+   "name": "Laser Agents",
+   "symbol": "LASER"
+  },
+  {
+   "address": "0x63902292888bD65adC1f45F37Cd37F666F11c043",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x22b7fec2e7daa22bf8c2cc7dc3c1046985033a09",
+    "0x3b956d29035b4ec63fc33c4ec2a61ed21992a918",
+    "0x88b2c9b9747b4b5c8409a8b9ca667d930fd3cbe6"
+   ],
+   "first_block": 131056870,
+   "last_block": 131056919,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NeuralHarbor",
+   "symbol": "NHRB"
+  },
+  {
+   "address": "0xE51FDF90D67a86ecE1BEA9Ab797c8b89129a1E43",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x7701849f2bf5e1bc3631e40fac37c4805b65523c",
+    "0x798bd1d0d8262b53835dc8ce26b9d548ea9c538a",
+    "0xd5ed4139f4056d865764105a0e89c024b0322bf6"
+   ],
+   "first_block": 131056879,
+   "last_block": 131057123,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Wraithlet",
+   "symbol": "WRAITHLET"
+  },
+  {
+   "address": "0x105888CDfC8bc1C9E80838f5aceC40ce4379db2f",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x2f03f164c2df5b35fb58adf992f77572e3533f80",
+    "0x9bfc615b99817c5c93a2894f95e82fd1fc6bda3b",
+    "0xda86dd90aaf2fea9c96d3dfb3f1b561d6437f056"
+   ],
+   "first_block": 131057015,
+   "last_block": 131057161,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Pixeloo",
+   "symbol": "PIXELOO"
+  },
+  {
+   "address": "0x1cf9e60218493149ACe7DC953497c07175aa625e",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x32a83ad80f321799eb13535a258137f143bd6c5d",
+    "0x334c1c66c2adcd8922efe0db3b5c3e7a0f2fdca7",
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d"
+   ],
+   "first_block": 131057061,
+   "last_block": 131057269,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINT_PERMIT_TYPEHASH",
+    "MINT_PRICE",
+    "PAID_MINT_PRICE",
+    "mint",
+    "mintedCount",
+    "mintsRemaining",
+    "totalMintRevenue"
+   ],
+   "name": "Wise Owl Society",
+   "symbol": "OWLS"
+  },
+  {
+   "address": "0xfB1daA87c6e4A009caC565645Ea28B37be712d5A",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x12e8c8152316f60749ac0d47103aad5b7e1a3e41",
+    "0x3210c799573d8f51a5bf966b10e4a00807f376af",
+    "0x3c355748a87126534103aa52d82f419addc812d8"
+   ],
+   "first_block": 131057029,
+   "last_block": 131057042,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SILI Stone",
+   "symbol": "STONE"
+  },
+  {
+   "address": "0x67E6A28f85e7f36DAcfE7b425daa0Fe9f7Ff3c79",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x3b1d5ca608fe221a0b2e77048e3dce645c61af3c",
+    "0x7df8226cdfdfe014b3425469f4092bbae3586dff",
+    "0x931994676d0a765f11d9eec564d0357e90639514"
+   ],
+   "first_block": 131057078,
+   "last_block": 131057220,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINTER_ROLE",
+    "mint"
+   ],
+   "name": "B Titan Registration Pass",
+   "symbol": "Registration Pass"
+  },
+  {
+   "address": "0xc7aA008c2369FF00322c49D526F33529bB692a86",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x5d831f8a48a4d935e1b49e1c92e4434b8f1f9652",
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057159,
+   "last_block": 131057216,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "freeMinted",
+    "freeRemaining"
+   ],
+   "mint_funcs": [
+    "freeMinted",
+    "mint",
+    "mintLive",
+    "paidMinted",
+    "setMintLive",
+    "totalMintedBy"
+   ],
+   "name": "Limitless",
+   "symbol": "LIMIT"
+  },
+  {
+   "address": "0x59F93bBBb14cE948Ee16b261a05Ad4A77711ECf1",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x5772b89e4e4674e609813413ca9ce801814b14ac",
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057122,
+   "last_block": 131057467,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ElonGai",
+   "symbol": "ELONGAI"
+  },
+  {
+   "address": "0x7A4a5c919aE2541AeD11041A1AEeE68f1287f95b",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x960be8a7a6f2dfc4b2cbc98ede0fb98c92bd8429",
+    "0xacce16bb49ffe0450aa8ffd4fa7c24b0af2d83ca",
+    "0xc3243c06c3f87782c485adf1237e9f2d1ac15cab"
+   ],
+   "first_block": 131057187,
+   "last_block": 131057379,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Uniswap v4 Positions NFT",
+   "symbol": "UNI-V4-POSM"
+  },
+  {
+   "address": "0x6096C8999A3Db2023F3f38d71798F1B0603A6F01",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d"
+   ],
+   "first_block": 131057225,
+   "last_block": 131057225,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Orchad",
+   "symbol": "ORCHAD"
+  },
+  {
+   "address": "0x242d8c0cf57feF91a2492b040a2fbb0cE780E408",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xea420e52217a8189327e04d3e2f37918c401b48e"
+   ],
+   "first_block": 131057372,
+   "last_block": 131057411,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Poppina",
+   "symbol": "POPPINA"
+  },
+  {
+   "address": "0x51Ae1da01B3C6eBa53871Ec08F50603d2C8b134A",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x072b5d1b577e3467489af5cfe9046cddcdf63609",
+    "0x61d5353152b2573786bf640e289a12e00c7c3df1"
+   ],
+   "first_block": 131056876,
+   "last_block": 131057199,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Gen",
+   "symbol": "GEN"
+  },
+  {
+   "address": "0xCA9782156Db5202222655c49Ce70A9ebC21d055D",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78",
+    "0x7b513ba9ee488a5effe969fa839917e4cf6c47ea"
+   ],
+   "first_block": 131057016,
+   "last_block": 131057158,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Mercurymink",
+   "symbol": "MERCURYMINK"
+  },
+  {
+   "address": "0x95CE945BeF11643A8C7A97148B36F9A52c48d0f0",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x396ce5cc3cabbb19c0e83ccaca66295e5b95fd5f",
+    "0x575caf35b1da49ac096a3596a36286d06bb4457d"
+   ],
+   "first_block": 131056988,
+   "last_block": 131057115,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "agentFreeCap",
+    "freeAvailable",
+    "freeMintOpen",
+    "freeMinted",
+    "freePerWallet",
+    "freeUsed",
+    "setAgentFreeCap",
+    "setFreeMint",
+    "setFreePerWallet"
+   ],
+   "mint_funcs": [
+    "HOARD_MINT_BPS",
+    "communityMint",
+    "communityMinted",
+    "freeMintOpen",
+    "freeMinted",
+    "mint",
+    "mintedBy",
+    "paidMintOpen",
+    "setFreeMint",
+    "setPaidMint"
+   ],
+   "name": "FAMULI",
+   "symbol": "FAMU"
+  },
+  {
+   "address": "0xaF27B76A380eC55ce5F84611730532AE2975947A",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x38fc0fab385272afb4019e9d681345e36d4a07fd",
+    "0xe2afff16cd679b14087a983c44f4393ce18a1206"
+   ],
+   "first_block": 131057032,
+   "last_block": 131057268,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "24K Zodiac",
+   "symbol": "24KZ"
+  },
+  {
+   "address": "0x06536fDC1a39F0d48e05421863E61aC77a11a6Cc",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x054b8df192d28d227df8f0ebaf0557b752d7536f",
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54"
+   ],
+   "first_block": 131057028,
+   "last_block": 131057132,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Prompt Echoes",
+   "symbol": "PRECHO"
+  },
+  {
+   "address": "0xD621Fe1c3aF088ED5F7f4F776aD48DAA24B35c67",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x6dd132c988cc4b3ce4eb3f320aac688b55f8872d",
+    "0xeaceaa842a892931ffd88c5bfafdb112084f8153"
+   ],
+   "first_block": 131057086,
+   "last_block": 131057106,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "InfiniteIntern",
+   "symbol": "INTN"
+  },
+  {
+   "address": "0x6dFE0D2E3Ab6f2bD5F3875557eb0e5c5Fe4B05c7",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x4bb2561cedbf0aa3229a3a53908a9ed43235211f",
+    "0xf85c12f7ccb06e9aff7eb72023f6c4dfd2f7f4f3"
+   ],
+   "first_block": 131057079,
+   "last_block": 131057289,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "hasMinted",
+    "mint",
+    "mintOpen",
+    "setMintOpen"
+   ],
+   "name": "KOAI",
+   "symbol": "KOAI"
+  },
+  {
+   "address": "0x717d4E7d0fC980C9241926e3Fe913D19a6bFF90A",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x8e4fc0563acc420f4d03773443ade44abcdb9d7d",
+    "0xa8452e41ff70357bf8b8c233f9710ee385fd1be7"
+   ],
+   "first_block": 131057078,
+   "last_block": 131057465,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "\u5e01\u5b89\u7528\u6237",
+   "symbol": "BNU"
+  },
+  {
+   "address": "0xaD93bC398b933E2e7a7F93D99E46e4dD714041Aa",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54",
+    "0x64396ee0f809ad76a6751c40118e39a64a194646"
+   ],
+   "first_block": 131057161,
+   "last_block": 131057404,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintCost",
+    "mintedBy",
+    "totalMinted"
+   ],
+   "name": "GoldenHen",
+   "symbol": "HEN"
+  },
+  {
+   "address": "0xd1de1aE44bdD29EEe00b452B0568c55b5DC0942C",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9de8f916a5c8fc3167977e76fe3a7b830c558dfe",
+    "0xbf17cd892a812d8186fb7f376097ab8a7c2f0886"
+   ],
+   "first_block": 131057157,
+   "last_block": 131057415,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "minter",
+    "setMinter"
+   ],
+   "name": "ATitan Registration Pass",
+   "symbol": "ATRP"
+  },
+  {
+   "address": "0x13C0B7E5E34Fde40573F780f2Af6dEbb24379108",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x1e514180c7cc71e2c30c2f9fce6d49d89cee2ce2",
+    "0xea420e52217a8189327e04d3e2f37918c401b48e"
+   ],
+   "first_block": 131057143,
+   "last_block": 131057157,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Miner Cat",
+   "symbol": "MCAT"
+  },
+  {
+   "address": "0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x046df8baf917fd1ffe424d77a02416d00cffea31",
+    "0xbb6ae1ea84b41666ea5618878b52d8d64cfc54c5"
+   ],
+   "first_block": 131057132,
+   "last_block": 131057176,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "uniswapV3MintCallback"
+   ],
+   "name": "Uniswap V3 Positions NFT-V1",
+   "symbol": "UNI-V3-POS"
+  },
+  {
+   "address": "0x8a3E3eeA10e1fA7D6fA768550f8E572a15eB90D0",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x22b7fec2e7daa22bf8c2cc7dc3c1046985033a09",
+    "0x88b2c9b9747b4b5c8409a8b9ca667d930fd3cbe6"
+   ],
+   "first_block": 131057198,
+   "last_block": 131057216,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMintAvailable"
+   ],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "freeMintAvailable",
+    "mint",
+    "mintedCount",
+    "mintsLeft",
+    "paidMintCount"
+   ],
+   "name": "WHALE NFT",
+   "symbol": "WHALE"
+  },
+  {
+   "address": "0x0EED2C5e866A3792f587CAf0839941EA57fe6915",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x212a09a1530c6aa4405c457d1e2505c7b2ef5290",
+    "0x75d592e34ec72b4dbbf6a6774fb5366886e0d69a"
+   ],
+   "first_block": 131057199,
+   "last_block": 131057389,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintPass",
+    "mintedAt"
+   ],
+   "name": "HashDroids Operator Pass",
+   "symbol": "HD-PASS"
+  },
+  {
+   "address": "0xCd685888CB2c86bff49554D64E9E172aC84B0516",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x716e1bbb15ffd5f7ea96abb6d3f5d3aeeefe4a35",
+    "0x9b1f54c2d83e10f54ae3c0b381671c4fe10f5674"
+   ],
+   "first_block": 131057233,
+   "last_block": 131057267,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Gale Agent",
+   "symbol": "GALEAGENT"
+  },
+  {
+   "address": "0xBd57BF112B881fE0909D581ac1933e302DAc7777",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x2422dee8107f2b450f931c2a99bf4b0d118f7e55",
+    "0x5b5b64b3186394915c236f0ff0496674f64722d7"
+   ],
+   "first_block": 131057269,
+   "last_block": 131057317,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "addMinter",
+    "getMinters",
+    "isMinter",
+    "mint",
+    "removeMinter"
+   ],
+   "name": "PolyFlowCard",
+   "symbol": "PFNFT"
+  },
+  {
+   "address": "0xd584D5CD6A28Af35f52aE90c4B436132858fc36D",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x5b95b1fc7c092b75d8a2220c770cc9cfe10f6723",
+    "0x74845b620f17877393e09b2030416f719d584640"
+   ],
+   "first_block": 131057314,
+   "last_block": 131057410,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "MothWire",
+   "symbol": "MOTHWIRE"
+  },
+  {
+   "address": "0x4A15F38c75E529205a45BD2eE57c02AFAB2F6569",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xc232499290be04b597169553fb0868f0f58749b1",
+    "0xcb1f7813d525433d16e6a97ee01f4ef1230d849e"
+   ],
+   "first_block": 131057307,
+   "last_block": 131057308,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "ownerMint",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Botmolt",
+   "symbol": "BOTMOLT"
+  },
+  {
+   "address": "0xb7331FD9414A478Add2E534A56731bc1Aaf21865",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x0bef744d0f2034fdd1933d5a2a683cec9f29a4fe",
+    "0xbcbff277547d6fede0a7416044ea443a6b46e698"
+   ],
+   "first_block": 131057325,
+   "last_block": 131057429,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "HauntedManor",
+   "symbol": "MANOR"
+  },
+  {
+   "address": "0xC09fE1A1be2dDb73887a5afe868C89456A3fd59C",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x4686bfce0ef35426055a2cdcccd88e9aa7843ca5",
+    "0xb81492ea3571f283baf8dd04843bbfb49d032419"
+   ],
+   "first_block": 131057418,
+   "last_block": 131057452,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "EnchantedEerie",
+   "symbol": "ENCHANTEDEERIE"
+  },
+  {
+   "address": "0x1F7B8097B63Ac398e591ad2A72cCe9A7992206c7",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x74f258d1312328e732939fb3cc3e211174e35774",
+    "0x7afcad221d421500b30a30f1e572b4911f550598"
+   ],
+   "first_block": 131057427,
+   "last_block": 131057429,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "CryptKeepers",
+   "symbol": "CRYPT"
+  },
+  {
+   "address": "0x854EC70B78933fAB3f95E5bC95D7Af72b62703dE",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x83faf3987513bcb7c9d33ddb48113f09cc9fe5a3"
+   ],
+   "first_block": 131056908,
+   "last_block": 131056908,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "uniswapV3MintCallback"
+   ],
+   "name": "UNXwap V3 Positions NFT-V1",
+   "symbol": "UNX-V3-POS"
+  },
+  {
+   "address": "0x9c905CFa099aB5AF3b17C447e14C1211E0e1DE5f",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131056906,
+   "last_block": 131056906,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Firewallfalcon",
+   "symbol": "FIREWALLFALCON"
+  },
+  {
+   "address": "0x07575F9506263701163A8E8a5363BeD4fEAac101",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x608fdbdd4cd1732ae4c60b97582286208257bec9"
+   ],
+   "first_block": 131056904,
+   "last_block": 131056904,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentZenith",
+   "symbol": "ZNTH"
+  },
+  {
+   "address": "0x5F46C94666d0D8aeB1FE6C007d7110A1A80074Cd",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x107964f03119bd4fffefacc7906a246568be03a0"
+   ],
+   "first_block": 131056899,
+   "last_block": 131056899,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Saturnub",
+   "symbol": "SATURNUB"
+  },
+  {
+   "address": "0xA9eCBD052941C9E310e68525Aa62671729B84446",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x97032f7987bf5b4a2aed937d341c359023496642"
+   ],
+   "first_block": 131056898,
+   "last_block": 131056898,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "KA SEALS",
+   "symbol": "SEAL"
+  },
+  {
+   "address": "0xcAB0804A8379a1Fb39fc4D194ccf15f50F7aa038",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x798bd1d0d8262b53835dc8ce26b9d548ea9c538a"
+   ],
+   "first_block": 131056895,
+   "last_block": 131056895,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Skatoon",
+   "symbol": "SKATOON"
+  },
+  {
+   "address": "0x9C24ef357326B92789a132CE7a45542B90a62030",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4ad0ee742d80e03bc5e21e4807083b4f2bf09195"
+   ],
+   "first_block": 131056893,
+   "last_block": 131056893,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "EtherSpecters",
+   "symbol": "ETHERSPECTERS"
+  },
+  {
+   "address": "0x2aeF2f048d0cc18C25Ab8782A242A41334760670",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4d658977f2a596194df92c6201b8cf42b57adc6b"
+   ],
+   "first_block": 131056880,
+   "last_block": 131056880,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Chipowlet",
+   "symbol": "CHIPOWLET"
+  },
+  {
+   "address": "0x08D09064D9859103C2d0E3Bd313Cb39389777f0a",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x798bd1d0d8262b53835dc8ce26b9d548ea9c538a"
+   ],
+   "first_block": 131056871,
+   "last_block": 131056871,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "DarkDelights",
+   "symbol": "DARDEL"
+  },
+  {
+   "address": "0x0440964596D535D4Dd8D0C0187d9949106fd93bb",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6ab17e4b130f72be1ab481b935a4569a679eb338"
+   ],
+   "first_block": 131056868,
+   "last_block": 131056868,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "1111",
+   "symbol": "1111"
+  },
+  {
+   "address": "0x5C46de8D0c5DfDF535558d363F492967cd5e146b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf06a0bcf9a253e6bffeae1bc316665f648599ce8"
+   ],
+   "first_block": 131056954,
+   "last_block": 131056954,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "mintedByAgentId",
+    "mintedPerRarity",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Shard Id",
+   "symbol": "Shard Id"
+  },
+  {
+   "address": "0xf8c30c3C362941C23025f2eA30B066A73C982f63",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8715bc8860ce790165b078cea188c6760708f461"
+   ],
+   "first_block": 131056952,
+   "last_block": 131056952,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Topaz CL Position",
+   "symbol": "TOPAZ-CL-POS"
+  },
+  {
+   "address": "0xCc26B7747B8175C606a9d4EBbC545AeefC8CadE7",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131056945,
+   "last_block": 131056945,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Kirinkangaroo",
+   "symbol": "KIRINKANGAROO"
+  },
+  {
+   "address": "0x39509b7A0cFa6B009281d457f2bf613a4bdAf813",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xec5f3c3593a0b0cf620fb388490f58300f60929f"
+   ],
+   "first_block": 131056925,
+   "last_block": 131056925,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentArcade",
+   "symbol": "ARCD"
+  },
+  {
+   "address": "0xE9E6E4c327EE721A726B84DFa22E8c79D56F188c",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6070ab0837ce2b220c4f659efa9ef5087df2cbae"
+   ],
+   "first_block": 131057010,
+   "last_block": 131057010,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SentinelAI",
+   "symbol": "SNTL"
+  },
+  {
+   "address": "0x64bcAd111579856057AA3F9001e868B842929293",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131056989,
+   "last_block": 131056989,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NeuronNest",
+   "symbol": "NRON"
+  },
+  {
+   "address": "0x51fC72478f3dAe0D34202892B9b9867d14FD5903",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4ad0ee742d80e03bc5e21e4807083b4f2bf09195"
+   ],
+   "first_block": 131056987,
+   "last_block": 131056987,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "FangClub",
+   "symbol": "FANCLU"
+  },
+  {
+   "address": "0x90389C8430D01A80b91965Af1Fa19F7E062aAbA2",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x0de94871c01d47ba2deb6e522d73e9b5513e9126"
+   ],
+   "first_block": 131056986,
+   "last_block": 131056986,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINTER_ROLE",
+    "mint"
+   ],
+   "name": "B Titan Registration Pass",
+   "symbol": "Registration Pass"
+  },
+  {
+   "address": "0x140cDF4Fe5A94e802444F2895c2F22eBa42AEe1A",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131056977,
+   "last_block": 131056977,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Marsmarmot",
+   "symbol": "MARSMARMOT"
+  },
+  {
+   "address": "0x5D9287f9CcFA6658Fdc3D7c5A51dE9E506527f53",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057059,
+   "last_block": 131057059,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Neontoucan",
+   "symbol": "NEONTOUCAN"
+  },
+  {
+   "address": "0xc0D26865c33650AC6f28fbB6F0E6b77e65f13A1e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x054b8df192d28d227df8f0ebaf0557b752d7536f"
+   ],
+   "first_block": 131057042,
+   "last_block": 131057042,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Synthetic Reverie",
+   "symbol": "SYNREV"
+  },
+  {
+   "address": "0xcb7e5776aFc20D093f80EA7828F527B2af57889B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x054b8df192d28d227df8f0ebaf0557b752d7536f"
+   ],
+   "first_block": 131057035,
+   "last_block": 131057035,
+   "registry_bytes_hit": true,
+   "sourcify": "error:RemoteDisconnected",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Dream Circuit",
+   "symbol": "DRMCIR"
+  },
+  {
+   "address": "0xe50B0B2B5Ed54b55d7aF7733F0f56D65fB34d01e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057034,
+   "last_block": 131057034,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "TokenThinkers",
+   "symbol": "TTHK"
+  },
+  {
+   "address": "0x3E3Ac42d96799c4d74Fe5A18463f61D90910A8E4",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8d897f807d5864ebc082358b706362d3a281471b"
+   ],
+   "first_block": 131057028,
+   "last_block": 131057028,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "OPAD Intel Key",
+   "symbol": "OIK"
+  },
+  {
+   "address": "0xE124A0CAAaCf7D6B954A490d96A309F5B890fc2c",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x054b8df192d28d227df8f0ebaf0557b752d7536f"
+   ],
+   "first_block": 131057021,
+   "last_block": 131057021,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Token Orbits",
+   "symbol": "TKORBT"
+  },
+  {
+   "address": "0x64917d3C0Eb8b677C5aBDAA45c8be2A80CEfbB7b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xec5f3c3593a0b0cf620fb388490f58300f60929f"
+   ],
+   "first_block": 131057018,
+   "last_block": 131057018,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_WALLET_LIMIT",
+    "freeUsed",
+    "freeWalletsUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Mishuk",
+   "symbol": "MISHUK"
+  },
+  {
+   "address": "0xB300c636392Fe07B756429DD00a5027a4Bb4202F",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057103,
+   "last_block": 131057103,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Neptunenautilus",
+   "symbol": "NEPTUNENAUTILUS"
+  },
+  {
+   "address": "0x8b3f88fB8DC7aF5707f983e7c58d67A3D5B6f19C",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf6070d1c2c69aa90c08722bc78534e77d6d83768"
+   ],
+   "first_block": 131057091,
+   "last_block": 131057091,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "freeMinted",
+    "mint",
+    "mintCost",
+    "minted"
+   ],
+   "name": "Prism Pilots",
+   "symbol": "PRSMP"
+  },
+  {
+   "address": "0xC139B107A7398ADec673B55D15F84124B42e6a0F",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4ad0ee742d80e03bc5e21e4807083b4f2bf09195"
+   ],
+   "first_block": 131057082,
+   "last_block": 131057082,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Fangtastic",
+   "symbol": "FANGTASTIC"
+  },
+  {
+   "address": "0x5010D7A3F2bFc625D55D6e2235961257DEAd25A8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057078,
+   "last_block": 131057078,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Dice",
+   "symbol": "DICE"
+  },
+  {
+   "address": "0x0a3ff4C9049A7ddB26B2FCF819b880Aae0CA763e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5d831f8a48a4d935e1b49e1c92e4434b8f1f9652"
+   ],
+   "first_block": 131057074,
+   "last_block": 131057074,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "MINT_END",
+    "MINT_START",
+    "freeMinted",
+    "gildedMinted",
+    "keyholderMinted",
+    "mint",
+    "mintEnd",
+    "mintOpen",
+    "paidMinted",
+    "passMinted"
+   ],
+   "name": "Orrery Transit",
+   "symbol": "ORRERY"
+  },
+  {
+   "address": "0x511393BDe09D8f3F77e92041af743997A6F1c0a8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x608fdbdd4cd1732ae4c60b97582286208257bec9"
+   ],
+   "first_block": 131057161,
+   "last_block": 131057161,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentMatrix",
+   "symbol": "MTRX"
+  },
+  {
+   "address": "0xe4eC0e4F304885f8D3C954F78FFBECfF67A5b0F2",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057143,
+   "last_block": 131057143,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Plutoplatypus",
+   "symbol": "PLUTOPLATYPUS"
+  },
+  {
+   "address": "0xbFccd7dE6eF1B3D81632412600a933CD6De14B77",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x41df391bf4ba10f50c6d0f5c7c9fe54ca8b50b75"
+   ],
+   "first_block": 131057127,
+   "last_block": 131057127,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "canClaimFree",
+    "claimedFree",
+    "freeMintOpen",
+    "freeMinted",
+    "mintFree",
+    "setFreeMint"
+   ],
+   "mint_funcs": [
+    "freeMintOpen",
+    "freeMinted",
+    "mint",
+    "mintFree",
+    "mintedBy",
+    "setFreeMint"
+   ],
+   "name": "HOOTCAST",
+   "symbol": "HOOT"
+  },
+  {
+   "address": "0xa4dAB255cbD58B55948666c8D66b6583Bf9D8e7e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5d831f8a48a4d935e1b49e1c92e4434b8f1f9652"
+   ],
+   "first_block": 131057118,
+   "last_block": 131057118,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "claimedFree",
+    "freeAvailable",
+    "freeMintOpen",
+    "freeMinted",
+    "mintFree",
+    "setFreeMint"
+   ],
+   "mint_funcs": [
+    "freeMintOpen",
+    "freeMinted",
+    "mint",
+    "mintFree",
+    "mintPoolBps",
+    "mintedBy",
+    "paidMintOpen",
+    "setFreeMint",
+    "setPaidMint"
+   ],
+   "name": "QUORUMKIN",
+   "symbol": "QRMK"
+  },
+  {
+   "address": "0x7621675B884572b60f1421806C225aAdcAFb1459",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057212,
+   "last_block": 131057212,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Saturnsloth",
+   "symbol": "SATURNSLOTH"
+  },
+  {
+   "address": "0x5afbC362DF925254B23803947D17C6d277C002D8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xcbefaa6286bf2302011cfa0ca44f25a3b9112a67"
+   ],
+   "first_block": 131057195,
+   "last_block": 131057195,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Parallel L1 Agent",
+   "symbol": "PARA"
+  },
+  {
+   "address": "0x6C888D53EF06897968F620c866179e2311a924e6",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057179,
+   "last_block": 131057179,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Routerraccoon",
+   "symbol": "ROUTERRACCOON"
+  },
+  {
+   "address": "0xd7fd1e13CbB953b8101E6F844518e57969f6Cd64",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54"
+   ],
+   "first_block": 131057178,
+   "last_block": 131057178,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Crystalis",
+   "symbol": "CRYSTALIS"
+  },
+  {
+   "address": "0x3eF54b5d2D7B78Ef5F425Dc69632Fe7E450179ce",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057168,
+   "last_block": 131057168,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "HollowEve",
+   "symbol": "HEVE"
+  },
+  {
+   "address": "0x17bb7feDd74021301778a13449bCbDB6B07bf5E9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057260,
+   "last_block": 131057260,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Igloon",
+   "symbol": "IGLOON"
+  },
+  {
+   "address": "0x2B07E0a1Ec1611d90c0c3aF6E6696F35a7EB50a5",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1928afe9312cf85f974570f1d5927ea6b9e0cb03"
+   ],
+   "first_block": 131057253,
+   "last_block": 131057253,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Alpenglow Agent",
+   "symbol": "ALPEN"
+  },
+  {
+   "address": "0xA4BC78Dd1a80C230e923347512F868B18a104B23",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3133004d98456ffbe479340d2d61654f60c91b51"
+   ],
+   "first_block": 131057253,
+   "last_block": 131057253,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "EerieEvenings",
+   "symbol": "EEREVE"
+  },
+  {
+   "address": "0xa60E5B45A4588097DE508e5b72EC66503D157E8C",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057250,
+   "last_block": 131057250,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Selkiette",
+   "symbol": "SELKIETTE"
+  },
+  {
+   "address": "0xd8803B8740FB908011D698670F554f149E64F759",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54"
+   ],
+   "first_block": 131057245,
+   "last_block": 131057245,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BotSanctuary",
+   "symbol": "BSNC"
+  },
+  {
+   "address": "0x5e8d134427A312D73f738892fc93e6c9B85ad316",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x608fdbdd4cd1732ae4c60b97582286208257bec9"
+   ],
+   "first_block": 131057244,
+   "last_block": 131057244,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentVortex",
+   "symbol": "VRTX"
+  },
+  {
+   "address": "0x26271A6069bdE97Ae231969663E32d6c87654F9e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x45c59fdd403f1eea61eb3a0b128746dca1192ae6"
+   ],
+   "first_block": 131057237,
+   "last_block": 131057237,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "MindSpark",
+   "symbol": "SPRK"
+  },
+  {
+   "address": "0x79c005F8D1a8c9AB88190f1bc0e8152944f56B6F",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x29f37e061bc249cd4783a817ec8cae4723314c54"
+   ],
+   "first_block": 131057229,
+   "last_block": 131057229,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Lotuslume",
+   "symbol": "LOTUSLUME"
+  },
+  {
+   "address": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xcb1f7813d525433d16e6a97ee01f4ef1230d849e"
+   ],
+   "first_block": 131057312,
+   "last_block": 131057312,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BeHand Pass",
+   "symbol": "BHPASS"
+  },
+  {
+   "address": "0x2C9091F510742CE1e03dbF539FFFe3603fB05ab3",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057306,
+   "last_block": 131057306,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Windmilly",
+   "symbol": "WINDMILLY"
+  },
+  {
+   "address": "0x7fc5c7be63BDB011d15b1D0C3FE2E36eA43e0Cd3",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x101246960769eac1d26ccc3d2f07b9f66dc45831"
+   ],
+   "first_block": 131057304,
+   "last_block": 131057304,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentBin",
+   "symbol": "AGBIN"
+  },
+  {
+   "address": "0x2cF7B39C850eF986C8430839E16a0eF7500760F8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x7ef7a5cb70d14471af65e3b06397dc70fbff08d1"
+   ],
+   "first_block": 131057301,
+   "last_block": 131057301,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Samsung Pay Agent",
+   "symbol": "SPAY"
+  },
+  {
+   "address": "0x8fF57C3c6791bc8B88d731269Cc3F938D9a16190",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057299,
+   "last_block": 131057299,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Transistortoad",
+   "symbol": "TRANSISTORTOAD"
+  },
+  {
+   "address": "0xf197F509137db1eb45b17a362bc446D48E6dAC4f",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x855b90377f57e3b56022d4471377d4288448475c"
+   ],
+   "first_block": 131057298,
+   "last_block": 131057298,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMint",
+    "mintFree"
+   ],
+   "mint_funcs": [
+    "foundingMinted",
+    "freeMint",
+    "mint",
+    "mintFree",
+    "paidMinted"
+   ],
+   "name": "CharMasks Pass",
+   "symbol": "CMPASS"
+  },
+  {
+   "address": "0xD675B6779990a202883272A369A1b2aEA334FeCC",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6ab17e4b130f72be1ab481b935a4569a679eb338"
+   ],
+   "first_block": 131057283,
+   "last_block": 131057283,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentQuasar",
+   "symbol": "QSAR"
+  },
+  {
+   "address": "0xDEA52e5c82031f8C31836d32596AFd810CdbF797",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf4369f49dda4ac63ebc2911142f517fbcb684ba4"
+   ],
+   "first_block": 131057273,
+   "last_block": 131057273,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "PoltergeistParty",
+   "symbol": "POLTERGEISTPARTY"
+  },
+  {
+   "address": "0x6F4259FE404d37Af3e5482D6792B15b19aF0ab83",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xa74b97b7aade53fe4405fb9c20adb191014cc5b1"
+   ],
+   "first_block": 131057358,
+   "last_block": 131057358,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Tokenized Note Agent",
+   "symbol": "TNOTE"
+  },
+  {
+   "address": "0x5D8f22549Fdba6a437c40564D2a65664e714034b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057351,
+   "last_block": 131057351,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "closeMint",
+    "mint",
+    "mintOpen",
+    "mintPrice",
+    "mintUnitPriceWei",
+    "mintedBy",
+    "openMint",
+    "totalMinted"
+   ],
+   "name": "Snailings",
+   "symbol": "SNLG"
+  },
+  {
+   "address": "0x90321082516174ac07e2CD9Ec5495125c5c8563F",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x66a6b15dec1c2785bc21bea7579f61d924cfdb78"
+   ],
+   "first_block": 131057347,
+   "last_block": 131057347,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Wanghongweasel",
+   "symbol": "WANGHONGWEASEL"
+  },
+  {
+   "address": "0x7a8d1f2B74B9c25Ac341a33143A6E77B56973fFe",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8602e6770257f831f1102e70cde5285ac60dbd28"
+   ],
+   "first_block": 131057344,
+   "last_block": 131057344,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent Broker",
+   "symbol": "ABROKER"
+  },
+  {
+   "address": "0x8EcaFBA8Bf911698C13D5f14D7b7241f4F80BE5B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x74845b620f17877393e09b2030416f719d584640"
+   ],
+   "first_block": 131057344,
+   "last_block": 131057344,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "MOLT",
+   "symbol": "MOLT"
+  },
+  {
+   "address": "0x55a6609c2D129a454D2D3993bD747Fdae92A5E44",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xedb4af2670bbfd6117abc66797c64dcbb3373535"
+   ],
+   "first_block": 131057332,
+   "last_block": 131057332,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SkillsetSociety",
+   "symbol": "SKLS"
+  },
+  {
+   "address": "0xAC5E47374cf48D930411f1BFd582361226eBE5E0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6699014c3fee3001ae175a674d9d632f9abec6ef"
+   ],
+   "first_block": 131057332,
+   "last_block": 131057332,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Hybrid",
+   "symbol": "HBD"
+  },
+  {
+   "address": "0xE34e195a97b96A931149a939350FA0549c6691a6",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x608fdbdd4cd1732ae4c60b97582286208257bec9"
+   ],
+   "first_block": 131057326,
+   "last_block": 131057326,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AutonomyClub",
+   "symbol": "AUTO"
+  },
+  {
+   "address": "0xF9E4F7810DBb6dD4A85fF521Ca86A65a8250AA6A",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x92f06c7a3839deb101a8abddd4c5a5f7d81d2f8b"
+   ],
+   "first_block": 131057322,
+   "last_block": 131057322,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "GLYPHMIND",
+   "symbol": "GLYPH"
+  },
+  {
+   "address": "0x18d432191F1C8B43568Ee37e8ba92D633BD2970D",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xedb4af2670bbfd6117abc66797c64dcbb3373535"
+   ],
+   "first_block": 131057412,
+   "last_block": 131057412,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Ember Pepe",
+   "symbol": "EPEPE"
+  },
+  {
+   "address": "0xF5E3D1290FDBFC50ec436f021ad516D0Bcac5d28",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3d03f76ff74e8ed0f3c321b5e113abb1425ac5ee"
+   ],
+   "first_block": 131057407,
+   "last_block": 131057407,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ARK DAO Nft",
+   "symbol": "ARKDAO"
+  },
+  {
+   "address": "0xa08145B5Ff3359a89777fDD916086Fe679F6416d",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xa8452e41ff70357bf8b8c233f9710ee385fd1be7"
+   ],
+   "first_block": 131057405,
+   "last_block": 131057405,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "\u5e01\u5b89\u7528\u6237",
+   "symbol": "BNU"
+  },
+  {
+   "address": "0x6B1719EEFcb271778c40f0CFd71c8651Adbde5d1",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x212a09a1530c6aa4405c457d1e2505c7b2ef5290"
+   ],
+   "first_block": 131057404,
+   "last_block": 131057404,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "BN Agent File",
+   "symbol": "BNAF"
+  },
+  {
+   "address": "0x93523afaB43F5E760F38F3AF54E42326Cf771440",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5d453f24602728f81e91308f0f162904064184f1"
+   ],
+   "first_block": 131057401,
+   "last_block": 131057401,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "GLITCHBORN",
+   "symbol": "GLITCHBORN"
+  },
+  {
+   "address": "0xf7461C1965fe4aa0A4583556dD9dA830f0aF32AB",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057395,
+   "last_block": 131057395,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Potionix",
+   "symbol": "POTIONIX"
+  },
+  {
+   "address": "0x2f688c3eb89bAdD4132c3F3281f3a4C633Ad0DFc",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5d453f24602728f81e91308f0f162904064184f1"
+   ],
+   "first_block": 131057389,
+   "last_block": 131057389,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "freeAvailable",
+    "freeClaimed",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "MAX_MINTS",
+    "TOKENS_PER_MINT",
+    "freeMinted",
+    "mint",
+    "minted",
+    "mintedBy",
+    "paidMints"
+   ],
+   "name": "\u5341\u4e8c\u751f\u8096 Zodiac",
+   "symbol": "ZDC"
+  },
+  {
+   "address": "0x253a002E4D03F1b49C4739f2165dfA00F17feE25",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xedb4af2670bbfd6117abc66797c64dcbb3373535"
+   ],
+   "first_block": 131057382,
+   "last_block": 131057382,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Jimat Semar",
+   "symbol": "SEMAR"
+  },
+  {
+   "address": "0x7A71FE16D1DB1A457071D489bD2084e9a717FB3F",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x93d4459b5961e76ddbca7a578341f9580c69d2c9"
+   ],
+   "first_block": 131057376,
+   "last_block": 131057376,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MAX_PRIMARY_MINTS",
+    "hasPrimaryMinted",
+    "mint",
+    "mintPrice",
+    "mintedPerHero",
+    "mintingOpen",
+    "primaryMintCount",
+    "setMintingOpen",
+    "totalMinted"
+   ],
+   "name": "WARBOUND",
+   "symbol": "WARBOUND"
+  },
+  {
+   "address": "0x7b9d701f13372e816E5CEA49776b564bF7549517",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5772b89e4e4674e609813413ca9ce801814b14ac"
+   ],
+   "first_block": 131057465,
+   "last_block": 131057465,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintPass",
+    "mintPrice",
+    "setMintPrice"
+   ],
+   "name": "StarStone Pass",
+   "symbol": "STPS"
+  },
+  {
+   "address": "0x3026c7D5D41d65Ae13e6aE6D0B39dc7AFae941Ab",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6af744fe239ebcbf36e7a5c5d44c5a993d868427"
+   ],
+   "first_block": 131057464,
+   "last_block": 131057464,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Lil Freaks",
+   "symbol": "FREAK"
+  },
+  {
+   "address": "0x4e6BdBc1990B32E10a192E0f196af857CbA8A261",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5772b89e4e4674e609813413ca9ce801814b14ac"
+   ],
+   "first_block": 131057463,
+   "last_block": 131057463,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SmartPudgy",
+   "symbol": "SPUDGY"
+  },
+  {
+   "address": "0x86C8Fce1b0365d7Fc1f867B3801B42C2Ccc81340",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6ab17e4b130f72be1ab481b935a4569a679eb338"
+   ],
+   "first_block": 131057462,
+   "last_block": 131057462,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Pixel Agent Cat",
+   "symbol": "PAC"
+  },
+  {
+   "address": "0xBf3488E453c68e9771C26D448E99d0EC5395135f",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x212a09a1530c6aa4405c457d1e2505c7b2ef5290"
+   ],
+   "first_block": 131057455,
+   "last_block": 131057455,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMint",
+    "freeMinted",
+    "freeMintsLeft"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "freeMinted",
+    "freeMintsLeft",
+    "mint",
+    "totalMinted"
+   ],
+   "name": "Agentlings",
+   "symbol": "AGL"
+  },
+  {
+   "address": "0xa7046Fc653556b8d50370Ab8dB189b2E447eacDb",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x25bfa61788460d88e8f7ad37f697cf57e9464ffa"
+   ],
+   "first_block": 131057449,
+   "last_block": 131057449,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintedByWallet"
+   ],
+   "name": "CodexNFT",
+   "symbol": "CODEX"
+  },
+  {
+   "address": "0xfc462E97768ebd16012Ac4E6Ba8cAE6AE04027D8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xd6f0bd26683ed05c4e8d5efdfcccc8ee06724e31"
+   ],
+   "first_block": 131057442,
+   "last_block": 131057442,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NFTSettlementRouter",
+   "symbol": "NFTSR"
+  },
+  {
+   "address": "0x8EE8754f9715f227F3D282366045b0b467273F10",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf006de97f991561226931fd5a8e540130ea94e34"
+   ],
+   "first_block": 131057440,
+   "last_block": 131057440,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Treehaus",
+   "symbol": "TREEHAUS"
+  },
+  {
+   "address": "0xC5d0Fb0a9C26b46D8B11f4D27616D150110c4cfB",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe4b7d60dd3cc62af529fffa0db3dc6f5876680cb"
+   ],
+   "first_block": 131057439,
+   "last_block": 131057439,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Turboflow Leverage",
+   "symbol": "TURBO"
+  },
+  {
+   "address": "0x70385Fa94577cb845983D9B6752F2dde2486C837",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x212a09a1530c6aa4405c457d1e2505c7b2ef5290"
+   ],
+   "first_block": 131057421,
+   "last_block": 131057421,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintPrice",
+    "mintedBy",
+    "phase2MintedBy",
+    "setMintOpen",
+    "setMintPrice"
+   ],
+   "name": "Piggy Agent",
+   "symbol": "PIGGY"
+  },
+  {
+   "address": "0xe0d8d24C930A172E6fCe5d319511bE4B600f8BF5",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x51f35f9c0b7c458117e939559aafa6301d3a732c"
+   ],
+   "first_block": 131057418,
+   "last_block": 131057418,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintedBy",
+    "totalMinted"
+   ],
+   "name": "Gear Agent",
+   "symbol": "GEAR"
+  },
+  {
+   "address": "0xE6D3a683bEB3fB92A4F2DB53d642Af331bfbbfb3",
+   "kind": "ERC1155",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5a8a13f9e92b7847d6f9e56e92ff7560e258844a"
+   ],
+   "first_block": 131057250,
+   "last_block": 131057250,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": null,
+   "symbol": null
+  },
+  {
+   "address": "0xfE5Ab5ce9b1D86a55d70E7D0573a14D559029C18",
+   "kind": "ERC1155",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xa8cab105208c141eb9e61931290a8ca3fd4c9522",
+    "0xb3103010fda002eb60f58a88ee8b4b79b1d9b457"
+   ],
+   "first_block": 131057316,
+   "last_block": 131057320,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "commitFreeMint"
+   ],
+   "mint_funcs": [
+    "MAX_MINTS",
+    "baseMinted",
+    "commitFreeMint",
+    "minted",
+    "mintsUsed",
+    "mintsUsedBy",
+    "operatorMint",
+    "operatorMintBatch"
+   ],
+   "name": null,
+   "symbol": null
+  }
+ ],
+ "hive_agents_found": false,
+ "hive_agents": null
+}

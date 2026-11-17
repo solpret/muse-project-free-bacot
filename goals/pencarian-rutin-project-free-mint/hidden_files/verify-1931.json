@@ -1,0 +1,217 @@
+{
+ "run": "1931",
+ "method": "read-only eth_call via bsc-dataseed1/2/3 (urllib, 8s timeout); Ankr getLogs via ankr_post; block timestamps via dataseed eth_getBlockByNumber (never Ankr raw)",
+ "head_block_part1": 132205908,
+ "head_block_part2": 132206593,
+ "BRAINROT": {
+  "address": "0x3c7d328027ca0068e7cd8709d64d9161bc35de93",
+  "totalSupply": 197,
+  "freeLeft": 1469,
+  "mintOpen": 1,
+  "costOf()": "REVERT (takes arg)",
+  "freeOf_user_1": 1,
+  "mintedBy_user": 0,
+  "MAX_SUPPLY": 1667,
+  "name": "BRAINROT ZOO",
+  "symbol": "ROT",
+  "tokenURI_1": "https://brainrot-zoo.pages.dev/meta/1.json",
+  "contractURI()": "REVERT",
+  "code_len_hexchars": 15606
+ },
+ "HOPKIN": {
+  "address": "0x2728c134D79D34A977d6D35D8A3014AbB5C97ed4",
+  "totalSupply": 2442,
+  "freeLeft": "REVERT",
+  "freeClaimed": "REVERT",
+  "mintOpen": 1,
+  "mintPrice_wei": 1000000000000000,
+  "costOf()": "REVERT",
+  "freeMintUsed_user": 0,
+  "balanceOf_user": 0,
+  "name": "HOPKIN GENESIS",
+  "symbol": "HOPKIN"
+ },
+ "GACHA": {
+  "address": "0x7182f4230cbd53294366a344d13ddd041c4e734c",
+  "totalSupply": 267,
+  "freeLeft": 621,
+  "mintOpen": 1,
+  "costOf()": "REVERT",
+  "MAX_SUPPLY": 888,
+  "code_len_hexchars": 15606
+ },
+ "HELM": {
+  "address": "0xe0df49c281b8584f03ed21beac0e5002ec4a0599",
+  "totalSupply": 257,
+  "freeLeft": 298,
+  "mintOpen": 1,
+  "costOf()": "REVERT",
+  "MAX_SUPPLY": 555
+ },
+ "OMENS": {
+  "address": "0xbd0e97f1a2b8b192382935a7b69c9514d75a479a",
+  "totalSupply": 161,
+  "freeLeft": 616,
+  "mintOpen": 1,
+  "costOf()": "REVERT",
+  "MAX_SUPPLY": 777,
+  "code_len_hexchars": 15606
+ },
+ "TPET": {
+  "address": "0x31975837d5c68eea0b66b5fd27de3506c2f109ba",
+  "totalSupply": 567,
+  "freeMinted": 555,
+  "mintOpen": 1
+ },
+ "AGENTDRAGON": {
+  "address": "0x2df7435f5bce0577bee213e13da68313c74d7d0b",
+  "totalSupply": 2000,
+  "freeClaimed": 1994,
+  "mintOpen": 1,
+  "code_len_hexchars": 20168
+ },
+ "KZMB": {
+  "address": "0xbd6e4c6def0065007bd163e4223ae4f3aa3b6f09",
+  "sharesSold": 725,
+  "totalSupply_raw": 725000000000000000000000000,
+  "freeUsed": "REVERT",
+  "freeLeft": "REVERT",
+  "quote_user_1": 1,
+  "name": "KazoombaAgent",
+  "symbol": "KZMB"
+ },
+ "HORUS": {
+  "address": "0x794ad67a5590c7e5848e49181297f9cc7c6ce00e",
+  "totalSupply": 1765
+ },
+ "ONLYAI": {
+  "address": "0x156482ad3f0eebd8e3f70d494ebd1da3f738f5ba",
+  "totalSupply": 1853
+ },
+ "TACOTRON": {
+  "address": "0x05debe4445232205ae7e79d02cb5de5aa0641eff",
+  "totalSupply": 7002,
+  "freeClaimed": 7000
+ },
+ "DINOBYTE": {
+  "address": "0xd713ddfd37b8ff759afaeedaedad632d1985ed9c",
+  "totalSupply": 3545
+ },
+ "RAYGLIDE": {
+  "address": "0xc4035e850f64d61adce8ecd774f1200d655e5f00",
+  "totalSupply": 2359
+ },
+ "HEROARENA": {
+  "address": "0x5c46de8d0c5dfdf535558d363f492967cd5e146b",
+  "totalSupply": 7637
+ },
+ "NEKART": {
+  "address": "0x3fc442342a5289d10773ae585c6cb3dc4a37254e",
+  "totalSupply": 656,
+  "freeLeft": "REVERT"
+ },
+ "LOOPMINT": {
+  "address": "0x281c8b1c95ca989fde58998aa6f19d542ac99417",
+  "totalSupply": "REVERT",
+  "name": "TRANSPORT-TIMEOUT"
+ },
+ "LOOPTOKEN": {
+  "address": "0x20d1f12ef71d5e07ea4fb7fc2d6a200b0eb71420",
+  "totalSupply_raw": 4621432284200000000000000,
+  "name": "LOOP",
+  "symbol": "LOOP"
+ },
+ "TOKA": {
+  "address": "0xaFEcb35096EF3A447460bF7A3B8b701f6d5468c7",
+  "totalSupply_raw": 1000000000000000000000000000,
+  "name": "Dog Yielded On Rug",
+  "symbol": "DYOR"
+ },
+ "TOKB": {
+  "address": "0x9791d92B63a566AC578e6070ee1F8546C8b2153B",
+  "totalSupply_raw": 1000000000000000000000000000,
+  "name": "Dog Yielded On Rug",
+  "symbol": "DYOR"
+ },
+ "sourcify": {
+  "BRAINROT": "error:retry-exhausted (endpoint failing this run; post claims exact match, NOT independently verified)",
+  "HOPKIN": "error:retry-exhausted (post claims exact_match; hot-leg 18:14 notes ERC-721 freeMint/freeMintUsed + agentRegistry + mintPrice)",
+  "KZMB": {
+   "sourcify": "verified",
+   "free_funcs": [
+    "FREE_PER_AGENT",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintedBy"
+   ],
+   "has_agentRegistry_fn": false,
+   "has_agentgate_fn": false,
+   "fn_count": 24
+  }
+ },
+ "firstmint_BRAINROT": {
+  "total_logs_in_window": 205,
+  "earliest_block": 132198224,
+  "earliest_tx": "0x55c58d8fc5512c50982443f860ca18ab58961045d984b74b613238bab2f95948",
+  "earliest_block_timestamp": 1794053400,
+  "earliest_wib": "2026-11-07 19:10:00 WIB"
+ },
+ "firstmint_HOPKIN": {
+  "total_logs_in_window_131387000_131388000": 1,
+  "earliest_block": 131387835,
+  "earliest_tx": "0x9081f6d814bd56d33876c3e6ba9b8d4a13cd646fdca0aa8d417527c3ae21d7b2",
+  "earliest_block_timestamp": 1793688618,
+  "earliest_wib": "2026-11-03 13:50:18 WIB"
+ },
+ "firstmint_GACHA": {
+  "total_logs_in_window_132181500_132182500": 9,
+  "earliest_block": 132182056,
+  "earliest_tx": "0xfdba5765f29f6851e82ce16730b706cc3a0b9ab48b31da7958c319541186ca99",
+  "earliest_block_timestamp": 1794046123,
+  "earliest_wib": "2026-11-07 17:08:43 WIB"
+ },
+ "firstmint_HELM": {
+  "total_logs_in_window_132181500_132182500": 16,
+  "earliest_block": 132181803,
+  "earliest_tx": "0x949e2dee722c1183b96a9954ffc7b7e33a1c075fae3c29e65cc15e34bcb401a1",
+  "earliest_block_timestamp": 1794046009,
+  "earliest_wib": "2026-11-07 17:06:49 WIB"
+ },
+ "firstmint_OMENS": {
+  "total_logs_in_window_132181500_132182500": 11,
+  "earliest_block": 132181794,
+  "earliest_tx": "0x5f44452bdb4ad8013e956fc677737618caf32b04d907e655e1ba1e00f9ec4fd9",
+  "earliest_block_timestamp": 1794046005,
+  "earliest_wib": "2026-11-07 17:06:45 WIB"
+ },
+ "website_checks": {
+  "brainrot-zoo.pages.dev": {
+   "http": 200,
+   "bytes": 25614,
+   "prints_contract": true,
+   "prints_registry_0x60B926": true,
+   "note": "site reached via tokenURI meta/1.json; text: 'First mint FREE', 'Binance Agent ID ready', 1,667 supply"
+  },
+  "helm.ai": {
+   "http": 200,
+   "bytes": 131734,
+   "prints_contract": false,
+   "note": "UNRELATED company (AI-first software for autonomous driving ADAS) - same-name match only, NOT linkage"
+  },
+  "hopkinagent.fun": {
+   "http": 200,
+   "bytes_html": 1885,
+   "js_bundle_bytes": 350097,
+   "prints_contract_in_html_or_js": false,
+   "note": "title matches project (10,000 Bunnies) but contract not in fetched HTML/JS bundle - gate NOT verified"
+  }
+ },
+ "caveats": [
+  "verify-1931b.py was killed by timeout 280 after TACOTRON (eth_getCode stalls on dataseed: IncompleteRead/RemoteDisconnected); remaining contracts + Sourcify + first-mint finished in verify-1931c.py, which crashed on a dataseed eth_getBlockByNumber error at the timestamp step - timestamps fetched separately afterwards (all 5 recovered).",
+  "Sourcify endpoint retry-exhausted for BRAINROT/HOPKIN this run - their exact-match claims rest on Boltbook posts + hot-leg notes, not on my own Sourcify read this run.",
+  "costOf() reverts on all 0x1103-lane contracts (signature takes an argument); free-mint evidence for them rests on freeLeft/mintOpen + Boltbook value-0 sims, not on costOf().",
+  "KZMB quote(user,1) returned 1 (unit unclear); hot leg previously found sim mint(1) passes + freeUsed 0."
+ ]
+}

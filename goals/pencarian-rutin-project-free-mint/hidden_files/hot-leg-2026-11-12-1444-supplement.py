@@ -1,0 +1,283 @@
+#!/usr/bin/env python3
+"""Hot-leg run 2026-11-12 14:44 WIB supplement — retry feed+Boltbook (both 0-byte
+in main run, verified live again at ~14:52), shape-check new only, re-read the
+15 leg-4 targets skipped on deadline, verify Stampooor packs page content.
+Read-only except hot-leg-seen.json (own file) + own run files. Never writes
+main snapshot / main seen files."""
+import json, re, subprocess, time
+from datetime import datetime, timezone, timedelta
+from Crypto.Hash import keccak
+
+BASE = "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/"
+TAG = "2026-11-12-1444-supplement"
+T0 = time.time()
+GLOBAL_DEADLINE = T0 + 200
+now_wib = datetime.now(timezone(timedelta(hours=7))).strftime("%Y-%m-%dT%H:%M:%S+07:00")
+USER = "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E"
+out = {"run": "free-mint-hot-leg 2026-11-12 14:44 WIB supplement", "started_wib": now_wib}
+
+def curl(url, timeout=12, data=None):
+    cmd = ["curl", "-s", "-m", str(timeout), "-A", "Mozilla/5.0"]
+    if data is not None:
+        cmd += ["-H", "Content-Type: application/json", "-d", data]
+    cmd.append(url)
+    try:
+        r = subprocess.run(cmd, capture_output=True, timeout=timeout + 5)
+        return r.stdout
+    except Exception:
+        return b""
+
+def curl_json(url, timeout=12):
+    try:
+        return json.loads(curl(url, timeout).decode(errors="replace"))
+    except Exception:
+        return None
+
+seen = json.load(open(BASE + "hot-leg-seen.json"))
+def st(v): return v.get("status") if isinstance(v, dict) else str(v)
+seen_lc = {k.lower(): k for k in seen}
+FREE_VIEWS = {"freesharesremaining", "freeclaimed", "freefor", "freeleft", "freeused",
+              "freeavailable", "freesharepoolexhausted", "freesharesclaimed",
+              "freeamount", "free_supply", "freeslots", "free_slots",
+              "freeminted", "freemint", "freesupply"}
+REGISTRY = "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+EXCLUDED = {"0x827e83e49bd7e15b67efa0e90fc25f17b8d96124",
+            "0x8b47354e7b76b1970a0d06365c8244a810d37493"}
+
+def shape_check(a):
+    al = a.lower()
+    if al in EXCLUDED or al == REGISTRY:
+        return {"status": "excluded-or-registry"}
+    abi_j = curl_json(f"https://sourcify.dev/server/v2/contract/56/{a}?fields=abi", 6)
+    abi = None
+    if isinstance(abi_j, dict):
+        abi = abi_j.get("abi") or (abi_j.get("stdJson") or {}).get("abi")
+    if not abi:
+        return {"status": "shape-check-failed", "note": "ABI unfetchable (404 or error)"}
+    names = set()
+    for fn in abi:
+        if isinstance(fn, dict) and fn.get("type") in ("function", None):
+            names.add((fn.get("name") or "").lower())
+    has_mint = any("mint" in n for n in names)
+    has_quote = any(("quote" in n or n in ("cost", "price", "mintprice", "getprice")) for n in names)
+    free_views = sorted(n for n in names if n in FREE_VIEWS or "free" in n)
+    agent = any(("agent" in n and ("registry" in n or "gate" in n or "id" in n)) or n in
+                ("agentregistry", "agentgate", "agent_id_registry", "registry") for n in names)
+    src = json.dumps(abi).lower()
+    agent = agent or ("agent_id_registry" in src) or ("agentgate" in src) or (REGISTRY[2:].lower() in src)
+    is_token = any(n in names for n in ("name", "symbol", "decimals", "totalsupply"))
+    has_mintfree = "mintfree" in names
+    s1 = has_mint and has_quote and bool(free_views) and agent
+    s2 = is_token and has_mintfree and bool(free_views) and agent
+    return {"status": "checked", "S1": s1, "S2": s2, "mint": has_mint, "quote": has_quote,
+            "free": free_views, "agent": agent, "n_fns": len(names)}
+
+# ---- Leg 1 retry: Sourcify feed ----
+feed = curl_json("https://sourcify.dev/server/v2/contracts/56?limit=20&sort=desc", 12)
+feed_addrs, feed_meta = [], {}
+items = []
+if isinstance(feed, dict):
+    items = feed.get("results") or feed.get("contracts") or []
+elif isinstance(feed, list):
+    items = feed
+for it in items:
+    a = (it.get("address") or "").strip()
+    if a:
+        feed_addrs.append(a); feed_meta[a] = it.get("verifiedAt") or ""
+out["feed"] = {"n": len(feed_addrs),
+               "newest_verifiedAt": max(feed_meta.values()) if feed_meta else None,
+               "oldest_verifiedAt": min(feed_meta.values()) if feed_meta else None}
+json.dump({"addrs": feed_addrs, "meta": feed_meta},
+          open(BASE + f"hot-leg-{TAG}-feed.json", "w"), indent=1)
+new = [a for a in feed_addrs if a.lower() not in seen_lc]
+out["feed_new"] = new
+shapes = {}
+for a in new:
+    if time.time() > T0 + 60:
+        shapes[a] = {"status": "shape-check-deferred", "note": "deadline, retry next run"}
+        continue
+    shapes[a] = shape_check(a); time.sleep(0.1)
+out["feed_shape"] = {a: {k: s.get(k) for k in ("S1", "S2", "mint", "quote", "free", "agent", "status")}
+                     for a, s in shapes.items()}
+for a in new:
+    s = shapes.get(a, {})
+    seen[a] = {"first_seen_wib": now_wib, "source": "sourcify-feed-supplement",
+               "status": s.get("status", "checked"),
+               "note": f"S1={s.get('S1')} S2={s.get('S2')} mint={s.get('mint')} quote={s.get('quote')} free={s.get('free')} agent={s.get('agent')}"}
+    seen_lc[a.lower()] = a
+json.dump(seen, open(BASE + "hot-leg-seen.json", "w"), indent=1)
+
+# ---- Leg 2 retry: Boltbook EN + ZH ----
+def boltbook(lang):
+    url = "https://boltbook.fun/" + ("?lang=zh" if lang == "zh" else "")
+    raw = curl(url, 12)
+    open(BASE + f"hot-leg-{TAG}-boltbook-{lang}.html", "wb").write(raw)
+    return raw.decode(errors="replace")
+
+addrs = set()
+for lang in ("en", "zh"):
+    if time.time() > T0 + 90:
+        out[f"boltbook_{lang}"] = {"bytes": -1, "note": "deadline-skipped"}; continue
+    html = boltbook(lang)
+    found = set(re.findall(r"0x[a-fA-F0-9]{40}", html))
+    addrs |= found
+    out[f"boltbook_{lang}"] = {"bytes": len(html), "addrs": sorted(found)}
+    time.sleep(0.2)
+bb_new = sorted(a for a in addrs if a.lower() not in seen_lc)
+out["boltbook_new"] = bb_new
+bb_shapes = {}
+for a in bb_new:
+    if time.time() > T0 + 110:
+        bb_shapes[a] = {"status": "shape-check-deferred", "note": "deadline, retry next run"}
+        continue
+    bb_shapes[a] = shape_check(a); time.sleep(0.1)
+out["boltbook_new_shapecheck"] = {a: {k: s.get(k) for k in ("S1", "S2", "mint", "quote", "free", "agent", "status")}
+                                  for a, s in bb_shapes.items()}
+for a in bb_new:
+    s = bb_shapes.get(a, {})
+    seen[a] = {"first_seen_wib": now_wib, "source": "boltbook-supplement",
+               "status": s.get("status", "checked"),
+               "note": f"S1={s.get('S1')} S2={s.get('S2')} mint={s.get('mint')} quote={s.get('quote')} free={s.get('free')} agent={s.get('agent')}"}
+    seen_lc[a.lower()] = a
+json.dump(seen, open(BASE + "hot-leg-seen.json", "w"), indent=1)
+out["seen_total"] = len(seen)
+
+# ---- Stampooor packs page content verification ----
+raw = curl("https://stampooor.pages.dev/packs/", 12)
+open(BASE + f"hot-leg-{TAG}-stampooor-packs.html", "wb").write(raw)
+txt = raw.decode(errors="replace")
+out["stampooor_packs"] = {
+    "bytes": len(raw),
+    "contract_mentions": len(re.findall(r"0x467696af8c2206B977B24081445104632dc1D459", txt, re.I)),
+    "has_stampooor": "tampooor" in txt.lower(),
+    "sample": txt[:300].replace("\n", " ")[:300],
+}
+
+# ---- Leg 4: re-read the 15 targets skipped on deadline in main run ----
+def sel(s):
+    k = keccak.new(digest_bits=256); k.update(s.encode()); return "0x" + k.hexdigest()[:8]
+def enc(a): return a[2:].lower().rjust(64, "0")
+def to_int(v):
+    try: return int(v, 16) if v and v != "0x" else None
+    except Exception: return None
+EPS = ["https://bsc-dataseed.binance.org/", "https://bsc-dataseed1.bnbchain.org/",
+       "https://bsc-dataseed2.bnbchain.org/"]
+LEG4_DEADLINE = T0 + 195
+def post_rpc(ep, payload, timeout=15):
+    outb = subprocess.run(["curl", "-sL", "--max-time", str(timeout), "-X", "POST", ep,
+                           "-H", "Content-Type: application/json", "-d", json.dumps(payload)],
+                          capture_output=True, text=True, timeout=timeout + 5).stdout
+    return json.loads(outb)
+def get_block():
+    for ep in EPS:
+        try:
+            r = post_rpc(ep, {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []}, timeout=15)
+            return int(r["result"], 16)
+        except Exception: continue
+    return None
+def raw_batch(addr, views):
+    calls, keys = [], []
+    for i, sig in enumerate(views):
+        base = sig.split("(")[0]
+        if "(address)" in sig:
+            data = sel(sig) + enc(USER); key = base + "_user"
+        else:
+            data = sel(sig); key = base
+        calls.append({"jsonrpc": "2.0", "id": i + 1, "method": "eth_call",
+                      "params": [{"to": addr, "data": data}, "latest"]})
+        keys.append(key)
+    for ep in EPS:
+        if time.time() > LEG4_DEADLINE: return None
+        try:
+            res = post_rpc(ep, calls, timeout=15)
+            if not isinstance(res, list) or len(res) != len(calls): continue
+            return {key: (None if (isinstance(it, dict) and "error" in it)
+                          else (to_int(it.get("result")) if isinstance(it, dict) else None))
+                    for it, key in zip(res, keys)}
+        except Exception: continue
+    return None
+
+VIEWS = ["totalSupply()", "totalMinted()", "freeClaimed()", "freeMinted()", "FREE_SUPPLY()",
+         "MAX_SUPPLY()", "mintOpen()", "balanceOf(address)", "freeClaimed(address)",
+         "freeUsed(address)", "mintedBy(address)", "freeMintedBy(address)", "mintStart()",
+         "freeLeft()", "freeAvailable(address)", "saleStart()", "saleEnd()", "PRICE()",
+         "price()", "launched()", "freeSharesLeft()", "openedAt()", "freeSharesRemaining()",
+         "freeClaimedByWallet(address)", "currentState()", "finalized()", "refunding()",
+         "totalFreeMinted()", "FREE_SHARES()", "freeLeftFor(address)"]
+TARGETS = [
+    ("MECHA", "0xEEe31D337866a57cD59fdECc8B6e6548e182Ea78"),
+    ("OliverAgents", "0xad86e4d52e55709d1bda08f922853d4b109e0810"),
+    ("AGCR", "0x5491f2341a178d35c7bbb82bd1ed37330f3d01cc"),
+    ("SEVEN", "0xFf65cf70a15fA0B06Bf8D8ED020Cf9F917C80f96"),
+    ("WFPASS", "0xD52A86AC936c4C3d46aF0d49e8D44F3C698BEe7C"),
+    ("binanceai-mint", "0x46cb1D3efd4307506Cda7EbBa5a51be64746739E"),
+    ("MOONDRILL", "0x87b354E2014D2e418927A1105dD219A2e7b063b0"),
+    ("CRTSAINTS", "0x2A3dFcBf3b4c881d571598e926bE694f919FDa0F"),
+    ("SUDOSAINTS", "0x869d330bb48e7ab32da16745ef9a36a69d34f12f"),
+    ("BinanceLife", "0x4367b86F889014e6fD57fE812B86A581b913C645"),
+    ("BUCKET", "0x2b0d3b384C341020aed1d49907b5708C423bA6DA"),
+    ("Kongtou-AirdropCnNFT", "0xb5A132A2Efd8351DA2c04e38E2568dd8DC5b1c1a"),
+    ("0x7Eb9", "0x7Eb92041aa3037e39baA88154F279e3D9F85c593"),
+    ("NAOMI", "0xC7Adf8f0b49a5C1840C31636A96c6D5ed077c7E9"),
+    ("AgenticGangster", "0x0a2a07ef09dd7d83e2312476f0588abaa3e34ce3"),
+]
+block = get_block()
+reads = {}
+for name, addr in TARGETS:
+    if time.time() > LEG4_DEADLINE:
+        reads[name] = {"address": addr, "error": "deadline-hit-skipped"}; continue
+    r = raw_batch(addr, VIEWS)
+    reads[name] = {"address": addr, "views": r}
+    if r: reads[name]["summary"] = {k: v for k, v in r.items() if v is not None}
+out["leg4_block"] = block
+out["leg4_reads"] = reads
+json.dump({"started_wib": now_wib, "block": block, "reads": reads,
+           "elapsed_s": round(time.time() - T0, 1)},
+          open(BASE + f"run-{TAG}-verify2.json", "w"), indent=1)
+
+# ---- Compare vs merged 1429 reads + 1444 main reads ----
+changes = []
+try:
+    prev = {}
+    for f in ("run-2026-11-12-1429-verify2.json",
+              "hot-leg-run-2026-11-12-1429-supplement.json",
+              "run-2026-11-12-1444-verify2.json"):
+        try:
+            prev.update(json.load(open(BASE + f))["reads"])
+        except Exception:
+            pass
+    for name, e in reads.items():
+        if "views" not in e or not e["views"]: continue
+        p = prev.get(name, {})
+        pv = p.get("views") or {}
+        for k, v in e["views"].items():
+            if v is None: continue
+            if k in pv and pv[k] is not None and pv[k] != v:
+                changes.append(f"{name}.{k}: {pv[k]} -> {v}")
+            elif k not in pv or pv.get(k) is None:
+                changes.append(f"{name}.{k}: (new read) {v}")
+except Exception as ex:
+    changes = [f"compare-error: {ex}"]
+out["leg4_changes_vs_1429_1444"] = changes
+
+# ---- Bridge (read-only) ----
+try:
+    bridge = json.load(open(BASE + "scan-bridge.json"))
+    contracts = bridge.get("contracts", {})
+    snap = json.load(open(BASE + "onchain-snapshot.json"))
+    snap_addrs = set()
+    for sec in ("contracts", "track_c"):
+        for v in snap.get(sec, {}).values():
+            if isinstance(v, dict) and v.get("address"):
+                snap_addrs.add(v["address"].lower())
+    not_in = [a for a in contracts if a.lower() not in snap_addrs]
+    disc = [a for a, v in contracts.items() if isinstance(v, dict) and v.get("same_owner_discarded")]
+    out["bridge"] = {"total": len(contracts), "not_in_snapshot": not_in,
+                     "same_owner_discarded": disc}
+except Exception as e:
+    out["bridge"] = {"error": str(e)[:120]}
+
+out["elapsed_s"] = round(time.time() - T0, 1)
+json.dump(out, open(BASE + f"hot-leg-run-{TAG}.json", "w"), indent=1)
+print(json.dumps(out, indent=1))
+print("ELAPSED", out["elapsed_s"])

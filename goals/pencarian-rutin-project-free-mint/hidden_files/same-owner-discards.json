@@ -1,0 +1,506 @@
+[
+ {
+  "contract": "0x508468BAD31de925a533b88B17a233EC377C641d",
+  "discarded_wib": "2026-11-03T05:45:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "run log free-mint-search 2026-11-03 04:31 WIB",
+  "project": "Terragent (TERRAG)",
+  "reason": "owner 0xd76d sama dengan Mechfarm/Dronegent/Hexagent/dll \u2014 hasil screening early lead run 04:31 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xc13f995d7e2ab6B4267Dec8eeB2761464056d07b",
+  "discarded_wib": "2026-11-03T05:45:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "run log free-mint-search 2026-11-03 04:31 WIB",
+  "project": "Hackagent (HACKAG)",
+  "reason": "owner 0xd76d sama dengan Mechfarm/Dronegent/Hexagent/dll \u2014 hasil screening early lead run 04:31 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x096a4AD7408bD95Ca5BC87d2c1E957093092e29f",
+  "discarded_wib": "2026-11-03T05:45:00+07:00",
+  "owner": "0x1dd3f105d7aeafd1487ce73cf231d4f3f7d7e94d",
+  "owner_source": "fresh eth_call owner() 2026-11-03 ~05:47 WIB (fast_rpc call_many)",
+  "project": "Orrery Agent (ORRERY)",
+  "reason": "owner 0x1dd3 sama dengan Silk/Deco/Yunjin/Flora/River \u2014 hasil screening early lead run 04:31 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xABFc6CF9fF2d217F775A3a205341aD782c6FF0F1",
+  "discarded_wib": null,
+  "owner": "0xcbcadc7c9897d21fa6e3a8f941f9f271a39598e3",
+  "owner_source": "fresh eth_call owner() 2026-11-03 ~05:47 WIB (fast_rpc call_many)",
+  "project": "BNB Faucet (BNBF)",
+  "reason": "EXCEPTION \u2014 owner ini belum terbukti sama dengan project lain, jadi TIDAK dibuang oleh aturan same-owner; early lead run 04:31 tetap dilaporkan ke user"
+ },
+ {
+  "contract": "0x0ae19c56570d1d8b7878c309c13847a737738ead",
+  "discarded_wib": "2026-11-03T06:29:00+07:00",
+  "owner": "0xa054275580c6d1c9077543907ac5798f2494ecce",
+  "owner_source": "fresh eth_call owner() parent 2026-11-03 ~06:29 WIB (fast_rpc call_many)",
+  "project": "Gourdwick (GOURDW)",
+  "reason": "owner 0xa054 sama dengan grup factory Cryonyx/dll \u2014 promosi strong lead run 05:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xA0e09358A022BFf0A8DFbDEAD35FBf68b4daAb08",
+  "discarded_wib": "2026-11-03T06:52:00+07:00",
+  "owner_prefix": "0xd76d",
+  "owner_source": "klaim worker run 05:01 (catatan scan-state); VERIFIKASI PARENT TERTUNDA \u2014 pool RPC fast_rpc down 2026-11-03 ~06:47-06:52 WIB, eth_call owner() gagal 2x + Ankr tidak mendukung eth_call",
+  "project": "Plasmagent (PLASMA)",
+  "reason": "diklaim ber-owner grup 0xd76d (sama dengan Mechfarm/Dronegent/Hexagent/dll) \u2014 first-seen run 05:01 dibuang, tidak dilaporkan ke user; entri ini PENDING verifikasi parent",
+  "verification_pending": false,
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "verified_wib": "2026-11-03 ~11:27 WIB",
+  "verified_owner_source": "parent fast_rpc call_many owner() 2026-11-03 ~11:27 WIB; Onyx/Falls/Quilt/Zephyr owner() dibaca ulang di run yang sama dan semuanya = 0x369d834566b0d553743ad8ff2dec352c8362364c, sehingga linkage grup 0x369d kini TERVERIFIKASI (bukan lagi klaim)"
+ },
+ {
+  "contract": "0x83DecF8076D04D59da771DA6bB298132164be55B",
+  "discarded_wib": "2026-11-03T06:52:00+07:00",
+  "owner_prefix": "0xd76d",
+  "owner_source": "klaim worker run 05:01 (catatan scan-state); VERIFIKASI PARENT TERTUNDA \u2014 pool RPC down, lihat entri Plasmagent",
+  "project": "Skyagent (SKYAG)",
+  "reason": "diklaim ber-owner grup 0xd76d \u2014 first-seen run 05:01 dibuang, tidak dilaporkan ke user; PENDING verifikasi parent",
+  "verification_pending": false,
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "verified_wib": "2026-11-03 ~11:27 WIB",
+  "verified_owner_source": "parent fast_rpc call_many owner() 2026-11-03 ~11:27 WIB; Onyx/Falls/Quilt/Zephyr owner() dibaca ulang di run yang sama dan semuanya = 0x369d834566b0d553743ad8ff2dec352c8362364c, sehingga linkage grup 0x369d kini TERVERIFIKASI (bukan lagi klaim)"
+ },
+ {
+  "contract": "0xCa00eAA3BD0C7AdEe1eb2c4a24eC504e998E1a56",
+  "discarded_wib": "2026-11-03T06:52:00+07:00",
+  "owner_prefix": "0xd76d",
+  "owner_source": "klaim worker run 05:01 (catatan scan-state); VERIFIKASI PARENT TERTUNDA \u2014 pool RPC down, lihat entri Plasmagent",
+  "project": "Voltfarm (VOLTF)",
+  "reason": "diklaim ber-owner grup 0xd76d \u2014 first-seen run 05:01 dibuang, tidak dilaporkan ke user; PENDING verifikasi parent",
+  "verification_pending": false,
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "verified_wib": "2026-11-03 ~11:27 WIB",
+  "verified_owner_source": "parent fast_rpc call_many owner() 2026-11-03 ~11:27 WIB; Onyx/Falls/Quilt/Zephyr owner() dibaca ulang di run yang sama dan semuanya = 0x369d834566b0d553743ad8ff2dec352c8362364c, sehingga linkage grup 0x369d kini TERVERIFIKASI (bukan lagi klaim)"
+ },
+ {
+  "contract": "0x58ADc6bDEc63bDf6659CdDa01C60dd7f1FA61eC1",
+  "discarded_wib": "2026-11-03T06:52:00+07:00",
+  "owner_prefix": "0x369d",
+  "owner_source": "klaim worker run 05:01 (catatan scan-state); VERIFIKASI PARENT TERTUNDA \u2014 pool RPC down, lihat entri Plasmagent",
+  "project": "Sonnet Agent (SONNET)",
+  "reason": "diklaim ber-owner grup 0x369d yang diklaim sama dengan Onyx/Falls/Quilt/Zephyr \u2014 first-seen run 05:01 dibuang, tidak dilaporkan ke user; PENDING verifikasi parent. Klaim linkage ke Onyx/Falls/Quilt/Zephyr BELUM diterapkan ke item-item itu sampai owner mereka dibaca ulang",
+  "verification_pending": false,
+  "owner": "0x369d834566b0d553743ad8ff2dec352c8362364c",
+  "verified_wib": "2026-11-03 ~11:27 WIB",
+  "verified_owner_source": "parent fast_rpc call_many owner() 2026-11-03 ~11:27 WIB; Onyx/Falls/Quilt/Zephyr owner() dibaca ulang di run yang sama dan semuanya = 0x369d834566b0d553743ad8ff2dec352c8362364c, sehingga linkage grup 0x369d kini TERVERIFIKASI (bukan lagi klaim)"
+ },
+ {
+  "contract": "0xE5BA385649A5655188f3a11916cb22dA36d3517e",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Rackfarm (RACKFM)",
+  "reason": "owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x591257DcD5716ad42b818769258C14ff2162018B",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Quadagent (QUADAG)",
+  "reason": "owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x1B23DB0B0E9f1B305495Fc1Da02C5c0e04B2B0B5",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Servagent (SERVA)",
+  "reason": "owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xa91D6303E5538c0c71Af0Df8CEF62875a2600bFE",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Aerogent (AEROG)",
+  "reason": "owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x37cFee3b63c36Ca9Ca27E268345DAF9F4443D758",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Agrifarm (AGRIF)",
+  "reason": "owner 0xd76d5918fb337667b22fe37ae2055b5542cf8dc9 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xA8e36D374DE1cB2664d4631E7035481ad3B4A877",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0x67230d320f714ac82c6ec253d238cfa309fb1b85",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Cz Agent (CA)",
+  "reason": "owner 0x67230d320f714ac82c6ec253d238cfa309fb1b85 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xFC46553C356becABfc1B25aBa3dD7c3d136DD565",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0x67230d320f714ac82c6ec253d238cfa309fb1b85",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "MAMESUKE (MAMESUKE)",
+  "reason": "owner 0x67230d320f714ac82c6ec253d238cfa309fb1b85 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xcA9f56eC4BB32753245d3a0a77912e76240185fb",
+  "discarded_wib": "2026-11-03T08:10:00+07:00",
+  "owner": "0x67230d320f714ac82c6ec253d238cfa309fb1b85",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-03 07:01 WIB",
+  "project": "Whale Agent (WA)",
+  "reason": "owner 0x67230d320f714ac82c6ec253d238cfa309fb1b85 sama dengan beberapa project (grup deployer) - hasil screening early lead run 07:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x307157fb80A63bD4C845f44f5a55Dd90127D8C50",
+  "discarded_wib": "2026-11-03T08:04:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() hot-leg run 2026-11-03 08:04 WIB",
+  "project": "Dronagent",
+  "reason": "Promosi strong lead dibuang aturan same-owner Free Bacot 2026-11-03 ~05:45 WIB: freeClaimed 572/2222 = 25,74% pada run 08:04 WIB (first mint 2026-11-03 03:48:43 WIB, slot user terbuka) melewati ambang 25%, tetapi owner 0xd76d sama dengan Terragent/Hackagent/Mechfarm \u2014 promosi TIDAK dilaporkan ke user, TIDAK di-preview, TIDAK di-mint."
+ },
+ {
+  "contract": "0x7BA27f90c7b509af1dFBDa2a788Fe4488ff3aab4",
+  "discarded_wib": "2026-11-03T08:24:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run 08:01 WIB (route-1 read, block 131344288)",
+  "project": "Hexagent (HEXAGT)",
+  "reason": "owner 0xd76d sama dengan Dronegent/Mechfarm/Terragent/Hackagent/Rackfarm/Quadagent/Servagent/Aerogent/Agrifarm \u2014 promosi strong lead run 08:01 dibuang, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xbf8ca6f85959be9a26497015f9c3644a3f31a4a6",
+  "discarded_wib": "2026-11-03T10:44:00+07:00",
+  "owner": "0xa054275580c6d1c9077543907ac5798f2494ecce",
+  "owner_source": "fresh eth_call owner() run 1031 (block 131361734 read set; Gourdreaper read)",
+  "project": "Gourdreaper (GOURDR)",
+  "reason": "owner 0xa054 sama dengan grup factory Gourdwick/Cryonyx (discard 06:29) - hasil screening baru dibuang aturan same-owner, tidak dilaporkan sebagai lead/promosi"
+ },
+ {
+  "contract": "0x66b5A8153f8C17bE4FA770e8B38ff5626eb4b9Dc",
+  "discarded_wib": "2026-11-03T10:44:00+07:00",
+  "owner": "0xd76d5918fb337667b22fe37ae2055b5542cf8dc9",
+  "owner_source": "fresh eth_call owner() run 1031 Sourcify-feed verify (head 131362469)",
+  "project": "Gridfarm (GRIDFM)",
+  "reason": "owner 0xd76d sama dengan grup factory yang dibuang 05:45 - hasil screening baru dibuang aturan same-owner, tidak dilaporkan sebagai early lead"
+ },
+ {
+  "contract": "0xe7b329fC7F8294f75bAa40dD438940Ba83b6168c",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0x1e1e3f44acc29c13a5b2569a4dc93f18f2fc65d4",
+  "owner_source": "parent owner() re-read early lead run main 2026-11-03 10:31",
+  "project": "AgentisVox",
+  "reason": "owner 0x1e1e sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x14Fb2182311dEBfA3fa6EdbE17278cd4ddBDB619",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0x1e1e3f44acc29c13a5b2569a4dc93f18f2fc65d4",
+  "owner_source": "parent owner() re-read early lead run main 2026-11-03 10:31",
+  "project": "Logiphon",
+  "reason": "owner 0x1e1e sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0xEA1e4AA5ecD147035eB005aDc8013959bA852799",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0x1e1e3f44acc29c13a5b2569a4dc93f18f2fc65d4",
+  "owner_source": "parent owner() re-read strong-lead promotion run main 2026-11-03 10:31",
+  "project": "Praxion",
+  "reason": "owner 0x1e1e sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x7Fa142C23805387c94fbc4AdEbf1168A7145f528",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0xb35349eed26aceee12cebd896eef62403a9f979a",
+  "owner_source": "parent owner() re-read early lead run main 2026-11-03 10:31",
+  "project": "Autonym",
+  "reason": "owner 0xb353 sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x69e2B3df4ecedBf7FC89085707a8cb9163F5e1BC",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0xb35349eed26aceee12cebd896eef62403a9f979a",
+  "owner_source": "parent owner() re-read early lead run main 2026-11-03 10:31",
+  "project": "Noesyn",
+  "reason": "owner 0xb353 sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x94c4834B186938F95EDC67FF0536Ac17F3102523",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0xb35349eed26aceee12cebd896eef62403a9f979a",
+  "owner_source": "parent owner() re-read strong-lead promotion run main 2026-11-03 10:31",
+  "project": "Eidolyn",
+  "reason": "owner 0xb353 sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x7BCA844AD4cD95b5B30ecC3885dfBab45F38e99b",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0x310cea29c4827efc82b1d7ff4c70b7332d236917",
+  "owner_source": "parent owner() re-read early lead run main 2026-11-03 10:31",
+  "project": "Neuroveil",
+  "reason": "owner 0x310c sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x5539dD54c00094Cbd186f08AA2d8fF3A8c098ddE",
+  "discarded_wib": "2026-11-03T11:00:00+07:00",
+  "owner": "0x310cea29c4827efc82b1d7ff4c70b7332d236917",
+  "owner_source": "parent owner() re-read strong-lead promotion run main 2026-11-03 10:31",
+  "project": "Homunqul",
+  "reason": "owner 0x310c sama dengan proyek lain satu run (cluster); hasil screening dibuang di level parent per aturan same-owner 2026-11-03"
+ },
+ {
+  "contract": "0x4854cE8e3eC3a1AcB0dd4EAE3f547E5A214c2a0d",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Buzzkill",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xA1ecd20893Dbb2BEDc7141434d20125F028E871B",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Whale Alert",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x9cA2C07B67CD97109f40378aE90c815feB878B1F",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Blend In",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xC3Ba321124e0F621Da8C4A0c1875705c83d6ce8C",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Fresh Hatch",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x6AC03204aFE631D673938Eb82D2F121B015eAB3F",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Lion's Share",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xFF6b4bb96C86c0E2e2F942F907F9F6eD1bBbCaDf",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Otter Nonsense",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x4e557ae3824ae3E837Aa4a8Da2A45A04501BEAEE",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "PRICKLY",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x965286f9662a6dACeFf9bD3C4D58ABaBDD9C87A5",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "unicorn.exe",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xc7bFeA97f02E9118eD88111A79E43a9CE481B96A",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Hot Springs",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x5Bb425ad2069de77ABC8c341d4d322Bcff26c550",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x293fc9e12e5db954aad233f659284f5fb5c970be",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Down Under",
+  "reason": "owner 0x293f sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x5ABe8974d554Ea0c797fBC4c6B01EA4446616B2f",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Toucan Play",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x807E86F6d1bc8fc5E8f53052DAC5d379D4efc120",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "jelly.exe",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x4c34027BA34A20b85F0aAb18A9a7fE46c9208571",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Los Flamingos",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x104381eaF387cE95618bA7B4bfBC101BC98E728B",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Moonhowlers",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xE726710Dd5258531a1beCb5BFF7592ADc3620593",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Counting Sheep",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x30AeAE09dB59fa202f6d8a518AA0cC1a2838f5D0",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Tusk & Trunk",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xCEE93a5BFAD6172358F6012A08D83f0D6d7BaD46",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "getpuffr",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x3bbABBDB7451AD28206052F8d29D24e0eAEF7Fd7",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Hippo Social Club",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x659328E1AAC4f6c006c9Cb2f6E3483af31893981",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "LLAMA DRAMA",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x8a150fd93b5026d061ADda023B8b8CfdBd7c1202",
+  "discarded_wib": "2026-11-06T01:40:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-06 00:01 WIB (run 0001) + verifikasi parent owner() di snapshot",
+  "project": "Danger Noodles",
+  "reason": "owner 0x1103 sama untuk 10 kontrak gelombang costOf/mintsLeft (mint pertama gratis, price()=0.0002 BNB utk mint ke-2+) \u2014 hasil screening early lead dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0x951f705feB9dCc95D58b445BE58b869724E50707",
+  "discarded_wib": "2026-11-07T03:10:00+07:00",
+  "owner": "0x67230d320f714ac82c6ec253d238cfa309fb1b85",
+  "owner_source": "fresh eth_call owner() run free-mint-search 2026-11-07 02:01 WIB + backfill triage 132063186-132067141 (owner_in_discards=true)",
+  "project": "Jager Agent Pass (JAP)",
+  "reason": "owner sama dengan grup deployer yang sudah dibuang 2026-11-03 (Cz Agent, MAMESUKE, Whale Agent) - early lead run 0201 dibuang per same-owner rule, tidak dilaporkan ke user; dihapus dari snapshot"
+ },
+ {
+  "contract": "0xD8EBDDE362B0a72F7D61b5eD990742B940E30D27",
+  "discarded_wib": "2026-11-07T03:10:00+07:00",
+  "owner": "0x67230d320f714ac82c6ec253d238cfa309fb1b85",
+  "owner_source": "fresh eth_call owner() backfill triage 132063186-132067141 (owner_in_discards=true)",
+  "project": "Jager Agent (JAGER)",
+  "reason": "owner sama dengan grup deployer yang sudah dibuang 2026-11-03 (Cz Agent, MAMESUKE, Whale Agent) - early lead backfill dibuang per same-owner rule, tidak dilaporkan ke user; dihapus dari snapshot"
+ },
+ {
+  "contract": "0x1f974998031c6DD8137E8D7aC6c2287357A2ddeb",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Cassetto",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0x9A67E1FD6409B91BD9751206c81fDf37Fc467aE6",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Candlewick",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0xF10C1E17ae65e88e34253b951dD8EC274fa3AfEB",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Coralume",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0x4c895E2eC1FB615d6bd28584644f5e778f64BC36",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Retrocam",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0x7b601C3D2050B021B3bd9d650D421f3F98436ab3",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Pixpad",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0xd9D4466342c993b43f02AE2e21D6F125a1Bd937F",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Keyforge",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0xc2027F9407eA355eeD5845Bb5e653aeed671f212",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Hourglas",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0x6551529eC146020ee59B41265614b7a00A166A3f",
+  "discarded_wib": "2026-11-08T15:30:00+07:00",
+  "owner": "0x53043412c4f2436f68e56bb9638ebebb099fb3c1",
+  "owner_source": "fresh eth_call owner() run 1431 triage (8 kontrak, 1 owner)",
+  "project": "Compasso",
+  "reason": "owner 0x5304... = factory wave 8 kontrak template sama (FREE_SUPPLY 7000/MAX_SUPPLY 7777), first mint 2026-11-08 14:55-14:57 WIB; promosi ke strong lead DIBATALKAN run 1431 (preseden Gourdwick); kontrak baru dari owner ini TIDAK PERNAH dipromosikan/dilaporkan sebagai lead."
+ },
+ {
+  "contract": "0x26E009350Ef80cb542785d57c27c686a582bf605",
+  "discarded_wib": "2026-11-08T22:11:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "run log free-mint-search 2026-11-08 21:31 WIB (run 2131) + verifikasi parent owner()",
+  "project": "SHACHO CLUB",
+  "reason": "owner 0x1103 sama dengan gelombang costOf/mintsLeft (Toucan Play/jelly.exe/Los Flamingos/dll) \u2014 SALE-S1 feed Sourcify + triase backfill agent-shaped, first mint terverifikasi 21:13:44 WIB, freeLeft 1701, costOf(user,1)=0 \u2014 hasil screening dibuang aturan same-owner, tidak dilaporkan ke user"
+ },
+ {
+  "contract": "0xf4bacf30fb8f69373f63d99c657f53dd7774af1d",
+  "discarded_wib": "2026-11-11T03:01:00+07:00",
+  "owner": "0x11038f4aa771d9d48b8ac7a184e37a8e5324a9dd",
+  "owner_source": "owner() fresh run 0301 + komentar Boltbook (cyroo.ai/cukim.ai)",
+  "project": "ACORE / Agent Core",
+  "reason": "owner 0x1103 sama dengan gelombang costOf/mintsLeft 11 kontrak yang dibuang 2026-11-06 (Toucan Play, jelly.exe, Los Flamingos, Moonhowlers, Counting Sheep, Tusk & Trunk, getpuffr, Hippo Social Club, LLAMA DRAMA, Danger Noodles, SHACHO CLUB) - pola sama: costOf()/mintsLeft, mint pertama gratis, price()=0.0002 BNB utk mint ke-2+. Ditemukan via Boltbook run 0301; free% 76,15% + slot terbuka TIDAK mengubah status. Discard di level triase = jangan laporkan sebagai lead, jangan eksekusi."
+ }
+]

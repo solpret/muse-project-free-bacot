@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "e01e9a910c0a44279408c2d940314a2b",
+    "parsedTx": {
+      "transactionType": "ContractInteraction",
+      "action": "0x94bf804d",
+      "contractAddress": "0x728095Ab0BD71636Db5DA4E2A6d7f5cc73729fc0",
+      "contractAddressList": null,
+      "transactionTypeTranslationKey": null
+    },
+    "simulationResult": {
+      "gasTokenFromData": 0,
+      "balanceChanges": [
+        {
+          "contractAddress": "0x728095Ab0BD71636Db5DA4E2A6d7f5cc73729fc0",
+          "change": 1e+24,
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "tokenType": "Erc20",
+          "tokenId": null
+        }
+      ],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": []
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0x728095Ab0BD71636Db5DA4E2A6d7f5cc73729fc0": {
+        "name": "AGENT MALTA",
+        "symbol": "MALTA",
+        "decimals": 18,
+        "icon": null,
+        "price": null
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1794230111192,
+    "gasLimit": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "895f90199e0d472b85949757c91091f5",
+    "parsedTx": {
+      "transactionType": "ContractInteraction",
+      "action": "0x5b70ea9f",
+      "contractAddress": "0xbd4B4e7189ae9356514664146b0eD683601200A9",
+      "contractAddressList": null,
+      "transactionTypeTranslationKey": null
+    },
+    "simulationResult": {
+      "gasTokenFromData": 0,
+      "balanceChanges": [
+        {
+          "contractAddress": "0xbd4B4e7189ae9356514664146b0eD683601200A9",
+          "change": 1,
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "tokenType": "Erc721",
+          "tokenId": "0x00000000000000000000000000000000000000000000000000000000000002c7"
+        }
+      ],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": []
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0xbd4B4e7189ae9356514664146b0eD683601200A9": {
+        "name": "Ink Koi",
+        "symbol": "INKOI",
+        "decimals": 0,
+        "icon": null,
+        "price": null
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1794055383457,
+    "gasLimit": null
+  }
+}

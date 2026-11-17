@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "data": {
+    "requestId": "e3a05d0af8bb481b866ddc773351ce4d",
+    "parsedTx": {
+      "transactionType": "ApproveNft",
+      "contractAddress": "0x3BF121dC4c5a1Ba567F3eE801d0e447601726207",
+      "transactionTypeTranslationKey": null,
+      "tokenId": "4023",
+      "spender": "0xfa239d919db60e1b497e9e8ca26ca79689a180af"
+    },
+    "simulationResult": {
+      "gasTokenFromData": 0,
+      "balanceChanges": [],
+      "simulationErrorDetail": null,
+      "simulationCode": "000000000",
+      "preCheckCode": "",
+      "authorityChanges": [],
+      "allowanceChanges": [
+        {
+          "tokenAddress": "0x3bf121dc4c5a1ba567f3ee801d0e447601726207",
+          "owner": "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
+          "spender": "0xfa239d919db60e1b497e9e8ca26ca79689a180af",
+          "preAmount": null,
+          "postAmount": 1,
+          "tokenType": "Erc721",
+          "tokenId": "0x0000000000000000000000000000000000000000000000000000000000000fb7"
+        }
+      ]
+    },
+    "risks": {
+      "addresses": {},
+      "riskDetails": [],
+      "riskBehaviors": []
+    },
+    "tokenInfos": {
+      "0x3bf121dc4c5a1ba567f3ee801d0e447601726207": {
+        "name": "BOBBIE",
+        "symbol": "BOBBIE",
+        "decimals": 0,
+        "icon": null,
+        "price": null
+      }
+    },
+    "requireConfirmation": false,
+    "expiresAt": 1794816605039,
+    "gasLimit": null
+  }
+}

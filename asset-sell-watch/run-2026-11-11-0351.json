@@ -1,0 +1,46 @@
+{
+ "run": "pending-coin-swap-watch 2026-11-11 03:51 WIB",
+ "gas_price_gwei": 0.05,
+ "gas_est_300k_bnb": 1.5e-05,
+ "entries_checked": 19,
+ "status_counts": {
+  "no_pair": 13,
+  "quote_dust": 1,
+  "pair_empty": 5
+ },
+ "no_pair": [
+  "POA",
+  "BNBbaby",
+  "PATCH",
+  "QAGENT",
+  "PACTURE",
+  "ORBITA",
+  "WW3",
+  "POSTAGE",
+  "MALTA",
+  "THYRK",
+  "WNO",
+  "AMBR",
+  "CHEEMSA"
+ ],
+ "pair_empty": [
+  "币安加油",
+  "JINMA",
+  "BITCAT",
+  "LUCKY777",
+  "CSAGENT"
+ ],
+ "quote_dust": [
+  {
+   "symbol": "YYDS",
+   "quote_bnb": 1.0811399819241e-05
+  }
+ ],
+ "balances_all_match_registered": true,
+ "sold": [],
+ "removed": [],
+ "new_blocks": [],
+ "action": "silent — no sale, no new block, no removal (rule 6)",
+ "source": "pending_check_0351_nov11_stdout.json",
+ "note": "balances_all_match corrected: exact Decimal check — all 19 balances match registered amounts; earlier False was float-precision artifact"
+}

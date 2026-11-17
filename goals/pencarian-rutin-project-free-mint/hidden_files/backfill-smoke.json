@@ -1,0 +1,44 @@
+{
+ "backfill": true,
+ "chunk_id": "131905500-131905599",
+ "latest_block": 131907339,
+ "from_block": 131905500,
+ "to_block": 131905599,
+ "ankr_calls": 0,
+ "errors": [
+  "Transfer chunk 131905500-131905549: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>",
+  "TransferSingle chunk 131905500-131905549: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>",
+  "Transfer chunk 131905550-131905599: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>",
+  "TransferSingle chunk 131905550-131905599: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>"
+ ],
+ "failed_chunks": [
+  {
+   "from": 131905500,
+   "to": 131905549,
+   "topic": "Transfer"
+  },
+  {
+   "from": 131905500,
+   "to": 131905549,
+   "topic": "TransferSingle"
+  },
+  {
+   "from": 131905550,
+   "to": 131905599,
+   "topic": "Transfer"
+  },
+  {
+   "from": 131905550,
+   "to": 131905599,
+   "topic": "TransferSingle"
+  }
+ ],
+ "watermark_advanced_to": null,
+ "erc20_mint_contracts": 0,
+ "erc20_mint_contracts_list": [],
+ "contracts": [],
+ "hive_agents_found": false,
+ "hive_agents": null,
+ "first_seen": [],
+ "first_seen_count": 0
+}

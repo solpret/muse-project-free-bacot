@@ -1,0 +1,47 @@
+{
+ "window": [
+  132156774,
+  132158418
+ ],
+ "source": "backfill-parallel 132156774-132158418 (scan completed, triage done by main run 1401 \u2014 backfill cron disabled by user 2026-11-07 ~14:26 WIB)",
+ "first_seen_total": 2,
+ "early_leads": 0,
+ "items": [
+  {
+   "address": "0xbA11372F7143EE985f287a2130dC2807EB3b2D5A",
+   "name": "Future XPIN Token",
+   "symbol": "FT-XPIN",
+   "kind": "ERC721",
+   "mint_count": 16,
+   "distinct_minters": 16,
+   "first_block": 132157269,
+   "last_block": 132157290,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "verdict": "NOT agent-shaped \u2014 log only (registry False, Sourcify not verified, no free shape)"
+  },
+  {
+   "address": "0x59B35Aa9216c017d73dC78F82fA6Eb6b9985F95B",
+   "name": "Build Energy",
+   "symbol": "BENERGY",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "first_block": 132156849,
+   "last_block": 132158404,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "lpReserveMinted",
+    "mintLPReserve",
+    "mintLand",
+    "totalRewardsMinted"
+   ],
+   "abi_notes": "AGENT_ID_REGISTRY constant present; NO free-mint functions, NO free views (no freeClaimed/freeMinted/FREE_SUPPLY); mintLand paid (rolePriceBNB exists); game/land contract, not a free mint. AGENT_ID_REGISTRY()/startTime()/totalSupply() direct reads failed on transport (all dataseeds timeout) \u2014 registry value UNVERIFIED by call, but moot: no free path. lpReserveRemaining read OK (huge). First mint ~14:0x WIB (fresh) but not free-shaped.",
+   "verdict": "NOT agent-shaped for Free Bacot \u2014 log only (registry-bytes hit alone is a weak discriminator; no free path)"
+  }
+ ]
+}

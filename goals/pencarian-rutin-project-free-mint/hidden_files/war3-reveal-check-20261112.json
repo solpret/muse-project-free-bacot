@@ -1,0 +1,48 @@
+{
+  "job_id": "war3-reveal-check-20261112",
+  "checked_at_wib": "2026-11-12 ~14:33 WIB",
+  "rpc": "https://bsc-dataseed1.ninicoin.io (Ankr unauthenticated ditolak -32000; bnbchain dataseed1 OK; fast_rpc batch gagal timeout - dicatat, bukan dipakai)",
+  "block": 133120813,
+  "contract_war3": "0x1Aa9797cC762b838388566Daa45A56b1709F4Bbe",
+  "token_ww3": "0xf62628D99B28535ee593Ab5D6dFE7D914f5edca0",
+  "agent": "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E",
+  "tokenId": 2511,
+  "revealed": true,
+  "tierOf": 3,
+  "tier_name_metadata": "Air Force",
+  "tokenURI": "https://war3.xyz/meta/6114.json",
+  "metadata": {
+    "name": "MQ-9-class UCAV · Unit 6115",
+    "unit_trait": 6115,
+    "tier": "Air Force",
+    "ww3_airdrop": 80000,
+    "weapon": "MQ-9-class UCAV",
+    "category": "Strike drone",
+    "camo": "Desert Tan",
+    "theater": "Sky",
+    "insignia": "Shield",
+    "condition": "Battle-Scarred",
+    "callsign": "VIPER",
+    "image": "https://war3.xyz/img/6114.webp"
+  },
+  "ownerOf": "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E (masih dipegang agent wallet)",
+  "claimed_2511": false,
+  "bonusFor_raw": "0x14c53fd3daae3a61c00000",
+  "bonusFor_decoded_ww3": 25110000,
+  "bonusFor_note": "= 2511 x 10.000 persis; TIDAK cocok dengan claimableOf (80.000) maupun metadata (80.000) - kemungkinan semantik fungsi berbeda, JANGAN dipakai sebagai jumlah klaim",
+  "claimableOf_agent_decoded": [
+    "uint256[] tokenIds=[2511]",
+    "uint256[] ?=[2511]",
+    "uint256 total=80000 WW3"
+  ],
+  "claimable_ww3": 80000,
+  "balanceOf_ww3": 10000,
+  "totalSupply_ww3": 1000000000,
+  "reverted_calls": [
+    "claimableOf(address,uint256)",
+    "revealTime()",
+    "hasClaimed(uint256) - fungsi tidak ada / signatur salah"
+  ],
+  "pending_swaps_ww3": "amount tetap 10.000 (saldo saat ini); perlu diperbarui menjadi 90.000 HANYA SESUDAH klaim 80.000 dieksekusi atas perintah user - catatan di file sudah ditambah hasil verifikasi ini",
+  "no_tx": true
+}

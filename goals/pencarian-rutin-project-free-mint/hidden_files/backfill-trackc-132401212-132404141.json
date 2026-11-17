@@ -1,0 +1,71 @@
+{
+ "run": "backfill-132401212-132404141-5c",
+ "window": "132401212-132404141",
+ "checked_wib": "2026-11-08 21:08 WIB",
+ "erc20_unique_combined": 729,
+ "candidates_mint_count_ge10": 117,
+ "already_checked_skipped": 113,
+ "new_checked": 4,
+ "sampling_dropped": 0,
+ "sale_shape_hits": [],
+ "results": {
+  "0x84f5A7CBc6a58a53d3a49c05FaB33F1a14f8dfA6": {
+   "match": null,
+   "fns": [],
+   "S1": false,
+   "S2": false,
+   "parts": {
+    "mint": false,
+    "quote": false,
+    "free": false,
+    "registry": false
+   },
+   "mint_count": 172
+  },
+  "0x686b39A57ab1F7538147d20b85d58CD28c55b4CD": {
+   "match": null,
+   "fns": [],
+   "S1": false,
+   "S2": false,
+   "parts": {
+    "mint": false,
+    "quote": false,
+    "free": false,
+    "registry": false
+   },
+   "mint_count": 42
+  },
+  "0x52B5fB4B0F6572B8C44d0251Cc224513ac5eB7E7": {
+   "match": "exact_match",
+   "fns": [],
+   "S1": false,
+   "S2": false,
+   "parts": {
+    "mint": false,
+    "quote": false,
+    "free": false,
+    "registry": false
+   },
+   "mint_count": 15
+  },
+  "0x9B00a09492a626678E5A3009982191586C444Df9": {
+   "match": "match",
+   "fns": [
+    "admin",
+    "implementation",
+    "initialize",
+    "upgradeTo",
+    "upgradeToAndCall"
+   ],
+   "S1": false,
+   "S2": false,
+   "parts": {
+    "mint": false,
+    "quote": false,
+    "free": false,
+    "registry": false
+   },
+   "mint_count": 12
+  }
+ }
+}

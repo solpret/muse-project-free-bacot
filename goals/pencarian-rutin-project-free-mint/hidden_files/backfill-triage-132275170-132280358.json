@@ -1,0 +1,829 @@
+{
+ "run": "backfill 2026-11-08 ~05:16 WIB",
+ "window": [
+  132275170,
+  132280358
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0xE2765b0f105168fF6f406486eab5966978aAC8AF",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132277023,
+   "last_block": 132277023,
+   "minters_sample": [
+    "0xdfc072ec43415d445b669b5cbe59957ae3abf063",
+    "0xef9a04b2d2e27e0109458774ff9100670d79c07a"
+   ],
+   "sourcify": "not_verified (match=None)",
+   "calls": {
+    "agentRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "agentIdRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_ID_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "name": {
+     "value": "GEN Admin Wallet Verification"
+    },
+    "symbol": {
+     "value": "GENADM"
+    },
+    "totalSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "totalMinted": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "owner": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_CAP": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SLOTS": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_AMOUNT": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_PER_WALLET": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeMinted": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_noarg": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeCount_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "MAX_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "maxSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "PRICE": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "mintOpen": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "paidMintedCount": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "paidUnlocked": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "balanceOf_user": {
+     "value": 0
+    },
+    "quote_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "quote_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "cost_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "spotsLeft": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "baseURI": {
+     "error": "empty/revert-or-transport-failed"
+    }
+   },
+   "first_block_ts": {
+    "value": 1794088868,
+    "wib": "2026-11-08 05:01:08 WIB"
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false,
+   "registry_exact_match": false,
+   "free_cap": null,
+   "free_minted": null,
+   "free_pct": null,
+   "quote_user_1_wei": null,
+   "verdict": "not-agent-shaped"
+  },
+  {
+   "address": "0xdb51Dcc2D8cAf9942D9A975a2e68e023aB5E1fcA",
+   "kind": "ERC721",
+   "mint_count": 83,
+   "distinct_minters": 83,
+   "first_block": 132278993,
+   "last_block": 132280320,
+   "minters_sample": [
+    "0x62f9387b73f7cfdd0bb96c8a3451d07412481175",
+    "0x87306af3cd7c7060e8e20da22f3112976782d16a",
+    "0x9678d46a5f529d0d3e42062ccd5024e4a51a80d6",
+    "0xa56cca91bf571ae3a9543b4c58c3f7041534aaff",
+    "0xb5f093ed71c3e704dd07c74c819ce2c923f48969"
+   ],
+   "note": "merged chunk2 (5 mints, first 132278993) + chunk3 (78 mints, first 132279173); chunk3 pre-read name=HokiCat symbol=HCAT registry_bytes_hit=true sourcify=IncompleteRead",
+   "sourcify": "verified",
+   "calls": {
+    "agentRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "agentIdRegistry": {
+     "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+    },
+    "AGENT_ID_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "name": {
+     "value": "HokiCat"
+    },
+    "symbol": {
+     "value": "HCAT"
+    },
+    "totalSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "totalMinted": {
+     "value": 168
+    },
+    "owner": {
+     "value": "0x13333df46ab3e95f4166370d571e7b73aad06370"
+    },
+    "FREE_CAP": {
+     "value": 222
+    },
+    "FREE_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SLOTS": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_AMOUNT": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_PER_WALLET": {
+     "value": 1
+    },
+    "freeMinted": {
+     "value": 169
+    },
+    "freeSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_noarg": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeCount_user": {
+     "value": 0
+    },
+    "MAX_SUPPLY": {
+     "value": 1111
+    },
+    "maxSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "PRICE": {
+     "value": 70000000000000
+    },
+    "mintOpen": {
+     "value": true
+    },
+    "paidMintedCount": {
+     "value": 0
+    },
+    "paidUnlocked": {
+     "value": false
+    },
+    "balanceOf_user": {
+     "value": 0
+    },
+    "quote_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "quote_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "cost_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "spotsLeft": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "baseURI": {
+     "error": "empty/revert-or-transport-failed"
+    }
+   },
+   "first_block_ts": {
+    "value": 1794089755,
+    "wib": "2026-11-08 05:15:55 WIB"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "registry_exact_match": true,
+   "free_cap": 222,
+   "free_minted": 206,
+   "free_pct": 92.79,
+   "quote_user_1_wei": null,
+   "verdict": "free-path",
+   "followup_verification": {
+    "abi": "Sourcify exact_match; freeMint(uint256 qty) nonpayable; mint(uint256) payable; TIDAK ADA quote()/cost() \u2014 quote revert = fungsi tidak ada, bukan berbayar",
+    "metaURI": "https://hokicat-mint.netlify.app/metadata/metadata.json (on-chain, menunjuk situs proyek)",
+    "website": "https://hokicat-mint.netlify.app/ \u2014 ada, isi cocok persis on-chain (1111, 222 gratis, 1/wallet, 0,00007 BNB, royalti 5%, Agent ID); CAVEAT: situs tidak mencetak alamat kontrak",
+    "fresh_read_0544": {
+     "freeMinted": 206,
+     "free_cap": 222,
+     "free_pct": 92.79,
+     "totalMinted": 207,
+     "paidUnlocked": false,
+     "freeCount_user": 0,
+     "mintOpen": "transport-failed (bukan tertutup)",
+     "slots_left": 16
+    },
+    "classification": "STRONG LEAD (free%>=25% + slot terbuka + umur<=48j + website ditemukan/cocok); BUKAN kandidat (X belum terverifikasi); TIDAK di-preview/di-mint (job read-only)",
+    "snapshot_added": true
+   }
+  },
+  {
+   "address": "0x1B178fCB06962A989a2741A063aab17B2858b154",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132277409,
+   "last_block": 132277409,
+   "minters_sample": [
+    "0x6255ed28969ff5f9a1de135efc3fbe987f909d70"
+   ],
+   "sourcify": "verified",
+   "calls": {
+    "agentRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "agentIdRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_ID_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "name": {
+     "value": "NodeNFT"
+    },
+    "symbol": {
+     "value": "NNFT"
+    },
+    "totalSupply": {
+     "value": 1759
+    },
+    "totalMinted": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "owner": {
+     "value": "0xbede5530d8b62465d3c17e77285a5d514fe91780"
+    },
+    "FREE_CAP": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SLOTS": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_AMOUNT": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_PER_WALLET": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeMinted": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_noarg": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeCount_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "MAX_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "maxSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "PRICE": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "mintOpen": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "paidMintedCount": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "paidUnlocked": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "balanceOf_user": {
+     "value": 0
+    },
+    "quote_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "quote_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "cost_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "spotsLeft": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "baseURI": {
+     "error": "empty/revert-or-transport-failed"
+    }
+   },
+   "first_block_ts": {
+    "value": 1794089042,
+    "wib": "2026-11-08 05:04:02 WIB"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "registry_exact_match": false,
+   "free_cap": null,
+   "free_minted": null,
+   "free_pct": null,
+   "quote_user_1_wei": null,
+   "verdict": "unresolved"
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0xdb51Dcc2D8cAf9942D9A975a2e68e023aB5E1fcA",
+   "kind": "ERC721",
+   "mint_count": 83,
+   "distinct_minters": 83,
+   "first_block": 132278993,
+   "last_block": 132280320,
+   "minters_sample": [
+    "0x62f9387b73f7cfdd0bb96c8a3451d07412481175",
+    "0x87306af3cd7c7060e8e20da22f3112976782d16a",
+    "0x9678d46a5f529d0d3e42062ccd5024e4a51a80d6",
+    "0xa56cca91bf571ae3a9543b4c58c3f7041534aaff",
+    "0xb5f093ed71c3e704dd07c74c819ce2c923f48969"
+   ],
+   "note": "merged chunk2 (5 mints, first 132278993) + chunk3 (78 mints, first 132279173); chunk3 pre-read name=HokiCat symbol=HCAT registry_bytes_hit=true sourcify=IncompleteRead",
+   "sourcify": "verified",
+   "calls": {
+    "agentRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "agentIdRegistry": {
+     "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+    },
+    "AGENT_ID_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "name": {
+     "value": "HokiCat"
+    },
+    "symbol": {
+     "value": "HCAT"
+    },
+    "totalSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "totalMinted": {
+     "value": 168
+    },
+    "owner": {
+     "value": "0x13333df46ab3e95f4166370d571e7b73aad06370"
+    },
+    "FREE_CAP": {
+     "value": 222
+    },
+    "FREE_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SLOTS": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_AMOUNT": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_PER_WALLET": {
+     "value": 1
+    },
+    "freeMinted": {
+     "value": 169
+    },
+    "freeSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_noarg": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeCount_user": {
+     "value": 0
+    },
+    "MAX_SUPPLY": {
+     "value": 1111
+    },
+    "maxSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "PRICE": {
+     "value": 70000000000000
+    },
+    "mintOpen": {
+     "value": true
+    },
+    "paidMintedCount": {
+     "value": 0
+    },
+    "paidUnlocked": {
+     "value": false
+    },
+    "balanceOf_user": {
+     "value": 0
+    },
+    "quote_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "quote_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "cost_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "spotsLeft": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "baseURI": {
+     "error": "empty/revert-or-transport-failed"
+    }
+   },
+   "first_block_ts": {
+    "value": 1794089755,
+    "wib": "2026-11-08 05:15:55 WIB"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "registry_exact_match": true,
+   "free_cap": 222,
+   "free_minted": 206,
+   "free_pct": 92.79,
+   "quote_user_1_wei": null,
+   "verdict": "free-path",
+   "followup_verification": {
+    "abi": "Sourcify exact_match; freeMint(uint256 qty) nonpayable; mint(uint256) payable; TIDAK ADA quote()/cost() \u2014 quote revert = fungsi tidak ada, bukan berbayar",
+    "metaURI": "https://hokicat-mint.netlify.app/metadata/metadata.json (on-chain, menunjuk situs proyek)",
+    "website": "https://hokicat-mint.netlify.app/ \u2014 ada, isi cocok persis on-chain (1111, 222 gratis, 1/wallet, 0,00007 BNB, royalti 5%, Agent ID); CAVEAT: situs tidak mencetak alamat kontrak",
+    "fresh_read_0544": {
+     "freeMinted": 206,
+     "free_cap": 222,
+     "free_pct": 92.79,
+     "totalMinted": 207,
+     "paidUnlocked": false,
+     "freeCount_user": 0,
+     "mintOpen": "transport-failed (bukan tertutup)",
+     "slots_left": 16
+    },
+    "classification": "STRONG LEAD (free%>=25% + slot terbuka + umur<=48j + website ditemukan/cocok); BUKAN kandidat (X belum terverifikasi); TIDAK di-preview/di-mint (job read-only)",
+    "snapshot_added": true
+   }
+  }
+ ],
+ "strong_leads": [
+  {
+   "address": "0xdb51Dcc2D8cAf9942D9A975a2e68e023aB5E1fcA",
+   "kind": "ERC721",
+   "mint_count": 83,
+   "distinct_minters": 83,
+   "first_block": 132278993,
+   "last_block": 132280320,
+   "minters_sample": [
+    "0x62f9387b73f7cfdd0bb96c8a3451d07412481175",
+    "0x87306af3cd7c7060e8e20da22f3112976782d16a",
+    "0x9678d46a5f529d0d3e42062ccd5024e4a51a80d6",
+    "0xa56cca91bf571ae3a9543b4c58c3f7041534aaff",
+    "0xb5f093ed71c3e704dd07c74c819ce2c923f48969"
+   ],
+   "note": "merged chunk2 (5 mints, first 132278993) + chunk3 (78 mints, first 132279173); chunk3 pre-read name=HokiCat symbol=HCAT registry_bytes_hit=true sourcify=IncompleteRead",
+   "sourcify": "verified",
+   "calls": {
+    "agentRegistry": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "agentIdRegistry": {
+     "value": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f"
+    },
+    "AGENT_ID_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "AGENT_REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "REGISTRY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "name": {
+     "value": "HokiCat"
+    },
+    "symbol": {
+     "value": "HCAT"
+    },
+    "totalSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "totalMinted": {
+     "value": 168
+    },
+    "owner": {
+     "value": "0x13333df46ab3e95f4166370d571e7b73aad06370"
+    },
+    "FREE_CAP": {
+     "value": 222
+    },
+    "FREE_SUPPLY": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_SLOTS": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_AMOUNT": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "FREE_PER_WALLET": {
+     "value": 1
+    },
+    "freeMinted": {
+     "value": 169
+    },
+    "freeSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_user": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeClaimed_noarg": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "freeCount_user": {
+     "value": 0
+    },
+    "MAX_SUPPLY": {
+     "value": 1111
+    },
+    "maxSupply": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "PRICE": {
+     "value": 70000000000000
+    },
+    "mintOpen": {
+     "value": true
+    },
+    "paidMintedCount": {
+     "value": 0
+    },
+    "paidUnlocked": {
+     "value": false
+    },
+    "balanceOf_user": {
+     "value": 0
+    },
+    "quote_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "quote_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "cost_user_1": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "spotsLeft": {
+     "error": "empty/revert-or-transport-failed"
+    },
+    "baseURI": {
+     "error": "empty/revert-or-transport-failed"
+    }
+   },
+   "first_block_ts": {
+    "value": 1794089755,
+    "wib": "2026-11-08 05:15:55 WIB"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "registry_exact_match": true,
+   "free_cap": 222,
+   "free_minted": 206,
+   "free_pct": 92.79,
+   "quote_user_1_wei": null,
+   "verdict": "free-path",
+   "followup_verification": {
+    "abi": "Sourcify exact_match; freeMint(uint256 qty) nonpayable; mint(uint256) payable; TIDAK ADA quote()/cost() \u2014 quote revert = fungsi tidak ada, bukan berbayar",
+    "metaURI": "https://hokicat-mint.netlify.app/metadata/metadata.json (on-chain, menunjuk situs proyek)",
+    "website": "https://hokicat-mint.netlify.app/ \u2014 ada, isi cocok persis on-chain (1111, 222 gratis, 1/wallet, 0,00007 BNB, royalti 5%, Agent ID); CAVEAT: situs tidak mencetak alamat kontrak",
+    "fresh_read_0544": {
+     "freeMinted": 206,
+     "free_cap": 222,
+     "free_pct": 92.79,
+     "totalMinted": 207,
+     "paidUnlocked": false,
+     "freeCount_user": 0,
+     "mintOpen": "transport-failed (bukan tertutup)",
+     "slots_left": 16
+    },
+    "classification": "STRONG LEAD (free%>=25% + slot terbuka + umur<=48j + website ditemukan/cocok); BUKAN kandidat (X belum terverifikasi); TIDAK di-preview/di-mint (job read-only)",
+    "snapshot_added": true
+   }
+  }
+ ],
+ "track_c_5c": {
+  "merged_erc20": 582,
+  "ge10": 101,
+  "new_checked": 17,
+  "transport_failed": [],
+  "results": [
+   {
+    "address": "0x0BFBbB68F42770410c9C102655605A442BfD7E65",
+    "mint_count": 205,
+    "distinct_minters": 201,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xDF88D5b69A7330bc9EbA2bd47a85Cd6C2F6b51f9",
+    "mint_count": 58,
+    "distinct_minters": 24,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x670a77999DE9539021B432DCbb15DCCD4f8F0947",
+    "mint_count": 25,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xC41e9Ba55B23Cb44EAb8DFE1c49BbFdc80a851C2",
+    "mint_count": 24,
+    "distinct_minters": 12,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x1277e4D34F8122bAbE38Bd74F4D2D0532B1CA033",
+    "mint_count": 23,
+    "distinct_minters": 12,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xEb85D68DB6938762AE6e580274725e09E547c389",
+    "mint_count": 21,
+    "distinct_minters": 9,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xD17772A2BAA5a38288cBc64DdE9977C0Cf5D31B6",
+    "mint_count": 21,
+    "distinct_minters": 1,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mintreward"
+    ],
+    "quote_fns": [],
+    "free_views": [],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 18
+   },
+   {
+    "address": "0xeF41767cFF7E018D59ae4390e0370C993af457b2",
+    "mint_count": 20,
+    "distinct_minters": 8,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x3484b9cED3191F429c27570683Fe3331cE6008eE",
+    "mint_count": 20,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x65146d4ec0c05f518ab185c06853E600Da92f6e2",
+    "mint_count": 20,
+    "distinct_minters": 10,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xB5a86328089bfCA42d3d29ff687EA4A9aB17757A",
+    "mint_count": 18,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x9D7bA62FCd2A662B15D04891EaDDd2aB4764018D",
+    "mint_count": 18,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xeac26BdF99CBB2CA49E72eB04Ab6F759F62aADB7",
+    "mint_count": 18,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x1fA3951B4218760E4e2436538fCd11816793823e",
+    "mint_count": 15,
+    "distinct_minters": 10,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x7c9bB8a4CcfC951A7454485eF0271C62390Ab721",
+    "mint_count": 15,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xab875dF02CCC7158ddD80f93d8a51992E3166b8d",
+    "mint_count": 14,
+    "distinct_minters": 3,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x4AF148EC9C074c3723986bb432D59bAaf902C672",
+    "mint_count": 10,
+    "distinct_minters": 5,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   }
+  ]
+ },
+ "sale_shape_hits": []
+}

@@ -1,0 +1,475 @@
+{
+ "run": "backfill 2026-11-07 ~15:16 WIB",
+ "window": [
+  132164419,
+  132168460
+ ],
+ "watermark_before": 132164418,
+ "watermark_after": 132168460,
+ "first_seen_triage": [
+  {
+   "address": "0xdEC01cDfb41E7871FB7Ca7B12B1572cE292743C0",
+   "kind": "ERC721",
+   "mint_count": 20,
+   "distinct_minters": 20,
+   "first_block": 132166957,
+   "last_block": 132168354,
+   "name": "NULLRAID First Breach",
+   "symbol": "NULL",
+   "scan_registry_bytes_hit": false,
+   "scan_sourcify": "verified",
+   "scan_free_shaped": [
+    "FREE_CAP",
+    "FREE_WALLET_CAP",
+    "freeClaims",
+    "freeMints",
+    "freeToken"
+   ],
+   "scan_mint_funcs": [
+    "earlyMints",
+    "freeMints",
+    "mint",
+    "mintReferrer",
+    "mintWithReferral",
+    "phaseMinted",
+    "primaryMints",
+    "publicMints"
+   ],
+   "first_block_timestamp": 1794039327,
+   "first_block_wib": "2026-11-07 15:15:27 WIB",
+   "sourcify_deep": "verified",
+   "sourcify_match": "exact_match",
+   "abi_functions": [
+    "early_cap",
+    "early_price",
+    "free_cap",
+    "free_wallet_cap",
+    "max_supply",
+    "public_cap",
+    "public_price",
+    "referral_bps",
+    "wallet_cap",
+    "acceptownership",
+    "approve",
+    "balanceof",
+    "claimreferralrewards",
+    "earlymints",
+    "freeclaims",
+    "freemints",
+    "freetoken",
+    "getapproved",
+    "isapprovedforall",
+    "mint",
+    "mintreferrer",
+    "mintwithreferral",
+    "name",
+    "owner",
+    "ownerof",
+    "pause",
+    "paused",
+    "pendingowner",
+    "phase",
+    "phasecap",
+    "phaseminted",
+    "price",
+    "primarymints",
+    "publicmints",
+    "referralbound",
+    "referralrewards",
+    "referralrewardsclaimed",
+    "referralrewardsunlocked",
+    "remaininginphase",
+    "renderer",
+    "renounceownership",
+    "safetransferfrom",
+    "safetransferfrom",
+    "setapprovalforall",
+    "setphase",
+    "supportsinterface",
+    "symbol",
+    "tokenbyindex",
+    "tokenofownerbyindex",
+    "tokenuri",
+    "totalreferralliability",
+    "totalsupply",
+    "transferfrom",
+    "transferownership",
+    "unpause",
+    "withdraw"
+   ],
+   "has_registry_ref": false,
+   "free_funcs": [
+    "free_cap",
+    "free_wallet_cap",
+    "freeclaims",
+    "freemints",
+    "freetoken"
+   ],
+   "shape": {
+    "mint_fns": [
+     "mint",
+     "mintreferrer",
+     "mintwithreferral"
+    ],
+    "quote_fns": [
+     "early_price",
+     "public_price",
+     "price"
+    ],
+    "free_views": [
+     "freetoken"
+    ],
+    "agent_gate": false,
+    "is_token": false,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 56
+   },
+   "code_registry_bytes_hit": false,
+   "code_len": 17200,
+   "registry_calls": {},
+   "registry_exact": false,
+   "free_quote_calls": {
+    "EARLY_PRICE": {
+     "raw": "",
+     "uint": null,
+     "error": "ERROR OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc.drpc.org/: Ti"
+    },
+    "PUBLIC_PRICE": {
+     "raw": "0x0000000000000000000000000000000000000000000000000005543df729c000",
+     "uint": 1500000000000000,
+     "error": null
+    },
+    "freeToken": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "uint": 1,
+     "error": null
+    },
+    "price": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "uint": 0,
+     "error": null
+    }
+   },
+   "owner": "0xb0fbe2b633c2bdee3435b5303268d9b4493d5514",
+   "owner_in_discards": false,
+   "agent_shaped": false,
+   "free_path_verified": true
+  },
+  {
+   "address": "0x2a496CC602BF9d993acC33CBAF050C2A659C8aD4",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132167772,
+   "last_block": 132167772,
+   "name": null,
+   "symbol": null,
+   "scan_registry_bytes_hit": null,
+   "scan_sourcify": null,
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "first_block_timestamp": 1794039694,
+   "first_block_wib": "2026-11-07 15:21:34 WIB",
+   "sourcify_deep": "verified",
+   "sourcify_match": "exact_match",
+   "abi_functions": [
+    "addminter",
+    "approve",
+    "balanceof",
+    "baseuri",
+    "getapproved",
+    "isapprovedforall",
+    "isminter",
+    "mint",
+    "name",
+    "nexttokenid",
+    "owner",
+    "ownerof",
+    "pause",
+    "paused",
+    "removeminter",
+    "renounceownership",
+    "safetransferfrom",
+    "safetransferfrom",
+    "setapprovalforall",
+    "setbaseuri",
+    "supportsinterface",
+    "symbol",
+    "tokenuri",
+    "transferfrom",
+    "transferownership",
+    "unpause"
+   ],
+   "has_registry_ref": false,
+   "free_funcs": [],
+   "shape": {
+    "mint_fns": [
+     "mint"
+    ],
+    "quote_fns": [],
+    "free_views": [],
+    "agent_gate": false,
+    "is_token": false,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 26
+   },
+   "code_registry_bytes_hit": false,
+   "code_len": 11884,
+   "registry_calls": {},
+   "registry_exact": false,
+   "free_quote_calls": {},
+   "owner": "0x4a52af31364c287027c4284b86a1884d471eb893",
+   "owner_in_discards": false,
+   "agent_shaped": false,
+   "free_path_verified": false
+  }
+ ],
+ "early_leads": [],
+ "track_c_5c": {
+  "merged_erc20": 920,
+  "ge10": 164,
+  "new_checked": 19,
+  "transport_failed": [],
+  "results": [
+   {
+    "address": "0xab3F2dA0b63F5A823510095263789E9e6F26329a",
+    "mint_count": 46,
+    "distinct_minters": 28,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mint",
+     "mintedby"
+    ],
+    "quote_fns": [
+     "agent_price_per_share",
+     "price_per_share",
+     "quote"
+    ],
+    "free_views": [
+     "freesharesclaimed",
+     "freeused"
+    ],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 26
+   },
+   {
+    "address": "0x16A8aFdc97F8Cf48617bF15E47b4dA2217ea04A5",
+    "mint_count": 42,
+    "distinct_minters": 30,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mint",
+     "mintedby"
+    ],
+    "quote_fns": [
+     "agent_price_per_share",
+     "price_per_share",
+     "quote"
+    ],
+    "free_views": [
+     "freesharesclaimed",
+     "freeused"
+    ],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 26
+   },
+   {
+    "address": "0x3568C1B1C8b68738ee18e0aAD5825332477ea7C0",
+    "mint_count": 40,
+    "distinct_minters": 26,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x8717fc8751b8Ebd6832EA145974AA77D86bE9EaD",
+    "mint_count": 40,
+    "distinct_minters": 30,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mint",
+     "mintedby"
+    ],
+    "quote_fns": [
+     "agent_price_per_share",
+     "price_per_share",
+     "quote"
+    ],
+    "free_views": [
+     "freesharesclaimed",
+     "freeused"
+    ],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 26
+   },
+   {
+    "address": "0x4C32646Ae597DCEe916c70e8FaEF87549a980361",
+    "mint_count": 38,
+    "distinct_minters": 10,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xf680BBFc3931F01bfFe7AC5E3Cf7bAC8F3D5852e",
+    "mint_count": 37,
+    "distinct_minters": 9,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xe8b5E3ca9f4F51366f9f4860ed70b8e929e80470",
+    "mint_count": 37,
+    "distinct_minters": 31,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mint",
+     "mintedby"
+    ],
+    "quote_fns": [
+     "agent_price_per_share",
+     "price_per_share",
+     "quote"
+    ],
+    "free_views": [
+     "freesharesclaimed",
+     "freeused"
+    ],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 26
+   },
+   {
+    "address": "0x602D5AAcCbD4A02F186A8280Be9afAd16FC6b9fA",
+    "mint_count": 33,
+    "distinct_minters": 6,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x1eE4C615FF54b65689fb1b1876447ba693A96C45",
+    "mint_count": 29,
+    "distinct_minters": 4,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xdCfE2eaEa5725D4C459a578909271B074C0d4E81",
+    "mint_count": 26,
+    "distinct_minters": 17,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x60982e03F03Ec95e01d41b9EAcB1bF5C7F8819fb",
+    "mint_count": 24,
+    "distinct_minters": 13,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xd8518015DA977eca570E4371054C0b4d4BbddC30",
+    "mint_count": 18,
+    "distinct_minters": 8,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xf26B1E46638368bD535f47384D51277120BFb455",
+    "mint_count": 15,
+    "distinct_minters": 2,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mint"
+    ],
+    "quote_fns": [
+     "price0cumulativelast",
+     "price1cumulativelast"
+    ],
+    "free_views": [],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 27
+   },
+   {
+    "address": "0x0fC57f221e2699F891D56E8a021F110112775108",
+    "mint_count": 15,
+    "distinct_minters": 10,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x00aED61A22f674Df91D7EfdB47d3dd4D6D4cCf56",
+    "mint_count": 12,
+    "distinct_minters": 1,
+    "verdict": "not-sale-shape",
+    "sourcify": "verified",
+    "mint_fns": [
+     "mint"
+    ],
+    "quote_fns": [],
+    "free_views": [],
+    "agent_gate": false,
+    "is_token": true,
+    "noarg_free": false,
+    "S1": false,
+    "S2": false,
+    "fn_count": 19
+   },
+   {
+    "address": "0x0f1Ed67a0C3AeBa9BA4d8C5EB41Dab6691254DB7",
+    "mint_count": 12,
+    "distinct_minters": 12,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x0B54E63C175F186105eCbD3BEdB88FB86c8B2356",
+    "mint_count": 12,
+    "distinct_minters": 12,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x190E7B7c2DBbB6b496F1B771360F026404118E8f",
+    "mint_count": 10,
+    "distinct_minters": 2,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0xB8bce6858b8c555fCcadB9425628552294879FeC",
+    "mint_count": 10,
+    "distinct_minters": 3,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   }
+  ]
+ },
+ "sale_shape_hits": []
+}

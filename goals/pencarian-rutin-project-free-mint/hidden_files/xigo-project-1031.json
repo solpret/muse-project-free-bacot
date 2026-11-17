@@ -1,0 +1,99 @@
+{
+  "name": "Xigo",
+  "symbol": "XIGO",
+  "alias": [
+    "xigo",
+    "XIGO",
+    "细狗",
+    "Skinny Dog"
+  ],
+  "website": "https://xigo.shop/",
+  "chain": {
+    "name": "BNB Smart Chain",
+    "chainId": 56
+  },
+  "summary": "3,333 shares: the first 1,000 free (one per Binance Agent ID wallet, gas only), then 2,333 at 1 USDT each paid in BNB; holders get tokenized US stocks every hour; liquidity locked.",
+  "supply": {
+    "max": "20797600000",
+    "decimals": 18,
+    "shares": 3333,
+    "freeShares": 1000,
+    "paidShares": 2333,
+    "tokensPerShare": "4000000",
+    "lpTokensPerPaidShare": "3200000"
+  },
+  "mint": {
+    "contract": "0x796387D8106a2edb83e00c4f877e4358Ec721d49",
+    "gate": "Binance Agent ID (registry 0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F, balanceOf > 0)",
+    "windowHours": 72,
+    "scheduleNote": "Confirm exact times on-chain via startTime() and endTime().",
+    "launch": "Automatic when the paid tier sells out; after the window anyone can launch with the paid shares sold (needs at least one paid share).",
+    "freeTier": {
+      "shares": 1000,
+      "perWallet": 1,
+      "cost": "gas only",
+      "functions": [
+        "freeAvailableFor(address user) view returns (uint256)",
+        "claimFree()",
+        "freeClaimed(address user) view returns (bool)"
+      ]
+    },
+    "paidTier": {
+      "shares": 2333,
+      "pricePerShareUsd": 1,
+      "paidIn": "BNB (priced from PancakeSwap BNB/USDT 30-minute TWAP; overpayment refunded)",
+      "maxSharesPerWallet": 12,
+      "opens": "when the free tier is fully claimed, or 12 hours after the start, whichever comes first",
+      "functions": [
+        "paidOpen() view returns (bool)",
+        "quote(uint256 n) view returns (uint256 weiBnb)",
+        "mint(uint256 n) payable",
+        "mintableFor(address user) view returns (uint256)",
+        "minted(address user) view returns (uint256)"
+      ]
+    },
+    "scheduledStartUtc": "2026-11-02T14:31:03Z",
+    "scheduledEndUtc": "2026-11-05T14:31:03Z"
+  },
+  "funds": {
+    "mintBnb": {
+      "liquidityPool": "80% of paid BNB (swapped to USDT, paired with XIGO, LP locked, no withdraw function)",
+      "treasury": "20% of paid BNB",
+      "note": "free shares bring in no BNB"
+    },
+    "tradingFee": {
+      "total": "3%",
+      "pool": "60%",
+      "dividends": "20%",
+      "treasury": "20%",
+      "note": "can only decrease"
+    },
+    "treasuryWallet": "0xb909C1228145BE84cFDf7A7d02612B70F4b543Da"
+  },
+  "dividends": {
+    "interval": "hourly",
+    "assets": [
+      "NVDAB",
+      "SPCXB",
+      "AAPLB",
+      "GOOGLB",
+      "MSFTB"
+    ],
+    "method": "PancakeSwap V3 pools, 30-minute TWAP, ±3% protection; anyone can trigger conversion"
+  },
+  "contracts": {
+    "token": "0xbB30a6C4bafA060C586Eb13128F2250B6285F823",
+    "sale": "0x796387D8106a2edb83e00c4f877e4358Ec721d49",
+    "stockDividendVault": "0x6f538faF06D8715FF3550ED74a2637d375a4EbFa",
+    "liquidityVault": "0x174a0dE2B97A154bC691a14D7216b47E7C294C5e",
+    "feeHandler": "0x64CDeda44aAA38AB497f977e77c63A6e8D8aB292",
+    "agentIdGate": "0x87f71A332A6668BDAa860C39aE9D984e72BC3dA2",
+    "bnbGateway": "0xEc2b510A72cDc1a7574aB10Dea0E53b4a74642C2",
+    "verified": true,
+    "explorer": "https://bscscan.com/address/"
+  },
+  "docs": {
+    "llms": "https://xigo.shop/llms.txt"
+  },
+  "nameZh": "细狗"
+}

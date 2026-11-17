@@ -1,0 +1,297 @@
+{
+ "run": "backfill 2026-11-09 ~00:46 WIB (driver exit 0)",
+ "window": [
+  132433882,
+  132436704
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0xaa87b6B3eCDD3202A80d109A91e88783ffFb0BE6",
+   "first_block": 132435150,
+   "mint_total_window": 72,
+   "scan_name": "Dragon Agent",
+   "scan_symbol": "DAGENT",
+   "first_block_timestamp": 1794160055,
+   "first_block_wib": "2026-11-09 00:47:35 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 22,
+   "abi_fn_names": [
+    "FREE_COUNT",
+    "MAX_PER_WALLET",
+    "REGISTRY",
+    "agentGate",
+    "balanceOf",
+    "baseURI",
+    "canMint",
+    "maxSupply",
+    "mint",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "price",
+    "priceOf",
+    "setAgentGate",
+    "setBaseURI",
+    "setPrice",
+    "symbol",
+    "tokenURI",
+    "totalSupply",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "FREE_COUNT()",
+    "MAX_PER_WALLET()",
+    "REGISTRY()",
+    "agentGate()",
+    "balanceOf(address)",
+    "baseURI()",
+    "canMint(address)",
+    "maxSupply()",
+    "mint(uint256)",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "price()",
+    "priceOf(address,uint256)",
+    "setAgentGate(bool)",
+    "setBaseURI(string)",
+    "setPrice(uint256)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 7722,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed4.bnbchain.org/: OSError"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "Dragon Agent"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "DAGENT"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 158
+   },
+   "price": {
+    "fn": "price()",
+    "value": 475000000000000
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0x99ef537adedc7398f0fddc7d82292cf7a214a7af"
+   },
+   "FREE_COUNT()": {
+    "fn": "FREE_COUNT()",
+    "value": 1
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "agent_shaped_confirmed_via": "REGISTRY() exact match (direct curl); agentRegistry() fn absent in ABI (direct curl: execution reverted)"
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0xaa87b6B3eCDD3202A80d109A91e88783ffFb0BE6",
+   "first_block": 132435150,
+   "mint_total_window": 72,
+   "scan_name": "Dragon Agent",
+   "scan_symbol": "DAGENT",
+   "first_block_timestamp": 1794160055,
+   "first_block_wib": "2026-11-09 00:47:35 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 22,
+   "abi_fn_names": [
+    "FREE_COUNT",
+    "MAX_PER_WALLET",
+    "REGISTRY",
+    "agentGate",
+    "balanceOf",
+    "baseURI",
+    "canMint",
+    "maxSupply",
+    "mint",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "price",
+    "priceOf",
+    "setAgentGate",
+    "setBaseURI",
+    "setPrice",
+    "symbol",
+    "tokenURI",
+    "totalSupply",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "FREE_COUNT()",
+    "MAX_PER_WALLET()",
+    "REGISTRY()",
+    "agentGate()",
+    "balanceOf(address)",
+    "baseURI()",
+    "canMint(address)",
+    "maxSupply()",
+    "mint(uint256)",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "price()",
+    "priceOf(address,uint256)",
+    "setAgentGate(bool)",
+    "setBaseURI(string)",
+    "setPrice(uint256)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 7722,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed4.bnbchain.org/: OSError"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "Dragon Agent"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "DAGENT"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 158
+   },
+   "price": {
+    "fn": "price()",
+    "value": 475000000000000
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0x99ef537adedc7398f0fddc7d82292cf7a214a7af"
+   },
+   "FREE_COUNT()": {
+    "fn": "FREE_COUNT()",
+    "value": 1
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false
+  }
+ ],
+ "same_owner_discards": [],
+ "verification_followup": {
+  "address": "0xaa87b6B3eCDD3202A80d109A91e88783ffFb0BE6",
+  "REGISTRY": {
+   "fn": "REGISTRY()",
+   "error": "OSError: all endpoints failed: https://bsc-dataseed1.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-dataseed3.bnbchai"
+  },
+  "REGISTRY_exact_match": false,
+  "agentGate": {
+   "fn": "agentGate()",
+   "value": true
+  },
+  "canMint(user)": {
+   "fn": "canMint(address)",
+   "value": true
+  },
+  "maxSupply": {
+   "fn": "maxSupply()",
+   "value": 3330
+  },
+  "MAX_PER_WALLET": {
+   "fn": "MAX_PER_WALLET()",
+   "value": 15
+  },
+  "priceOf(user,1)": {
+   "fn": "priceOf(address,uint256)",
+   "value": 0
+  },
+  "price": {
+   "fn": "price()",
+   "value": 475000000000000
+  },
+  "FREE_COUNT": {
+   "fn": "FREE_COUNT()",
+   "value": 1
+  },
+  "totalSupply": {
+   "fn": "totalSupply()",
+   "value": 169
+  },
+  "balanceOf(user)": {
+   "fn": "balanceOf(address)",
+   "value": 0
+  },
+  "agentRegistry_retry_race": {
+   "fn": "agentRegistry()",
+   "error": "OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-rpc.publicnode.com/: Timeout"
+  },
+  "agentRegistry_direct_curl": {
+   "via": "https://bsc-dataseed.binance.org/",
+   "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+  },
+  "REGISTRY_direct_curl": {
+   "via": "https://bsc-dataseed.binance.org/",
+   "result": "0x00000000000000000000000060b9262456de011f7d15a54cdd8c48baaa8b022f",
+   "decoded": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f",
+   "exact_match": true
+  }
+ },
+ "walkback": {
+  "address": "0xaa87b6B3eCDD3202A80d109A91e88783ffFb0BE6",
+  "observed_first_block": 132435150,
+  "baseURI": {
+   "fn": "baseURI()",
+   "value": "https://example.com/meta/",
+   "via": "direct-curl"
+  },
+  "tokenURI(1)": {
+   "fn": "tokenURI(uint256)",
+   "value": "https://example.com/meta/1.json",
+   "via": "race"
+  },
+  "walkback_ranges": [
+   {
+    "from": 132425000,
+    "to": 132430000,
+    "logs_returned": 2,
+    "mint_from_zero": 0,
+    "error": null
+   },
+   {
+    "from": 132430001,
+    "to": 132435149,
+    "logs_returned": 2,
+    "mint_from_zero": 0,
+    "error": null
+   }
+  ],
+  "walkback_mint_before_first_block": 0,
+  "first_mint_confirmed": true
+ }
+}

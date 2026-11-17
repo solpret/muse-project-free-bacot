@@ -1,0 +1,87 @@
+{
+ "run": "backfill 2026-11-07 ~10:0x WIB",
+ "window": [
+  132122533,
+  132124248
+ ],
+ "watermark_after": 132118974,
+ "first_seen_triage": [
+  {
+   "address": "0xCafEEDDF3C15C5CD9A63D97021efDe845e1781Bc",
+   "kind": "ERC721",
+   "mint_count": 14,
+   "distinct_minters": 14,
+   "first_block": 132123483,
+   "last_block": 132123993,
+   "name": "Alchemister",
+   "symbol": "ALCHEMISTER",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132122533-132124248.json"
+   ],
+   "first_block_timestamp": 1794019759,
+   "first_block_wib": "2026-11-07 09:49:19 WIB",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": true,
+   "code_len": 33090,
+   "owner": "0xe7b253ac3d0a737f3d7f1c354222092eca9493a2",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0xCafEEDDF3C15C5CD9A63D97021efDe845e1781Bc",
+   "kind": "ERC721",
+   "mint_count": 14,
+   "distinct_minters": 14,
+   "first_block": 132123483,
+   "last_block": 132123993,
+   "name": "Alchemister",
+   "symbol": "ALCHEMISTER",
+   "scan_registry_bytes_hit": true,
+   "scan_sourcify": "not_verified",
+   "scan_free_shaped": [],
+   "scan_mint_funcs": [],
+   "chunks": [
+    "backfill-132122533-132124248.json"
+   ],
+   "first_block_timestamp": 1794019759,
+   "first_block_wib": "2026-11-07 09:49:19 WIB",
+   "sourcify_deep": "not_verified",
+   "agent_shaped": true,
+   "code_registry_bytes_hit": true,
+   "code_len": 33090,
+   "owner": "0xe7b253ac3d0a737f3d7f1c354222092eca9493a2",
+   "owner_in_discards": false,
+   "owner_verdict": "owner-ok"
+  }
+ ],
+ "track_c_5c": {
+  "merged_erc20": 488,
+  "ge10": 59,
+  "new_checked": 2,
+  "transport_failed": [],
+  "results": [
+   {
+    "address": "0xDeb075f01ab7ee77B70be3045ac3511FCe059746",
+    "mint_count": 25,
+    "distinct_minters": 8,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   },
+   {
+    "address": "0x17FeCfa77a16dd045De2167D8289CA6b7a2d0A9C",
+    "mint_count": 13,
+    "distinct_minters": 3,
+    "verdict": "not_verified",
+    "sourcify_match": null
+   }
+  ]
+ },
+ "sale_shape_hits": []
+}

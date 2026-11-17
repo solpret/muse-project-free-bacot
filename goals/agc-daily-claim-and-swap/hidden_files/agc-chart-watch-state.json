@@ -1,0 +1,355 @@
+{
+  "consecutive_read_failures": 187,
+  "disturbance_reported": true,
+  "fdv_usd": 374599,
+  "job": "agc-chart-watch",
+  "last_run": "2026-11-17 09:26 WIB",
+  "levels": {
+    "position": "below support ($400.000), below resistance ($950.000-$1.000.000)",
+    "resistance_usd_high": 1000000,
+    "resistance_usd_low": 950000,
+    "support_usd": 400000
+  },
+  "liquidity_usd": 162092.4,
+  "mcap_change_vs_prev_run_pct": 2.17,
+  "mcap_usd": 374599,
+  "money_flow_4h": {
+    "blocks": "132496431-132528431",
+    "buy_volume_wbnb": 27.3328,
+    "buys": 453,
+    "largest_buy_wbnb": 4.975,
+    "largest_sell_wbnb": 3.77,
+    "median_buy_wbnb": 0.0055,
+    "median_sell_wbnb": null,
+    "net_usd": -5745.21,
+    "net_wbnb": -8.3725,
+    "sell_volume_wbnb": 35.7053,
+    "sells": 1992,
+    "stale_as_of": "2026-11-09 12:26 WIB (189 jam)",
+    "swaps": 2445,
+    "unique_buyers": 33,
+    "unique_sellers": 249,
+    "unique_traders": 279,
+    "wash_suspect_wbnb": 0.0
+  },
+  "money_flow_4h_error": "swap_flow.py gagal lagi run ini (tanpa output; timeout 120 dtk, RPC hang, sama seperti pola sebelumnya) -- kegagalan ke-187 berturut-turut: 13:26-23:26 WIB 9 Nov + 00:26-23:26 WIB 10 Nov + 00:26-23:26 WIB 11 Nov + 00:26-23:26 WIB 12 Nov + 00:26-23:26 WIB 13 Nov + 00:26-23:26 WIB 14 Nov + 00:26-23:26 WIB 15 Nov + 00:26-23:26 WIB 16 Nov + 00:26-09:26 WIB 17 Nov. No fresh 4h money flow; last good reading from 12:26 run 9 Nov retained above and marked stale (189 jam). DexScreener read succeeded this run. Snapshot DexScreener: MCAP $366.639 -> $374.599 (+2,17%), harga $0,000002272 -> $0,000002316 (+1,94% vs run sebelumnya -- dalam +-10%); h1 +6,04%, h6 -14,35%, h24 -8,40%; vol h1 $3.337,71, h6 $15.777,62, h24 $95.038,73; txns h1 54 buys/142 sells, h24 741 buys/3338 sells. MCAP MASIH di bawah support $400.000 (penembusan sudah dilaporkan 07:26 WIB 17 Nov, status reported -- dedupe, tidak dilaporkan ulang). Disturbance already reported once at 15:26 WIB 9 Nov per 3-failure rule -- not re-reported.",
+  "previous_run_baseline": {
+    "run": "2026-11-17 09:26 WIB",
+    "price_usd": 2.316e-06,
+    "mcap_usd": 374599,
+    "net_flow_4h_wbnb": null
+  },
+  "price_change": {
+    "h1": 6.04,
+    "h6": -14.35,
+    "h24": -8.4
+  },
+  "price_change_vs_prev_run_pct": 1.94,
+  "price_native_wbnb": 3.916e-09,
+  "price_usd": 2.316e-06,
+  "reported_events": [
+    {
+      "cleared_at": "2026-11-08 01:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB atau berbalik negatif",
+      "reported_at": "2026-11-08 00:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_plus_5_wbnb",
+      "value_wbnb": 12.5156
+    },
+    {
+      "cleared_at": "2026-11-08 05:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB",
+      "reported_at": "2026-11-08 04:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_minus_5_wbnb",
+      "value_wbnb": -5.4968
+    },
+    {
+      "cleared_at": "2026-11-08 11:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB atau berbalik negatif",
+      "reported_at": "2026-11-08 08:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_plus_5_wbnb",
+      "value_wbnb": 6.8379
+    },
+    {
+      "cleared_at": "2026-11-08 15:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB",
+      "reported_at": "2026-11-08 13:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_minus_5_wbnb",
+      "value_wbnb": -9.2064
+    },
+    {
+      "cleared_at": "2026-11-08 19:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB",
+      "reported_at": "2026-11-08 16:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_minus_5_wbnb",
+      "value_wbnb": -5.118
+    },
+    {
+      "cleared_at": "2026-11-08 19:26 WIB",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "reported_at": "2026-11-08 18:26 WIB",
+      "status": "cleared",
+      "type": "support_breach_below_400k",
+      "value_usd": 387801
+    },
+    {
+      "cleared_at": "2026-11-08 20:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-08 19:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "value_pct": 18.39
+    },
+    {
+      "cleared_at": "2026-11-09 03:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB atau berbalik negatif",
+      "reported_at": "2026-11-08 20:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_plus_5_wbnb",
+      "value_wbnb": 7.7055
+    },
+    {
+      "cleared_at": "2026-11-09 03:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB atau berbalik negatif",
+      "reported_at": "2026-11-08 22:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_plus_5_wbnb",
+      "value_wbnb": 8.3159
+    },
+    {
+      "cleared_at": "2026-11-09 04:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB",
+      "reported_at": "2026-11-08 23:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_minus_5_wbnb",
+      "value_wbnb": -8.4816
+    },
+    {
+      "cleared_at": "2026-11-09 04:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-09 03:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": 16.8
+    },
+    {
+      "cleared_at": "2026-11-09 07:26 WIB",
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB atau berbalik negatif",
+      "reported_at": "2026-11-09 03:26 WIB",
+      "status": "cleared",
+      "type": "net_flow_beyond_plus_5_wbnb",
+      "value_wbnb": 5.5003
+    },
+    {
+      "cleared_at": "2026-11-11 16:26 WIB",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "reported_at": "2026-11-09 09:26 WIB",
+      "status": "cleared",
+      "type": "support_breach_below_400k",
+      "value_usd": 372811
+    },
+    {
+      "cleared_at": "2026-11-09 10:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-09 09:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -12.63
+    },
+    {
+      "clears_when": "net flow 4h kembali dalam +-5 WBNB",
+      "reported_at": "2026-11-09 09:26 WIB",
+      "status": "reported",
+      "type": "net_flow_beyond_minus_5_wbnb",
+      "value_wbnb": -12.629
+    },
+    {
+      "cleared_at": "2026-11-09 14:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-09 13:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -12.86
+    },
+    {
+      "cleared_at": "2026-11-10 10:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-10 09:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -12.57
+    },
+    {
+      "cleared_at": "2026-11-10 12:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-10 11:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "value_pct": -12.59
+    },
+    {
+      "cleared_at": "2026-11-11 17:26 WIB",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "reported_at": "2026-11-11 15:26 WIB",
+      "status": "cleared",
+      "type": "support_breach_below_400k",
+      "value_usd": 389341
+    },
+    {
+      "cleared_at": "2026-11-11 21:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-11 20:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -10.4
+    },
+    {
+      "cleared_at": "2026-11-12 12:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-12 11:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "value_pct": 14.81
+    },
+    {
+      "cleared_at": "2026-11-12 18:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-12 16:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -11.5
+    },
+    {
+      "cleared_at": "2026-11-13 13:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-13 09:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "value_pct": 18.58
+    },
+    {
+      "cleared_at": "2026-11-13 19:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-13 18:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "value_pct": 37.54
+    },
+    {
+      "cleared_at": "2026-11-13 20:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-13 19:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -23.15
+    },
+    {
+      "cleared_at": "2026-11-14 09:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-14 08:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "value_pct": 17.03
+    },
+    {
+      "cleared_at": "2026-11-14 11:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-14 10:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -15.02
+    },
+    {
+      "cleared_at": "2026-11-14 12:26 WIB",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "reported_at": "2026-11-14 11:26 WIB",
+      "status": "cleared",
+      "type": "support_breach_below_400k",
+      "value_usd": 393130
+    },
+    {
+      "cleared_at": "2026-11-14 14:26 WIB",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "reported_at": "2026-11-14 13:26 WIB",
+      "status": "cleared",
+      "type": "support_breach_below_400k",
+      "value_usd": 417049
+    },
+    {
+      "cleared_at": "2026-11-14 21:26 WIB",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "reported_at": "2026-11-14 20:26 WIB",
+      "status": "cleared",
+      "type": "price_change_beyond_minus_10_pct_vs_prev_run",
+      "value_pct": -15.71
+    },
+    {
+      "type": "support_breach_below_400k",
+      "reported_at": "2026-11-15 22:26 WIB",
+      "value_usd": 392273,
+      "status": "cleared",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "cleared_at": "2026-11-15 23:26 WIB"
+    },
+    {
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "reported_at": "2026-11-15 23:26 WIB",
+      "value_pct": 10.53,
+      "status": "cleared",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "cleared_at": "2026-11-16 00:26 WIB"
+    },
+    {
+      "type": "support_breach_below_400k",
+      "reported_at": "2026-11-16 03:26 WIB",
+      "value_usd": 398879,
+      "status": "cleared",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "cleared_at": "2026-11-16 04:26 WIB"
+    },
+    {
+      "type": "support_breach_below_400k",
+      "reported_at": "2026-11-16 08:26 WIB",
+      "value_usd": 390116,
+      "status": "cleared",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "cleared_at": "2026-11-16 11:26 WIB"
+    },
+    {
+      "type": "support_breach_below_400k",
+      "reported_at": "2026-11-16 12:26 WIB",
+      "value_usd": 377607,
+      "status": "cleared",
+      "clears_when": "MCAP kembali di atas $400.000",
+      "cleared_at": "2026-11-17 01:26 WIB"
+    },
+    {
+      "type": "price_change_beyond_plus_10_pct_vs_prev_run",
+      "reported_at": "2026-11-17 01:26 WIB",
+      "value_pct": 13.93,
+      "status": "cleared",
+      "clears_when": "perubahan harga vs run sebelumnya kembali dalam +-10%",
+      "cleared_at": "2026-11-17 02:26 WIB"
+    },
+    {
+      "type": "support_breach_below_400k",
+      "reported_at": "2026-11-17 07:26 WIB",
+      "value_usd": 393518,
+      "status": "reported",
+      "clears_when": "MCAP kembali di atas $400.000"
+    }
+  ],
+  "txns_h24": {
+    "buys": 741,
+    "sells": 3338
+  },
+  "volume_usd": {
+    "h1": 3337.71,
+    "h6": 15777.62,
+    "h24": 95038.73
+  }
+}

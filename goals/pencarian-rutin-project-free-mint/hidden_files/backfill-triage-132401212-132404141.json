@@ -1,0 +1,514 @@
+{
+ "run": "backfill 2026-11-08 ~21:0x WIB",
+ "window": [
+  132401212,
+  132404141
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0x669cb75f51b5D23F4B42fC1522b653d7B88e608d",
+   "first_block": 132401561,
+   "mint_total_window": 33,
+   "scan_name": "MiChan",
+   "scan_symbol": "MICHAN",
+   "first_block_timestamp": 1794144935,
+   "first_block_wib": "2026-11-08 20:35:35 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": true,
+   "code_len": 16908,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0x36f3d56ead5d1d6c2434f94defcef732c5c3cbd2"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "retry": {
+    "agentRegistry": {
+     "fn": "agentRegistry()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "agentRegistry_exact_match": false,
+    "name": {
+     "fn": "name()",
+     "value": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000064d694368616e0000000000000000000000000000000000000000000000000000"
+    },
+    "symbol": {
+     "fn": "symbol()",
+     "value": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000064d494348414e0000000000000000000000000000000000000000000000000000"
+    },
+    "totalSupply": {
+     "fn": "totalSupply()",
+     "value": 142
+    },
+    "mintOpen": {
+     "fn": "mintOpen()",
+     "value": true
+    },
+    "price": {
+     "fn": "price()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "freeLeft": {
+     "fn": "freeLeft()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "freeMinted": {
+     "fn": "freeMinted()",
+     "value": 142
+    },
+    "freeSupply": {
+     "fn": "freeSupply()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "FREE_SLOTS": {
+     "fn": "FREE_SLOTS()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "FREE_SUPPLY": {
+     "fn": "FREE_SUPPLY()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "MAX_SUPPLY": {
+     "fn": "MAX_SUPPLY()",
+     "value": 2222
+    },
+    "freeClaimed(user)": {
+     "fn": "freeClaimed(address)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "freeOf(user,1)": {
+     "fn": "freeOf(address,uint256)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "costOf(user,1)": {
+     "fn": "costOf(address,uint256)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "quote(user,1)": {
+     "fn": "quote(address,uint256)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    }
+   },
+   "verdict": "NOT agent-shaped: agentRegistry() reverts (function absent); registry bytes in code only. totalSupply=142 freeMinted=142 MAX_SUPPLY=2222 mintOpen=true; freeLeft/freeClaimed/freeOf/costOf/quote/price all revert (functions absent) -> free path UNVERIFIABLE. Log-only, no lead, no snapshot."
+  },
+  {
+   "address": "0xFD63eB16714e1A1c45cF467243131D89Bb8e0B70",
+   "first_block": 132401609,
+   "mint_total_window": 18,
+   "scan_name": "Delveria Gear",
+   "scan_symbol": "DLVG",
+   "first_block_timestamp": 1794144956,
+   "first_block_wib": "2026-11-08 20:35:56 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 25562,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc.drpc.org/: OSError"
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false,
+   "owner_retry": {
+    "fn": "owner()",
+    "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+   },
+   "verdict": "NOT agent-shaped: Sourcify not_verified, no registry bytes, owner() reverts (no owner fn). Log-only."
+  },
+  {
+   "address": "0x9421A58DFc41C4f5E7942B8B4777837d641106E3",
+   "first_block": 132401705,
+   "mint_total_window": 4,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794144999,
+   "first_block_wib": "2026-11-08 20:36:39 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 9600,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc.drpc.org/: OSError"
+   },
+   "owner_in_discards": null,
+   "contract_in_discards": false,
+   "owner_retry": {
+    "fn": "owner()",
+    "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+   },
+   "verdict": "NOT agent-shaped: Sourcify not_verified, no registry bytes, owner() reverts (no owner fn). Log-only."
+  },
+  {
+   "address": "0x54259f6001532c21893dae48B046627B72DfeC58",
+   "first_block": 132401907,
+   "mint_total_window": 1,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794145090,
+   "first_block_wib": "2026-11-08 20:38:10 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 35,
+   "abi_fn_names": [
+    "IMAGE_VERSION",
+    "acceptOwnership",
+    "approve",
+    "award",
+    "balanceOf",
+    "balanceOfTier",
+    "bindMinter",
+    "cap",
+    "claimed",
+    "getApproved",
+    "imageURI",
+    "isApprovedForAll",
+    "issued",
+    "minter",
+    "name",
+    "owner",
+    "ownerOf",
+    "pendingOwner",
+    "renounceOwnership",
+    "rewardTokenId",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setImageURI",
+    "setImageURIs",
+    "supportsInterface",
+    "symbol",
+    "threshold",
+    "tokenImageURI",
+    "tokenSerial",
+    "tokenTier",
+    "tokenURI",
+    "totalMinted",
+    "transferFrom",
+    "transferOwnership"
+   ],
+   "code_registry_bytes_hit": false,
+   "code_len": 18922,
+   "agent_shaped": false,
+   "name": {
+    "fn": "name()",
+    "value": "BOND Agent NFT"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "BAGENTNFT"
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0xa2c707bd2f004ec11616efdf6ab2de7324d97d19"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "verdict": "NOT agent-shaped: Sourcify exact_match BOND Agent NFT (BAGENTNFT) but ABI has no agentRegistry, no free views, no quote/price fn (award/bindMinter/threshold). Log-only."
+  },
+  {
+   "address": "0xD61aF26aD1D8D9903436455e665d38167AcCCbEc",
+   "first_block": 132403589,
+   "mint_total_window": 5,
+   "scan_name": "Pressure",
+   "scan_symbol": "PRESS",
+   "first_block_timestamp": 1794145848,
+   "first_block_wib": "2026-11-08 20:50:48 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 49,
+   "abi_fn_names": [
+    "FORGE_MAX",
+    "FREE_PER_WALLET",
+    "FREE_POOL",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "PAID_PER_WALLET",
+    "TIER_BASE",
+    "TIER_CAP",
+    "TIER_SPAN",
+    "TIER_STEP",
+    "approve",
+    "balanceOf",
+    "forge",
+    "forgeLive",
+    "freeMintCount",
+    "freeMinted",
+    "freeOf",
+    "freeRemaining",
+    "gate",
+    "getApproved",
+    "isApprovedForAll",
+    "mgmtFeeWei",
+    "mint",
+    "mintCount",
+    "mintOpen",
+    "name",
+    "owner",
+    "ownerOf",
+    "paidMintCount",
+    "paidMinted",
+    "quote",
+    "renounceOwnership",
+    "safeTransferFrom",
+    "seedOf",
+    "setApprovalForAll",
+    "setForgeLive",
+    "setMintOpen",
+    "supportsInterface",
+    "symbol",
+    "tierPrice",
+    "tokenURI",
+    "totalBurned",
+    "totalForged",
+    "totalMinted",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "treasury"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 28326,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": false,
+   "name": {
+    "fn": "name()",
+    "value": "Pressure"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "PRESS"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 5
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 8000
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0xb07b263ffb129575142537fa307f24e6a435f78a"
+   },
+   "freeMinted": {
+    "fn": "freeMinted()",
+    "value": 5
+   },
+   "freeOf(user,1)": {
+    "fn": "freeOf(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc-dataseed.binance.org/: OSErr"
+   },
+   "quote(user,1)": {
+    "fn": "quote(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed1.defibit.io/: Ti"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "retry": {
+    "agentRegistry": {
+     "fn": "agentRegistry()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "agentRegistry_exact_match": false,
+    "FREE_POOL": {
+     "fn": "FREE_POOL()",
+     "value": 1000
+    },
+    "freeRemaining": {
+     "fn": "freeRemaining()",
+     "value": 995
+    },
+    "MAX_SUPPLY": {
+     "fn": "MAX_SUPPLY()",
+     "value": 8000
+    },
+    "freeMintCount": {
+     "fn": "freeMintCount()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "paidMinted": {
+     "fn": "paidMinted()",
+     "value": 0
+    },
+    "tierPrice": {
+     "fn": "tierPrice(uint256)",
+     "value": 1000000000000000
+    },
+    "freeOf(user,1)": {
+     "fn": "freeOf(address,uint256)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "costOf(user,1)": {
+     "fn": "costOf(address,uint256)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "quote(user,1)": {
+     "fn": "quote(address,uint256)",
+     "value": 185896378037642
+    }
+   },
+   "verdict": "NOT agent-shaped: agentRegistry() reverts (function absent); registry bytes in code only. FREE_POOL=1000 freeRemaining=995 freeMinted=5 paidMinted=0 MAX_SUPPLY=8000 mintOpen=true; quote(user,1)=185896378037642 wei (~0.000186 BNB) > 0 -> PAID-only for user, no free path. Log-only, no lead, no snapshot."
+  },
+  {
+   "address": "0xEd934652815f98CB9FAcc6Ce0511f01A25694741",
+   "first_block": 132403768,
+   "mint_total_window": 1,
+   "scan_name": "Aiuki",
+   "scan_symbol": "AIUKI",
+   "first_block_timestamp": 1794145929,
+   "first_block_wib": "2026-11-08 20:52:09 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 44,
+   "abi_fn_names": [
+    "AGENT_ID",
+    "BNB_USD",
+    "BURNED",
+    "EDITIONS",
+    "MASTERS",
+    "MAX_MINTABLE",
+    "MAX_PER_AGENT",
+    "PRICE_STALE_AFTER",
+    "TOTAL_SLOTS",
+    "USDT",
+    "agentTokenOf",
+    "approve",
+    "balanceOf",
+    "getApproved",
+    "handleOf",
+    "imageBase",
+    "isApprovedForAll",
+    "masterOf",
+    "mint",
+    "mintOpen",
+    "mintWithBNB",
+    "mintedBy",
+    "name",
+    "nextPrice",
+    "nextPriceFor",
+    "owner",
+    "ownerOf",
+    "quoteBNB",
+    "remaining",
+    "renounceOwnership",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setImageBase",
+    "setMintOpen",
+    "setTreasury",
+    "slotOf",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "transferFrom",
+    "transferOwnership",
+    "treasury"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 22212,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed.binance.org/: OSError; https:"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": false,
+   "name": {
+    "fn": "name()",
+    "value": "Aiuki"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "AIUKI"
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0xd83fd71ac4ec015383ddc4d0b2227c1fdcd46129"
+   },
+   "mintedBy(user)": {
+    "fn": "mintedBy(address)",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed3.bnbchain.org/: OSE"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "retry": {
+    "agentRegistry": {
+     "fn": "agentRegistry()",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "agentRegistry_exact_match": false,
+    "remaining": {
+     "fn": "remaining()",
+     "value": 1746
+    },
+    "TOTAL_SLOTS": {
+     "fn": "TOTAL_SLOTS()",
+     "value": 2000
+    },
+    "totalMinted": {
+     "fn": "totalMinted()",
+     "value": 42
+    },
+    "mintedBy(user)": {
+     "fn": "mintedBy(address)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "agentTokenOf(user)": {
+     "fn": "agentTokenOf(address)",
+     "value": 107187496765866644729837695198686237165740365523485558112864918211974996443404
+    },
+    "slotOf(user)": {
+     "fn": "slotOf(address)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "quoteBNB(user)": {
+     "fn": "quoteBNB(address)",
+     "error": "{'code': 3, 'message': 'execution reverted: 0x', 'data': '0x'}"
+    },
+    "nextPrice()": {
+     "fn": "nextPrice",
+     "note": "arity 1, skipped"
+    }
+   },
+   "verdict": "NOT agent-shaped: agentRegistry() reverts (function absent); registry bytes in code only. Paid BNB mint (mintWithBNB/quoteBNB, no free views in ABI); remaining=1746/2000 totalMinted=42. Log-only, no lead, no snapshot."
+  },
+  {
+   "address": "0xb99a07A9aB24a07cDE78906E597d7fc056A07Ae6",
+   "first_block": 132403710,
+   "mint_total_window": 1,
+   "scan_name": "Brookwood Village Townhomes",
+   "scan_symbol": "BVT",
+   "first_block_timestamp": 1794145903,
+   "first_block_wib": "2026-11-08 20:51:43 WIB",
+   "sourcify": "not_verified",
+   "code_registry_bytes_hit": false,
+   "code_len": 330,
+   "agent_shaped": false,
+   "owner": {
+    "fn": "owner()",
+    "value": "0x85c6ce24b234a5c1ed33566f85b936d6d6a03123"
+   },
+   "owner_in_discards": false,
+   "contract_in_discards": false,
+   "verdict": "NOT agent-shaped: ERC1155 Brookwood Village Townhomes, Sourcify not_verified, no registry bytes. Log-only."
+  }
+ ],
+ "early_leads": [],
+ "same_owner_discards": [],
+ "retry_merged": true
+}

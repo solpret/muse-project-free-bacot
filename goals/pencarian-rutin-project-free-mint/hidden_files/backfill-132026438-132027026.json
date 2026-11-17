@@ -1,0 +1,4887 @@
+{
+ "backfill": true,
+ "chunk_id": "132026438-132027026",
+ "latest_block": 132027033,
+ "from_block": 132026438,
+ "to_block": 132027026,
+ "ankr_calls": 24,
+ "errors": [],
+ "failed_chunks": [],
+ "watermark_advanced_to": 132027026,
+ "erc20_mint_contracts": 338,
+ "erc20_mint_contracts_list": [
+  {
+   "address": "0x3dCa077eb687Df96cC987Da0035c8FAD89Ae716C",
+   "mint_count": 2288,
+   "distinct_minters": 2,
+   "first_block": 132026684,
+   "last_block": 132027025
+  },
+  {
+   "address": "0xE07150DD3A870fF0115Fc4e3c80529f92e294D89",
+   "mint_count": 594,
+   "distinct_minters": 560,
+   "first_block": 132026439,
+   "last_block": 132027026
+  },
+  {
+   "address": "0x78573aB46e5436e126d3eA1fDEf8766Cce4Efd2b",
+   "mint_count": 370,
+   "distinct_minters": 370,
+   "first_block": 132026507,
+   "last_block": 132027023
+  },
+  {
+   "address": "0xD27A1C0d6A76b2f9DA1b6D81Ae85D57B08df503e",
+   "mint_count": 243,
+   "distinct_minters": 22,
+   "first_block": 132026445,
+   "last_block": 132027025
+  },
+  {
+   "address": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
+   "mint_count": 119,
+   "distinct_minters": 110,
+   "first_block": 132026438,
+   "last_block": 132027025
+  },
+  {
+   "address": "0x88886f0fD371dfF856291bAdcEd45922bC888888",
+   "mint_count": 80,
+   "distinct_minters": 4,
+   "first_block": 132026458,
+   "last_block": 132027007
+  },
+  {
+   "address": "0x333D05767067FF4C5167cf1a03BAa6782De33333",
+   "mint_count": 74,
+   "distinct_minters": 25,
+   "first_block": 132026493,
+   "last_block": 132027009
+  },
+  {
+   "address": "0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e",
+   "mint_count": 72,
+   "distinct_minters": 37,
+   "first_block": 132026599,
+   "last_block": 132026987
+  },
+  {
+   "address": "0x826923122A8521Be36358Bdc53d3B4362B6f46E5",
+   "mint_count": 67,
+   "distinct_minters": 7,
+   "first_block": 132026474,
+   "last_block": 132027026
+  },
+  {
+   "address": "0x35803e77c3163FEd8A942536C1c8e0d5bF90f906",
+   "mint_count": 56,
+   "distinct_minters": 1,
+   "first_block": 132026474,
+   "last_block": 132027026
+  },
+  {
+   "address": "0x22a2C54b15287472F4aDBe7587226E3c998CdD96",
+   "mint_count": 56,
+   "distinct_minters": 1,
+   "first_block": 132026474,
+   "last_block": 132027026
+  },
+  {
+   "address": "0xa6344A67780e2da01928FEFd9E558D792d7986dc",
+   "mint_count": 45,
+   "distinct_minters": 38,
+   "first_block": 132026440,
+   "last_block": 132027020
+  },
+  {
+   "address": "0x6e74C976E67Feae8E83635936Ef79F969e14E869",
+   "mint_count": 42,
+   "distinct_minters": 2,
+   "first_block": 132026555,
+   "last_block": 132026555
+  },
+  {
+   "address": "0xCfb9beF5F7B748aC72311F057f3a888BC73334D9",
+   "mint_count": 37,
+   "distinct_minters": 1,
+   "first_block": 132026458,
+   "last_block": 132027011
+  },
+  {
+   "address": "0x1f8955E640Cbd9abc3C3Bb408c9E2E1f5F20DfE6",
+   "mint_count": 33,
+   "distinct_minters": 1,
+   "first_block": 132026439,
+   "last_block": 132026905
+  },
+  {
+   "address": "0xe1204dc80c7024A81Ac686252D74d8c0E310E87b",
+   "mint_count": 24,
+   "distinct_minters": 2,
+   "first_block": 132026545,
+   "last_block": 132026555
+  },
+  {
+   "address": "0x26131Eb28A342cDF75FAFa9EfFd3cE20C6CA518a",
+   "mint_count": 22,
+   "distinct_minters": 2,
+   "first_block": 132026714,
+   "last_block": 132026714
+  },
+  {
+   "address": "0xd41f0b310149885eb0825f9d47bb413a0d84D073",
+   "mint_count": 21,
+   "distinct_minters": 1,
+   "first_block": 132026456,
+   "last_block": 132027008
+  },
+  {
+   "address": "0x60919E0791038C14c828fACE7dda0db506Cf09A2",
+   "mint_count": 19,
+   "distinct_minters": 10,
+   "first_block": 132026772,
+   "last_block": 132027015
+  },
+  {
+   "address": "0x64325A19034410947B3fC6cC5D7437a214747CA4",
+   "mint_count": 15,
+   "distinct_minters": 2,
+   "first_block": 132026588,
+   "last_block": 132026867
+  },
+  {
+   "address": "0x528f7144a1AD78E05c7226ffbcBeF9eE9223F382",
+   "mint_count": 14,
+   "distinct_minters": 2,
+   "first_block": 132026464,
+   "last_block": 132026933
+  },
+  {
+   "address": "0x55C68B64c2AA1F986683c376Ef3e7EbB50ebf945",
+   "mint_count": 14,
+   "distinct_minters": 2,
+   "first_block": 132026494,
+   "last_block": 132026958
+  },
+  {
+   "address": "0x6CEd5c6d3F913b48D59Fa07AbBfe9060C409087C",
+   "mint_count": 14,
+   "distinct_minters": 11,
+   "first_block": 132026755,
+   "last_block": 132026852
+  },
+  {
+   "address": "0x75c00360f86b1b322669346DA4fA4FBbc8652a3a",
+   "mint_count": 13,
+   "distinct_minters": 13,
+   "first_block": 132026755,
+   "last_block": 132026948
+  },
+  {
+   "address": "0xEAbc2E3a58725b8721997110A1Ab0a2d49055098",
+   "mint_count": 11,
+   "distinct_minters": 11,
+   "first_block": 132026472,
+   "last_block": 132026596
+  },
+  {
+   "address": "0x9F10a122a921d25Fa9084955c87c3FcAB103267F",
+   "mint_count": 11,
+   "distinct_minters": 11,
+   "first_block": 132026444,
+   "last_block": 132026980
+  },
+  {
+   "address": "0x1bede2800100Cb4B03B27CE371b90cbc367e6Fe4",
+   "mint_count": 11,
+   "distinct_minters": 1,
+   "first_block": 132026449,
+   "last_block": 132027009
+  },
+  {
+   "address": "0x2F536E0b1Fd671408498eA2E8Af0Fe56D691F197",
+   "mint_count": 11,
+   "distinct_minters": 11,
+   "first_block": 132026614,
+   "last_block": 132026740
+  },
+  {
+   "address": "0x1D8C8af9553128a595Aca08dae5A9A6b46468bBF",
+   "mint_count": 11,
+   "distinct_minters": 11,
+   "first_block": 132026903,
+   "last_block": 132027024
+  },
+  {
+   "address": "0x636FDFa9bc3db42C690c09e87b9017D05b36C743",
+   "mint_count": 10,
+   "distinct_minters": 9,
+   "first_block": 132026477,
+   "last_block": 132026993
+  },
+  {
+   "address": "0xC53A49ef8F47352Ea59C485fb440bf453BbfAE9C",
+   "mint_count": 10,
+   "distinct_minters": 3,
+   "first_block": 132026443,
+   "last_block": 132026814
+  },
+  {
+   "address": "0x20d1F12EF71D5e07eA4FB7fC2D6a200b0EB71420",
+   "mint_count": 9,
+   "distinct_minters": 9,
+   "first_block": 132026543,
+   "last_block": 132027006
+  },
+  {
+   "address": "0x80Cf562dFcEEF4074004631EEB5b4b90ec1D5dc6",
+   "mint_count": 8,
+   "distinct_minters": 1,
+   "first_block": 132026438,
+   "last_block": 132026521
+  },
+  {
+   "address": "0xe6cae4094352a670c3eb0fcbDa17c898b71c7F2A",
+   "mint_count": 8,
+   "distinct_minters": 5,
+   "first_block": 132026519,
+   "last_block": 132026948
+  },
+  {
+   "address": "0x576f08Bc15582C18e9eCcB0508393dA682d1437B",
+   "mint_count": 8,
+   "distinct_minters": 5,
+   "first_block": 132026510,
+   "last_block": 132026906
+  },
+  {
+   "address": "0x5e07eC958492Da93caA306c12C3a0552D5D594ed",
+   "mint_count": 7,
+   "distinct_minters": 6,
+   "first_block": 132026476,
+   "last_block": 132026901
+  },
+  {
+   "address": "0xD68995d343016f0Bb62e8787F0f03AAAEd118d8a",
+   "mint_count": 7,
+   "distinct_minters": 6,
+   "first_block": 132026565,
+   "last_block": 132026945
+  },
+  {
+   "address": "0x670e3eeBe8e7c5414fe891DDF075faCbadA6F237",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "first_block": 132026445,
+   "last_block": 132026733
+  },
+  {
+   "address": "0xdEeC39aA40219DB02f17B05327E8E3076CA09De1",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "first_block": 132026439,
+   "last_block": 132026907
+  },
+  {
+   "address": "0x034Ac777ecEe4d87ccCC224Dd714076866aDFadB",
+   "mint_count": 6,
+   "distinct_minters": 1,
+   "first_block": 132026491,
+   "last_block": 132027004
+  },
+  {
+   "address": "0x040C925D68A32Ffa6199DADA68b4b9751f07DDB0",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 132026587,
+   "last_block": 132027013
+  },
+  {
+   "address": "0x231d9e7181E8479A8B40930961e93E7ed798542C",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 132026580,
+   "last_block": 132026794
+  },
+  {
+   "address": "0x76096218ea7E6e1a3C6A549c88e2928C633B5F63",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 132026472,
+   "last_block": 132026868
+  },
+  {
+   "address": "0xAc5A5d4cbd6c0780E8b0Aa06AD330A94C6002881",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 132026459,
+   "last_block": 132027015
+  },
+  {
+   "address": "0x4008a353d3476884DC8Cd8fBf314970C8409FB22",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 132026511,
+   "last_block": 132027005
+  },
+  {
+   "address": "0x4C3bae7CB07712c9c2b27d488CE323af77D36b39",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 132026550,
+   "last_block": 132026934
+  },
+  {
+   "address": "0xa13d02C3CBb2e1F310aC1727439457b5ebB30692",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 132026486,
+   "last_block": 132026920
+  },
+  {
+   "address": "0x43a04D48446265Dad3fab713505559bDF8bC12A9",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 132026486,
+   "last_block": 132026920
+  },
+  {
+   "address": "0xFaD229b3155a73fD8dB851E079558A884b009999",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 132026471,
+   "last_block": 132027021
+  },
+  {
+   "address": "0xa08D18c6c437677Bd2a4A65Fae5fAE991B714165",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "first_block": 132026468,
+   "last_block": 132027023
+  },
+  {
+   "address": "0xABE0e16758E0EC57848a092285Ace3B384C58d88",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026452,
+   "last_block": 132026655
+  },
+  {
+   "address": "0xD0a7486456896DDb5729AD80CFDCD1c12e806900",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 132026446,
+   "last_block": 132026591
+  },
+  {
+   "address": "0xF238B7b681c5Bf61B99E3203EA5fAD9A873cC069",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 132026443,
+   "last_block": 132026999
+  },
+  {
+   "address": "0x7b41e1860c91Be188c18341AE53a18B49C4b8D15",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026504,
+   "last_block": 132026789
+  },
+  {
+   "address": "0x82319D55FF41459A71420cA40A1216EE93E29d80",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "first_block": 132026498,
+   "last_block": 132026754
+  },
+  {
+   "address": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026565,
+   "last_block": 132026957
+  },
+  {
+   "address": "0x152f18A6DA057859F5DFB2667Cb4d992D3E3401A",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026685,
+   "last_block": 132026775
+  },
+  {
+   "address": "0x8D65744527f55d0b2338350912d5C99A81ddF0e2",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 132026667,
+   "last_block": 132026989
+  },
+  {
+   "address": "0xaC48F1cCA74681Df2B2A84c09eD3a746b699fe3f",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 132026659,
+   "last_block": 132026761
+  },
+  {
+   "address": "0x723e50D125451737FDc27fc4CDdc230941012C88",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 132026710,
+   "last_block": 132026994
+  },
+  {
+   "address": "0x56345c13d59349aB42B694A1A159c37B5bFd985d",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026769,
+   "last_block": 132026945
+  },
+  {
+   "address": "0xA4861632DE727d0cFa58ACEdCadF4dCE959923e5",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 132026750,
+   "last_block": 132026809
+  },
+  {
+   "address": "0x0BB43434684C7a7ae0ee9Eea240449ACAF3F6472",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026865,
+   "last_block": 132026965
+  },
+  {
+   "address": "0x6a6a781e01a4D76FC59eFa08A377354066E9237F",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 132026889,
+   "last_block": 132026961
+  },
+  {
+   "address": "0xFB06c427c752890A529a4269f33823435307a55b",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132026472,
+   "last_block": 132026770
+  },
+  {
+   "address": "0xdC3CecC89a25c9439f3fe9A94A3E9e24A2c2a8C3",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132026462,
+   "last_block": 132026651
+  },
+  {
+   "address": "0x9E22065458B8609CA70961F12CEB5f68049f1c7e",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132026451,
+   "last_block": 132026845
+  },
+  {
+   "address": "0xEc6D1444Ce527fa92350af62d42EB23182233333",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132026444,
+   "last_block": 132026645
+  },
+  {
+   "address": "0xeB6c89C3126736E4De8CC141Ad752B1c74605f70",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 132026501,
+   "last_block": 132026764
+  },
+  {
+   "address": "0x4c067DE26475E1CeFee8b8d1f6E2266b33a2372E",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 132026493,
+   "last_block": 132026694
+  },
+  {
+   "address": "0x94AA263052419B526F93c4A2924929ABFdF13bc4",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 132026583,
+   "last_block": 132026977
+  },
+  {
+   "address": "0x151794E872618f22208e438f36b6454565da8A2A",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 132026567,
+   "last_block": 132026893
+  },
+  {
+   "address": "0x0c84aED253EaaB9b7263665D7e213B7aEC718f23",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 132026683,
+   "last_block": 132026796
+  },
+  {
+   "address": "0x91C39281558CF8B3052C63009c5763fE6ee81466",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132026654,
+   "last_block": 132027026
+  },
+  {
+   "address": "0x05ae9aC4878f18D9Ae11F804079cfFFd0844B455",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132026721,
+   "last_block": 132026911
+  },
+  {
+   "address": "0xB745780A2Ae327dd4CCbA179a88836ecEe42cd56",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 132026699,
+   "last_block": 132026781
+  },
+  {
+   "address": "0x6D7036d586C01333Bc5b1489eC8696dE0445AF2F",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 132026754,
+   "last_block": 132026999
+  },
+  {
+   "address": "0x986D20Ad52691a615277756Df18E004cc9FC5D29",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 132027013,
+   "last_block": 132027013
+  },
+  {
+   "address": "0x70fB11AD997804f15174bDC82463C6419f5D39fA",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026485,
+   "last_block": 132026485
+  },
+  {
+   "address": "0x9F5F47A8db7467303A24260349d2AF9462Bf38b5",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026483,
+   "last_block": 132026857
+  },
+  {
+   "address": "0x8B5B94b8455810422419B7d6B91c111C3d83aF0c",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026483,
+   "last_block": 132026483
+  },
+  {
+   "address": "0x22404230b112682ac03E5a1fE65F94eb6210405C",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026471,
+   "last_block": 132026471
+  },
+  {
+   "address": "0x17515B68378d86C38F394c666e79907dA05dcBA9",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026466,
+   "last_block": 132026603
+  },
+  {
+   "address": "0x45E51bc23D592EB2DBA86da3985299f7895d66Ba",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026466,
+   "last_block": 132026466
+  },
+  {
+   "address": "0x0349fd8934148F88d2bd3AEB48B8E978b571160D",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026455,
+   "last_block": 132026461
+  },
+  {
+   "address": "0x6fB54E75bE3dAD4b0aAaA018BFb80121a342eCe8",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026459,
+   "last_block": 132026459
+  },
+  {
+   "address": "0x2d9Cfbe6d8ed7a76E2134C2E468AE46fbE3EEE2E",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026459,
+   "last_block": 132026459
+  },
+  {
+   "address": "0x120A9542ee64B438b98f5f100f5f87A76c9305Ab",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026459,
+   "last_block": 132026459
+  },
+  {
+   "address": "0xd3ad27A38f8263D3122EF5dD6d97Df7e72d1a26B",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026438,
+   "last_block": 132026884
+  },
+  {
+   "address": "0x7C26a12f20507E2ceE22CeEBed9e88FDA47f866c",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026524,
+   "last_block": 132027023
+  },
+  {
+   "address": "0xfdc2F2caB77b28f7Ef6c819A404706cfA9bCA33b",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026520,
+   "last_block": 132027019
+  },
+  {
+   "address": "0x6520c5d5140B6Fc5780c5c8357d38a8b2d9b5606",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026515,
+   "last_block": 132026515
+  },
+  {
+   "address": "0x76198caaa0e132fb76713FA76DaE31fA0c4230bD",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026512,
+   "last_block": 132026512
+  },
+  {
+   "address": "0x231d5FF69F404fe285f37eDCB8A1A9Ac0A3b5128",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026509,
+   "last_block": 132026851
+  },
+  {
+   "address": "0xF8bb2Be50647447Fb355e3a77b81be4db64107cd",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026507,
+   "last_block": 132026771
+  },
+  {
+   "address": "0xD084C5a4a621914eD2992310024d2438DFde5BfD",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026507,
+   "last_block": 132026507
+  },
+  {
+   "address": "0xA21E449B9D003314bc7D8766108C6C6f050eb3BF",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026503,
+   "last_block": 132026503
+  },
+  {
+   "address": "0x5b1910eAaD6450E50f816082Aa078C41F10C292f",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026498,
+   "last_block": 132027007
+  },
+  {
+   "address": "0x9ebcE4ABd512E806C0243aF7f5a960Ab64d4b0cC",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026497,
+   "last_block": 132026497
+  },
+  {
+   "address": "0xE5FeDaE907821937f8A37Ee383044b80233B7F1A",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026494,
+   "last_block": 132026494
+  },
+  {
+   "address": "0x80f3D493EBCe97e343c53D29a137942416B4ffC0",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026493,
+   "last_block": 132026998
+  },
+  {
+   "address": "0xC7224C7aD77F59133f74424D8D68Ad7BAa58dDf3",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026488,
+   "last_block": 132026912
+  },
+  {
+   "address": "0x255e746aBb8D9Acac00d6d023e5E63E3b8DFA7cd",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026572,
+   "last_block": 132026708
+  },
+  {
+   "address": "0xf65d3963dF69f611453eE30CBb35D129edd59541",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026572,
+   "last_block": 132026572
+  },
+  {
+   "address": "0x1F59266281E12F92c1450643284a721e20656870",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026559,
+   "last_block": 132026653
+  },
+  {
+   "address": "0x7DA290Fdd6645d0e38B3044eC162A8dD1d578335",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026558,
+   "last_block": 132026604
+  },
+  {
+   "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026555,
+   "last_block": 132026555
+  },
+  {
+   "address": "0x066aeE69D93dEe28b32A57fEbd1878a2D94F6b0c",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026542,
+   "last_block": 132026542
+  },
+  {
+   "address": "0xd354bb09E83a0949F0FDB1D660f1B364EFeAC3Db",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026599,
+   "last_block": 132026599
+  },
+  {
+   "address": "0x7d3D3C4bFa280BE71cfA596a00CD45b2dD4af0FF",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026596,
+   "last_block": 132026647
+  },
+  {
+   "address": "0xE56041CdDBB46DB01c67B7A62684F428a04Db8C6",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026685,
+   "last_block": 132026685
+  },
+  {
+   "address": "0x1bFCC60d4f29a6C73D655460898ace26235C1730",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026676,
+   "last_block": 132026676
+  },
+  {
+   "address": "0x2B26769D94C388713538b89e57979aE61eb29472",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026673,
+   "last_block": 132026673
+  },
+  {
+   "address": "0x385EABE93f98374ddFD34098630bbc88f5A83F17",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026639,
+   "last_block": 132026639
+  },
+  {
+   "address": "0xcF6687274830d895224F183d4AB9f0E9B5990520",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026735,
+   "last_block": 132026735
+  },
+  {
+   "address": "0x774C4E83fa555B3cFae72C43f9363c8efa5b8277",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026733,
+   "last_block": 132026749
+  },
+  {
+   "address": "0x1397A524a9A33eD41B11Aa4F43e460E91A0632F5",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026719,
+   "last_block": 132026719
+  },
+  {
+   "address": "0x0b0800BAF7232Ec8e3C260aedbd5981835fCE853",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026718,
+   "last_block": 132026718
+  },
+  {
+   "address": "0x36f33eb43B5672EfC62F184D66183Bf0702c9471",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026690,
+   "last_block": 132026690
+  },
+  {
+   "address": "0x7fc33E29150f9C8617d3B1b6F559cfDe9C4bc9F1",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026785,
+   "last_block": 132026785
+  },
+  {
+   "address": "0xB72973BdF9aBF343BE53ff9AC47c3A8305A5c8eE",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026781,
+   "last_block": 132026781
+  },
+  {
+   "address": "0xA9eE28C80f960B889dFbd1902055218cBa016F75",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026780,
+   "last_block": 132026969
+  },
+  {
+   "address": "0x64920E7f4f270f302e8b728f69B5a9Fc24Fda2D3",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026778,
+   "last_block": 132026934
+  },
+  {
+   "address": "0x5787313AE0dD469fd9E8b1C036F938f90A24d67C",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026774,
+   "last_block": 132026774
+  },
+  {
+   "address": "0x6366645548eAE0A1C586F2Fb1b0BCcAaa7AeFc77",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026768,
+   "last_block": 132026768
+  },
+  {
+   "address": "0x696827A935346A7448f2d6fEf502F2e48be54962",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026764,
+   "last_block": 132026764
+  },
+  {
+   "address": "0xDF485a883982B4803b5A89606114179ad570afb9",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026750,
+   "last_block": 132026750
+  },
+  {
+   "address": "0xC7dd912045c2aA9cd12662040eFE53E2A7916A54",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026741,
+   "last_block": 132026741
+  },
+  {
+   "address": "0xd71BBaA5a220E7E03dA6c3Ea670bc871f365EEC9",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026829,
+   "last_block": 132026829
+  },
+  {
+   "address": "0x996674A3c715f3f9A418Fd51c38dE2A02304E4e8",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026824,
+   "last_block": 132026824
+  },
+  {
+   "address": "0xc708Ec07D9D6F981f9ebbaaF6580A33aD2755177",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026816,
+   "last_block": 132027012
+  },
+  {
+   "address": "0x64acb4ca4cf1ef9b69F89d2f1FB22D6F97A63C15",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026793,
+   "last_block": 132026878
+  },
+  {
+   "address": "0xD518309B38b3123fCD8C9ba2ea0Dc712F4C3C451",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026937,
+   "last_block": 132026937
+  },
+  {
+   "address": "0xA56961d2Ea267b318640D9407be5bEe7a600b8dC",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 132026925,
+   "last_block": 132026963
+  },
+  {
+   "address": "0x7b84Bc4d5375cF80fF5Aaf241E046EEc590e9E3E",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026912,
+   "last_block": 132026912
+  },
+  {
+   "address": "0x6A8f760e1bB2A17806940Cc0C08C81B117D61aE0",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026911,
+   "last_block": 132026911
+  },
+  {
+   "address": "0x7FEe59FA9B6D08F5d5daF19DeF2EBe9A05d7D4E3",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026947,
+   "last_block": 132026947
+  },
+  {
+   "address": "0x178599932b5272c02aA906Be900D4ED28a9E1911",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026944,
+   "last_block": 132026944
+  },
+  {
+   "address": "0xD7761d087671a4Ac6EA30d5715ac4fe0b7B0A0c5",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132027024,
+   "last_block": 132027024
+  },
+  {
+   "address": "0x7E0de344ab3616A588861A92335Bc2da879D5260",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132027022,
+   "last_block": 132027022
+  },
+  {
+   "address": "0xc7615F0f68754C4E38a23944D5722fdAD5e3174A",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026998,
+   "last_block": 132026998
+  },
+  {
+   "address": "0xfa23b22086cC5bbB269D207f7ed68b06E2fF2958",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026997,
+   "last_block": 132026997
+  },
+  {
+   "address": "0xE6efCdEf2b720d1eca2b69eDB7ef357725680BEa",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026992,
+   "last_block": 132026992
+  },
+  {
+   "address": "0x8e6442663A4F8C50b6132c68d42A30E7DFE4Ae15",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 132026992,
+   "last_block": 132026992
+  },
+  {
+   "address": "0xd0097a812b6e19EBD5968740A478A9872B589Fe8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026485,
+   "last_block": 132026485
+  },
+  {
+   "address": "0x91D73BA0D6eC9c935660e78aA86cA02f8F4b7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026482,
+   "last_block": 132026482
+  },
+  {
+   "address": "0xCE63a23E714f9D4E344D7df62d355Cf2B72eB449",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026482,
+   "last_block": 132026482
+  },
+  {
+   "address": "0x7f0172b75d3823D8aF04feE3A3f6a14aBD68EFE1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026477,
+   "last_block": 132026477
+  },
+  {
+   "address": "0x9914090b803F75E853A9ecb3553CcA8a165F5467",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026474,
+   "last_block": 132026474
+  },
+  {
+   "address": "0x356ea8414473B19C51D526bD43d74DE73f48aa15",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026473,
+   "last_block": 132026473
+  },
+  {
+   "address": "0x341D31b2be1Fee9C00e395A62bA41837F4322EEd",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026468,
+   "last_block": 132026468
+  },
+  {
+   "address": "0x91B0E4EDDb7a45e54116bfB3A80789fB68900487",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026468,
+   "last_block": 132026468
+  },
+  {
+   "address": "0x93862d63fd9Fd488B1328E9b47717d75e994a84B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026467,
+   "last_block": 132026467
+  },
+  {
+   "address": "0x8bA9dA757d1D66c58b1ae7e2ED6c04087348A82d",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026466,
+   "last_block": 132026466
+  },
+  {
+   "address": "0xC8Da12cbCCE7c45180692a6420b0076e03a5179a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026463,
+   "last_block": 132026463
+  },
+  {
+   "address": "0xD16F58e9A91B3304f738e4Fcb4a4769832657777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026460,
+   "last_block": 132026460
+  },
+  {
+   "address": "0x5519de00F5388c17d886b97Cb5D2D43a812a82bC",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026459,
+   "last_block": 132026459
+  },
+  {
+   "address": "0xF581Ff45Ea947dabae84f01E05b7aef63769a7Dd",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026447,
+   "last_block": 132026447
+  },
+  {
+   "address": "0xde64b262b72B3309f790Fa66e6220B9631443950",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026445,
+   "last_block": 132026445
+  },
+  {
+   "address": "0x7B48474d25431Dfad4337735A0A2E57b63573ABB",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026441,
+   "last_block": 132026441
+  },
+  {
+   "address": "0x91E67d90d0c1B1F150746d44a29194A76B15Ce35",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026438,
+   "last_block": 132026438
+  },
+  {
+   "address": "0xfEb0793EEa97585Eb3a541F3FD53450D225b2B87",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026438,
+   "last_block": 132026438
+  },
+  {
+   "address": "0xBE1fceD7047fdCE935F45700727845df2c76877a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026537,
+   "last_block": 132026537
+  },
+  {
+   "address": "0x6Bfe75D1ad432050eA973C3A3DcD88F02e2444C3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026535,
+   "last_block": 132026535
+  },
+  {
+   "address": "0xD42890342929F9Ee362a8dE900B638BC10095346",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026532,
+   "last_block": 132026532
+  },
+  {
+   "address": "0xC76CEB4CBa569E5BcaFC9fA80ca6A9Bd3444dBE1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026531,
+   "last_block": 132026531
+  },
+  {
+   "address": "0x5407912F1Aa4B9E05cBE6aBeb9721547a643eC6b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026528,
+   "last_block": 132026528
+  },
+  {
+   "address": "0xf06B26aB5Ad5A30a39B40102D21ebC66D679EfE1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026517,
+   "last_block": 132026517
+  },
+  {
+   "address": "0x15ec59551096d5aE2Df8CdE08618035145828548",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026516,
+   "last_block": 132026516
+  },
+  {
+   "address": "0x97eCc27f79Eaa69f80Ab49bc97Ba3750A7087CCC",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026512,
+   "last_block": 132026512
+  },
+  {
+   "address": "0xE256BC2A4F5297F8ba6f043F180a46300eCbCbB1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026511,
+   "last_block": 132026511
+  },
+  {
+   "address": "0x5F7A56e877B9130608Bf8BE962621011182fEfE1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026505,
+   "last_block": 132026505
+  },
+  {
+   "address": "0x877078d12bA37B64083ccb4D680DCc94912BcABE",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026503,
+   "last_block": 132026503
+  },
+  {
+   "address": "0xd00702B2F295E92ecA1C3CE94DcF72EfF89a3154",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026503,
+   "last_block": 132026503
+  },
+  {
+   "address": "0x7138b48df7D98D7e3cc221BfE7192D0a178182D8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026501,
+   "last_block": 132026501
+  },
+  {
+   "address": "0x49c2B179d431BbCB0fF71A0E69c6Abc6e8a67777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026497,
+   "last_block": 132026497
+  },
+  {
+   "address": "0x1ddCb253AD4b5bb79894d95fbC83f9698e677777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026495,
+   "last_block": 132026495
+  },
+  {
+   "address": "0xd721c192d612Db77621DF57A9fAb38418033c02E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026489,
+   "last_block": 132026489
+  },
+  {
+   "address": "0x4684D9887fC1c71cBa7baB8E88835CEC217eB598",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026587,
+   "last_block": 132026587
+  },
+  {
+   "address": "0xfeCDc9734E1DC14B8b20D0ECC5b519e8Be93Ff67",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026584,
+   "last_block": 132026584
+  },
+  {
+   "address": "0x75E5f12664ff6426C2765c09dcfFbca66266a480",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026583,
+   "last_block": 132026583
+  },
+  {
+   "address": "0x585BDE7C54ABB5cCD7791F923D6c2187635f3952",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026583,
+   "last_block": 132026583
+  },
+  {
+   "address": "0xcdCC15E1eD059e487e0E8e29173e8f560b3087B5",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026582,
+   "last_block": 132026582
+  },
+  {
+   "address": "0x4DA12f47578ef89c76179b760C778E70b668f80b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026582,
+   "last_block": 132026582
+  },
+  {
+   "address": "0x8b9Ee39195eA99d6ddD68030F44131116bc218F6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026581,
+   "last_block": 132026581
+  },
+  {
+   "address": "0x188eD99dEA63F5129b7E7813eE5e139233862095",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026580,
+   "last_block": 132026580
+  },
+  {
+   "address": "0x43B6dfb4695804A2cb629ca35D5F222325E138dE",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026580,
+   "last_block": 132026580
+  },
+  {
+   "address": "0x76682c454467b3A1150Ad8b6a92FC5eE2C21d7eD",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026578,
+   "last_block": 132026578
+  },
+  {
+   "address": "0x3C98eC2c2c72dF1f661D4aD8a7E3eF3ee1723F50",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026577,
+   "last_block": 132026577
+  },
+  {
+   "address": "0x390a684EF9cADE28A7AD0DFa61AB1Eb3842618c4",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026576,
+   "last_block": 132026576
+  },
+  {
+   "address": "0xD6829Ea836b6FA224d099D40E54B31262f874631",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026575,
+   "last_block": 132026575
+  },
+  {
+   "address": "0xe92F5d948d8764904F9703ae878a3A9e6b3952eb",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026575,
+   "last_block": 132026575
+  },
+  {
+   "address": "0xe81C6bB0266cd68B4F17278531Dd03eA1F12dA4E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026570,
+   "last_block": 132026570
+  },
+  {
+   "address": "0xd0cb4279e2B74c2d72EEa20Df308Fb9604E3d6Ea",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026570,
+   "last_block": 132026570
+  },
+  {
+   "address": "0xb60e2C3331AE21a4da731Ed0d65F567FA2a71143",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026567,
+   "last_block": 132026567
+  },
+  {
+   "address": "0x7c4d7a180D737Dd5A70d8065a90E6746a69C37EA",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026566,
+   "last_block": 132026566
+  },
+  {
+   "address": "0x6EEe003e2aEBE75bE551Ac509Eb485cc25E404Fb",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026566,
+   "last_block": 132026566
+  },
+  {
+   "address": "0x2117FcdCEB83AFc4e61d4a009929CFB8AdD27777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026563,
+   "last_block": 132026563
+  },
+  {
+   "address": "0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026562,
+   "last_block": 132026562
+  },
+  {
+   "address": "0x54E719fc2086539DeeD579Dd8A93C745A4fE7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026562,
+   "last_block": 132026562
+  },
+  {
+   "address": "0xA8a5d1F7DeD0d60434dD3302fD6A510ae57a6e22",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026559,
+   "last_block": 132026559
+  },
+  {
+   "address": "0x462B5F13B7C7748279358962925c5De83BB9E598",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026558,
+   "last_block": 132026558
+  },
+  {
+   "address": "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026555,
+   "last_block": 132026555
+  },
+  {
+   "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026554,
+   "last_block": 132026554
+  },
+  {
+   "address": "0x58cd3aa8Eb59cccD731bee9277d3d89e416E7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026552,
+   "last_block": 132026552
+  },
+  {
+   "address": "0xd569CBa3506Dd5Cc033eC578e71922AfaF6c7222",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026552,
+   "last_block": 132026552
+  },
+  {
+   "address": "0xB0f61c2A90230446f37a570d5E29AE0108e2b87A",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026551,
+   "last_block": 132026551
+  },
+  {
+   "address": "0x434DF8fF93eBD8e60d70B4f72700607C23BfFFFF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026550,
+   "last_block": 132026550
+  },
+  {
+   "address": "0x10343EF7da3301493D7Ecb647d68A288C6c1Db2F",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026550,
+   "last_block": 132026550
+  },
+  {
+   "address": "0x70a164a8eCcee2b7a1873aF71EFdFA82904F937D",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026550,
+   "last_block": 132026550
+  },
+  {
+   "address": "0x32E39e05630267c94F55A6Fb0A9328e9207D6666",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026546,
+   "last_block": 132026546
+  },
+  {
+   "address": "0x75Fd4cF6f8392E41E70391D60c90C0D5211603a1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026546,
+   "last_block": 132026546
+  },
+  {
+   "address": "0xa304BD78e739C0F777202B3eB73Ac3736d1df801",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026541,
+   "last_block": 132026541
+  },
+  {
+   "address": "0xF3d5b4c34Ed623478cc5141861776E6cf7AE3A1E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026541,
+   "last_block": 132026541
+  },
+  {
+   "address": "0xc3Fc2156e53Ab760574EAd452627e6B8CD675B32",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026538,
+   "last_block": 132026538
+  },
+  {
+   "address": "0xcdf2f3e0fa43C47A6662a91C9E4a7C5f69762699",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026633,
+   "last_block": 132026633
+  },
+  {
+   "address": "0x5131859a059B2446AbeeFe0f5d313b3c54Ff3D36",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026629,
+   "last_block": 132026629
+  },
+  {
+   "address": "0x606B933974C52af4777F3c0f43309D55Cf0d9DB9",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026628,
+   "last_block": 132026628
+  },
+  {
+   "address": "0xCA750eF65f295BBECd685Abf54e82CAf297BDB61",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026624,
+   "last_block": 132026624
+  },
+  {
+   "address": "0x89df03aA8f8957fdD454Bb3b3E571dE9F4Dd7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026623,
+   "last_block": 132026623
+  },
+  {
+   "address": "0x1C73C9a44B3023134F7eaC7AB30E9ab5a4615a76",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026621,
+   "last_block": 132026621
+  },
+  {
+   "address": "0x6FBb417e1deb1213f777B67Af83D512c0D423f96",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026619,
+   "last_block": 132026619
+  },
+  {
+   "address": "0x0735D9904b7e34e6fe39B0f66E00c111b3f2b681",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026618,
+   "last_block": 132026618
+  },
+  {
+   "address": "0xdcD52CA916c374425D30eE06092a7D0A3DFA0988",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026616,
+   "last_block": 132026616
+  },
+  {
+   "address": "0x431a3BEE82E2ca41e49895CbECE5bB0F76A89b7A",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026612,
+   "last_block": 132026612
+  },
+  {
+   "address": "0x0bB3fA77E0809f42948E435F04883C25415e8263",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026607,
+   "last_block": 132026607
+  },
+  {
+   "address": "0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026603,
+   "last_block": 132026603
+  },
+  {
+   "address": "0xe614E2fc6C787035FF51f452e8E826Bfd32D5283",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026599,
+   "last_block": 132026599
+  },
+  {
+   "address": "0xbCfBB0508315FCAb44b2d7707A391607aF065e4c",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026599,
+   "last_block": 132026599
+  },
+  {
+   "address": "0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026595,
+   "last_block": 132026595
+  },
+  {
+   "address": "0xcF85EfaA3cB2A2d939c3aB47fDD1022b53d133b3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026595,
+   "last_block": 132026595
+  },
+  {
+   "address": "0xE28Cd11C99AF2df76bb8aDA4Cd0ef3904378280F",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026592,
+   "last_block": 132026592
+  },
+  {
+   "address": "0xC9e705D2A130275949b6f557da78d15eCb1A7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026591,
+   "last_block": 132026591
+  },
+  {
+   "address": "0xF5dCC66154c71D32Df6Fa25C6374E2Bf46C77777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026685,
+   "last_block": 132026685
+  },
+  {
+   "address": "0x25e572B466D152604D9E6C3e53B432B978825342",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026683,
+   "last_block": 132026683
+  },
+  {
+   "address": "0xd97d097a89113fa59b76c572E5b2Eb647E8eefaf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026679,
+   "last_block": 132026679
+  },
+  {
+   "address": "0xFb7cC38cF67237BC7834e6CA09fBD97d689338Fc",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026677,
+   "last_block": 132026677
+  },
+  {
+   "address": "0xA5BFB53A0B17B5adcd0C0A808F3faDdC2559E7a8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026677,
+   "last_block": 132026677
+  },
+  {
+   "address": "0x3F53De71c126BdaBAe20f9cD64848d317f6C3238",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026675,
+   "last_block": 132026675
+  },
+  {
+   "address": "0x9fd8C159D3657eE7b8697f70B31a41c355042B43",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026675,
+   "last_block": 132026675
+  },
+  {
+   "address": "0x9BDC8B470dbf89DbCb123587C6f5E49cCA3463BE",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026671,
+   "last_block": 132026671
+  },
+  {
+   "address": "0xBE82F76637DBA2C114C41Df856c2C51e522E2Cb8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026667,
+   "last_block": 132026667
+  },
+  {
+   "address": "0x832cc56b564663045609423a063a3d7dEbDCfEdc",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026664,
+   "last_block": 132026664
+  },
+  {
+   "address": "0x1FFAD32d69c5FEAd99f88C25ca0191Edc3757636",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026663,
+   "last_block": 132026663
+  },
+  {
+   "address": "0x55B8cc618C4209A97250Dff926d3d708814d36aa",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026660,
+   "last_block": 132026660
+  },
+  {
+   "address": "0x9e82e3da8f1115B73d24bB24113ab836FfDAb6b6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026659,
+   "last_block": 132026659
+  },
+  {
+   "address": "0x4902C5ebc598265Ed2212b559B042De8a5Eeec3f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026655,
+   "last_block": 132026655
+  },
+  {
+   "address": "0xC23603E03E5c1Fc02Df8B812cF30c9f5734fa72e",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026655,
+   "last_block": 132026655
+  },
+  {
+   "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026651,
+   "last_block": 132026651
+  },
+  {
+   "address": "0xFDbb3c34b845FA946Bbe5B661e2B95e212db7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026649,
+   "last_block": 132026649
+  },
+  {
+   "address": "0xd5f667329ec083526632562EDde61f948C38d97E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026649,
+   "last_block": 132026649
+  },
+  {
+   "address": "0xfb7787399288103eC208FfbF1dc4E2A1c9f274C6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026649,
+   "last_block": 132026649
+  },
+  {
+   "address": "0x205812CdBed920aFf76C6580abD681a46D11efc7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026646,
+   "last_block": 132026646
+  },
+  {
+   "address": "0x3548Da95a9eFFE481e8604664d75e95821e557F5",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026643,
+   "last_block": 132026643
+  },
+  {
+   "address": "0xD74Ecec079f526A248215a3dc164fab23B8C5D8b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026641,
+   "last_block": 132026641
+  },
+  {
+   "address": "0x58b6F5fEeb8436489F5bf4a56619092B1FA8E777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026638,
+   "last_block": 132026638
+  },
+  {
+   "address": "0x7C3Cf2a63B3Eed6e39e6A2240470d033C5c97A22",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026737,
+   "last_block": 132026737
+  },
+  {
+   "address": "0x0C69199C1562233640e0Db5Ce2c399A88eB507C7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026725,
+   "last_block": 132026725
+  },
+  {
+   "address": "0xe580D9A6eb11E76c13Fd7BdC8BEeB568b4aC0989",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026721,
+   "last_block": 132026721
+  },
+  {
+   "address": "0x8Ccc6717AE6993BEC9E2A9AFa6151D81c28C95Ae",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026717,
+   "last_block": 132026717
+  },
+  {
+   "address": "0xE1732E2242EBadf00e0b68CD9FF6941f57947B0e",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026717,
+   "last_block": 132026717
+  },
+  {
+   "address": "0xadEC701fA790aadb8E56A095d3A32987De60882a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026714,
+   "last_block": 132026714
+  },
+  {
+   "address": "0xB7D835F2049a50debf8b292B58A9e94cb07a1A92",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026704,
+   "last_block": 132026704
+  },
+  {
+   "address": "0x87E4710150d966C7A0fAe6b61ed666190210Fae3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026703,
+   "last_block": 132026703
+  },
+  {
+   "address": "0x1571D4b4012E5cDc619be6D8295D7C1311e83EE6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026690,
+   "last_block": 132026690
+  },
+  {
+   "address": "0x732823512Ba98D1BCDE471ca023ee2A0C9f117b7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026783,
+   "last_block": 132026783
+  },
+  {
+   "address": "0x53ba295180aE4B730f9B2A031f77C1bcdb009509",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026783,
+   "last_block": 132026783
+  },
+  {
+   "address": "0xA9481429169C883c7FD5f5EAdFD08737ad688337",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026780,
+   "last_block": 132026780
+  },
+  {
+   "address": "0x0F3E849a9ed3F74D696A588BeDA71FE11AE1D67B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026776,
+   "last_block": 132026776
+  },
+  {
+   "address": "0x0B3254717c3C8AD2c3615a1BC5d9fA79480e79a4",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026771,
+   "last_block": 132026771
+  },
+  {
+   "address": "0x8AC96df1D3Dbd7c99A54CB4e50599cE129015E50",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026771,
+   "last_block": 132026771
+  },
+  {
+   "address": "0x00901a076785e0906d1028c7d6372d247bec7d61",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026771,
+   "last_block": 132026771
+  },
+  {
+   "address": "0x73DeB1Ca4d34A7C7C42FD3320Ac186Ac5fbF4Aa8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026770,
+   "last_block": 132026770
+  },
+  {
+   "address": "0x9c80fBC39EE0092C20a02c5624B49a32F7561692",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026769,
+   "last_block": 132026769
+  },
+  {
+   "address": "0x6f5824D52e4c37470686FE36bE7e79701453B1Ad",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026759,
+   "last_block": 132026759
+  },
+  {
+   "address": "0xE7552E963036BA54A41fC8D2cB1B626bDADb7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026757,
+   "last_block": 132026757
+  },
+  {
+   "address": "0x3172B386fcecb20E3DB3c435b72ec49ba3c6dc2d",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026757,
+   "last_block": 132026757
+  },
+  {
+   "address": "0x62906D9dB83c1657bAb440407C3c3536Ff557777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026745,
+   "last_block": 132026745
+  },
+  {
+   "address": "0xDb3E1CfA35E63A98B00973CE7795113230cb4827",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026745,
+   "last_block": 132026745
+  },
+  {
+   "address": "0xB9A5Aef2162A1349B8F3A454AF8f99A66f0CE104",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026741,
+   "last_block": 132026741
+  },
+  {
+   "address": "0x711c320458AebA90a841eEF4571eaD4B134BD261",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026836,
+   "last_block": 132026836
+  },
+  {
+   "address": "0x10834340776f2D6ec557dFFd65048bfb9Bae0627",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026829,
+   "last_block": 132026829
+  },
+  {
+   "address": "0x47C9c2E3CDd0855AA18b1CbE1b0E18f0bAE32AB0",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026828,
+   "last_block": 132026828
+  },
+  {
+   "address": "0x5a847BE0F397a57C8f7E4193AF093F4f0A422571",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026827,
+   "last_block": 132026827
+  },
+  {
+   "address": "0xa9251ca9DE909CB71783723713B21E4233fbf1B1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026827,
+   "last_block": 132026827
+  },
+  {
+   "address": "0xf970158E6442206b3E5c42ce31D5118318727777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026825,
+   "last_block": 132026825
+  },
+  {
+   "address": "0x4Aec37cD47806BF1e7C88aad768E6600aC0E7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026823,
+   "last_block": 132026823
+  },
+  {
+   "address": "0x10cEA6716D69E2D7F05baFf15500F8aF6C7A914f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026809,
+   "last_block": 132026809
+  },
+  {
+   "address": "0xD3507d4C160fE2b1A4f45d64db49DB6C0d6c7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026807,
+   "last_block": 132026807
+  },
+  {
+   "address": "0x123C7d7d13A0187A0fF7ADe8fD9DE7ff88a07777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026806,
+   "last_block": 132026806
+  },
+  {
+   "address": "0x9896506593A9E23646a23cA388C8682ccD6b8042",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026801,
+   "last_block": 132026801
+  },
+  {
+   "address": "0x958a845C3551E23fA9E51Ee151931aC4Aa3d83a3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026790,
+   "last_block": 132026790
+  },
+  {
+   "address": "0xe9477C32e52500C617B684C49a773A7ab2FeD4D6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026790,
+   "last_block": 132026790
+  },
+  {
+   "address": "0x082c7F4C5E07b2EE2C3c6Cd1581064D5e10F7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026885,
+   "last_block": 132026885
+  },
+  {
+   "address": "0x39C9778C6AAb547a6c265C2E556217636bBe680a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026885,
+   "last_block": 132026885
+  },
+  {
+   "address": "0xb8880e4006d4694aFccD2D27b0846836016f4669",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026882,
+   "last_block": 132026882
+  },
+  {
+   "address": "0xd0C71dCFdF4BE77097520e95FBAF86b84f2f8764",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026861,
+   "last_block": 132026861
+  },
+  {
+   "address": "0xEE543123a3d38D63ae60c3bb0D2a2ea128ea381E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026858,
+   "last_block": 132026858
+  },
+  {
+   "address": "0xB9f6f8f1CBc29797Df24a66b61b0B15AF10C3de7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026853,
+   "last_block": 132026853
+  },
+  {
+   "address": "0x9Fb0e693174Ea341E97E8cC4EA0E7037097d9782",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026852,
+   "last_block": 132026852
+  },
+  {
+   "address": "0x17Fb08A4264A220b9d7b03A8a71b938BF2d64d56",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026844,
+   "last_block": 132026844
+  },
+  {
+   "address": "0x3117c66e98F4aCe4395E05402908bdb22cDD145b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026838,
+   "last_block": 132026838
+  },
+  {
+   "address": "0xD0377abb91d2711C7E68B6859382498C0452571D",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026934,
+   "last_block": 132026934
+  },
+  {
+   "address": "0xB8C249843f3118dCae05E34edeD2359E0bE3adfa",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026932,
+   "last_block": 132026932
+  },
+  {
+   "address": "0x31F0a89F8FD13132cd2dB09a2847DCfd21cC7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026930,
+   "last_block": 132026930
+  },
+  {
+   "address": "0xe1d59Fc8c6ed7Ec80c2aBab147Af3631E5547ab8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026923,
+   "last_block": 132026923
+  },
+  {
+   "address": "0x99856E083204Ebf15Bf06a21c14bF67257310C07",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026919,
+   "last_block": 132026919
+  },
+  {
+   "address": "0x027AD22AD19Ae00DE84E5BDaf20e9e2350a1FFFF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026918,
+   "last_block": 132026918
+  },
+  {
+   "address": "0x3625bDc44B235193C9DEACFfBb2CD29892b37777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026914,
+   "last_block": 132026914
+  },
+  {
+   "address": "0xD8326CE6D479609B126D0eCE498C598379AD3508",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026905,
+   "last_block": 132026905
+  },
+  {
+   "address": "0xA2643B889eEb232708a644f15f70f951773dDEF9",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026902,
+   "last_block": 132026902
+  },
+  {
+   "address": "0x302DF4C0E3DD5Dcb36D59344b60D11D05617Fe5e",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026889,
+   "last_block": 132026889
+  },
+  {
+   "address": "0xa016B0BF79E9C701eB88D740A9BF920918707777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026986,
+   "last_block": 132026986
+  },
+  {
+   "address": "0x4e33B003095f4D10E2ef08F29fE9473c81D01A45",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026984,
+   "last_block": 132026984
+  },
+  {
+   "address": "0xe3e5F0C6A6F1b2F1Ba68caF6e324B4AA493004ce",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026984,
+   "last_block": 132026984
+  },
+  {
+   "address": "0x22d19C88A0560E0D83C45E384c880e3e7554ED38",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026982,
+   "last_block": 132026982
+  },
+  {
+   "address": "0xaF88136b8cCF150606f5CC0eF31A087C68d27777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026981,
+   "last_block": 132026981
+  },
+  {
+   "address": "0x8507f3f44A6CeFDE8486Fb8885806dFaB1b8a4bc",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026978,
+   "last_block": 132026978
+  },
+  {
+   "address": "0x46C87a75bab651De598da3300906ee22839e7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026972,
+   "last_block": 132026972
+  },
+  {
+   "address": "0xF33e9029695b29ABA7b86EBC6999b6213F4e9905",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026970,
+   "last_block": 132026970
+  },
+  {
+   "address": "0x99aB9aAfb2f61914C613ae14B41f1e2A99927777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026964,
+   "last_block": 132026964
+  },
+  {
+   "address": "0x7F58F0CB33b2218B331dd5Fd7B7CA4bF31E8c00b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026958,
+   "last_block": 132026958
+  },
+  {
+   "address": "0xc8a7Ad691Ad7DC7802dD69F7E40D606785F27777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026956,
+   "last_block": 132026956
+  },
+  {
+   "address": "0x1B282603099647E2Ec3461B2714ACf38009D66b6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026952,
+   "last_block": 132026952
+  },
+  {
+   "address": "0x5dD2b276d2f66De4a3C70c7b0F94D55A7E7D7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026950,
+   "last_block": 132026950
+  },
+  {
+   "address": "0xB2E30BED4F223502f43AD39bCEC8D0c57dcD7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026945,
+   "last_block": 132026945
+  },
+  {
+   "address": "0x4dD7Dec7Cc0F1e7F74A63a936081B09aDf94fFF7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026945,
+   "last_block": 132026945
+  },
+  {
+   "address": "0x24D3ef15B12C7876A8dd7c95944eCE7D46857777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027022,
+   "last_block": 132027022
+  },
+  {
+   "address": "0x01f67f23d3Da411E9B2016455245b8FC2C6d7C45",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027022,
+   "last_block": 132027022
+  },
+  {
+   "address": "0xCBB733B3DCcBB983e49bAac52AbE7BC3a8E85a4f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027015,
+   "last_block": 132027015
+  },
+  {
+   "address": "0xD16c99B3F877b22A5Dd42EeF2fa77bD403306685",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027011,
+   "last_block": 132027011
+  },
+  {
+   "address": "0xDd63562b5C2Ce5704f4c402C4ae0741A5047Cb3E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027007,
+   "last_block": 132027007
+  },
+  {
+   "address": "0x8662da2B381FD35CFcCBAfF096f7e2b239e9FfFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027006,
+   "last_block": 132027006
+  },
+  {
+   "address": "0xb943c8a0d77b656Daf5244Da060D647Fd9152289",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027006,
+   "last_block": 132027006
+  },
+  {
+   "address": "0x0305104a6926B434B8c49274eCdc99C36C33999B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027005,
+   "last_block": 132027005
+  },
+  {
+   "address": "0x1a4b499833A79A09ad7Cf1D42D7DacF71e92eb00",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027002,
+   "last_block": 132027002
+  },
+  {
+   "address": "0xdfeAdd95E82f85bd927aa3f769D165D8e95f4aFB",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132027001,
+   "last_block": 132027001
+  },
+  {
+   "address": "0x0e7A51966c66648999d506e1372EFDeA1B78cb0B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 132026993,
+   "last_block": 132026993
+  }
+ ],
+ "contracts": [
+  {
+   "address": "0xe0Ad72aBadF8ea43dD2e168bd97a24F8A04adA91",
+   "kind": "ERC721",
+   "mint_count": 97,
+   "distinct_minters": 19,
+   "minters_sample": [
+    "0x005b8d8ae5a063935e5d443e065113ee0a29edbf",
+    "0x01124a2bb135ab05602b58e588bf22283121a5a0",
+    "0x0b31e7beb1b38416be54a2b99a09bb3e9963091b",
+    "0x1e63fcf0a98837f32e25724f20aaa330e3fbd26f",
+    "0x1ea0fdbfeab07257af7a04f10f823c78ea8a385b"
+   ],
+   "first_block": 132026443,
+   "last_block": 132027022,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Health Saviors Badges",
+   "symbol": "HSB"
+  },
+  {
+   "address": "0x11B7Bff2bEE9CaFCF505Bd2553aA3b5195c99A2f",
+   "kind": "ERC721",
+   "mint_count": 61,
+   "distinct_minters": 22,
+   "minters_sample": [
+    "0x04e9080308904a2fafb303d682470abd6621658a",
+    "0x0574b3b0a0d9c009abbfac27166e8d85dd036c93",
+    "0x1c26debb2284c6bbbc3a1a408ff2d1a675791494",
+    "0x2f087af5da29c8624eab4dc300b0440f0758a064",
+    "0x3592f4e8946f72415ab9bc1a772db5cfe76d07bb"
+   ],
+   "first_block": 132026443,
+   "last_block": 132027020,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NeoTrade Soulbound",
+   "symbol": "NTSB"
+  },
+  {
+   "address": "0x1c865dAAC6687Ad9196Edf3F49FE1ee7AEE649C7",
+   "kind": "ERC721",
+   "mint_count": 24,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x1f1141ba399446ddd3f01014774f87f045950130",
+    "0x90e1b08d04274023c696cb15764dc18b04248c52",
+    "0xcd426ee597c9cbb83d69b517a0e33fbf00abba3b"
+   ],
+   "first_block": 132026542,
+   "last_block": 132027022,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "CloudBank Mining NFT",
+   "symbol": "CBMN"
+  },
+  {
+   "address": "0xacc6e2F1aaE42B2E5FF2758Ff078E4B1bfAc7DB1",
+   "kind": "ERC721",
+   "mint_count": 23,
+   "distinct_minters": 19,
+   "minters_sample": [
+    "0x09920b77ba79a84b82a3e9a29af4fb21eb9aaa7b",
+    "0x0f5901a355b91a2be02d773cf9173207fb1bbadb",
+    "0x2d08ae9e7535baacf7ddaaf50f1439df3cf589a2",
+    "0x40b34f005a81377be53687cb065c8b995eee4403",
+    "0x4160fd33b3d89affa2d7c42cfa7cdda7b49ed6c9"
+   ],
+   "first_block": 132026482,
+   "last_block": 132027015,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeMint",
+    "freeMinted",
+    "freeMintedCount",
+    "freeOpen",
+    "freeRemaining"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "freeMinted",
+    "freeMintedCount",
+    "mint",
+    "mintedCount",
+    "paidMinted",
+    "quoteMint"
+   ],
+   "name": "Aura Agents",
+   "symbol": "AURA"
+  },
+  {
+   "address": "0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613",
+   "kind": "ERC721",
+   "mint_count": 22,
+   "distinct_minters": 11,
+   "minters_sample": [
+    "0x3a099261bffe149ca26af0ed5a6159cf91927721",
+    "0x3c2c34b9bb0b00145142ffee68475e1ac01c92ba",
+    "0x6ed60864fb8fb610a65af5d16cef272548bc64d6",
+    "0x6fb46584c66fc9085052a18725fc3713110d8ea3",
+    "0x7ecd0932d3e9f34b0245ae71219f43a075be2920"
+   ],
+   "first_block": 132026441,
+   "last_block": 132026989,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "uniswapV3MintCallback"
+   ],
+   "name": "Uniswap V3 Positions NFT-V1",
+   "symbol": "UNI-V3-POS"
+  },
+  {
+   "address": "0xb4000BCc8a609AAaA166e90cb873051ADcE799a4",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x707e3f8b709429670e2ece5c176326548291facd",
+    "0x943f38e02abe1dbe7e284dbb0f0503c030c19404",
+    "0xda793afa67457a3808e39dd5508c1e771ca34f8e",
+    "0xe5c3c787a58ac492a827749735a543f16e65469d"
+   ],
+   "first_block": 132026621,
+   "last_block": 132026977,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "FishingAi Fish",
+   "symbol": "FISH"
+  },
+  {
+   "address": "0x83eCA0CdacEdA13a6E7B033F6d6cf7bD96F07e72",
+   "kind": "ERC721",
+   "mint_count": 16,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x5ac1cff53aa7421191b20b844f001c6643413a71",
+    "0x9388216b03ae22c1df84482de14acd83567d8773",
+    "0xb24b1eeb33c6e9839d5d0cd1a468bb0b5bbce5f7",
+    "0xcf6e37e0d829c922d77d8bd357797f61d5147467",
+    "0xeed8a8011ceff6e689ea76e23bf565a674160ba1"
+   ],
+   "first_block": 132026478,
+   "last_block": 132026932,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Sakurine",
+   "symbol": "SAKURINE"
+  },
+  {
+   "address": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+   "kind": "ERC721",
+   "mint_count": 15,
+   "distinct_minters": 14,
+   "minters_sample": [
+    "0x11e8c0293b71ac1938b3914b9c0ff873da038689",
+    "0x1eda621bc6fefb6a1d83d025d373d510df2b42b0",
+    "0x4f59bd970da771e7de19e5d5bd3226a0a2560948",
+    "0x6cd6a8b08d3248326b56c5978a6e57388f3b4af9",
+    "0x6d7f97e109e2f34ff6cf1e340c0274c4a33f8f39"
+   ],
+   "first_block": 132026446,
+   "last_block": 132026867,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "pancakeV3MintCallback"
+   ],
+   "name": "Pancake V3 Positions NFT-V1",
+   "symbol": "PCS-V3-POS"
+  },
+  {
+   "address": "0x09ADA5A12293C30D75b97c56E34967E8a4326a3C",
+   "kind": "ERC721",
+   "mint_count": 11,
+   "distinct_minters": 6,
+   "minters_sample": [
+    "0x0a65e92da8c980bd8539977a91eb5536d1b7a914",
+    "0x8dbe342fcde866124e2cb6b9559d2d00e982c4c5",
+    "0xb2c470accb39cb7fde254826fac89a20b29f3ece",
+    "0xd1b36155226c04969717b48400c02342ff55cbdc",
+    "0xda5a2809e1454144f8583728fee9818f65018346"
+   ],
+   "first_block": 132026522,
+   "last_block": 132027022,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintActive",
+    "mintCount",
+    "setMintActive"
+   ],
+   "name": "Zigzoo",
+   "symbol": "ZIGZOO"
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x1c8ecfa630d57efb030b0bb66806c75e0e8a70f3",
+    "0x2696ea078203fd06980a89b14065c3eb5d429bcd",
+    "0xad4be790e44c7a74563ea328f9bcfbc2864ac9d3",
+    "0xc5b0a09749c078b2112bc278694cea6beb0640bd",
+    "0xe82c136a58490fe5f0726d9b58c163fdd546f67e"
+   ],
+   "first_block": 132026674,
+   "last_block": 132027009,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentIdentity",
+   "symbol": "AGENT"
+  },
+  {
+   "address": "0x8e6236cfbEc0708CeA1e9E763Fc55966A6b5C813",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xc5749e5acca05a22c13723c456987f7b4c7cc9a7"
+   ],
+   "first_block": 132026697,
+   "last_block": 132026697,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "maxLifetimeMints",
+    "mintOrdinary",
+    "mintPrice",
+    "mintedLifetime"
+   ],
+   "name": "DIE Butterfly Cards",
+   "symbol": "DIECARD"
+  },
+  {
+   "address": "0x3BF121dC4c5a1Ba567F3eE801d0e447601726207",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x0934bd8dbe8b57732cb59cb37525a7b3b99165d0",
+    "0x0e937cc41ab649bbd64729eea265720b0b3d6688",
+    "0x4ff4baf91d45233ef8b44571537954052dd4a589",
+    "0x7a356437104aa2a83c0a7cbf3bb57198ead17815",
+    "0xb2c470accb39cb7fde254826fac89a20b29f3ece"
+   ],
+   "first_block": 132026454,
+   "last_block": 132026847,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY",
+    "freeAllocated",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "MINT_DURATION",
+    "cancelExpiredMint",
+    "mint",
+    "mintEnded",
+    "mintEndsAt",
+    "mintStartsAt",
+    "mintedBy",
+    "settleMint",
+    "totalMinted"
+   ],
+   "name": "BOBBIE",
+   "symbol": "BOBBIE"
+  },
+  {
+   "address": "0xa195Dc7dfdD1c813d58A637D0E1Fa69686399922",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xccf4be9f059d7fd9f538ff0d4cb00ec27e8926d2"
+   ],
+   "first_block": 132026735,
+   "last_block": 132026995,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Chicken",
+   "symbol": "Chicken"
+  },
+  {
+   "address": "0xd514eB87c957514979360d9913e1bEBcDd90129d",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x163aca94b3585786ac3055649fd57c4aef08b956",
+    "0x6032ac7cec4f1c73014534b441368f8eb357600b",
+    "0x78e7a2c6d4d33196e5880f1fa6bf4a35816d1548",
+    "0x80a0225df18b1219ffb909e030585569627679bb",
+    "0x80f4743a756d5b29a87b9676913d84c92cd76b11"
+   ],
+   "first_block": 132026765,
+   "last_block": 132027018,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "closeMint",
+    "mint",
+    "mintOpen",
+    "mintPriceFor",
+    "mintTreasury",
+    "mintedCount",
+    "openMint",
+    "totalMinted",
+    "treasuryMinted"
+   ],
+   "name": "LunaBirds",
+   "symbol": "LBIRD"
+  },
+  {
+   "address": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x112c589e1f765a49b0de31b4c014ae582bc9a0d8",
+    "0x3afc6842f6fa59b1e77c903e6ec2b56c21f3422c",
+    "0x49fe264d85956c2ce26ab87723132866e22d1be2",
+    "0x4d50835db63c19a25b5b8c5c68ad4e84af83d251",
+    "0xce3b9f6d7c90724c05c1d14aebf77460c2c67f0a"
+   ],
+   "first_block": 132026562,
+   "last_block": 132026953,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SPACE ID Agent ID",
+   "symbol": "AI"
+  },
+  {
+   "address": "0x7A4a5c919aE2541AeD11041A1AEeE68f1287f95b",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x241d1642118aaf360b8ebfc688ce07491ef715c8",
+    "0x3a7111ed51e3bdc177caf75faff6ad39600ee022",
+    "0x43aed13926eacf0b689f3a3c155cb15fa0e1d12a",
+    "0x6bc67da34f017fcb4ad9c8b0e492836a27034fc1",
+    "0xc3a94fc0322a2860721b24d0c25cfe11e377f5f6"
+   ],
+   "first_block": 132026545,
+   "last_block": 132026784,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Uniswap v4 Positions NFT",
+   "symbol": "UNI-V4-POSM"
+  },
+  {
+   "address": "0x05deBE4445232205AE7E79d02cb5DE5AA0641efF",
+   "kind": "ERC721",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x331b5fb09eced64806e37cb392aa7c8cc0619a77",
+    "0xbf7339795668216fc125382a1e11ac95ccecbe6a"
+   ],
+   "first_block": 132026702,
+   "last_block": 132026728,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Tacotron",
+   "symbol": "TACOTRON"
+  },
+  {
+   "address": "0xf8c30c3C362941C23025f2eA30B066A73C982f63",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x45472a2057694481588e21f9f141de3cdd997652",
+    "0x8715bc8860ce790165b078cea188c6760708f461",
+    "0xb9124ab6e9655a5b1e1a4bbf4014033ec611786b",
+    "0xffc6d4dbdb7ca3f0df95ccba90b1106f034d5801"
+   ],
+   "first_block": 132026455,
+   "last_block": 132026632,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Topaz CL Position",
+   "symbol": "TOPAZ-CL-POS"
+  },
+  {
+   "address": "0xf5e98C6f0e74Ece71DA305Fb894BBCa42be1a8Cd",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x3fe608f79a41ebc07737a9385104c07d1a553562",
+    "0x4b873d000d5790ee2ef364e0450feab361bc1661",
+    "0x8dbe342fcde866124e2cb6b9559d2d00e982c4c5",
+    "0xcd983d88510ccd8483bdaeff4f9303f60ef399ae",
+    "0xd7ab24b629574a05bbf9d00fbfcde780c70c5332"
+   ],
+   "first_block": 132026750,
+   "last_block": 132027024,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY",
+    "freeMint",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "mint",
+    "mintOpen",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "TriEight",
+   "symbol": "T888"
+  },
+  {
+   "address": "0xF5E3D1290FDBFC50ec436f021ad516D0Bcac5d28",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x190d40c3142c20cf29cfdfc075a93c0382377eaa",
+    "0x82e348d63d57785f29c1a54c652322fa9e82820c",
+    "0xe12eecc7ae229cee659e5dceda0e33086e02c422"
+   ],
+   "first_block": 132026553,
+   "last_block": 132026958,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ARK DAO Nft",
+   "symbol": "ARKDAO"
+  },
+  {
+   "address": "0x7561C414A7a6Ff44Fc81e9BFC2eda8F57C3EC61e",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x2578e0677b255988908fb3a531b72653c84175d6",
+    "0x9f43aa524a3eaaea10c5416b1a38bb04d3f1ed13",
+    "0xd660a0eb498c86326bfa42bb2a28fad449820ac4"
+   ],
+   "first_block": 132026627,
+   "last_block": 132026798,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET_AGENT",
+    "freeMintedBy",
+    "freeRemainingFor",
+    "mintFree"
+   ],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "freeMintedBy",
+    "mint",
+    "mintFree",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Agent Panda",
+   "symbol": "PANDA"
+  },
+  {
+   "address": "0x67f9270EBe04BF403512347E397324D508204ACe",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x25b381a0cefa1b183f7c2f8aa0c336f9db25bb15",
+    "0x79fba029f6f19a574101d0de8c56d79be1eb3eda",
+    "0xdaffbb57fd438b362f6a25e66d900e8ee484e491",
+    "0xe2e35c2cdff475fcf4b3c4a32b6f2da54b56735b"
+   ],
+   "first_block": 132026717,
+   "last_block": 132026820,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintAddr",
+    "mintAddrsNums",
+    "mintLimit",
+    "setMintLimit",
+    "setSwitchMint",
+    "switchMint"
+   ],
+   "name": "FairSharesDailyNFT",
+   "symbol": "FSD"
+  },
+  {
+   "address": "0x2A2463d243E5c4dF850e48f350392AD23B494132",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xc1885368d8bda8aebbd7b02e8d63eab7f47ee2d7",
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026692,
+   "last_block": 132026945,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeQuota",
+    "remainingFree"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "KING Agent",
+   "symbol": "KG"
+  },
+  {
+   "address": "0x8a3E3eeA10e1fA7D6fA768550f8E572a15eB90D0",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x2d1db7de5627142ef49a5ef239a49715ad3b5001",
+    "0x570a808ed24515c5afab01ed1b1a2a126484096f",
+    "0xcb64a152200dce541b818763dca38792446c51e3"
+   ],
+   "first_block": 132026483,
+   "last_block": 132026898,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMintAvailable"
+   ],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "freeMintAvailable",
+    "mint",
+    "mintedCount",
+    "mintsLeft",
+    "paidMintCount"
+   ],
+   "name": "WHALE NFT",
+   "symbol": "WHALE"
+  },
+  {
+   "address": "0x8AAA14b24e71cC93672939ba3e3C3e9DE2674d27",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x3b86826245eb2268e44bd942cfb946aa1666d707",
+    "0x5bb7f602c1b9f7c7b2b52fb0514bd0d999223e04",
+    "0xc2fe6e5b3745991fa4252431a39610589bf02750"
+   ],
+   "first_block": 132026461,
+   "last_block": 132026758,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "closeMint",
+    "mint",
+    "mintOpen",
+    "mintPrice",
+    "mintTreasury",
+    "mintTreasuryBatch",
+    "mintUnitPriceWei",
+    "mintedBy",
+    "openMint",
+    "totalMinted"
+   ],
+   "name": "BNB Runnerz",
+   "symbol": "BNBR"
+  },
+  {
+   "address": "0x90f9de2A0Ab81052a0959bd71B46cdcFd57152eB",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xeed8a8011ceff6e689ea76e23bf565a674160ba1",
+    "0xf3bdd8f1664cc996cb8149bc03e99e3e9be4b71b"
+   ],
+   "first_block": 132026458,
+   "last_block": 132026946,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Spookagent",
+   "symbol": "SPOOKAGENT"
+  },
+  {
+   "address": "0x5c04392641c81F1b69826E13d8f3F78c58464970",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xeed8a8011ceff6e689ea76e23bf565a674160ba1"
+   ],
+   "first_block": 132026450,
+   "last_block": 132026450,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeMinted",
+    "freeMintedCount",
+    "freeOpen",
+    "freeRemaining"
+   ],
+   "mint_funcs": [
+    "freeMinted",
+    "freeMintedCount",
+    "mint",
+    "mintedCount",
+    "paidMinted",
+    "quoteMint"
+   ],
+   "name": "Luna Phase Agents",
+   "symbol": "LPHASE"
+  },
+  {
+   "address": "0x51dFE4981EFBFf99aD6D64859deB45fDBbc479Cf",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x24f02647a62c124793af2350c4f86aeb28433a09",
+    "0xaa71309076a3adedc4b3bb77a4a9ede251851284"
+   ],
+   "first_block": 132026531,
+   "last_block": 132026944,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "FOUNTAIN",
+   "symbol": "FOUNTAIN"
+  },
+  {
+   "address": "0xF7245511A890a42F911c776824c665E2da3cedb3",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x3281e191ee758011f19cdcc995f7bc038e0e52e2",
+    "0x5bb7f602c1b9f7c7b2b52fb0514bd0d999223e04",
+    "0x79d54b446a174b56d976b9e15e25b498b71bc01c"
+   ],
+   "first_block": 132026499,
+   "last_block": 132026966,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "phaseOneMinted",
+    "phaseTwoMinted",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Agent Creatures",
+   "symbol": "ACRE"
+  },
+  {
+   "address": "0x854EC70B78933fAB3f95E5bC95D7Af72b62703dE",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x51df842e03be683e86784e6cb26dbfbff709f8d3"
+   ],
+   "first_block": 132026613,
+   "last_block": 132026769,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "uniswapV3MintCallback"
+   ],
+   "name": "UNXwap V3 Positions NFT-V1",
+   "symbol": "UNX-V3-POS"
+  },
+  {
+   "address": "0x67E6A28f85e7f36DAcfE7b425daa0Fe9f7Ff3c79",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x5da717ad5df2b031e7942418c02120e70f41caae",
+    "0x7c401d0ff1437af6fed04f786f2f85151bd84510",
+    "0xc2214fa660ba37622b8b0a6cb0cbc0d9931913b0"
+   ],
+   "first_block": 132026687,
+   "last_block": 132026952,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINTER_ROLE",
+    "mint"
+   ],
+   "name": "B Titan Registration Pass",
+   "symbol": "Registration Pass"
+  },
+  {
+   "address": "0x242d8c0cf57feF91a2492b040a2fbb0cE780E408",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x7f484200ae1712a5c2b0a8e9871c4da67f774604"
+   ],
+   "first_block": 132026773,
+   "last_block": 132026773,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Poppina",
+   "symbol": "POPPINA"
+  },
+  {
+   "address": "0xBd57BF112B881fE0909D581ac1933e302DAc7777",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x30bc9874ace4ba72b9e9c4025c556d9d78f465bd",
+    "0x310e9bdf2f3540d521fbbc53a299da852270feb9",
+    "0xcb8fcb7d0505b669ed0789f6592466903c86236b"
+   ],
+   "first_block": 132026826,
+   "last_block": 132026981,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "addMinter",
+    "getMinters",
+    "isMinter",
+    "mint",
+    "removeMinter"
+   ],
+   "name": "PolyFlowCard",
+   "symbol": "PFNFT"
+  },
+  {
+   "address": "0xF11e9405b23CA0F53E6135162a85545D780a3737",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x116f8f73d4fd19f5bd2fee5bc887ee8bd9fa756c",
+    "0x7b25b64a7a5b4448bee353003dce88a3e68dc8a8",
+    "0x847841d2c2e372c777422779ccd011374d7b82db"
+   ],
+   "first_block": 132026811,
+   "last_block": 132026935,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "minterOf",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Agent Arena",
+   "symbol": "SEAT"
+  },
+  {
+   "address": "0x15889a36C0DaCdaD5216c7A331Dbd2BfC903dC40",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x7432ea18324dc6f743e5da8a514d8e04653ba7ef",
+    "0xc55dce4a89290704d372e689c5fe8c58730c2dc6"
+   ],
+   "first_block": 132026905,
+   "last_block": 132026990,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Abyssagent",
+   "symbol": "ABYSS"
+  },
+  {
+   "address": "0xDA238a95076e2ED9D751e92a0b1534E44A9BEf2d",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x7f484200ae1712a5c2b0a8e9871c4da67f774604"
+   ],
+   "first_block": 132026950,
+   "last_block": 132026950,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Lavendra",
+   "symbol": "LAVENDRA"
+  },
+  {
+   "address": "0x8E2831e922F9669A2203cb6B608dD7ccbc58299e",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xeed8a8011ceff6e689ea76e23bf565a674160ba1"
+   ],
+   "first_block": 132026471,
+   "last_block": 132026471,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Orbitagent",
+   "symbol": "ORBITAGENT"
+  },
+  {
+   "address": "0x57B70eDD8c70A655855C0BF92FF9B195394E1860",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xb1cd650bbd7692a0c074c734042696191e01521e",
+    "0xd9fff85a84792075d55ec213e9ec40babb019cb0"
+   ],
+   "first_block": 132026452,
+   "last_block": 132026655,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "spr Deposit Certificate",
+   "symbol": "spr-DC"
+  },
+  {
+   "address": "0x08b1A979Dd997492EEcc010fe986eA2e2925e620",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x81157944790877c28b66bf6dc1bfc47eae14e220",
+    "0xa2adcf19d60dbf4cbb969e0d749e53b519a1d31f"
+   ],
+   "first_block": 132026449,
+   "last_block": 132026762,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMinted",
+    "freeUsedByHandle",
+    "freeUsedByWallet"
+   ],
+   "mint_funcs": [
+    "MAX_SHILL_MINTS",
+    "MINT_DURATION",
+    "freeMinted",
+    "mint",
+    "mintEnd",
+    "mintOpen",
+    "mintShill",
+    "mintStart",
+    "mintTimeLeft",
+    "mintedBy"
+   ],
+   "name": "PassAgentX",
+   "symbol": "PAXP"
+  },
+  {
+   "address": "0xCD355D1191Ce9849B3A935C821A66d9DF37cFE77",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4cdda656b7b2668efa9c8b7338106589d140c601"
+   ],
+   "first_block": 132026448,
+   "last_block": 132026448,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "claimFree",
+    "freeAi",
+    "freeAllowance",
+    "freeDone",
+    "freeV2"
+   ],
+   "mint_funcs": [
+    "minted"
+   ],
+   "name": "HACKED",
+   "symbol": "HACKED"
+  },
+  {
+   "address": "0x643B68Bf3f855B8475C0A700b6D1020bfc21d02e",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8fe29293d5428b30f83858c1a7cd0c2050fa6063"
+   ],
+   "first_block": 132026505,
+   "last_block": 132026505,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "algebraMintCallback",
+    "mint"
+   ],
+   "name": "Algebra Positions NFT-V2",
+   "symbol": "ALGB-POS"
+  },
+  {
+   "address": "0xf81b542C41f982A7d7a8E2eE8Cab5FEeE6203218",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x331b5fb09eced64806e37cb392aa7c8cc0619a77",
+    "0x7ff8bfcd02aa58925e7bbd98172815f0ac03df7a"
+   ],
+   "first_block": 132026493,
+   "last_block": 132026792,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMintAvailable"
+   ],
+   "mint_funcs": [
+    "MINT_PRICE",
+    "freeMintAvailable",
+    "mint",
+    "mintedCount",
+    "mintsLeft",
+    "paidMintCount"
+   ],
+   "name": "WHALE NFT",
+   "symbol": "WHALE"
+  },
+  {
+   "address": "0xb680B2D1d0eC445715E13f19DB295D3C67044568",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xc93f822853f478bf7fbf9cab83cd16f300facff2"
+   ],
+   "first_block": 132026629,
+   "last_block": 132026959,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent CAA NFT",
+   "symbol": "CAA"
+  },
+  {
+   "address": "0x173d69D1Ab7ebD0230950eA97f4Fc3f70972665C",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xbf7339795668216fc125382a1e11ac95ccecbe6a"
+   ],
+   "first_block": 132026610,
+   "last_block": 132026610,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Beatagent",
+   "symbol": "BTGNT"
+  },
+  {
+   "address": "0x65994Ec1e9c2518d06Ad3E4c063efF1f517003cF",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x11cac44c98bb842d11d55c84846676539727684f",
+    "0xbc57ca30469e29861ed009c5896ac7ab9fa2872b"
+   ],
+   "first_block": 132026687,
+   "last_block": 132026777,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINTER_ROLE",
+    "mint"
+   ],
+   "name": "Royal Card Rank 1",
+   "symbol": "Orichalcum Plate"
+  },
+  {
+   "address": "0xc13f995d7e2ab6B4267Dec8eeB2761464056d07b",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5bb7f602c1b9f7c7b2b52fb0514bd0d999223e04"
+   ],
+   "first_block": 132026683,
+   "last_block": 132026683,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Hackagent",
+   "symbol": "HACKAG"
+  },
+  {
+   "address": "0x4e4e43f84E2E80716d03153F3c675e8E715Fa698",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x5bb7f602c1b9f7c7b2b52fb0514bd0d999223e04",
+    "0xc2fe6e5b3745991fa4252431a39610589bf02750"
+   ],
+   "first_block": 132026763,
+   "last_block": 132026829,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintCost",
+    "minted"
+   ],
+   "name": "Pixel Sentinels",
+   "symbol": "PXSNT"
+  },
+  {
+   "address": "0xfc462E97768ebd16012Ac4E6Ba8cAE6AE04027D8",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x7718a9000d403c2550724103e51467dd2816f5cd",
+    "0xf5a91ca0d3e38b4d9e5c95edb5f9335c45301f0e"
+   ],
+   "first_block": 132026750,
+   "last_block": 132026829,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NFTSettlementRouter",
+   "symbol": "NFTSR"
+  },
+  {
+   "address": "0xB04af24bBFA0EF441091178E61A724163e2828Cc",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x7f484200ae1712a5c2b0a8e9871c4da67f774604"
+   ],
+   "first_block": 132026738,
+   "last_block": 132026738,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Agentvolt",
+   "symbol": "AGENTVOLT"
+  },
+  {
+   "address": "0x409Cfe3747f1ac20f267B50BCbB6a4E9406DA3a8",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x1aa6bdf8cc37eab6685425cc6011eb3d9a5ac69e",
+    "0xc500c0fb7c68169781b2df3ad44faed82653dde9"
+   ],
+   "first_block": 132026873,
+   "last_block": 132027011,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMint"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "mint",
+    "mintOpen",
+    "totalMinted"
+   ],
+   "name": "sidecoo Daily",
+   "symbol": "SCDAILY"
+  },
+  {
+   "address": "0x3Aeda314ec05BC22E3c26a543E16Df2B8cC8fe69",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x71813564ae7b70a687f44b085e9e4b61b1763472",
+    "0xf12770e7dd70fc92668015b3daf85eb8be7d98f3"
+   ],
+   "first_block": 132026843,
+   "last_block": 132027023,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedByWallet",
+    "nextMintPrice",
+    "setMintOpen"
+   ],
+   "name": "Agent Cosmos",
+   "symbol": "ACOS"
+  },
+  {
+   "address": "0x6124b3ae64adA7b73581CcD01fEF89e583E8742c",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5bb7f602c1b9f7c7b2b52fb0514bd0d999223e04"
+   ],
+   "first_block": 132026900,
+   "last_block": 132026900,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Saturnode",
+   "symbol": "SATURNODE"
+  },
+  {
+   "address": "0x9C9967cDd99F19d77b4F75754408aFe12B7048ac",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1bba41288c1ec9244aadafe949cd56ee8c490ebc"
+   ],
+   "first_block": 132026944,
+   "last_block": 132026944,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintBox"
+   ],
+   "name": "NewWolf Animals",
+   "symbol": "NWAN"
+  },
+  {
+   "address": "0x3815A26a6981BAAd0b850f7522B7a8BDDdB6B70C",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x605dacf1202ce659acf8bcafc5189c1f203e2a0c",
+    "0x9d6c33117bb7b9e6b6e15ebde769912680c66a5f"
+   ],
+   "first_block": 132027024,
+   "last_block": 132027024,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "freeClaimed",
+    "freeCount"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintStatus",
+    "mintedBy",
+    "mintedCount"
+   ],
+   "name": "Slimelings",
+   "symbol": "SLIME"
+  },
+  {
+   "address": "0xAeA1433dBD9e7edE0914d996C2Dad692E6e01e09",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x605dacf1202ce659acf8bcafc5189c1f203e2a0c",
+    "0x9d6c33117bb7b9e6b6e15ebde769912680c66a5f"
+   ],
+   "first_block": 132027023,
+   "last_block": 132027023,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "freeMint",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "devMint",
+    "freeMint",
+    "mint",
+    "mintCost",
+    "mintMode",
+    "mintOpen",
+    "mintedBy",
+    "reserveMinted",
+    "setMintMode",
+    "setMintOpen"
+   ],
+   "name": "Crack",
+   "symbol": "VAULT"
+  },
+  {
+   "address": "0xc7bFeA97f02E9118eD88111A79E43a9CE481B96A",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x998d85f3d9890e58b2d8f6c83b3c9338bc676b96"
+   ],
+   "first_block": 132026483,
+   "last_block": 132026483,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Hot Springs",
+   "symbol": "ONSEN"
+  },
+  {
+   "address": "0xd1de1aE44bdD29EEe00b452B0568c55b5DC0942C",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xb47d8b0f9d1322270f148bd0952fbc5ea74bbe6a"
+   ],
+   "first_block": 132026479,
+   "last_block": 132026479,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "minter",
+    "setMinter"
+   ],
+   "name": "ATitan Registration Pass",
+   "symbol": "ATRP"
+  },
+  {
+   "address": "0xC3Ba321124e0F621Da8C4A0c1875705c83d6ce8C",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x998d85f3d9890e58b2d8f6c83b3c9338bc676b96"
+   ],
+   "first_block": 132026476,
+   "last_block": 132026476,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Fresh Hatch",
+   "symbol": "HATCH"
+  },
+  {
+   "address": "0x7d390e37Ed41A359f276D8764ca15432704B99b7",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xcbc64bd81c9afcfb8fd21047dbbd197241821002"
+   ],
+   "first_block": 132026466,
+   "last_block": 132026466,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "claimedFree",
+    "mintFree",
+    "mintFreeTo"
+   ],
+   "mint_funcs": [
+    "mintFree",
+    "mintFreeTo",
+    "mintOpen",
+    "mintedByLevel",
+    "setMintOpen"
+   ],
+   "name": "Star Agent",
+   "symbol": "STAR"
+  },
+  {
+   "address": "0x8852505F66F153124879b46Be364627572175d4D",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe34c1c364ec1909a3aa519dc4e7a4bb0cdb0b5be"
+   ],
+   "first_block": 132026465,
+   "last_block": 132026465,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "claimFree"
+   ],
+   "mint_funcs": [
+    "firstMinted",
+    "mintExtra",
+    "mintedCount",
+    "totalMinted"
+   ],
+   "name": "Meow & Bark",
+   "symbol": "MEOW"
+  },
+  {
+   "address": "0xCa7A3faa22AC4ABBf5528B41AC7d12B28651AA6B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1277b0a9aea7fe797daf1392c4b0dd6f55d8d4ae"
+   ],
+   "first_block": 132026463,
+   "last_block": 132026463,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Lambdwyn",
+   "symbol": "LMDW"
+  },
+  {
+   "address": "0x5C46de8D0c5DfDF535558d363F492967cd5e146b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xaa3ad8aa0c0709d92076821e6d4a1e4b50e9a141"
+   ],
+   "first_block": 132026458,
+   "last_block": 132026458,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "mintedByAgentId",
+    "mintedPerRarity",
+    "setMintOpen",
+    "totalMinted"
+   ],
+   "name": "Shard Id",
+   "symbol": "Shard Id"
+  },
+  {
+   "address": "0x8ED073fB74fe63A8a418a418A8429830E7034dD2",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1277b0a9aea7fe797daf1392c4b0dd6f55d8d4ae"
+   ],
+   "first_block": 132026448,
+   "last_block": 132026448,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Quarkelle",
+   "symbol": "QRKL"
+  },
+  {
+   "address": "0x6575c26173d8A18Ad4823Aaf3b0906DE2ff1B568",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xeed8a8011ceff6e689ea76e23bf565a674160ba1"
+   ],
+   "first_block": 132026443,
+   "last_block": 132026443,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Wraithmoth",
+   "symbol": "WRAITH"
+  },
+  {
+   "address": "0x5Bb425ad2069de77ABC8c341d4d322Bcff26c550",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x998d85f3d9890e58b2d8f6c83b3c9338bc676b96"
+   ],
+   "first_block": 132026498,
+   "last_block": 132026498,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Down Under",
+   "symbol": "KOALA"
+  },
+  {
+   "address": "0xFF6b4bb96C86c0E2e2F942F907F9F6eD1bBbCaDf",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x998d85f3d9890e58b2d8f6c83b3c9338bc676b96"
+   ],
+   "first_block": 132026490,
+   "last_block": 132026490,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Otter Nonsense",
+   "symbol": "OTTER"
+  },
+  {
+   "address": "0x68cD90a0699A1720FA418F0773d73c928BDC2202",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3ac29242be1b16c65ef522245604054f7856bb43"
+   ],
+   "first_block": 132026575,
+   "last_block": 132026575,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ARKIE NFT",
+   "symbol": "ARKIE"
+  },
+  {
+   "address": "0x5539dD54c00094Cbd186f08AA2d8fF3A8c098ddE",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xbf7339795668216fc125382a1e11ac95ccecbe6a"
+   ],
+   "first_block": 132026570,
+   "last_block": 132026570,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Homunqul",
+   "symbol": "HMQL"
+  },
+  {
+   "address": "0x94c4834B186938F95EDC67FF0536Ac17F3102523",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xbf7339795668216fc125382a1e11ac95ccecbe6a"
+   ],
+   "first_block": 132026539,
+   "last_block": 132026539,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Eidolyn",
+   "symbol": "EDLN"
+  },
+  {
+   "address": "0xab089E3e7F995c5eD0A12E854D19C6756903B7e1",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x695d9d172448b6851f47ea9bf56c8f4be4b8ed46"
+   ],
+   "first_block": 132026618,
+   "last_block": 132026618,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "genesisMint",
+    "genesisMinted",
+    "mint",
+    "mintOpen",
+    "mintPrice",
+    "setMintOpen",
+    "setMintPrice"
+   ],
+   "name": "AgentPass",
+   "symbol": "APASS"
+  },
+  {
+   "address": "0x794aD67a5590C7e5848E49181297F9cC7C6CE00E",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2578e0677b255988908fb3a531b72653c84175d6"
+   ],
+   "first_block": 132026615,
+   "last_block": 132026615,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Horus AI",
+   "symbol": "HORUS"
+  },
+  {
+   "address": "0x75A2D4f6f158240CB5Fd4B4f866cEA85b143D165",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1e7900fd5c60846a26894bfe145a15384c6e84a9"
+   ],
+   "first_block": 132026597,
+   "last_block": 132026597,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Fangcount",
+   "symbol": "FANGCT"
+  },
+  {
+   "address": "0x83DecF8076D04D59da771DA6bB298132164be55B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x79d54b446a174b56d976b9e15e25b498b71bc01c"
+   ],
+   "first_block": 132026638,
+   "last_block": 132026638,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Skyagent",
+   "symbol": "SKYAG"
+  },
+  {
+   "address": "0xD2f946579d691297a33B287D54Cf2BD5BB00bD3d",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xd7718a0e190384fe71a6ec1d0e09f5d00aa5ba79"
+   ],
+   "first_block": 132026732,
+   "last_block": 132026732,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint"
+   ],
+   "name": "Press",
+   "symbol": "PRESS"
+  },
+  {
+   "address": "0x9dA90FE302a987d979C21d7c3Ae421cB0b2cf8b0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6963c0814518f2d16d1da4d7c477537eb8d1d501"
+   ],
+   "first_block": 132026721,
+   "last_block": 132026721,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedCount",
+    "mintedCountOf",
+    "setMintOpen"
+   ],
+   "name": "AgentOrb",
+   "symbol": "AORB"
+  },
+  {
+   "address": "0xB0Fe5643e5840239F5F2269f92c42B69a8B34C3B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78249c0afcfc8b50a96dcbd9358a75229811c8df"
+   ],
+   "first_block": 132026717,
+   "last_block": 132026717,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Trussory Board",
+   "symbol": "BOARD"
+  },
+  {
+   "address": "0x71f86082C3b32601f865c63980a9B686e887EAB1",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x71f86082c3b32601f865c63980a9b686e887eab1"
+   ],
+   "first_block": 132026714,
+   "last_block": 132026714,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "claimFree",
+    "freeCapPerWallet",
+    "freeClaimFeeWei",
+    "freeMintedBy",
+    "mintFree",
+    "nextFreeAt"
+   ],
+   "mint_funcs": [
+    "freeMintedBy",
+    "mintFree",
+    "mintOpen",
+    "mintPaid",
+    "openMint",
+    "totalMinted"
+   ],
+   "name": "AgentPad Agent",
+   "symbol": "AGENT"
+  },
+  {
+   "address": "0xCBac4faC33aFB361e836E6a0120f5a5aAC9122B3",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x18d4c70e1e44847a83b1afc16d19a485a05ccb7e"
+   ],
+   "first_block": 132026703,
+   "last_block": 132026703,
+   "registry_bytes_hit": true,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Mars Nexus Identity",
+   "symbol": "MARSID"
+  },
+  {
+   "address": "0xF2a6D1A5Da92d611cf8eC614548D4d6E83BEB6D8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xc1885368d8bda8aebbd7b02e8d63eab7f47ee2d7"
+   ],
+   "first_block": 132026755,
+   "last_block": 132026755,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "HATCHIEggy",
+   "symbol": "HATCHIEGGY"
+  },
+  {
+   "address": "0x965286f9662a6dACeFf9bD3C4D58ABaBDD9C87A5",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xbe6d537807032091cf4f490eda783a54806b0680"
+   ],
+   "first_block": 132026746,
+   "last_block": 132026746,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "unicorn.exe",
+   "symbol": "UNIEXE"
+  },
+  {
+   "address": "0xE7a548606eECB32a93B227411b6343B0399DC7C0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5bb7f602c1b9f7c7b2b52fb0514bd0d999223e04"
+   ],
+   "first_block": 132026828,
+   "last_block": 132026828,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_TIER_END",
+    "freeUsedByAgent"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedByAgent",
+    "publicMinted",
+    "setMintOpen"
+   ],
+   "name": "GOAT",
+   "symbol": "GOAT"
+  },
+  {
+   "address": "0x7fe03C055588bd5018825175D791103c5CBEd8be",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xa73693d22913dc84aa09ab87efae3bba177eb908"
+   ],
+   "first_block": 132026806,
+   "last_block": 132026806,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BNBFLY Agent Pass",
+   "symbol": "BFLY-PASS"
+  },
+  {
+   "address": "0xDd8BdfC91cbD572935B09863A742d8296fed0ACf",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x0080063528dddc1eaacbc4a11baa250b8fcd8e48"
+   ],
+   "first_block": 132026804,
+   "last_block": 132026804,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Nemotron Sigil",
+   "symbol": "SIGIL"
+  },
+  {
+   "address": "0xC58EcEc1437777061134C1BDDf0eD5ea6EAfaBf4",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe53337475980b282e8357f278c64f488e368f987"
+   ],
+   "first_block": 132026885,
+   "last_block": 132026885,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "TOKENS_PER_MINT",
+    "mint",
+    "mintedPerWallet"
+   ],
+   "name": "AgentVOLT",
+   "symbol": "AVOLT"
+  },
+  {
+   "address": "0x9db6A3c0C16D7D0ad61ba67CD578844Fe206135E",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026883,
+   "last_block": 132026883,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent NFT",
+   "symbol": "ANFT"
+  },
+  {
+   "address": "0xc205F8c74733D914776D66cBc4Cf10BF701D96Aa",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xc500c0fb7c68169781b2df3ad44faed82653dde9"
+   ],
+   "first_block": 132026876,
+   "last_block": 132026876,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Bubblebruin",
+   "symbol": "BBRUIN"
+  },
+  {
+   "address": "0x852f80B92112f94342C4687f30fdE2d849961Daa",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026867,
+   "last_block": 132026867,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Oni",
+   "symbol": "ONI"
+  },
+  {
+   "address": "0x1CA6d29763A9b6B49BBDe2f0b102d03b9b6A8f54",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x57637fed48d2193e6c8f13ef4ba48927bf77602b"
+   ],
+   "first_block": 132026865,
+   "last_block": 132026865,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BlindBox",
+   "symbol": "BOX"
+  },
+  {
+   "address": "0x128eAC869659E263d8483f70245467E2501FF4e1",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026852,
+   "last_block": 132026852,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Maneki Neko Coin",
+   "symbol": "MNC"
+  },
+  {
+   "address": "0x6a926234D3767F2EEb3DB12c1B4C9e2912C5589b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026930,
+   "last_block": 132026930,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "FREE_PCT",
+    "canFreeMint",
+    "claimedFree",
+    "freeMint",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "canFreeMint",
+    "freeMint",
+    "freeMinted",
+    "mint",
+    "mintRef",
+    "paidMinted"
+   ],
+   "name": "Driftnauts",
+   "symbol": "DRFT"
+  },
+  {
+   "address": "0x48C3aE8E8129EFa9D20800aC8932D8b51f85C0F0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026915,
+   "last_block": 132026915,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Moth Club",
+   "symbol": "MOTH"
+  },
+  {
+   "address": "0x29Adf4D894CCde764237270444444aEC308dD905",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026899,
+   "last_block": 132026899,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Very Good Boys",
+   "symbol": "VGB"
+  },
+  {
+   "address": "0x4fEA4Ed6e70389245c41b2c9D85E8032E3C6Ce31",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1b9cb60d17f6b45d58c265045591c5307a61556c"
+   ],
+   "first_block": 132026888,
+   "last_block": 132026888,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_SUPPLY",
+    "freeClaimed"
+   ],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "setMintOpen"
+   ],
+   "name": "Agent Frogs",
+   "symbol": "AFROG"
+  },
+  {
+   "address": "0x6e50F1CaD63adf483021eE0dE334C9bb5b5de7FF",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026977,
+   "last_block": 132026977,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Pond Society",
+   "symbol": "POND"
+  },
+  {
+   "address": "0xbFccd7dE6eF1B3D81632412600a933CD6De14B77",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x75416acece501e92a573f5311f245796d5f4f545"
+   ],
+   "first_block": 132026977,
+   "last_block": 132026977,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "canClaimFree",
+    "claimedFree",
+    "freeMintOpen",
+    "freeMinted",
+    "mintFree",
+    "setFreeMint"
+   ],
+   "mint_funcs": [
+    "freeMintOpen",
+    "freeMinted",
+    "mint",
+    "mintFree",
+    "mintedBy",
+    "setFreeMint"
+   ],
+   "name": "HOOTCAST",
+   "symbol": "HOOT"
+  },
+  {
+   "address": "0xBC3C55a7b69C7c75b44bfEF11302E9f64bD3Cf0d",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026962,
+   "last_block": 132026962,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Dead Pixels",
+   "symbol": "DEAD"
+  },
+  {
+   "address": "0x104381eaF387cE95618bA7B4bfBC101BC98E728B",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf11ca64f9b5e83c919a445d3ccd4aed8b82b2161"
+   ],
+   "first_block": 132026992,
+   "last_block": 132026992,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintOpen",
+    "mintWithAgentTokenId",
+    "mintedBy",
+    "mintedByAgent",
+    "mintsLeft",
+    "setMintOpen",
+    "teamMint"
+   ],
+   "name": "Moonhowlers",
+   "symbol": "HOWL"
+  },
+  {
+   "address": "0x14361778A49f7Ca1BBAA05C54644697AdF926613",
+   "kind": "ERC1155",
+   "mint_count": 6,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8781c828b52aa9ac49b955df273cc7fe7f01b61a"
+   ],
+   "first_block": 132026462,
+   "last_block": 132026971,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintFragment",
+    "mintOperators",
+    "setMintOperator"
+   ],
+   "name": "RAX Fragments",
+   "symbol": "RAXF"
+  },
+  {
+   "address": "0x9BDb67Fa5B77952871938F9Cd391aba422722e6F",
+   "kind": "ERC1155",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x81bf2f096fe7872e3730616b49c96fcc68a89e72",
+    "0x8f23a3b34b6d999eb340a7a454063af569a9a9bc",
+    "0xfa521a63060e2c162d7875f01ef47bfe359a3cb5"
+   ],
+   "first_block": 132026455,
+   "last_block": 132026662,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "\u8d22\u6765 NFT",
+   "symbol": "CLNFT"
+  },
+  {
+   "address": "0xB6407991b76E712d15EdEF06e125abcC730364F7",
+   "kind": "ERC1155",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xac7ea903e420838fd6e14519a938dbb2a097bcfb",
+    "0xf768a800cca36825734a2c18914d6ec6147fefc8"
+   ],
+   "first_block": 132026874,
+   "last_block": 132026901,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mint",
+    "mintReserve",
+    "mintWithBnb",
+    "mintedBy",
+    "publicMinted",
+    "reserveMinted",
+    "totalMinted"
+   ],
+   "name": null,
+   "symbol": null
+  }
+ ],
+ "hive_agents_found": false,
+ "hive_agents": null,
+ "first_seen": [
+  {
+   "address": "0x7fe03C055588bd5018825175D791103c5CBEd8be",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xa73693d22913dc84aa09ab87efae3bba177eb908"
+   ],
+   "first_block": 132026806,
+   "last_block": 132026806,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "BNBFLY Agent Pass",
+   "symbol": "BFLY-PASS"
+  }
+ ],
+ "first_seen_count": 1
+}

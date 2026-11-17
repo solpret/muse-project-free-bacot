@@ -1,0 +1,81 @@
+{
+ "agentRegistry()": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: OSError; https://bnb.api.onfinality.io/public/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError;"
+ },
+ "agentRegistry_exact": false,
+ "agent_registry()": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc.nodereal.io/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-rpc.publicnode.com/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError"
+ },
+ "name()": {
+  "ok": true,
+  "value": ""
+ },
+ "symbol()": {
+  "ok": true,
+  "value": ""
+ },
+ "price()": {
+  "ok": true,
+  "raw": "0x0000000000000000000000000000000000000000000000000005543df729c000",
+  "int": 1500000000000000,
+  "addr": "0x0000000000000000000000000005543df729c000"
+ },
+ "FREE_SUPPLY": {
+  "ok": true,
+  "raw": "0x00000000000000000000000000000000000000000000000000000000000001f4",
+  "int": 500,
+  "addr": "0x00000000000000000000000000000000000001f4"
+ },
+ "freeMinted()": {
+  "ok": true,
+  "raw": "0x0000000000000000000000000000000000000000000000000000000000000005",
+  "int": 5,
+  "addr": "0x0000000000000000000000000000000000000005"
+ },
+ "paidMinted()": {
+  "ok": true,
+  "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "int": 0,
+  "addr": "0x0000000000000000000000000000000000000000"
+ },
+ "totalMinted()": {
+  "ok": true,
+  "raw": "0x0000000000000000000000000000000000000000000000000000000000000005",
+  "int": 5,
+  "addr": "0x0000000000000000000000000000000000000005"
+ },
+ "maxSupply()": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc.drpc.org/: OSError; https://bsc.nodereal.io/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://"
+ },
+ "maxPerWallet()": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc.drpc.org/: OSError; https"
+ },
+ "mintedBy(user)": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; htt"
+ },
+ "paused()": {
+  "ok": true,
+  "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "int": 0,
+  "addr": "0x0000000000000000000000000000000000000000"
+ },
+ "passSigner()": {
+  "ok": true,
+  "raw": "0x000000000000000000000000d563a7da7e8aab967f4e6156ccd3d80a94f01335",
+  "int": 1218237430061641687729489863192722390609621422901,
+  "addr": "0xd563a7da7e8aab967f4e6156ccd3d80a94f01335"
+ },
+ "usedPassNonce(user)": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSErro"
+ },
+ "mintFree_noarg_probe": {
+  "ok": false,
+  "raw": "ERROR OSError: all endpoints failed: https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc-dataseed.binance.org/: OSErro"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "run": "2026-11-12 09:51 WIB",
+ "gas_price_gwei": 0.05,
+ "gas_est_300k_bnb": 1.5e-05,
+ "entries_total": 20,
+ "status_counts": {
+  "no_pair": 14,
+  "quote_dust": 1,
+  "pair_empty": 5
+ },
+ "no_pair": [
+  "POA",
+  "BNBbaby",
+  "PATCH",
+  "QAGENT",
+  "PACTURE",
+  "ORBITA",
+  "WW3",
+  "POSTAGE",
+  "MALTA",
+  "THYRK",
+  "WNO",
+  "AMBR",
+  "CHEEMSA",
+  "NEB"
+ ],
+ "pair_empty": [
+  "币安加油",
+  "JINMA",
+  "BITCAT",
+  "LUCKY777",
+  "CSAGENT"
+ ],
+ "quote_dust": [
+  {
+   "symbol": "YYDS",
+   "quote_bnb": 1.0643123561825e-05
+  }
+ ],
+ "executable_candidates": [],
+ "empty_balances": [],
+ "rpc_failures": [],
+ "sale_state_checks": {
+  "CSAGENT_pair_opened": null,
+  "CHEEMSA_tradingOpen": false
+ },
+ "action": "none — no sale, no new block, no entry removed; silent per rule 6",
+ "notes": "CSAGENT opened() read returned null again (same as 08:51 run) — treated as unreadable, NOT as opened; pair reserves still 0/0 so no execution path regardless. CHEEMSA tradingOpen=false. BITCAT saleEnds 2026-11-13 10:49 WIB not reached; CSAGENT 48h refund deadline 2026-11-12 17:04:36 WIB not reached."
+}

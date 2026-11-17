@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+"""Run 2026-11-14 10:09 WIB: (1) Ankr pre-flight via scan.ankr_logs;
+(2) Sourcify ABI shape-check (S1/S2, hot-leg heuristic) for new feed contracts;
+(3) on-chain AGENT_ID() value + basic views for each (WANGCAI-variant lesson).
+Read-only. Writes run-2026-11-14-1009-feedshape.json."""
+import json, subprocess, sys, time
+sys.path.insert(0, "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/")
+from Crypto.Hash import keccak
+BASE = "/home/hatch/workspace/goals/pencarian-rutin-project-free-mint/hidden_files/"
+REGISTRY = "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F"
+USER = "0xeb237F6f9FB4e826739F0954e9768914F28b2c2E"
+EPS = ["https://bsc-dataseed.binance.org/", "https://bsc-dataseed1.bnbchain.org/",
+       "https://bsc-rpc.publicnode.com/"]
+FREE_VIEWS = ["freeSharesRemaining", "freeClaimed", "freeFor", "freeLeft", "freeUsed",
+              "freeAvailable", "freeSharePoolExhausted", "freeSharesClaimed"]
+TRANSFER = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+t0 = time.time()
+out = {"started_wib": "2026-11-14T10:09+07:00"}
+# --- (2)+(3) shape checks ---
+def fetch_abi(addr):
+    url = f"https://sourcify.dev/server/v2/contract/56/{addr}?fields=abi"
+    try:
+        p = subprocess.run(["curl", "-sS", "-m", "60", "-A", "Mozilla/5.0", url],
+                           capture_output=True, text=True, timeout=70)
+        if p.returncode != 0 or not p.stdout:
+            return None, f"curl rc={p.returncode} err={p.stderr[:100]}"
+        return json.loads(p.stdout).get("abi", []), None
+    except Exception as e:
+        return None, f"{type(e).__name__}: {str(e)[:120]}"
+def sel(s):
+    k = keccak.new(digest_bits=256); k.update(s.encode()); return "0x" + k.hexdigest()[:8]
+def post_rpc(ep, payload, timeout=60):
+    o = subprocess.run(["curl", "-sL", "--max-time", str(timeout), "-X", "POST", ep,
+                        "-H", "Content-Type: application/json", "-d", json.dumps(payload)],
+                       capture_output=True, text=True, timeout=timeout + 10).stdout
+    return json.loads(o)
+def call1(addr, data):
+    payload = {"jsonrpc": "2.0", "id": 1, "method": "eth_call",
+               "params": [{"to": addr, "data": data}, "latest"]}
+    for ep in EPS:
+        try:
+            r = post_rpc(ep, payload, timeout=60)
+            if isinstance(r, dict) and isinstance(r.get("result"), str) and r["result"] not in (None, "0x"):
+                return r["result"]
+        except Exception:
+            continue
+    return None
+def to_int(v):
+    try: return int(v, 16) if v and v != "0x" else None
+    except Exception: return None
+NEW = [("0xb289264e50b2f427f1ed6d76dbefeD694e8D6aB1", "2026-11-14T03:11:02Z"),
+       ("0xA6AcfF73C0f0E7438B968546a96d9C370D03f48A", "2026-11-14T03:10:33Z"),
+       ("0xcd056954356C2F46b55C461925Be38fC8bDCC13e", "2026-11-14T03:09:16Z"),
+       ("0x5AEc03C90656743475810926B2B2bd443D5c26a4", "2026-11-14T03:08:35Z"),
+       ("0x223bb86E84bc3CC11888fF217bAe95F06a3a09Ea", "2026-11-14T03:07:32Z"),
+       ("0x3CC5F01a27fE832E9CDB57BF26A2D0daD3b9d95B", "2026-11-14T03:06:41Z"),
+       ("0x9cB324179ae2E6EF3ad0dADcbA27606562d5CF19", "2026-11-14T03:05:29Z"),
+       ("0xE1A869A7f7175Ef4E6109beB66B5334E8f319CDE", "2026-11-14T03:04:42Z"),
+       ("0x7d290d07fc3df483de34018dc1959b5622b058ca", "boltbook-retry-0959"),
+       ("0x072f7c31cc65f13c2fd5a1571e70be2087d5b741", "boltbook-retry-0949"),
+       ("0x19f4e3601264e9d01551c6de207c064a7ab601a8", "boltbook-retry-0944"),
+       ("0x1ce00835b8e02712ec7670134ad69147ccc1208e", "boltbook-retry-0954"),
+       ("0xd683d8f62c424a2ef7956bf488ec09bc06838cb7", "boltbook-retry-0954")]
+results = []
+for addr, vat in NEW:
+    abi, err = fetch_abi(addr)
+    if abi is None:
+        results.append({"address": addr, "verifiedAt": vat, "S1": None, "S2": None,
+                        "error": err, "status": "shape-check-failed"})
+        print(addr, "ABI FETCH FAILED", err, flush=True); continue
+    names = set()
+    fns = {}
+    for e in abi:
+        if e.get("type") == "function":
+            names.add(e["name"]); fns.setdefault(e["name"], []).append(e)
+    has_mint = any(n.lower().startswith("mint") for n in names)
+    has_quote = bool(names & {"quote", "cost", "getQuote", "mintCost", "price", "getPrice"})
+    free_views = sorted(names & set(FREE_VIEWS))
+    agent_ref = bool(names & {"agentId", "agentRegistry", "registry", "getAgentId",
+                              "agentGate", "AgentGate", "AGENT_ID_REGISTRY", "agentIdRegistry", "AGENT_ID"})
+    is_token = bool(names & {"name", "symbol", "decimals", "totalSupply"})
+    mintfree = "mintFree" in fns and any(len(e.get("inputs", [])) == 0 for e in fns["mintFree"])
+    s1 = bool(has_mint and has_quote and free_views and agent_ref)
+    s2 = bool(is_token and mintfree and (names & {"freeClaimed", "freeMinted"})
+              and (names & {"FREE_SLOTS", "FREE_SUPPLY"}) and agent_ref)
+    # on-chain: AGENT_ID() value + basic views (catches WANGCAI-variant)
+    agent_id_raw = call1(addr, sel("AGENT_ID()"))
+    agent_id = None
+    if agent_id_raw and len(agent_id_raw) >= 66:
+        agent_id = "0x" + agent_id_raw[-40:]
+    ts = to_int(call1(addr, sel("totalSupply()")))
+    tm = to_int(call1(addr, sel("totalMinted()")))
+    mo = to_int(call1(addr, sel("mintOpen()")))
+    fc = to_int(call1(addr, sel("freeClaimed()")))
+    nm = call1(addr, sel("name()"))
+    results.append({"address": addr, "verifiedAt": vat, "S1": s1, "S2": s2,
+                    "has_mint": has_mint, "has_quote": has_quote, "free_views": free_views,
+                    "agent_ref": agent_ref, "is_token": is_token, "n_fns": len(names),
+                    "AGENT_ID_value": agent_id, "AGENT_ID_is_registry": (agent_id or "").lower() == REGISTRY.lower(),
+                    "totalSupply": ts, "totalMinted": tm, "mintOpen": mo, "freeClaimed": fc,
+                    "name_raw": (nm[:130] if nm else None), "status": "checked"})
+    print(addr, "S1", s1, "S2", s2, "AGENT_ID", agent_id, "ts", ts, "tm", tm, "mo", mo, "fc", fc, flush=True)
+out["shapes"] = results
+out["elapsed_s"] = round(time.time() - t0, 1)
+json.dump(out, open(BASE + "run-2026-11-14-1009-feedshape.json", "w"), indent=1)
+print("DONE elapsed", out["elapsed_s"])

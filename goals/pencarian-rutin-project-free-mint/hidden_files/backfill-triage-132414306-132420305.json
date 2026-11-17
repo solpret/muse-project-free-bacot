@@ -1,0 +1,451 @@
+{
+ "run": "backfill 2026-11-08 ~23:0x WIB (run 22:46, parsial exit 2)",
+ "window": [
+  132414306,
+  132420305
+ ],
+ "first_seen_triage": [
+  {
+   "address": "0xEaEE92e111Ce889e8e42cbe41E190D72E9FA7077",
+   "first_block": 132419388,
+   "mint_total_window": 2,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794152961,
+   "first_block_wib": "2026-11-08 22:49:21 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 37,
+   "abi_fn_names": [
+    "AGENT_ID",
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "PRICE",
+    "approve",
+    "balanceOf",
+    "contractURI",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed",
+    "getApproved",
+    "image",
+    "isApprovedForAll",
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "quote",
+    "renounceOwnership",
+    "royaltyInfo",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setMintOpen",
+    "setRoyalty",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "AGENT_ID()",
+    "FREE_PER_WALLET()",
+    "FREE_SUPPLY()",
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "PRICE()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "contractURI()",
+    "freeClaimed()",
+    "freeFor(address,uint256)",
+    "freeLeft(address)",
+    "freeUsed(address)",
+    "getApproved(uint256)",
+    "image(uint256)",
+    "isApprovedForAll(address,address)",
+    "mint(uint256)",
+    "mintOpen()",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "quote(address,uint256)",
+    "renounceOwnership()",
+    "royaltyInfo(uint256,uint256)",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setMintOpen(bool)",
+    "setRoyalty(address,uint96)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 43570,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: O"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "Fenrirfennec"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "FENRIRFENNEC"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 245
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 261
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0xa054275580c6d1c9077543907ac5798f2494ecce"
+   },
+   "freeLeft(address)": {
+    "fn": "freeLeft(address)",
+    "value": 0
+   },
+   "freeClaimed()": {
+    "fn": "freeClaimed()",
+    "value": 182
+   },
+   "FREE_SUPPLY()": {
+    "fn": "FREE_SUPPLY()",
+    "value": 182
+   },
+   "freeUsed(address)": {
+    "fn": "freeUsed(address)",
+    "value": 0
+   },
+   "quote(address,uint256)": {
+    "fn": "quote(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain."
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": true,
+   "contract_in_discards": false
+  }
+ ],
+ "early_leads": [
+  {
+   "address": "0xEaEE92e111Ce889e8e42cbe41E190D72E9FA7077",
+   "first_block": 132419388,
+   "mint_total_window": 2,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794152961,
+   "first_block_wib": "2026-11-08 22:49:21 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 37,
+   "abi_fn_names": [
+    "AGENT_ID",
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "PRICE",
+    "approve",
+    "balanceOf",
+    "contractURI",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed",
+    "getApproved",
+    "image",
+    "isApprovedForAll",
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "quote",
+    "renounceOwnership",
+    "royaltyInfo",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setMintOpen",
+    "setRoyalty",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "AGENT_ID()",
+    "FREE_PER_WALLET()",
+    "FREE_SUPPLY()",
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "PRICE()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "contractURI()",
+    "freeClaimed()",
+    "freeFor(address,uint256)",
+    "freeLeft(address)",
+    "freeUsed(address)",
+    "getApproved(uint256)",
+    "image(uint256)",
+    "isApprovedForAll(address,address)",
+    "mint(uint256)",
+    "mintOpen()",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "quote(address,uint256)",
+    "renounceOwnership()",
+    "royaltyInfo(uint256,uint256)",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setMintOpen(bool)",
+    "setRoyalty(address,uint96)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 43570,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: O"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "Fenrirfennec"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "FENRIRFENNEC"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 245
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 261
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0xa054275580c6d1c9077543907ac5798f2494ecce"
+   },
+   "freeLeft(address)": {
+    "fn": "freeLeft(address)",
+    "value": 0
+   },
+   "freeClaimed()": {
+    "fn": "freeClaimed()",
+    "value": 182
+   },
+   "FREE_SUPPLY()": {
+    "fn": "FREE_SUPPLY()",
+    "value": 182
+   },
+   "freeUsed(address)": {
+    "fn": "freeUsed(address)",
+    "value": 0
+   },
+   "quote(address,uint256)": {
+    "fn": "quote(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain."
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": true,
+   "contract_in_discards": false
+  }
+ ],
+ "same_owner_discards": [
+  {
+   "address": "0xEaEE92e111Ce889e8e42cbe41E190D72E9FA7077",
+   "first_block": 132419388,
+   "mint_total_window": 2,
+   "scan_name": null,
+   "scan_symbol": null,
+   "first_block_timestamp": 1794152961,
+   "first_block_wib": "2026-11-08 22:49:21 WIB",
+   "sourcify": "exact_match",
+   "abi_fn_count": 37,
+   "abi_fn_names": [
+    "AGENT_ID",
+    "FREE_PER_WALLET",
+    "FREE_SUPPLY",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "PRICE",
+    "approve",
+    "balanceOf",
+    "contractURI",
+    "freeClaimed",
+    "freeFor",
+    "freeLeft",
+    "freeUsed",
+    "getApproved",
+    "image",
+    "isApprovedForAll",
+    "mint",
+    "mintOpen",
+    "mintedBy",
+    "name",
+    "owner",
+    "ownerOf",
+    "quote",
+    "renounceOwnership",
+    "royaltyInfo",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setMintOpen",
+    "setRoyalty",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "withdraw"
+   ],
+   "abi_fn_sigs": [
+    "AGENT_ID()",
+    "FREE_PER_WALLET()",
+    "FREE_SUPPLY()",
+    "MAX_PER_WALLET()",
+    "MAX_SUPPLY()",
+    "PRICE()",
+    "approve(address,uint256)",
+    "balanceOf(address)",
+    "contractURI()",
+    "freeClaimed()",
+    "freeFor(address,uint256)",
+    "freeLeft(address)",
+    "freeUsed(address)",
+    "getApproved(uint256)",
+    "image(uint256)",
+    "isApprovedForAll(address,address)",
+    "mint(uint256)",
+    "mintOpen()",
+    "mintedBy(address)",
+    "name()",
+    "owner()",
+    "ownerOf(uint256)",
+    "quote(address,uint256)",
+    "renounceOwnership()",
+    "royaltyInfo(uint256,uint256)",
+    "safeTransferFrom(address,address,uint256)",
+    "safeTransferFrom(address,address,uint256,bytes)",
+    "setApprovalForAll(address,bool)",
+    "setMintOpen(bool)",
+    "setRoyalty(address,uint96)",
+    "supportsInterface(bytes4)",
+    "symbol()",
+    "tokenURI(uint256)",
+    "totalSupply()",
+    "transferFrom(address,address,uint256)",
+    "transferOwnership(address)",
+    "withdraw()"
+   ],
+   "code_registry_bytes_hit": true,
+   "code_len": 43570,
+   "agentRegistry": {
+    "fn": "agentRegistry()",
+    "error": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: O"
+   },
+   "agentRegistry_exact_match": false,
+   "agent_shaped": true,
+   "name": {
+    "fn": "name()",
+    "value": "Fenrirfennec"
+   },
+   "symbol": {
+    "fn": "symbol()",
+    "value": "FENRIRFENNEC"
+   },
+   "totalSupply": {
+    "fn": "totalSupply()",
+    "value": 245
+   },
+   "MAX_SUPPLY": {
+    "fn": "MAX_SUPPLY()",
+    "value": 261
+   },
+   "mintOpen": {
+    "fn": "mintOpen()",
+    "value": true
+   },
+   "owner": {
+    "fn": "owner()",
+    "value": "0xa054275580c6d1c9077543907ac5798f2494ecce"
+   },
+   "freeLeft(address)": {
+    "fn": "freeLeft(address)",
+    "value": 0
+   },
+   "freeClaimed()": {
+    "fn": "freeClaimed()",
+    "value": 182
+   },
+   "FREE_SUPPLY()": {
+    "fn": "FREE_SUPPLY()",
+    "value": 182
+   },
+   "freeUsed(address)": {
+    "fn": "freeUsed(address)",
+    "value": 0
+   },
+   "quote(address,uint256)": {
+    "fn": "quote(address,uint256)",
+    "error": "OSError: all endpoints failed: https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-dataseed4.bnbchain."
+   },
+   "mintedBy(address)": {
+    "fn": "mintedBy(address)",
+    "value": 0
+   },
+   "owner_in_discards": true,
+   "contract_in_discards": false
+  }
+ ]
+}

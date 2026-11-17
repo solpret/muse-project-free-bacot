@@ -1,0 +1,38 @@
+{
+ "address": "0x4AB41152EdB3E2853b19828e51927db36508cd64",
+ "retry2_wib": "2026-11-09 00:11:52 WIB",
+ "agentRegistry": {
+  "fn": "agentRegistry()",
+  "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: OSError"
+ },
+ "agentRegistry_exact_match": false,
+ "agentIdRegistry": {
+  "fn": "agentIdRegistry()",
+  "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: OSError"
+ },
+ "agentIdRegistry_exact_match": false,
+ "FREE_CAP": {
+  "fn": "FREE_CAP()",
+  "error": "OSError: all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed.binance.org/: OSError; https://bnb."
+ },
+ "freeMinted": {
+  "fn": "freeMinted()",
+  "value": 80
+ },
+ "freeClaimed(user)": {
+  "fn": "freeClaimed(address)",
+  "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: OSError"
+ },
+ "freeCount(user)": {
+  "fn": "freeCount(address)",
+  "error": "OSError: all endpoints failed: https://bsc-dataseed.binance.org/: OSError"
+ },
+ "totalMinted": {
+  "fn": "totalMinted()",
+  "value": 87
+ },
+ "mintOpen": {
+  "fn": "mintOpen()",
+  "value": 1
+ }
+}

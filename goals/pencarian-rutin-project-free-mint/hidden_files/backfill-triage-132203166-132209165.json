@@ -1,0 +1,305 @@
+{
+ "run": "backfill-132203166-132209165",
+ "results": [
+  {
+   "address": "0xcd11C0F44168545AAf09BcC021B60d07DB26d02d",
+   "first_block": 132203738,
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "calls": {},
+   "sourcify": "not_verified",
+   "abi_functions": [],
+   "abi_has_agentRegistry": false,
+   "abi_has_free_view": false,
+   "agent_shaped": false,
+   "owner": null,
+   "same_owner_discard": false,
+   "block_error": null,
+   "first_mint_timestamp": 1794055882
+  },
+  {
+   "address": "0x4E3b282EFE55738E9A81D7f3c7Df74DCb5210233",
+   "first_block": 132204713,
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "calls": {
+    "name()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000c",
+     "error": null,
+     "str": "Nettle Garth"
+    },
+    "symbol()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000004",
+     "error": null,
+     "str": "NETG"
+    },
+    "quote(uint256)": {
+     "raw": "0x000000000000000000000000000000000000000000000000000110d9316ec000",
+     "error": null,
+     "uint": 300000000000000
+    },
+    "price()": {
+     "raw": "",
+     "error": "OSError: RPC error: {'code': 3, 'message': 'execution reverted'}",
+     "uint": null
+    },
+    "PRICE()": {
+     "raw": "0x000000000000000000000000000000000000000000000000000110d9316ec000",
+     "error": null,
+     "uint": 300000000000000
+    },
+    "totalMinted()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "error": null,
+     "uint": 1
+    },
+    "totalSupply()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "error": null,
+     "uint": 1
+    },
+    "owner()": {
+     "raw": "",
+     "error": "OSError: RPC error: {'code': 3, 'message': 'execution reverted'}",
+     "uint": null,
+     "addr": null
+    }
+   },
+   "sourcify": "verified",
+   "abi_functions": [
+    "AGENT_ID_REGISTRY",
+    "BASE_URI",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "OWNER",
+    "PRICE",
+    "TREASURY",
+    "approve",
+    "balanceOf",
+    "getApproved",
+    "isAgent",
+    "isAgentCaller",
+    "isApprovedForAll",
+    "mint",
+    "minted",
+    "mintedBy",
+    "name",
+    "nextTokenId",
+    "onERC721Received",
+    "ownerOf",
+    "quote",
+    "safeTransferFrom",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "spotsLeft",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "totalSupply",
+    "transferFrom"
+   ],
+   "abi_has_agentRegistry": false,
+   "abi_has_free_view": false,
+   "agent_shaped": false,
+   "owner": null,
+   "same_owner_discard": false,
+   "block_error": null,
+   "first_mint_timestamp": 1794056321
+  },
+  {
+   "address": "0xC7E5d7498449336AefFfD0e8093dAf67A49Cd497",
+   "first_block": 132207500,
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "calls": {
+    "name()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000e",
+     "error": null,
+     "str": "Agent 007 Pass"
+    },
+    "symbol()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000008",
+     "error": null,
+     "str": "AGENT007"
+    },
+    "price()": {
+     "raw": "",
+     "error": "OSError: RPC error: {'code': 3, 'message': 'execution reverted'}",
+     "uint": null
+    },
+    "PRICE()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000001c6bf52634000",
+     "error": null,
+     "uint": 500000000000000
+    },
+    "totalSupply()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000437",
+     "error": null,
+     "uint": 1079
+    },
+    "freeClaimed(address)": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "error": null,
+     "uint": 0
+    },
+    "freeMinted()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000003e8",
+     "error": null,
+     "uint": 1000
+    },
+    "FREE_SUPPLY()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000003e8",
+     "error": null,
+     "uint": 1000
+    },
+    "owner()": {
+     "raw": "0x0000000000000000000000003af1a6168c942d723a9fd8741206e1c699731a7e",
+     "error": null,
+     "uint": 336510412613166618147759428371647302074971134590,
+     "addr": "0x3af1a6168c942d723a9fd8741206e1c699731a7e"
+    }
+   },
+   "sourcify": "verified",
+   "abi_functions": [
+    "AGENT_ID",
+    "FREE_SUPPLY",
+    "MAX_PAID_PER_WALLET",
+    "MAX_SUPPLY",
+    "PRICE",
+    "ROYALTY_BPS",
+    "approve",
+    "balanceOf",
+    "freeClaimed",
+    "freeMinted",
+    "getApproved",
+    "isApprovedForAll",
+    "mint",
+    "mintFree",
+    "name",
+    "owner",
+    "ownerOf",
+    "paidMinted",
+    "render",
+    "renounceOwnership",
+    "royaltyInfo",
+    "safeTransferFrom",
+    "safeTransferFrom",
+    "seedOf",
+    "setApprovalForAll",
+    "supportsInterface",
+    "symbol",
+    "tierOf",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "withdraw"
+   ],
+   "abi_has_agentRegistry": false,
+   "abi_has_free_view": true,
+   "agent_shaped": false,
+   "owner": "0x3af1a6168c942d723a9fd8741206e1c699731a7e",
+   "same_owner_discard": false,
+   "block_error": null,
+   "first_mint_timestamp": 1794057577
+  },
+  {
+   "address": "0x87Ab33194BDE5Bf0f66Beca3Cac70D4d432F0c1e",
+   "first_block": 132207466,
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "calls": {
+    "name()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000c",
+     "error": null,
+     "str": "BotCard Pass"
+    },
+    "symbol()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000007",
+     "error": null,
+     "str": "BOTCARD"
+    },
+    "price()": {
+     "raw": "",
+     "error": "OSError: RPC error: {'code': 3, 'message': 'execution reverted'}",
+     "uint": null
+    },
+    "PRICE()": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000b5e620f48000",
+     "error": null,
+     "uint": 200000000000000
+    },
+    "totalSupply()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000003f5",
+     "error": null,
+     "uint": 1013
+    },
+    "freeClaimed(address)": {
+     "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "error": null,
+     "uint": 0
+    },
+    "freeMinted()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000003e8",
+     "error": null,
+     "uint": 1000
+    },
+    "FREE_SUPPLY()": {
+     "raw": "0x00000000000000000000000000000000000000000000000000000000000003e8",
+     "error": null,
+     "uint": 1000
+    },
+    "owner()": {
+     "raw": "0x0000000000000000000000003af1a6168c942d723a9fd8741206e1c699731a7e",
+     "error": null,
+     "uint": 336510412613166618147759428371647302074971134590,
+     "addr": "0x3af1a6168c942d723a9fd8741206e1c699731a7e"
+    }
+   },
+   "sourcify": "verified",
+   "abi_functions": [
+    "AGENT_ID",
+    "FREE_SUPPLY",
+    "MAX_PAID_PER_WALLET",
+    "MAX_SUPPLY",
+    "PRICE",
+    "ROYALTY_BPS",
+    "approve",
+    "balanceOf",
+    "freeClaimed",
+    "freeMinted",
+    "getApproved",
+    "isApprovedForAll",
+    "mint",
+    "mintFree",
+    "name",
+    "owner",
+    "ownerOf",
+    "paidMinted",
+    "render",
+    "renounceOwnership",
+    "royaltyInfo",
+    "safeTransferFrom",
+    "safeTransferFrom",
+    "seedOf",
+    "setApprovalForAll",
+    "supportsInterface",
+    "symbol",
+    "tierOf",
+    "tokenURI",
+    "totalSupply",
+    "transferFrom",
+    "transferOwnership",
+    "withdraw"
+   ],
+   "abi_has_agentRegistry": false,
+   "abi_has_free_view": true,
+   "agent_shaped": false,
+   "owner": "0x3af1a6168c942d723a9fd8741206e1c699731a7e",
+   "same_owner_discard": false,
+   "block_error": null,
+   "first_mint_timestamp": 1794057561
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "address": "0x7F00b3Aa3A3e41dc145180C4ED8a24eE568eaED4",
+ "retry_wib": "2026-11-08 23:34:23 WIB",
+ "agentIdRegistry": {
+  "fn": "agentIdRegistry()",
+  "error": "OSError: all endpoints failed: https://bnb.api.onfinality.io/public/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc.drpc.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutErro"
+ },
+ "agentIdRegistry_exact_match": false,
+ "agentRegistry_selector": {
+  "fn": "agentRegistry()",
+  "error": "OSError: all endpoints failed: https://bnb.api.onfinality.io/public/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; ht"
+ },
+ "agentRegistry_selector_exact_match": false,
+ "FREE_CAP()": {
+  "fn": "FREE_CAP()",
+  "error": "OSError: all endpoints failed: https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed4.b"
+ },
+ "FREE_PER_WALLET()": {
+  "fn": "FREE_PER_WALLET()",
+  "error": "OSError: all endpoints failed: https://bsc.drpc.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bnb.api.onfinality.io/public/: TimeoutError; https://bsc-dataseed.binance.org/: Ti"
+ },
+ "freeMinted()": {
+  "fn": "freeMinted()",
+  "value": 126
+ },
+ "totalMinted()": {
+  "fn": "totalMinted()",
+  "value": 126
+ },
+ "mintOpen()": {
+  "fn": "mintOpen()",
+  "value": true
+ },
+ "PRICE()": {
+  "fn": "PRICE()",
+  "value": 70000000000000
+ },
+ "paidMintedCount()": {
+  "fn": "paidMintedCount()",
+  "value": 0
+ },
+ "paidUnlocked()": {
+  "fn": "paidUnlocked()",
+  "value": false
+ },
+ "tierRemaining()": {
+  "fn": "tierRemaining()",
+  "value": 777811564242655176509638723719713780183699894575465002180665071051051527295878279266216008013203575551643890187563557352673674439592974688966068139915390748325112138594714775937798028006297057792954056232086856714014793690352564830239
+ },
+ "MAX_SUPPLY()": {
+  "fn": "MAX_SUPPLY()",
+  "value": 1111
+ },
+ "BRONZE_CAP()": {
+  "fn": "BRONZE_CAP()",
+  "value": 555
+ },
+ "SILVER_CAP()": {
+  "fn": "SILVER_CAP()",
+  "value": 300
+ },
+ "GOLD_CAP()": {
+  "fn": "GOLD_CAP()",
+  "value": 222
+ },
+ "LEGENDARY_CAP()": {
+  "fn": "LEGENDARY_CAP()",
+  "value": 34
+ },
+ "TIER_COUNT()": {
+  "fn": "TIER_COUNT()",
+  "value": 4
+ },
+ "freeCount(user)": {
+  "fn": "freeCount(address)",
+  "value": 1
+ },
+ "balanceOf(user)": {
+  "fn": "balanceOf(address)",
+  "value": 1
+ }
+}
