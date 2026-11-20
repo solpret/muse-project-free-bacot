@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/asset-sell-watch/targeted_0351_nov9_fast.py", line 31, in <module>
+    gp = race("eth_gasPrice", [])
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 356, in race
+    raise IOError("all endpoints failed: " + "; ".join(errs))
+OSError: all endpoints failed: https://bsc-dataseed2.bnbchain.org/: TimeoutError; https://bsc-dataseed3.bnbchain.org/: TimeoutError; https://bsc.nodereal.io/: TimeoutError; https://bsc-dataseed.binance.org/: TimeoutError; https://bsc-rpc.publicnode.com/: TimeoutError; https://bsc-dataseed1.defibit.io/: TimeoutError; https://bsc-dataseed-public.bnbchain.org/: TimeoutError; https://bnb.api.onfinality.io/public/: TimeoutError; https://bsc.drpc.org/: TimeoutError

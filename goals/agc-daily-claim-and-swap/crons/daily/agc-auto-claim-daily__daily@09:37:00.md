@@ -21,7 +21,7 @@ RANTAI OTOMATIS AGC HARIAN — dibuat atas perintah user 2026-11-03: pertama "Kl
 lalu "Eksekusi swap ke bnb langsung setelah semua claim tersebut berhasil dan tambah 1 share untuk mode A", lalu
 DIBATALKAN langkah mint-nya 2026-11-03 ("Batalkan tambah 1 share, claim lalu swap saja").
 PERUBAHAN 2026-11-04 (perintah user "tugas terjadwal AGC claim saja jangan jual AGC"): LANGKAH SWAP DIHAPUS TOTAL.
-Job ini sekarang HANYA KLAIM — AGC hasil klaim TETAP di wallet, tidak pernah di-swap ke BNB, tidak pernah di-approve
+Job ini sekarang HANYA KLAIM — AGC hasil klaim TETAP di wallet, tidak pernah di-swap ke BNB DI JOB INI (job lain / perintah langsung user di luar job ini tidak dicakup larangan ini), tidak pernah di-approve
 ke router untuk dijual.
 URUTAN TIAP RUN: klaim yang jatuh tempo saja. TIDAK ADA SWAP, TIDAK ADA MINT OTOMATIS APA PUN (baik Mode A
 maupun Mode B). Mint masa depan tetap manual atas perintah user di chat.

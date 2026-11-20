@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 398, in call_many
+    return batch([("eth_call", [{"to": to, "data": data}, "latest"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 390, in batch
+    raise IOError(f"batch failed on all healthy endpoints: {last_err}")
+OSError: batch failed on all healthy endpoints: HTTP 429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/asset-sell-watch/retry_yyds_1551_nov15.py", line 19, in <module>
+    res = call_many(calls, timeout=15)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 401, in call_many
+    return [race("eth_call", [{"to": to, "data": data}, "latest"])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 356, in race
+    raise IOError("all endpoints failed: " + "; ".join(errs))
+OSError: all endpoints failed: https://bsc.drpc.org/: OSError; https://bsc-rpc.publicnode.com/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc.nodereal.io/: OSError; https://bnb.api.onfinality.io/public/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError

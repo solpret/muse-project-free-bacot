@@ -1,0 +1,11 @@
+# Hot-leg run 2026-11-18 01:39 WIB
+
+- Sourcify feed: 20 kontrak, 4 baru (top 0x6b7A94d617625594dc24AdB3F1e69ad2585677a2, verifiedAt 2026-11-17T18:37:57Z). Shape-check keempatnya: S1 false, S2 false (tanpa mint, tanpa quote, tanpa free view, tanpa agent ref) — bukan sale shape, bukan lead; dicatat di hot-leg-seen.json (total 16065).
+- Boltbook EN (44.448 byte) + ZH (42.801 byte): 11 alamat, 0 baru. Isi: LMINER 837/4.444, MINE 1097/8.888, AgentEcho ($ECHO) 208/20.000, FIND exp39 118/300, PXIO totalMinted 16.666/16.666 (sold out), ADRAW 299/1.000 free.
+- Bridge scan: 116 kontrak, 0 di luar snapshot, 7 same_owner_discarded. Tidak ada temuan pelengkap untuk promosi.
+- Leg 4 reread: blok 134169173, elapsed 20,8 dtk, 0 chunk error. Perubahan vs 01:34: Matrix freeMinted 588→589 (+1, 58,9%), totalSupply 585→586; Stromboat mintOpen 0→1.
+- Stromboat (0xC3CB4dF5256c8429Eab306E924BF6E3E6c72163d): mint BARU BUKA (mintOpen 0→1), freeMinted masih 0/667, totalMinted 0, slot user terbuka. TAPI launch age MASIH UNVERIFIED (belum ada first mint; contractURI/saleStart/mintStartsAt/startTime/launchTime/freeMintStart semua revert — tidak ada view waktu buka maupun pointer website) dan belum ada website terverifikasi (pencarian 01:19: tidak ada situs proyek). Tetap watchlist-only per body leg (3): TIDAK dilaporkan sebagai lead, TIDAK di-preview/di-mint. Entri hot-leg-seen.json diperbarui dengan status watchlist-only-opened-age-unverified; dipantau run berikutnya untuk first mint / progres %.
+- Threshold check: PunchCard free 23,1% (slot user terbuka, mintPriceFor 0, mintedCount 0), AGCLUB 59,0%, Matrix 58,9%, PIXELFROGS 15,1%, AgentBubble 84,2% — AgentBubble di atas 70% TAPI launch age masih UNVERIFIED (tidak ada saleStart/mintOpensAt view, dibawa dari run 01:34) → TIDAK ada promosi strong lead. binanceai-mint pending claim tidak berubah (belum launched). bsccat + pepe tidak berubah.
+- Poffzi FCFS: tidak ada proses berjalan (tidak ada sale di-arm).
+- Eksekusi: tidak ada — tanpa preview, mint, atau klaim. Diam sesuai aturan (tidak ada lead/kandidat/pending/perubahan tier baru; perubahan Stromboat dicatat di run log + seen, bukan laporan chat, karena umur belum terverifikasi).
+- File: hidden_files/hot-leg-run-2026-11-18-0139.json, hidden_files/hot-leg-run-2026-11-18-0139-reread.json, hidden_files/hot-leg-2026-11-18-0139-run.py, boltbook html EN/ZH.

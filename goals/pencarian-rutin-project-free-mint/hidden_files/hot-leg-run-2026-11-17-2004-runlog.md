@@ -1,0 +1,9 @@
+# Hot-leg run 2026-11-17 20:04 WIB — TENANG (tidak ada lead/kandidat/perubahan tier)
+
+- Script: run-hot-leg-2026-11-17-2004.py (copy of 1959 pattern; focus set 16). Outputs run-hot-leg-2026-11-17-2004.json + -reread.json. Elapsed 22,4 dtk — DALAM target <2 menit.
+- Leg 1 Sourcify feed (limit 20): newest verifiedAt 2026-11-17T13:04:55Z, oldest 12:37:57Z — feed bergerak dari run 19:59 (newest 12:58:36Z). 6 kontrak baru vs hot-leg-seen.json, keenamnya BUKAN sale shape (S1=false, S2=false, agent=false): 0x3685d35915A1bf21f4CF7dB01D1d89d0ff9e5cEb (mint=true saja), 0x2674Ec5fcE6e8cF1cF81187af7795fe37D7d9AAa, 0xB8ce88502eFa35bA27757f3cAad931a684f5F54c, 0x222Ec14Af2Ed237a6d3a249f0AC358280B8F3D91, 0xB830D6B2FD5Fe3aa20B5925a36F9F17d2e1789A0, 0x183B9eFa4a71a20E3DDbafB1540a1111D4723199. Dicatat di seen (15886→15892). Tidak ada lead baru, leg 3 kosong.
+- Leg 2 Boltbook: EN OK (46.594 B) + ZH OK (46.921 B). 0 hit di semua 8 kata kunci sweep di kedua bahasa. 0 alamat baru vs seen. Tidak ada lead baru.
+- Bridge leg: scan-bridge.json 116 kontrak, 7 same_owner_discarded, outside_snapshot [] — tidak ada temuan pelengkap.
+- Leg 4 reread: 16/16 OK, blok 134124569. Perubahan vs 19:59 hanya kenaikan supply kecil: PunchCard freeMinted 1214→1215, totalSupply 1228→1233 (+5); PXIO-Miners totalSupply 13856→13894 (+38); MineCard totalSupply/totalMinted 957→961 (+4). Bukan perubahan tier (tidak ada sellout, slot tidak berubah, tidak ada pending claim terbuka; BinanceAI tetap launched=0, failed=1, refund phase; DRAGON tetap 1000/1000 — sellout-nya sudah dilaporkan 14:34 WIB hari ini).
+- Threshold check: PunchCard free 1215/5555 = 21,9%; AGCLUB 522/8888 = 5,9%; Matrix 585/(585+415) = 58,5% — semua di bawah bar strong lead >70%. Tidak ada promosi.
+- 0 kandidat / 0 eksekusi / 0 preview. Main snapshot, scan seen file, track-c-scan-checked file TIDAK disentuh (read-only).

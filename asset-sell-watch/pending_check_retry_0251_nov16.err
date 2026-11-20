@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/asset-sell-watch/pending_check_retry_0251_nov16.py", line 68, in <module>
+    res = batch_race(calls, timeout=15)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 448, in batch_race
+    raise IOError("batch_race all endpoints failed: " + "; ".join(errs))
+OSError: batch_race all endpoints failed: https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError

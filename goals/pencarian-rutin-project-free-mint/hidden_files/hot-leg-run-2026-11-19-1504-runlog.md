@@ -1,0 +1,22 @@
+# Hot-leg run 2026-11-19 15:04 WIB — SILENT (no new lead / candidate / change / promotion)
+
+- Sourcify feed (limit 20): 19 contracts returned, verified 07:32–08:04 UTC. 13 already in hot-leg-seen; 6 NEW.
+- Shape-check (6 new): ALL FAILED — Sourcify v2 contracts endpoint 404 + repo full/partial_match metadata.json 404 + files/tree 404, on 2 attempts (~190s total, egress slow). No ABI, no S1/S2 evidence. Recorded in hot-leg-seen.json as shape-check-failed (first_seen 15:12 WIB); NOT leads, never previewed/minted. Main 30-min job will retry via its own feed poll.
+  - 0xa597571586dE2D1Edee85e6800D045939DE5ec49 (verified 08:04:09Z)
+  - 0x2E6b4a06d87556774A695C648dbEE4AF38b67777 (08:02:47Z)
+  - 0x8A1DC3632fbf543b99092ba0420d128eFa7cAa39 (07:57:57Z)
+  - 0xC34c1eA7b3a0bea3AE9e473e645D172900e63748 (07:56:47Z)
+  - 0xc942A59A78cF7865e2dE8Ed213A88632a05B7247 (07:56:05Z)
+  - 0xf9b1745b3134f86fA863186ba78549208fBF995C (07:56:05Z)
+  - None is an excluded example (long-agent.com / 传火人).
+- Boltbook EN 200 (46.358 byte) + ZH 200 (46.565 byte): 6 addresses, ALL already in hot-leg-seen (incl. registry itself + D52A86AC SALE-SHAPE-prelaunch-watchlist). No new lead.
+- Re-read leg (block 134469070, 13.1s, Quicknode batch; some reads rate-limited -32007 15/s):
+  - STOCK AGENT 0xba7068233da805bdebcc167be361c219002e6b7f: totalSupply 873 -> 875 (+2 vs 15:01 run), FREE_SUPPLY 1111, mintOpen 1, freeMintedByWallet(user) 0, balanceOf(user) 0; freeLeft + quote rate-limited this run. No sellout, no slot loss; age + website still UNVERIFIED -> stays EARLY LEAD, no promotion.
+  - binanceai-mint 0x46cb1D3efd4307506Cda7EbBa5a51be64746739E: totalShares 3110, tokenClaimed(user) 0; launched/failed/isRefundPhase rate-limited this run — last verified 15:01 WIB (launched=0, failed=1, refund=1). No change evidenced.
+  - RigForge 0xa1cc0d7c0534f824f2cf6eeb865a8fede96c8f7d: freeSharesLeft 621, openedAt 0, freeBooked(user) 10000 RIG — unchanged, still not open.
+  - AONE-sale 0x84D82E933D7781fe11245e7bbd3Eb23dbb963666: freeMinted 10000/10000 FREE_TOTAL — sold out (already reported).
+  - bsccat 0x9dd4C7D3276609892cF723a90A5AF3f8df40C79A: freeMinted 554 flat.
+- Bridge leg (read-only): 116 contracts; 1 not in snapshot = DGF CARD 0x01f9ca4ff95d49594cc8b6591022186dc5c1bc72 (age-excluded, first mint 4 Nov; already reported once as scan finding, NOT a lead of this job). 7 same_owner_discarded — never promoted. No promotion/change.
+- Execution: none. Chat report: NONE (silent run per body rules).
+- Overrun note: run took ~8 min vs <2 min target — Sourcify ABI retries (~190s) + slow egress. Legs skipped on stall: none fully skipped; shape-check degraded to recorded-failed.
+- Files: hot-leg-run-2026-11-19-1504-reread.py, hot-leg-run-2026-11-19-1504-reread.json, hot-leg-run-2026-11-19-1504-runlog.md. Snapshot NOT rewritten.

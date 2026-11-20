@@ -1,8 +1,8 @@
 # MANIFEST — muse-project-free-bacot
 
-- **Tanggal:** 17 November 2026
+- **Tanggal:** 20 November 2026
 - **Repo publik:** `muse-project-free-bacot` — https://github.com/solpret/muse-project-free-bacot
-- **Ukuran:** 271 MB (253.178.443 byte), 15.090 file
+- **Ukuran:** 300 MB (314.733.216 byte), 18.240 file
 - **Cakupan:** Project Free Bacot — pencarian rutin free-mint NFT (track A),
   klaim token gratis (track B), share sale fungible (track C), eksekusi
   FCFS + auto-sell, dan AGC.
@@ -31,12 +31,28 @@
   `muse-project-common`.
 
 ## Catatan ukuran
-254 MB dari 271 MB adalah `goals/pencarian-rutin-project-free-mint/
+299,6 MB dari 314,7 MB adalah `goals/pencarian-rutin-project-free-mint/
 hidden_files/` — ribuan skrip leg per-run (mayoritas varian unik, bukan
 duplikat). Itu riwayat metode, bukan tumpukan sampah; snapshot + run-JSON
 sudah dibuang (lihat atas).
 
+## Pembaruan 2026-11-20 (sejak 17 Nov)
+- Goal baru: `goals/agio-free-mint-watch/` (192K) dan
+  `goals/pxio-miner-auto-claim/` (12K).
+- 16 file berubah: state asset-sell-watch + fast_exec, cron free-mint
+  (search/hot-leg), GOAL.md pencarian rutin, `nft-rarity-inventory.md`
+  (BAISHOU 19 Nov: 168.000.000 token, tx terverifikasi).
+- 3.149 file baru, mayoritas skrip leg per-run 18–19 Nov di hidden_files/
+  (riwayat metode) + state ringkasan (onchain-scan, registry-watch,
+  grove-watch, scan-gap-watch).
+- Dibersihkan mengikuti kebijakan 17 Nov (bukan karena batas repo):
+  ~21.000 JSON dump run-per-run hot-leg (321 MB) + snapshot/log/DB +
+  state runtime fast_exec — dibuang; hanya skrip leg (.py/.sh/.md) +
+  JSON ringkasan yang ikut.
+- Pemecahan repo: TIDAK diperlukan — tree 300 MB < ~900 MB; tidak ada
+  file >90 MB.
+
 ## Audit rahasia
-Bersih (17 Nov 2026, `audit-secret-2026-11-17.txt` di folder induk):
-0 private key, 0 sk-, 0 Bearer asli, 0 keypair Solana, 0 file .env —
-layak repo publik.
+Bersih (20 Nov 2026, `audit-secret-2026-11-20.txt` di folder induk,
+ripgrep 14.1.0, 16 pola): 0 private key, 0 sk-, 0 Bearer asli,
+0 keypair Solana, 0 file .env — layak repo publik.

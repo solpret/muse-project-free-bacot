@@ -1,7 +1,7 @@
 ---
 id: agc-chart-watch
 title: Pantauan chart AGC 4 jam
-enabled: true
+enabled: false
 owner: goal:agc-daily-claim-and-swap
 mode: task
 schedule:

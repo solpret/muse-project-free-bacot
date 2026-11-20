@@ -1,0 +1,15 @@
+# free-mint-hot-leg run 2026-11-18 03:24 WIB
+
+- Elapsed 35.5 s, block 134183145. No preview, no mint, no claim.
+- Leg 1 Sourcify feed (20 contracts, top verifiedAt 2026-11-17T20:21:56Z): 2 new — 0x93eBA7E74c8f75841931e9037830605EFEc17EaD (14 fns, no mint/quote/free/agent) and 0x670b1f3D926195214EfE3447fB550eb960af0E8d (24 fns, mint yes but no quote/free/agent) — both NOT sale shape (S1 false, S2 false). Recorded in hot-leg-seen.json.
+- Leg 2 Boltbook EN 44.694 byte (HTTP 200) + ZH 43.024 byte (HTTP 200): 7 / 7 full-address contracts, 1 new real — 0x3134b206e9cfd2cef6d652b8fe96aae3263d760c, shape-checked NOT sale shape (0 fns, Sourcify ABI unavailable/empty). The other "new" 0xa21b6986ccfddbc65f8364cc0cbcdf171ae76181 is a tx-hash regex artifact (first 40 hex chars of a 66-char tx hash), recorded as checked-not-contract, never shape-checked. Figures: FIND exp39 150/300 (seals 04:00 WIB), Alien 476/1.300, Lumenhold 1.251/1.500 (flat, +0 in 31 min), AgentEcho 273/20.000, PXIO 16.666/16.666 TUTUP — all already known; FIND is age-excluded (main snapshot, DIAM) so 150/300 triggers nothing here. No new free-mint post.
+- Leg 3: no shape hits, no leads.
+- Leg 4 re-read vs 03:19 (read-only, snapshot NOT rewritten; no chunk errors):
+  - Real movement only: Matrix freeMinted 591->592 (59,2%), freeRemaining 409->408, totalSupply 588->589; REOPIR freeClaimed/totalSupply 582->585; Stromboat freeMinted/totalMinted 174->175.
+  - Unchanged: bsccat, pepe, all other snapshot entries.
+  - Transient RPC nulls this run (values present at 03:19, null at 03:24): PunchCard (all 9 views), RigForge (4), PIXELFROGS (5), Flare-bd6f totalSupply, HAPPE freeMinted. Targeted retry right after the run returned the 03:19 values UNCHANGED on two endpoints (bsc-dataseed.binance.org + bsc-dataseed1.defibit.io, agreeing): PunchCard totalSupply 1312 / freeMinted 1290 / mintOpen 1 / mintPriceFor 0 / mintedCount 0; RigForge freeSharesLeft 625 / freeClaimed 375; PIXELFROGS 456 / 454 / freeLeft 2546 / mintOpen 0; Flare 4900; HAPPE freeMinted 222 / totalMinted 241. So the nulls were a transient RPC read failure, NOT a state change — do not treat as sellout/slot loss. (Note: the run script's built-in diff still compares against the 0314 reread file, hardcoded; the vs-0319 comparison above was done separately.)
+- Threshold check: PunchCard ~23,2% (1290/5555, slot open but age-excluded), AGCLUB 59,2%, Matrix 59,2%, AgentBubble 84,4% but launch age still UNVERIFIED — no strong-lead promotion.
+- Bridge (read-only): 116 contracts, 0 not in snapshot, 7 same_owner_discarded — no complement finding, nothing to promote.
+- Poffzi FCFS: no process found (informational only; sale ended 16 Nov).
+- Result: SILENT run — no new lead, candidate, pending claim, change, or blocked auto-mint/auto-claim to report.
+- Files: hot-leg-2026-11-18-0324-run.py, hot-leg-run-2026-11-18-0324.json, hot-leg-run-2026-11-18-0324-reread.json, boltbook EN/ZH html snapshots, hot-leg-2026-11-18-0324-run.stdout.log / .stderr.log. hot-leg-seen.json 16.117 -> 16.121 entries.

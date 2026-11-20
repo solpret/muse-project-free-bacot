@@ -1,7 +1,7 @@
 ---
 id: unsolvable-live-watchdog
 title: Watchdog live UNSOLVABLE (nyalakan ulang loop bila mati)
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

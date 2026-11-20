@@ -1,0 +1,11 @@
+# free-mint-hot-leg run 2026-11-17 19:29 WIB (script 34 dtk — dalam target <2 mnt; run mulai 19:33:15 WIB, ~3,5 mnt telat dari jadwal 19:29:38; read-only kecuali hot-leg-seen/reported, no executions)
+
+- Leg 1 Sourcify feed: 20 contracts, 1 new (0x94a47DEd7b51142333c59E8Fb93B0C1c76139510; newest verifiedAt 2026-11-17T12:30:43Z). Shape-check: S1/S2 false (mint true, no quote, no free views, no agent ref); recorded checked in hot-leg-seen.json (now 15.869 entries).
+- Leg 2 Boltbook EN (46.271 byte) + ZH (46.370 byte): 0 alamat baru, 0 hits on all 8 sweep keywords (EN + ZH).
+- Leg 3 shape-check: no new S1/S2 contracts, nothing to verify on-chain.
+- Leg 3b CAT402 re-check (sale 0xdAba96c14B38725b23502BE6dFE021c08B7a5fB1) — **38/100 (38%)**, naik dari 29/100 (~19:29 WIB): freeCatsClaimed 38, freeCatsRemaining 62, totalCatsMinted 38, paidCatsSold 0, slot user MASIH TERBUKA (freeClaimedBy=false, isFreeEligible=true). Kecepatan MELAMBAT ~2,3 klaim/mnt (29→38 dalam ~4 mnt, dari ~5-7 klaim/mnt sebelumnya). Umur <24 jam TERVERIFIKASI (gateStart 1794917869 = 19:17:49 WIB). Free window tutup 2026-11-18 19:00:45 WIB.
+- CAT402 masih BUKAN kandidat track-A (38% < 50%) dan BUKAN strong lead (38% < 70%) — TIDAK di-preview, TIDAK di-mint. Gate website masih BELUM LOLOS (metode A–N dicek run 19:19, tidak ada bukti baru run ini); promosi hanya bila % free naik + gate lolos. Dilaporkan SEKALI sebagai update perubahan watchlist (append ke entri change-launched yang sama di hot-leg-reported.json).
+- Leg 4 re-read (blok 134120281, +414 blok vs 19:24), 16/16 OK: hanya drift kecil — PunchCard +1 free (freeMinted 1198→1199, ~21,6% dari MAX_SUPPLY 5555), PXIO-Miners +91 totalSupply (13561→13652), MineCard +4 (941→945). No sellout, no user slot lost, no pending claim opened (binanceai-mint unchanged: launched 0, failed 1, refund phase 1), no age-exclusion.
+- Threshold check: tidak ada item di atas strong-lead bar >70% (AGCLUB ~58,8%; Matrix ~58,4%, sudah age-excluded 16 Nov; PunchCard ~21,6%; HANAMI-BLOOM 13,0%; CAT402 38%). No promotion, no preview, no mint, no claim.
+- Bridge scan (read-only): 116 contracts, 0 outside snapshot, 7 same_owner_discarded. Nothing to report as scan complement.
+- Result: 1 laporan perubahan ke main chat — CAT402 29% → 38% (bukan kandidat/lead, gate website belum lolos).

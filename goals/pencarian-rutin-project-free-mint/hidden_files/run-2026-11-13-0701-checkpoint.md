@@ -1,0 +1,8 @@
+# Checkpoint run free-mint-search 2026-11-13 07:01 WIB (ditulis sebelum handoff browser L)
+- Verify 0701 OK 28,1 dtk, blok 133257290: JNTM freeClaimed 253/1000, freeLeft 747, mintStart 06:13:12 WIB, slot user TERBUKA (freeClaimedByAgent=0); AgentMuse freeClaimed 75/888, bookedOf(user)=FREE_OSK (mint 0601 terverifikasi); OBFG 600/1230=48,8%; SolNFT 324/333=97,3% (9 slot tersisa); NOTV 0 (buka 18:00 WIB); Agentx 522/1111=47,0%; PX24 519, SKRR 504, ME30 266, CY24 448 (semua mintOpen 1, cost 0, launch views null).
+- Age PX24-group: binary-search historical eth_call GAGAL (semua dataseed "missing trie node" bahkan untuk blok ~1 jam lalu); eth_getLogs dataseed "limit exceeded" (5000 blok); Ankr pre-flight FAIL 401 -> scan leg fast-fail, watermark TETAP 132512564. Umur PX24-group TETAP UNVERIFIED (post Boltbook ~03:30-04:02 WIB saja, tanpa koroborasi on-chain).
+- Discovery: Sourcify feed 20, 8 baru, semua S1=false. Boltbook EN 45251 / ZH 43533 byte, 1 alamat baru 0x5f17...: code_len 0 (bukan kontrak) -> dicatat, tanpa aksi.
+- Bridge: 116 kontrak, 0 not-in-snapshot, 7 same-owner-discarded -> tanpa promosi.
+- Gate JNTM (A,B,C,D,E,G,J,K,M gagal run ini; H/I N/A; K terbatas search-index): menunggu metode L via browser task browser-task:7dcbc507-0f1b-5200-99b8-f613b1b80e66 (BscScan token 0xb038... + sale 0x1320...).
+- Merge snapshot BELUM dilakukan (menunggu L): hapus LuckyCatch (age-excluded, sudah dilaporkan parent ~05:05 WIB, jangan lapor ulang); tambah AgentMuse minted-by-user di track_c; tambah JNTM di track_c sesuai hasil L; tambah PX24/SKRR/ME30/CY24 watchlist-only-age-unverified di contracts; update OBFG/Sol/Agentx/MECHA/Pickgrid/HIVE.
+- BinanceAI track-B: launched 0, tokenClaimed(user) 0 -> tetap belum buka/pending-refund, tanpa aksi.

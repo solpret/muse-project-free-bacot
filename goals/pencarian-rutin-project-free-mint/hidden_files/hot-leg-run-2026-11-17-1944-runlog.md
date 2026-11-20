@@ -1,0 +1,10 @@
+# Hot-leg run 2026-11-17 19:44 WIB — LAPOR SEKALI: CAT402 SELLOUT (gate-blocked strong lead habis)
+
+- Script: run-hot-leg-2026-11-17-1944.py (copy of 1939 pattern); outputs run-hot-leg-2026-11-17-1944.json + -reread.json. Elapsed 160,2 dtk — OVERRUN dari target <2 menit (RPC bsc-dataseed lambat; chunk leg-4 baru selesai ~148–157 dtk). Kerja tidak menumpuk ke run berikut.
+- Leg 1 Sourcify feed (limit 20): newest verifiedAt 2026-11-17T12:45:29Z, oldest 12:07:49Z. 5 kontrak baru vs hot-leg-seen.json, semua S1/S2 false (0x2dFad4F1, 0x6525535B, 0x50766Baf, 0xAAeffd9d, 0xdc8Ce921) — tercatat checked-not-sale-shape. Tidak ada lead baru.
+- Leg 2 Boltbook: EN GAGAL (RemoteDisconnected — koneksi ditutup tanpa respons; leg di-skip, dicoba lagi run berikut, sesuai aturan skip). ZH OK (46.071 B): 0 hit di semua 8 kata kunci sweep, 0 alamat baru. Tidak ada lead baru.
+- Bridge leg: scan-bridge.json 116 kontrak, 7 same_owner_discarded, outside_snapshot [] — tidak ada temuan pelengkap.
+- Leg 4 reread: 16/16 OK, blok 134122328. Perubahan vs 1939: BoldLeonidas totalSupply 893→894; PunchCard totalSupply 1217→1221, freeMinted 1203→1207; PXIO-Miners totalSupply 13765→13825 (+60); MineCard totalSupply/totalMinted 948→951; RigForge freeSharesLeft 630→627, freeClaimed 370→373. Bukan perubahan tier (tidak ada sellout, slot tidak berubah, tidak ada pending claim terbuka).
+- Threshold check: PunchCard free 1207/5555 = 21,7%; AGCLUB 522/8888 = 5,9%; Matrix 585/(585+415) = 58,5% — semua di bawah bar strong lead >70%. Tidak ada promosi.
+- CAT402 SELLOUT (perubahan yang dilaporkan sekali): freeCatsClaimed 73→100/100, freeCatsRemaining 27→0, totalCatsMinted 73→100, blok 134122328. Strong lead yang gate-blocked itu kini habis — TIDAK PERNAH di-preview/di-mint (gate website gagal run 19:39). Slot user tercatat masih terbuka (freeClaimedBy=false, isFreeEligible=true) tapi pool 0, jadi tidak ada yang bisa di-mint. Dicatat sebagai change-sellout-gate-blocked di hot-leg-reported.json.
+- 0 kandidat / 0 eksekusi / 0 preview. Main snapshot, scan seen file, track-c-scan-checked file TIDAK disentuh (read-only).

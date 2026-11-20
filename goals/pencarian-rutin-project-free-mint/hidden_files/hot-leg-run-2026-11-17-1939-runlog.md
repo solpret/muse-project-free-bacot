@@ -1,0 +1,9 @@
+# Hot-leg run 2026-11-17 19:39 WIB — LAPOR SEKALI: CAT402 strong-lead legs met, gate website GAGAL
+
+- Script: run-hot-leg-2026-11-17-1939.py (copy of 1934 pattern); outputs run-hot-leg-2026-11-17-1939.json + -reread.json. Elapsed 33.5 s. All legs ran; no leg skipped.
+- Leg 1 Sourcify feed (limit 20): newest verifiedAt 2026-11-17T12:39:39Z, oldest 11:59:08Z. 3 new contracts vs hot-leg-seen.json, all S1/S2 false (0xc280Cf0d, 0xF4D35198, 0xcC072333) — recorded checked-not-sale-shape.
+- Leg 2 Boltbook EN (46.175 B) + ZH (46.587 B): 0 new addresses; 0 keyword hits on all 8 sweep keywords. No new leads.
+- Bridge leg: scan-bridge.json 116 contracts, 7 same_owner_discarded, outside_snapshot [] — no supplementary findings.
+- Leg 4 reread: 16/16 OK, block 134121214. Changes vs 1934: PunchCard totalSupply 1214→1217, freeMinted 1200→1203; PXIO-Miners totalSupply 13717→13765 (+48); MineCard totalSupply/totalMinted 946→948 (+2). None is a tier change (no sellout, no slot change, no pending-claim opening).
+- CAT402 PROMOSI (gate-blocked): freeCatsClaimed 62→73/100 (73% > 70% strong-lead bar), launched 19:17:49 WIB (umur ~24 mnt, <24 jam terverifikasi), slot user TERBUKA (freeClaimedBy=false, isFreeEligible=true), freeCatsRemaining 27, window tutup 2026-11-18 19:17:49 WIB. Kaki strong lead TERPENUHI — TAPI MANDATORY WEBSITE GATE GAGAL (cek ulang run ini): tokenURI(1) = https://catbcs.netlify.app/meta/1.json -> HTTP 404; root catbcs.netlify.app HTTP 200 tapi situs Thai "Cat Health Check Expert" tanpa kontrak; pencarian alamat kontrak segar 0 hit proyek (metode A) + metode A–N run 19:19 0 hit. TIDAK di-preview, TIDAK di-mint. Dilaporkan sekali sebagai change-strong-lead-legs-met-gate-blocked di hot-leg-reported.json; seen status di-update.
+- 0 candidates / 0 executions / 0 previews. Main snapshot, scan seen file, track-c-scan-checked file NOT touched (read-only).

@@ -14,6 +14,7 @@ Pencarian rutin setiap 30 menit (cron `free-mint-search`) untuk project
 free-mint NFT BARU yang memenuhi semua syarat wajib: free gas-only dengan
 kuota gratis terverifikasi untuk wallet pengguna; umur peluncuran
 TERVERIFIKASI maksimal 48 jam (bila terverifikasi >48 jam dan belum sold out:
+[DIGANTI 2026-11-10 — umur kini KURANG DARI 24 jam, lihat §FILTER UMUR FREE BACOT <24 JAM.]
 gugur DAN dihapus dari watchlist aktif); KUOTA FREE-MINT terpenuhi minimal
 50% — yang diukur adalah kuota free-nya (freeClaimed/freeLeft/freeSupply vs
 alokasi gratis), BUKAN total supply (koreksi pengguna 2026-11-01 ~19:03 WIB;
@@ -27,6 +28,7 @@ Hasil hanya dilaporkan bila ada kandidat baru yang lolos semua syarat
 terverifikasi; tidak ada mint, preview, atau eksekusi tanpa persetujuan
 eksplisit terpisah dari pengguna. Proyek yang pengguna sebut sendiri tetap
 bebas dari tes X + tes umur 48 jam, tapi tetap butuh strict scan + preview
+[DIGANTI 2026-11-10 — umur kini KURANG DARI 24 jam, lihat §FILTER UMUR FREE BACOT <24 JAM.]
 bersih + kuota gratis terverifikasi. Watchlist aktif dikosongkan 2026-11-01
 ~18:37 WIB (27 kontrak lama diarsip lalu dihapus permanen atas perintah
 pengguna ~18:55 WIB); discovery mengisi ulang dari proyek baru.
@@ -89,10 +91,12 @@ bukan kandidat; (5) X — wajib punya akun X + bukti diskusi publik, sama
 dengan jalur A (proyek yang user sebut sendiri bebas dari tes X + umur,
 tapi tetap butuh strict scan + preview bersih + klaim gratis terverifikasi).
 Kaki % dan velocity jalur A TIDAK berlaku untuk jalur B; aturan umur 48 jam
+[DIGANTI 2026-11-10 — umur kini KURANG DARI 24 jam, lihat §FILTER UMUR FREE BACOT <24 JAM.]
 jalur A berlaku untuk jalur B diukur dari PEMBUKAAN KLAIM (launch yang
 membuat token bisa diklaim), bukan dari mint awal: klaim yang belum terbuka
 dilacak sebagai pending tanpa memandang umur mint; sekali terbuka, harus
 diklaim dalam 48 jam sejak dibuka atau dihapus dari tracking (dilaporkan
+[DIGANTI 2026-11-10 — umur kini KURANG DARI 24 jam, lihat §FILTER UMUR FREE BACOT <24 JAM.]
 sekali). AUTO-KLAIM: bila klaim lolos SEMUA kriteria jalur B + SEMUA guard
 safety (inspeksi situs + verifikasi on-chain, audit diungkap, cost 0,
 preview bersih 000000000 tanpa authority/allowance/risk, dan perubahan
@@ -135,9 +139,11 @@ sweep kata kunci share-sale + direct-fetch /skill.md, /launch.json,
 hidden_files/track-c-scan-checked.json, sisanya dibuang sebagai sampling
 limit yang dinyatakan di run log, bukan cakupan penuh). LEAD track C =
 bentuk sale + free pool > 0 + quote user 0 + umur terverifikasi ≤48 jam,
+[DIGANTI 2026-11-10 — umur kini KURANG DARI 24 jam, lihat §FILTER UMUR FREE BACOT <24 JAM.]
 dilaporkan sekali, TIDAK PERNAH auto-mint/preview. KANDIDAT track C = lead
 + punya akun X + diskusi publik terbaca + pool/slot masih terbuka,
 dilaporkan sekali untuk keputusan eksplisit pengguna. TIDAK ADA AUTO-MINT
+[DIGANTI 2026-11-01 ~22:41 WIB — auto-mint track C DIBERIKAN, lihat seksi berikut. Larangan di atas tidak berlaku lagi.]
 UNTUK TRACK C: otorisasi 19:09 WIB hanya untuk kandidat NFT jalur A;
 perpanjangan ke bentuk token fungible butuh otorisasi eksplisit sendiri
 yang belum diberikan. Kaki 50% + velocity jalur A TIDAK meng-gate track C

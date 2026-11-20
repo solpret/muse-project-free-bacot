@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/asset-sell-watch/pending_check_2151_nov17.py", line 39, in <module>
+    res1, err1 = batch_race(calls, timeout=15)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 448, in batch_race
+    raise IOError("batch_race all endpoints failed: " + "; ".join(errs))
+OSError: batch_race all endpoints failed: https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 398, in call_many
+    return batch([("eth_call", [{"to": to, "data": data}, "latest"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 390, in batch
+    raise IOError(f"batch failed on all healthy endpoints: {last_err}")
+OSError: batch failed on all healthy endpoints: HTTP 429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/asset-sell-watch/pending_check_2151_nov17.py", line 41, in <module>
+    res1, err1 = call_many(calls, timeout=20)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 401, in call_many
+    return [race("eth_call", [{"to": to, "data": data}, "latest"])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/fast_exec/fast_rpc.py", line 356, in race
+    raise IOError("all endpoints failed: " + "; ".join(errs))
+OSError: all endpoints failed: https://bsc-rpc.publicnode.com/: OSError; https://bsc.nodereal.io/: OSError; https://bsc-dataseed4.bnbchain.org/: OSError; https://bsc-dataseed1.defibit.io/: OSError; https://bsc.drpc.org/: OSError; https://bsc-dataseed.binance.org/: OSError; https://bsc-dataseed1.bnbchain.org/: OSError; https://bnb.api.onfinality.io/public/: OSError; https://bsc-dataseed3.bnbchain.org/: OSError; https://bsc-dataseed2.bnbchain.org/: OSError; https://bsc-dataseed-public.bnbchain.org/: OSError

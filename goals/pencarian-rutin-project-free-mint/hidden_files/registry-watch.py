@@ -10,9 +10,19 @@ Replaces the discovery function of Boltbook (boltbook.com died 2026-11-07,
 parked on HugeDomains). Registry mints run ~3 per ~50 minutes, so a
 15-minute cadence catches them promptly.
 
-Ankr pattern REPLACED 2026-11-15: Ankr ankr_getLogs died (HTTP 401)
-since 2026-11-09; logs now come from plain eth_getLogs via bloXroute
-https://bsc.rpc.blxrbdn.com (free, no key) — see blx_logs().
+Logs pattern 2026-11-17 (12 consecutive failures on bloXroute):
+eth_getLogs via bloXroute died (HTTP 403 "administrative rules" +
+timeouts) and every other public endpoint refuses the method
+(dataseeds/nodereal -32005 "limit exceeded" even on 10-block ranges,
+publicnode/onfinality/drpc HTTP 429) — the shared egress IP is
+rate-limited for this heavy method. Logs now come from plain
+eth_getLogs in 500-block chunks via fetch_logs(): primary
+https://rpc-bsc.48.club (proven 2026-11-17: 500-block calls OK and
+deterministic; a 2000-block single call times out), fallback
+https://1rpc.io/bnb (max 50-block range, sub-chunked; flaky 429),
+then bloXroute/dataseeds/nodereal/publicnode/onfinality/drpc as last
+resort. bsc.publicnode.com is EXCLUDED: it answered OK with 0 logs for
+a window where 48.club returned 13 — silently dropping mints.
 eth_call via fast_rpc._single over public BSC endpoints (unchanged).
 
 State: registry-watch-state.json {last_block, seen: {tokenId: {...}}}
@@ -21,7 +31,10 @@ new_mints: [...], reresolved: [...], unresolved: [tokenId, ...]}
 (reresolved = previously unresolved mints whose metadata now reads;
 unresolved mints are retried on later runs until resolved.)
 Lock: registry-watch.lock (fcntl, non-blocking) — exit 3 if held.
-Watermark advances ONLY on successful getLogs; getLogs failure -> exit 1.
+Watermark advances ONLY over the verified fetched prefix: a chunk
+that fails on all endpoints stops the run (exit 1) after advancing
+over the chunks already fetched; next run resumes after the last
+verified block, so no block is ever skipped.
 
 Usage:
   python3 -u registry-watch.py [--from-block N] [--to-block N] [--dry-run]
@@ -72,45 +85,93 @@ def rpc_call(method, params, timeout=8):
     raise last
 
 
-BLX_URL = "https://bsc.rpc.blxrbdn.com"
+LOG_CHUNK = 500  # blocks per eth_getLogs call (was: one 2000-block call)
+LOG_MAX_RANGE = {"https://1rpc.io/bnb": 50}  # per-endpoint range caps
+LOG_ENDPOINTS = [
+    "https://rpc-bsc.48.club",           # primary (proven 2026-11-17)
+    "https://1rpc.io/bnb",              # fallback, max 50-block range
+    "https://bsc.rpc.blxrbdn.com",      # ex-primary, now 403/timeout
+    "https://bsc-dataseed.binance.org/",
+    "https://bsc-dataseed1.bnbchain.org/",
+    "https://bsc-dataseed2.bnbchain.org/",
+    "https://bsc-dataseed3.bnbchain.org/",
+    "https://bsc-dataseed-public.bnbchain.org/",
+    "https://bsc.nodereal.io/",
+    "https://bsc-rpc.publicnode.com/",
+    "https://bnb.api.onfinality.io/public/",
+    "https://bsc.drpc.org/",
+]
 
 
-def blx_post(method, params, timeout=60, retries=1):
-    """Single JSON-RPC POST to bloXroute (free, no key). Retries once."""
-    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": method,
-                       "params": params}).encode()
-    last_err = None
-    for attempt in range(retries + 1):
-        try:
-            req = urllib.request.Request(
-                BLX_URL, data=body,
-                headers={"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                d = json.loads(r.read().decode("utf-8", "replace"))
-            if "error" in d:
-                raise RuntimeError(json.dumps(d["error"])[:300])
-            return d.get("result")
-        except Exception as e:  # noqa: BLE001
-            last_err = e
-            if attempt < retries:
-                time.sleep(2)
-    raise last_err
+def _logs_one_endpoint(ep, from_block, to_block):
+    """eth_getLogs on one endpoint for [from_block, to_block].
+
+    Splits into <=50-block pieces on endpoints that cap the range
+    (1rpc). Returns a list of log dicts; raises on any failure.
+    """
+    cap = LOG_MAX_RANGE.get(ep)
+    out = []
+    frm = from_block
+    while frm <= to_block:
+        to = frm + (cap - 1 if cap else to_block - frm)
+        if to > to_block:
+            to = to_block
+        filt = {"address": REGISTRY,
+                "fromBlock": hex(frm), "toBlock": hex(to),
+                "topics": [TRANSFER, ZERO_TOPIC]}
+        res = _single(ep, "eth_getLogs", [filt], 12, retries=0)
+        out.extend(res or [])
+        frm = to + 1
+    return out
 
 
-def blx_logs(from_block, to_block):
+class PartialLogsError(Exception):
+    """Raised when some chunks fetched OK but a later chunk failed.
+
+    Carries the logs fetched so far and the last fully-fetched block,
+    so the caller can advance the watermark over the verified prefix
+    instead of discarding all progress.
+    """
+    def __init__(self, logs, last_good_block, message):
+        super().__init__(message)
+        self.logs = logs
+        self.last_good_block = last_good_block
+
+
+def fetch_logs(from_block, to_block):
     """Registry Transfer-from-zero logs in [from_block, to_block].
 
-    Plain eth_getLogs via bloXroute (replaces Ankr ankr_getLogs, dead
-    with HTTP 401 since 2026-11-09). Returns standard log dicts
-    (address/topics/data/blockNumber/transactionHash) — same shape the
-    caller already parses. Single call; window is capped at 2000 blocks
-    by the caller.
+    Requests are chunked into LOG_CHUNK-block pieces; each piece is
+    tried on LOG_ENDPOINTS in order until one returns, with one retry
+    after a short pause (transient flakes on the primary are common).
+    If a piece still fails on every endpoint, raises PartialLogsError
+    with the logs fetched so far (caller advances over that prefix).
     """
-    filt = {"address": REGISTRY,
-            "fromBlock": hex(from_block), "toBlock": hex(to_block),
-            "topics": [TRANSFER, ZERO_TOPIC]}
-    result = blx_post("eth_getLogs", [filt], timeout=60, retries=1)
-    return result or []
+    out = []
+    frm = from_block
+    last_good = from_block - 1
+    while frm <= to_block:
+        to = min(frm + LOG_CHUNK - 1, to_block)
+        chunk = None
+        last_err = None
+        for _attempt in range(2):
+            for ep in LOG_ENDPOINTS:
+                try:
+                    chunk = _logs_one_endpoint(ep, frm, to)
+                    break
+                except Exception as e:  # noqa: BLE001
+                    last_err = e
+            if chunk is not None:
+                break
+            time.sleep(5)
+        if chunk is None:
+            raise PartialLogsError(
+                out, last_good,
+                f"getLogs {frm}-{to} failed on all endpoints: {last_err}")
+        out.extend(chunk)
+        last_good = to
+        frm = to + 1
+    return out
 
 
 def decode_abi_string(hexdata):
@@ -282,8 +343,19 @@ def main():
         f"({to_block - from_block + 1} blocks)"
         f"{' DRY-RUN' if args.dry_run else ''}")
 
+    partial = False
     try:
-        logs = blx_logs(from_block, to_block)
+        logs = fetch_logs(from_block, to_block)
+    except PartialLogsError as e:
+        if e.last_good_block < from_block:
+            log(f"ERROR getLogs {from_block}-{to_block}: {e} — "
+                "watermark unchanged")
+            return 1
+        log(f"PARTIAL getLogs: {e} — processing verified prefix "
+            f"{from_block}..{e.last_good_block}, watermark advances there")
+        logs = e.logs
+        to_block = e.last_good_block
+        partial = True
     except Exception as e:  # noqa: BLE001
         log(f"ERROR getLogs {from_block}-{to_block}: {e} — watermark unchanged")
         return 1
@@ -368,7 +440,7 @@ def main():
     log(f"done in {time.time() - t0:.1f}s: "
         f"{len(new_mints)} new, {len(reresolved)} re-resolved, "
         f"{len(unresolved)} unresolved")
-    return 0
+    return 1 if partial else 0
 
 
 if __name__ == "__main__":
