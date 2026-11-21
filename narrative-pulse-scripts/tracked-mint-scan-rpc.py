@@ -90,7 +90,11 @@ WALLET_CONF_PATH = HOME / "workspace" / "ponyin-tools" / "live-executor-draft" /
 LOG_PATH = NP / "tracked-wallet-mint-scan-log.md"
 SCAN_RUNS_DIR = NP / "scan-runs"
 
-RPC_URL = "https://bsc.rpc.blxrbdn.com"
+# 2026-11-18: pindah ke 1rpc.io/bnb (Ankr 401 sejak 9 Nov; bloXroute 403 berulang).
+# CATATAN: jendela getLogs 1rpc = 50 blok; free tier TIDAK unlimited — anomaly-watch
+# kena limit -32001 pada 18 Nov. Cron scan tetap DIJEDA user; edit ini hanya memindah
+# driver, TIDAK menghidupkan scan.
+RPC_URL = "https://1rpc.io/bnb"
 USER_WALLETS = {
     "0xeb237f6f9fb4e826739f0954e9768914f28b2c2e",
     "0xcf3c6fc1bf670a8d3f03436395286f86dbee7418",
@@ -102,7 +106,7 @@ ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 TRANSFER_TOPIC0 = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
 TRANSFER_SINGLE_TOPIC0 = "0xc3d58168c5ae7397731d063d5bbf3d657854427343f4c083240f7aacaa2d0f62"
 ZERO_TOPIC = "0x0000000000000000000000000000000000000000000000000000000000000000"
-CHUNK_BLOCKS = 1000
+CHUNK_BLOCKS = 50  # 1rpc window 50 blok (2026-11-18)
 MAX_BACKFILL_BLOCKS = 40_000
 RESUME_WINDOW = 2000
 
@@ -113,7 +117,7 @@ RESUME_WINDOW = 2000
 # Enabled with --slow; the default path is untouched.
 SLOW = False
 SLOW_DELAY_S = 10
-SLOW_CHUNK_BLOCKS = 2000
+SLOW_CHUNK_BLOCKS = 50  # 1rpc window 50 blok (2026-11-18)
 SLOW_403_BACKOFF_S = (30, 60)
 
 ENTITY_CLUSTERS = {}

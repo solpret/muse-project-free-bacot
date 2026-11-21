@@ -1,7 +1,7 @@
 ---
 id: scan-gap-watch
 title: Scan gap watch (backfill on-demand)
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

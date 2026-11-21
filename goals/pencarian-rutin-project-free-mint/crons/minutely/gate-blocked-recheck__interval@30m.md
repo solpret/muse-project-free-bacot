@@ -1,7 +1,7 @@
 ---
 id: gate-blocked-recheck
 title: Gate-blocked strong-lead recheck
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

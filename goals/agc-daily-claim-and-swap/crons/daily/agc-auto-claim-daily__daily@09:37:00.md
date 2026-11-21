@@ -1,7 +1,7 @@
 ---
 id: agc-auto-claim-daily
 title: 'AGC harian: klaim saja (tanpa jual)'
-enabled: true
+enabled: false
 owner: goal:agc-daily-claim-and-swap
 mode: task
 schedule:

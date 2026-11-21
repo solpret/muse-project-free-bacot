@@ -1,7 +1,7 @@
 ---
 id: free-mint-hot-leg
 title: Hot leg free-mint 5 menit
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

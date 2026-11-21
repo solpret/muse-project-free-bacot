@@ -1,7 +1,7 @@
 ---
 id: agent-registry-watch
 title: Pantauan registry Agent ID
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

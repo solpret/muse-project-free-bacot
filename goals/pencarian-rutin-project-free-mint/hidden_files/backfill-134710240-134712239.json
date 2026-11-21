@@ -1,0 +1,6067 @@
+{
+ "backfill": true,
+ "chunk_id": "134710240-134712239",
+ "latest_block": 134725814,
+ "from_block": 134710240,
+ "to_block": 134712239,
+ "ankr_calls": 80,
+ "errors": [],
+ "failed_chunks": [],
+ "watermark_advanced_to": 134712239,
+ "erc20_mint_contracts": 545,
+ "erc20_mint_contracts_list": [
+  {
+   "address": "0xE07150DD3A870fF0115Fc4e3c80529f92e294D89",
+   "mint_count": 3229,
+   "distinct_minters": 3030,
+   "first_block": 134710241,
+   "last_block": 134712238
+  },
+  {
+   "address": "0x2a60AaB19b182B5C4b47fffC066ADA06Ab27924f",
+   "mint_count": 2223,
+   "distinct_minters": 198,
+   "first_block": 134710246,
+   "last_block": 134712239
+  },
+  {
+   "address": "0x10834340776f2D6ec557dFFd65048bfb9Bae0627",
+   "mint_count": 699,
+   "distinct_minters": 3,
+   "first_block": 134710624,
+   "last_block": 134712114
+  },
+  {
+   "address": "0x5ce033B2bFCa3Af30b3e8C8457DeaF776A8b695a",
+   "mint_count": 524,
+   "distinct_minters": 10,
+   "first_block": 134710403,
+   "last_block": 134712146
+  },
+  {
+   "address": "0x8e6442663A4F8C50b6132c68d42A30E7DFE4Ae15",
+   "mint_count": 478,
+   "distinct_minters": 240,
+   "first_block": 134710241,
+   "last_block": 134712238
+  },
+  {
+   "address": "0xE6efCdEf2b720d1eca2b69eDB7ef357725680BEa",
+   "mint_count": 347,
+   "distinct_minters": 2,
+   "first_block": 134710241,
+   "last_block": 134712238
+  },
+  {
+   "address": "0xCfb9beF5F7B748aC72311F057f3a888BC73334D9",
+   "mint_count": 343,
+   "distinct_minters": 1,
+   "first_block": 134710243,
+   "last_block": 134712207
+  },
+  {
+   "address": "0x333D05767067FF4C5167cf1a03BAa6782De33333",
+   "mint_count": 257,
+   "distinct_minters": 71,
+   "first_block": 134710665,
+   "last_block": 134711867
+  },
+  {
+   "address": "0x826923122A8521Be36358Bdc53d3B4362B6f46E5",
+   "mint_count": 256,
+   "distinct_minters": 25,
+   "first_block": 134710241,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x1bede2800100Cb4B03B27CE371b90cbc367e6Fe4",
+   "mint_count": 208,
+   "distinct_minters": 1,
+   "first_block": 134710532,
+   "last_block": 134712214
+  },
+  {
+   "address": "0x22a2C54b15287472F4aDBe7587226E3c998CdD96",
+   "mint_count": 185,
+   "distinct_minters": 3,
+   "first_block": 134710241,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x35803e77c3163FEd8A942536C1c8e0d5bF90f906",
+   "mint_count": 181,
+   "distinct_minters": 1,
+   "first_block": 134710241,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x42C73beF45566d41e20b87646ed144fC51A9028b",
+   "mint_count": 138,
+   "distinct_minters": 2,
+   "first_block": 134710257,
+   "last_block": 134712213
+  },
+  {
+   "address": "0x528f7144a1AD78E05c7226ffbcBeF9eE9223F382",
+   "mint_count": 132,
+   "distinct_minters": 3,
+   "first_block": 134710257,
+   "last_block": 134712213
+  },
+  {
+   "address": "0x76096218ea7E6e1a3C6A549c88e2928C633B5F63",
+   "mint_count": 120,
+   "distinct_minters": 115,
+   "first_block": 134710245,
+   "last_block": 134712208
+  },
+  {
+   "address": "0x1f8955E640Cbd9abc3C3Bb408c9E2E1f5F20DfE6",
+   "mint_count": 101,
+   "distinct_minters": 1,
+   "first_block": 134710261,
+   "last_block": 134712229
+  },
+  {
+   "address": "0xd41f0b310149885eb0825f9d47bb413a0d84D073",
+   "mint_count": 90,
+   "distinct_minters": 1,
+   "first_block": 134710250,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x2d07B9CcDF5FCdbE26167358B94eeb4c9E995e4E",
+   "mint_count": 86,
+   "distinct_minters": 46,
+   "first_block": 134710262,
+   "last_block": 134712189
+  },
+  {
+   "address": "0x55C68B64c2AA1F986683c376Ef3e7EbB50ebf945",
+   "mint_count": 86,
+   "distinct_minters": 2,
+   "first_block": 134710241,
+   "last_block": 134712166
+  },
+  {
+   "address": "0xa6344A67780e2da01928FEFd9E558D792d7986dc",
+   "mint_count": 84,
+   "distinct_minters": 74,
+   "first_block": 134710260,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x63dea5aCdbE1F27c968907D08610A5f0A0284bA6",
+   "mint_count": 68,
+   "distinct_minters": 63,
+   "first_block": 134710299,
+   "last_block": 134712118
+  },
+  {
+   "address": "0x26131Eb28A342cDF75FAFa9EfFd3cE20C6CA518a",
+   "mint_count": 66,
+   "distinct_minters": 10,
+   "first_block": 134710298,
+   "last_block": 134710588
+  },
+  {
+   "address": "0x689F6158466d9d40CC0CBb469c06B2686A101FA3",
+   "mint_count": 63,
+   "distinct_minters": 3,
+   "first_block": 134711262,
+   "last_block": 134712223
+  },
+  {
+   "address": "0xbb4d7F0DC10527478e83e264e8a86C3Eba159570",
+   "mint_count": 62,
+   "distinct_minters": 1,
+   "first_block": 134710320,
+   "last_block": 134712195
+  },
+  {
+   "address": "0x23FAB1bc02A6EAA82cD4d161CC05133670E91577",
+   "mint_count": 62,
+   "distinct_minters": 1,
+   "first_block": 134710320,
+   "last_block": 134712195
+  },
+  {
+   "address": "0x88886f0fD371dfF856291bAdcEd45922bC888888",
+   "mint_count": 60,
+   "distinct_minters": 4,
+   "first_block": 134710328,
+   "last_block": 134712195
+  },
+  {
+   "address": "0xd057e0D439B03f513b4d508Ff12edd856b840a82",
+   "mint_count": 57,
+   "distinct_minters": 1,
+   "first_block": 134710463,
+   "last_block": 134712193
+  },
+  {
+   "address": "0xe6cae4094352a670c3eb0fcbDa17c898b71c7F2A",
+   "mint_count": 56,
+   "distinct_minters": 29,
+   "first_block": 134710248,
+   "last_block": 134712182
+  },
+  {
+   "address": "0x7f0172b75d3823D8aF04feE3A3f6a14aBD68EFE1",
+   "mint_count": 50,
+   "distinct_minters": 6,
+   "first_block": 134710337,
+   "last_block": 134712119
+  },
+  {
+   "address": "0x4Dc6ec63a60A5d6f909Afa0a5DC14c88a9C649fa",
+   "mint_count": 42,
+   "distinct_minters": 1,
+   "first_block": 134711486,
+   "last_block": 134712237
+  },
+  {
+   "address": "0x78573aB46e5436e126d3eA1fDEf8766Cce4Efd2b",
+   "mint_count": 40,
+   "distinct_minters": 40,
+   "first_block": 134710546,
+   "last_block": 134711987
+  },
+  {
+   "address": "0x9F10a122a921d25Fa9084955c87c3FcAB103267F",
+   "mint_count": 39,
+   "distinct_minters": 39,
+   "first_block": 134710252,
+   "last_block": 134712228
+  },
+  {
+   "address": "0x3d7393b4541F726d5f93DE3c995E8f0B55a5128A",
+   "mint_count": 39,
+   "distinct_minters": 4,
+   "first_block": 134711783,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x231d5FF69F404fe285f37eDCB8A1A9Ac0A3b5128",
+   "mint_count": 31,
+   "distinct_minters": 31,
+   "first_block": 134710259,
+   "last_block": 134712153
+  },
+  {
+   "address": "0xB5eF0Da58adA22B5534126143487A448d206E7B3",
+   "mint_count": 30,
+   "distinct_minters": 30,
+   "first_block": 134710555,
+   "last_block": 134712094
+  },
+  {
+   "address": "0xa08D18c6c437677Bd2a4A65Fae5fAE991B714165",
+   "mint_count": 28,
+   "distinct_minters": 15,
+   "first_block": 134710242,
+   "last_block": 134712232
+  },
+  {
+   "address": "0xC58C1117DA964aEbe91fEF88f6f5703e79bdA574",
+   "mint_count": 28,
+   "distinct_minters": 1,
+   "first_block": 134710525,
+   "last_block": 134711122
+  },
+  {
+   "address": "0x4C3bae7CB07712c9c2b27d488CE323af77D36b39",
+   "mint_count": 26,
+   "distinct_minters": 26,
+   "first_block": 134710361,
+   "last_block": 134712201
+  },
+  {
+   "address": "0xcffc8C19cfD66b445C612339C668Fa8cE1d2Ea19",
+   "mint_count": 26,
+   "distinct_minters": 2,
+   "first_block": 134711076,
+   "last_block": 134711076
+  },
+  {
+   "address": "0x2EFA5f18a649e4C725CDa070B83DF11C137D208f",
+   "mint_count": 25,
+   "distinct_minters": 2,
+   "first_block": 134711004,
+   "last_block": 134712006
+  },
+  {
+   "address": "0x02D50b93e65D4572Af5db2EEB6dD3c6ff08FDa09",
+   "mint_count": 21,
+   "distinct_minters": 12,
+   "first_block": 134710540,
+   "last_block": 134711887
+  },
+  {
+   "address": "0xc708Ec07D9D6F981f9ebbaaF6580A33aD2755177",
+   "mint_count": 20,
+   "distinct_minters": 6,
+   "first_block": 134710253,
+   "last_block": 134711882
+  },
+  {
+   "address": "0x6a2b0B704650A93F7495d728C3b851A1c5f73172",
+   "mint_count": 18,
+   "distinct_minters": 16,
+   "first_block": 134711466,
+   "last_block": 134712223
+  },
+  {
+   "address": "0x723e50D125451737FDc27fc4CDdc230941012C88",
+   "mint_count": 17,
+   "distinct_minters": 1,
+   "first_block": 134710463,
+   "last_block": 134712119
+  },
+  {
+   "address": "0xFB06c427c752890A529a4269f33823435307a55b",
+   "mint_count": 16,
+   "distinct_minters": 1,
+   "first_block": 134710393,
+   "last_block": 134712147
+  },
+  {
+   "address": "0xFAA035eE9293dC83d69D2ea0d171aCDc952e444a",
+   "mint_count": 16,
+   "distinct_minters": 16,
+   "first_block": 134711030,
+   "last_block": 134712231
+  },
+  {
+   "address": "0x43a04D48446265Dad3fab713505559bDF8bC12A9",
+   "mint_count": 15,
+   "distinct_minters": 5,
+   "first_block": 134710259,
+   "last_block": 134712059
+  },
+  {
+   "address": "0xAc5A5d4cbd6c0780E8b0Aa06AD330A94C6002881",
+   "mint_count": 14,
+   "distinct_minters": 1,
+   "first_block": 134710317,
+   "last_block": 134712106
+  },
+  {
+   "address": "0x29f9148a8518e327e8677Ba21C3fa3A55DD1e6Bc",
+   "mint_count": 14,
+   "distinct_minters": 2,
+   "first_block": 134710290,
+   "last_block": 134712006
+  },
+  {
+   "address": "0xa9251ca9DE909CB71783723713B21E4233fbf1B1",
+   "mint_count": 14,
+   "distinct_minters": 9,
+   "first_block": 134710356,
+   "last_block": 134712089
+  },
+  {
+   "address": "0xEc7A5827D2177DC3E38a08B1fa79d792dfdDCE01",
+   "mint_count": 14,
+   "distinct_minters": 2,
+   "first_block": 134710522,
+   "last_block": 134712032
+  },
+  {
+   "address": "0x231d9e7181E8479A8B40930961e93E7ed798542C",
+   "mint_count": 14,
+   "distinct_minters": 2,
+   "first_block": 134710949,
+   "last_block": 134712223
+  },
+  {
+   "address": "0x7DA290Fdd6645d0e38B3044eC162A8dD1d578335",
+   "mint_count": 13,
+   "distinct_minters": 10,
+   "first_block": 134710277,
+   "last_block": 134711923
+  },
+  {
+   "address": "0xABE0e16758E0EC57848a092285Ace3B384C58d88",
+   "mint_count": 13,
+   "distinct_minters": 2,
+   "first_block": 134710889,
+   "last_block": 134712026
+  },
+  {
+   "address": "0xA2643B889eEb232708a644f15f70f951773dDEF9",
+   "mint_count": 12,
+   "distinct_minters": 12,
+   "first_block": 134710254,
+   "last_block": 134710255
+  },
+  {
+   "address": "0xc3B6ef4604FD2B6245f0719db438Cb69Fd9E6fDD",
+   "mint_count": 12,
+   "distinct_minters": 10,
+   "first_block": 134710303,
+   "last_block": 134712131
+  },
+  {
+   "address": "0x01f67f23d3Da411E9B2016455245b8FC2C6d7C45",
+   "mint_count": 12,
+   "distinct_minters": 11,
+   "first_block": 134710502,
+   "last_block": 134712112
+  },
+  {
+   "address": "0xb3447F142feEE8c356965cDB4Cc2c74D87AbadaB",
+   "mint_count": 12,
+   "distinct_minters": 2,
+   "first_block": 134710739,
+   "last_block": 134712064
+  },
+  {
+   "address": "0xf1Ee33B00f015d955259dC206184Fc9E401b741c",
+   "mint_count": 12,
+   "distinct_minters": 6,
+   "first_block": 134710690,
+   "last_block": 134710923
+  },
+  {
+   "address": "0xa13d02C3CBb2e1F310aC1727439457b5ebB30692",
+   "mint_count": 11,
+   "distinct_minters": 11,
+   "first_block": 134710259,
+   "last_block": 134712059
+  },
+  {
+   "address": "0x1a879b5f2acAfFAC5FA4bBb7683789E5086a9A7C",
+   "mint_count": 11,
+   "distinct_minters": 3,
+   "first_block": 134710714,
+   "last_block": 134711541
+  },
+  {
+   "address": "0x97eCc27f79Eaa69f80Ab49bc97Ba3750A7087CCC",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 134710245,
+   "last_block": 134712149
+  },
+  {
+   "address": "0x583788e138DEB72D674c96DD220566e28355b569",
+   "mint_count": 10,
+   "distinct_minters": 2,
+   "first_block": 134710363,
+   "last_block": 134711803
+  },
+  {
+   "address": "0x125e6c61c414926325258726CB7BA9197041bA98",
+   "mint_count": 10,
+   "distinct_minters": 2,
+   "first_block": 134710360,
+   "last_block": 134711626
+  },
+  {
+   "address": "0x64920E7f4f270f302e8b728f69B5a9Fc24Fda2D3",
+   "mint_count": 10,
+   "distinct_minters": 1,
+   "first_block": 134710343,
+   "last_block": 134711499
+  },
+  {
+   "address": "0x3dCa077eb687Df96cC987Da0035c8FAD89Ae716C",
+   "mint_count": 10,
+   "distinct_minters": 2,
+   "first_block": 134710643,
+   "last_block": 134711987
+  },
+  {
+   "address": "0x091FC7778e6932d4009B087B191D1EE3bac5729A",
+   "mint_count": 10,
+   "distinct_minters": 5,
+   "first_block": 134710785,
+   "last_block": 134712115
+  },
+  {
+   "address": "0xA556B23A7097b9B8BCA557f34CE43bc64D60e7F1",
+   "mint_count": 10,
+   "distinct_minters": 2,
+   "first_block": 134710772,
+   "last_block": 134711918
+  },
+  {
+   "address": "0x343ccbc9f8409f862008b7abebFFf20ECf935C75",
+   "mint_count": 9,
+   "distinct_minters": 5,
+   "first_block": 134710258,
+   "last_block": 134712169
+  },
+  {
+   "address": "0x07CfaAD6679dD696D325a393861bC3286f2CdAbC",
+   "mint_count": 9,
+   "distinct_minters": 2,
+   "first_block": 134710347,
+   "last_block": 134712143
+  },
+  {
+   "address": "0xF238B7b681c5Bf61B99E3203EA5fAD9A873cC069",
+   "mint_count": 9,
+   "distinct_minters": 1,
+   "first_block": 134710551,
+   "last_block": 134712158
+  },
+  {
+   "address": "0xe82c917d216D15DD88AE65300d53c2A202dd41C6",
+   "mint_count": 8,
+   "distinct_minters": 2,
+   "first_block": 134710257,
+   "last_block": 134711621
+  },
+  {
+   "address": "0xAaAb95e70aBC425149CF4AB068Ba14B9693b6794",
+   "mint_count": 8,
+   "distinct_minters": 2,
+   "first_block": 134710254,
+   "last_block": 134711310
+  },
+  {
+   "address": "0xE56041CdDBB46DB01c67B7A62684F428a04Db8C6",
+   "mint_count": 8,
+   "distinct_minters": 1,
+   "first_block": 134710319,
+   "last_block": 134712118
+  },
+  {
+   "address": "0xcF6687274830d895224F183d4AB9f0E9B5990520",
+   "mint_count": 8,
+   "distinct_minters": 2,
+   "first_block": 134710374,
+   "last_block": 134711759
+  },
+  {
+   "address": "0xA21E449B9D003314bc7D8766108C6C6f050eb3BF",
+   "mint_count": 8,
+   "distinct_minters": 2,
+   "first_block": 134710371,
+   "last_block": 134711277
+  },
+  {
+   "address": "0x25D2517E75320F8a30683952f1B16Bff62fD60e9",
+   "mint_count": 8,
+   "distinct_minters": 4,
+   "first_block": 134710405,
+   "last_block": 134712221
+  },
+  {
+   "address": "0x51E6Ac1533032E72e92094867fD5921e3ea1bfa0",
+   "mint_count": 8,
+   "distinct_minters": 2,
+   "first_block": 134711128,
+   "last_block": 134712151
+  },
+  {
+   "address": "0xdC3CecC89a25c9439f3fe9A94A3E9e24A2c2a8C3",
+   "mint_count": 8,
+   "distinct_minters": 2,
+   "first_block": 134711122,
+   "last_block": 134711962
+  },
+  {
+   "address": "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE",
+   "mint_count": 8,
+   "distinct_minters": 5,
+   "first_block": 134711273,
+   "last_block": 134712144
+  },
+  {
+   "address": "0x156ab3346823B651294766e23e6Cf87254d68962",
+   "mint_count": 7,
+   "distinct_minters": 5,
+   "first_block": 134710289,
+   "last_block": 134712001
+  },
+  {
+   "address": "0xd3ad27A38f8263D3122EF5dD6d97Df7e72d1a26B",
+   "mint_count": 7,
+   "distinct_minters": 6,
+   "first_block": 134710258,
+   "last_block": 134711966
+  },
+  {
+   "address": "0x0c84aED253EaaB9b7263665D7e213B7aEC718f23",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "first_block": 134710300,
+   "last_block": 134711347
+  },
+  {
+   "address": "0x1B282603099647E2Ec3461B2714ACf38009D66b6",
+   "mint_count": 7,
+   "distinct_minters": 3,
+   "first_block": 134710363,
+   "last_block": 134711803
+  },
+  {
+   "address": "0x7f32Fcb0cFcE17C534cbCeC5a653F325a7faDaBc",
+   "mint_count": 7,
+   "distinct_minters": 1,
+   "first_block": 134711310,
+   "last_block": 134712143
+  },
+  {
+   "address": "0x89CC700F308a4C59889fBF3286216554C53B0601",
+   "mint_count": 7,
+   "distinct_minters": 1,
+   "first_block": 134711578,
+   "last_block": 134712238
+  },
+  {
+   "address": "0xA6524a2f82217496656Bd956E58d943Edd73197e",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "first_block": 134711599,
+   "last_block": 134712085
+  },
+  {
+   "address": "0x80de13A10A23c6577fC482fab0B1a933ac9799EA",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "first_block": 134711864,
+   "last_block": 134711864
+  },
+  {
+   "address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+   "mint_count": 6,
+   "distinct_minters": 4,
+   "first_block": 134710277,
+   "last_block": 134711364
+  },
+  {
+   "address": "0xa589D7Ef02B0a26242B8ddd1bbE19031511B1cc8",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134710320,
+   "last_block": 134711938
+  },
+  {
+   "address": "0x255e746aBb8D9Acac00d6d023e5E63E3b8DFA7cd",
+   "mint_count": 6,
+   "distinct_minters": 1,
+   "first_block": 134710385,
+   "last_block": 134711850
+  },
+  {
+   "address": "0x2a2f472E3c2f52e518Ac7Ea17983C1B160695484",
+   "mint_count": 6,
+   "distinct_minters": 4,
+   "first_block": 134710360,
+   "last_block": 134711228
+  },
+  {
+   "address": "0x3cb9FeE452995c1bbCeeFBaCD37c06898Ced121B",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134710414,
+   "last_block": 134710423
+  },
+  {
+   "address": "0x190E7B7c2DBbB6b496F1B771360F026404118E8f",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134710482,
+   "last_block": 134711929
+  },
+  {
+   "address": "0x8b872732b07be325a8803CDB480D9d20B6f8d11B",
+   "mint_count": 6,
+   "distinct_minters": 3,
+   "first_block": 134710643,
+   "last_block": 134712012
+  },
+  {
+   "address": "0xE6367363e90126e5bd0dde928633727e4Cff08B7",
+   "mint_count": 6,
+   "distinct_minters": 6,
+   "first_block": 134710732,
+   "last_block": 134710732
+  },
+  {
+   "address": "0x6A8f760e1bB2A17806940Cc0C08C81B117D61aE0",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134710732,
+   "last_block": 134712158
+  },
+  {
+   "address": "0x8ebac098F23bd1951715Ecba4F21f06cFa61D9f9",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134710732,
+   "last_block": 134711185
+  },
+  {
+   "address": "0x3923602A303713afe7e173333D03763475a85698",
+   "mint_count": 6,
+   "distinct_minters": 3,
+   "first_block": 134710702,
+   "last_block": 134711688
+  },
+  {
+   "address": "0xf8A88692C167b9E9BFcCC5f873DA284FA420Ecd0",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134710992,
+   "last_block": 134711675
+  },
+  {
+   "address": "0x696b456c1c79416CCE302D09e935b3cB80d0CDC5",
+   "mint_count": 6,
+   "distinct_minters": 4,
+   "first_block": 134711163,
+   "last_block": 134711552
+  },
+  {
+   "address": "0x9F60B80980588B95f55d8E1Fa6A6299e6BDc0bd1",
+   "mint_count": 6,
+   "distinct_minters": 4,
+   "first_block": 134711522,
+   "last_block": 134711720
+  },
+  {
+   "address": "0x17D03aE104a9D12E9E5794Efb109B817Dd7f3404",
+   "mint_count": 6,
+   "distinct_minters": 2,
+   "first_block": 134711623,
+   "last_block": 134712133
+  },
+  {
+   "address": "0xee268780473E7a0e47baC41547C6E01512555A16",
+   "mint_count": 6,
+   "distinct_minters": 4,
+   "first_block": 134711657,
+   "last_block": 134712194
+  },
+  {
+   "address": "0xA9eE28C80f960B889dFbd1902055218cBa016F75",
+   "mint_count": 6,
+   "distinct_minters": 4,
+   "first_block": 134711649,
+   "last_block": 134712184
+  },
+  {
+   "address": "0x76198caaa0e132fb76713FA76DaE31fA0c4230bD",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 134710330,
+   "last_block": 134711665
+  },
+  {
+   "address": "0xff6FEb487Eb2A43B260279652768807461514317",
+   "mint_count": 5,
+   "distinct_minters": 2,
+   "first_block": 134710318,
+   "last_block": 134711620
+  },
+  {
+   "address": "0xd00702B2F295E92ecA1C3CE94DcF72EfF89a3154",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 134710371,
+   "last_block": 134711555
+  },
+  {
+   "address": "0x454dc6c5c5C39105EC4CDa28A61061f016F85e0E",
+   "mint_count": 5,
+   "distinct_minters": 2,
+   "first_block": 134710436,
+   "last_block": 134712085
+  },
+  {
+   "address": "0xfbC8Dec63FfcF54Fd1d2480EA0Ef8557C1e928e7",
+   "mint_count": 5,
+   "distinct_minters": 3,
+   "first_block": 134710532,
+   "last_block": 134711858
+  },
+  {
+   "address": "0x61A9714862200409828286df635d06C1BcCf3c4C",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 134710517,
+   "last_block": 134711843
+  },
+  {
+   "address": "0x5eFE59eB422a9d215E6500352059D2D4e223779f",
+   "mint_count": 5,
+   "distinct_minters": 4,
+   "first_block": 134710573,
+   "last_block": 134712072
+  },
+  {
+   "address": "0xdAD15d286a650DDf76Bc83c610c72fE2f41F689c",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "first_block": 134710610,
+   "last_block": 134710610
+  },
+  {
+   "address": "0x05ae9aC4878f18D9Ae11F804079cfFFd0844B455",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134710732,
+   "last_block": 134712158
+  },
+  {
+   "address": "0x4fD920D734c98A6946132AA7F7ED9977E6e3B47b",
+   "mint_count": 5,
+   "distinct_minters": 3,
+   "first_block": 134710746,
+   "last_block": 134711205
+  },
+  {
+   "address": "0x8AC96df1D3Dbd7c99A54CB4e50599cE129015E50",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134710864,
+   "last_block": 134712126
+  },
+  {
+   "address": "0x034Ac777ecEe4d87ccCC224Dd714076866aDFadB",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711411,
+   "last_block": 134711918
+  },
+  {
+   "address": "0x55b56CC2cdcbC2C58668F72663bE7599a46Ed79F",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711598,
+   "last_block": 134712232
+  },
+  {
+   "address": "0x290bCc0Fd5096cC3261AE2021841c7BC67Cb0f51",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x1C42C07257F936a7c4f84B8D756c95817E23631A",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0xa59469D91563CaeedDd2ffC731f41215E7b691ef",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x484Ce83BB55b50D70236C7D1E29E0Ba7524f905B",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0xB35a9EAB5D25282f4e668798B629a9294e9A47aa",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0xf2C24c47805f4f72d3919C8674bFDd401505794B",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0xbbE4Dfe7a349Fb72aEc6f52d5CD9bDD78AE8f313",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x65D84F0990B7394209d591380C2952c83D778aA3",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x2418c2e1aE3B8D767594b3974D32610743f88155",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x9Cea8A7Be1Ab0320b709d368Ad60d8500f55995f",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x4697b2A050f7B5A8e1ebc27c325f9D78D094f041",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x2Aea1D415D45CCF3EaBE565d45DcaF4ea2035b9c",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0xD381aec27DAAcCC87F102FF4Ad6652F8b5F20bA0",
+   "mint_count": 5,
+   "distinct_minters": 1,
+   "first_block": 134711623,
+   "last_block": 134711914
+  },
+  {
+   "address": "0x56a7ddc4e848EbF43845854205ad71D5D5F72d3D",
+   "mint_count": 5,
+   "distinct_minters": 3,
+   "first_block": 134711663,
+   "last_block": 134712232
+  },
+  {
+   "address": "0x7e9886eea811922dB5A5E1adF66818d09446240e",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710289,
+   "last_block": 134711348
+  },
+  {
+   "address": "0xb943c8a0d77b656Daf5244Da060D647Fd9152289",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710287,
+   "last_block": 134711918
+  },
+  {
+   "address": "0xD084C5a4a621914eD2992310024d2438DFde5BfD",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710285,
+   "last_block": 134711486
+  },
+  {
+   "address": "0x7E2DA878217EB995F9e5d36eD32c9Cea52442681",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710308,
+   "last_block": 134711970
+  },
+  {
+   "address": "0xbc13E5cAB257b214f4eE3b7066ec9e7c85F2713e",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 134710299,
+   "last_block": 134711292
+  },
+  {
+   "address": "0xf65d3963dF69f611453eE30CBb35D129edd59541",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710381,
+   "last_block": 134711714
+  },
+  {
+   "address": "0xe9aCD9896DD9F4a0F5B93C53fE61f1cE1F0464Bb",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710358,
+   "last_block": 134710916
+  },
+  {
+   "address": "0xaf44A1E76F56eE12ADBB7ba8acD3CbD474888122",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710343,
+   "last_block": 134711692
+  },
+  {
+   "address": "0x2c574d6508B364aad768AC9913BaE2b600faf666",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710436,
+   "last_block": 134712085
+  },
+  {
+   "address": "0x8599A1026F8243256C917CcED57Bf41c4541c1CC",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710399,
+   "last_block": 134711666
+  },
+  {
+   "address": "0xccbE6e306E6f76d493Ae2183f3f84F2547d600A3",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710549,
+   "last_block": 134710923
+  },
+  {
+   "address": "0x4008a353d3476884DC8Cd8fBf314970C8409FB22",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134710587,
+   "last_block": 134711962
+  },
+  {
+   "address": "0x353068BF078d2A6fe2124dB5E10fC985268DDD13",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710555,
+   "last_block": 134712094
+  },
+  {
+   "address": "0x8b6ACf6041A81567f012Ff6A4C6D96d5818d74bF",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710553,
+   "last_block": 134712041
+  },
+  {
+   "address": "0x2807F93A4b55684266B6BBF99FEB685E595E82d6",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "first_block": 134710550,
+   "last_block": 134712158
+  },
+  {
+   "address": "0x0F2A85326903e8Dc96c57Bda075C4f8e78D3994F",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710590,
+   "last_block": 134710950
+  },
+  {
+   "address": "0xfaFf7beA48ad8BdaeE83432BA538685F973c230d",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710641,
+   "last_block": 134710675
+  },
+  {
+   "address": "0xe6908E9A94A1C6CD71583832734703521577CDbD",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710670,
+   "last_block": 134711237
+  },
+  {
+   "address": "0x15f3D6EC68af4C54836EdA34136f4a43234934B6",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "first_block": 134710653,
+   "last_block": 134711212
+  },
+  {
+   "address": "0x186B34DB690471Dd510e4A465943C7a7c458b84B",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 134710650,
+   "last_block": 134711852
+  },
+  {
+   "address": "0x2955e33bb120714aBf11ACE2766E614E6E5955B2",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710693,
+   "last_block": 134710724
+  },
+  {
+   "address": "0x9b8E987e6fEc8Cf1380C4dcA7071e2C7853AEEA1",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "first_block": 134710817,
+   "last_block": 134711709
+  },
+  {
+   "address": "0x64325A19034410947B3fC6cC5D7437a214747CA4",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710803,
+   "last_block": 134710866
+  },
+  {
+   "address": "0x1abbE55Cc37a405D89B56f01b1B0A5dC7d951f69",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710916,
+   "last_block": 134712088
+  },
+  {
+   "address": "0x704FAD271e7b8133478Bf0205EBD3102CA6C6E11",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710945,
+   "last_block": 134712005
+  },
+  {
+   "address": "0x5986772dC1970D1D9E030867f1156E36F9B07CE4",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711024,
+   "last_block": 134711556
+  },
+  {
+   "address": "0xF1a5896D91C1E2372b159455ad013B2D17c0BB0b",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134710990,
+   "last_block": 134711229
+  },
+  {
+   "address": "0x8995849F5d6BC7CE30b2b344A9F8dFCdB5CC3b0e",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711076,
+   "last_block": 134712113
+  },
+  {
+   "address": "0xd354bb09E83a0949F0FDB1D660f1B364EFeAC3Db",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711069,
+   "last_block": 134711152
+  },
+  {
+   "address": "0x7740dae260395F2904A6df72d5f03298d8D45723",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711063,
+   "last_block": 134711504
+  },
+  {
+   "address": "0x6C3b11Dd8d51eA373c3cDbed6c6E51f0d198f81d",
+   "mint_count": 4,
+   "distinct_minters": 3,
+   "first_block": 134711060,
+   "last_block": 134712157
+  },
+  {
+   "address": "0xF238071cB49F24949376D9934611E5bB59c99648",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711189,
+   "last_block": 134712070
+  },
+  {
+   "address": "0xeE56CAb7A8Fe03C1077589fbc2FD32acD726a6bd",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711179,
+   "last_block": 134711634
+  },
+  {
+   "address": "0x8B52680dd0d77b0a72828D42C1cBb09c6d54cC16",
+   "mint_count": 4,
+   "distinct_minters": 1,
+   "first_block": 134711231,
+   "last_block": 134711383
+  },
+  {
+   "address": "0xB72973BdF9aBF343BE53ff9AC47c3A8305A5c8eE",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711437,
+   "last_block": 134712174
+  },
+  {
+   "address": "0xDe4dC7036Bcfb792d4020Fc9aDD64E775fD8Ea5F",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134711735,
+   "last_block": 134711735
+  },
+  {
+   "address": "0x774915BdAf8bCc79b7d0A101a2FEA1C5F9B521f1",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "first_block": 134711735,
+   "last_block": 134712114
+  },
+  {
+   "address": "0x2A9dC85c99da8B5c193DE120CBd2AF12AbD097c3",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "first_block": 134711696,
+   "last_block": 134711767
+  },
+  {
+   "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 134710298,
+   "last_block": 134710311
+  },
+  {
+   "address": "0x6918d22E2AC59ec9a1510F6A1764EAF91547D6A8",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134710484,
+   "last_block": 134711674
+  },
+  {
+   "address": "0x354c389b3051FD4D611084f7eEBb595a064E04d4",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 134710546,
+   "last_block": 134711647
+  },
+  {
+   "address": "0xc3Fc2156e53Ab760574EAd452627e6B8CD675B32",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134710615,
+   "last_block": 134711983
+  },
+  {
+   "address": "0xf3b235cfD6186a7b938DB48bE92Ce6bB694Ed0A5",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710658,
+   "last_block": 134712012
+  },
+  {
+   "address": "0x72Ed37F82521b170Cac0C98211b659a7026aA6fc",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134710690,
+   "last_block": 134711062
+  },
+  {
+   "address": "0xCA750eF65f295BBECd685Abf54e82CAf297BDB61",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710839,
+   "last_block": 134712218
+  },
+  {
+   "address": "0x38Dd26788Cf2d901E3aBf04efE3007d459d0Fc53",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710836,
+   "last_block": 134712222
+  },
+  {
+   "address": "0x3eE4dF61bd4F867E349BEaE8bFE07bc31b4850fb",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710827,
+   "last_block": 134712197
+  },
+  {
+   "address": "0xbe9D156892E55e7154BcD3cB0FEA677F9D3103E1",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710823,
+   "last_block": 134712173
+  },
+  {
+   "address": "0xE256BC2A4F5297F8ba6f043F180a46300eCbCbB1",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710802,
+   "last_block": 134712143
+  },
+  {
+   "address": "0x179D7847811117FFE987fB969754eBa8A1F5b4a1",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710888,
+   "last_block": 134710914
+  },
+  {
+   "address": "0xe071F5AA90F211A0824e717f1569060193679Ce6",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134710858,
+   "last_block": 134712081
+  },
+  {
+   "address": "0x9e82e3da8f1115B73d24bB24113ab836FfDAb6b6",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710855,
+   "last_block": 134712238
+  },
+  {
+   "address": "0xcdf2f3e0fa43C47A6662a91C9E4a7C5f69762699",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710843,
+   "last_block": 134712230
+  },
+  {
+   "address": "0x0BB43434684C7a7ae0ee9Eea240449ACAF3F6472",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134710893,
+   "last_block": 134711250
+  },
+  {
+   "address": "0xAaA7Ab37C3A94CAA1e106cb0Fb845844CBAf70f4",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134710986,
+   "last_block": 134711176
+  },
+  {
+   "address": "0x0dDaEc7cd105c4d0aDE3cA26bf470e41Cfe7ad09",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711038,
+   "last_block": 134712176
+  },
+  {
+   "address": "0x8254e52E346B66e01841Fb1D5c60a1BCbA39Ea0A",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134711011,
+   "last_block": 134712225
+  },
+  {
+   "address": "0xa58597ba55a8F3b8992009347AB7d3DEF0e482dE",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 134711127,
+   "last_block": 134711127
+  },
+  {
+   "address": "0xCCE53217A4F2850C536D751CFB676Da26Bd372DC",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134711142,
+   "last_block": 134711142
+  },
+  {
+   "address": "0x7313EA16493b2f55054Df0131A3A14B043ec8992",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711273,
+   "last_block": 134711812
+  },
+  {
+   "address": "0xF8bb2Be50647447Fb355e3a77b81be4db64107cd",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134711324,
+   "last_block": 134711798
+  },
+  {
+   "address": "0xAe2110ABCF3c2256105b4e2F70660f9ED1c6b7D9",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134711326,
+   "last_block": 134711958
+  },
+  {
+   "address": "0x07A5313c71C16bf4B32F0bdc82528eb214fD9BFF",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711326,
+   "last_block": 134711958
+  },
+  {
+   "address": "0xaF4dE8E872131AE328Ce21D909C74705d3Aaf452",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711366,
+   "last_block": 134712054
+  },
+  {
+   "address": "0xf571Fe3F0d74521Bc7310B111Faea931C748f27B",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0xDad07D0Ca26ed4109Bc00893dBee3Ed4cE8ce2a4",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0xaD56701D9e57957e28e546Db7db508A16d4f86CC",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0x18De24acb876C0B8392d9C55583Bb21c0355980b",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0x3A82f1C847cc55e52e597fD81c63a812C6722541",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0x8FD70eE385f470c8D6FDA2D93a4E49C849BAC6a6",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0x76E39171Cb665a35981e744e2CEB7012F76caEAc",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0x25eD86472cf3012607DC6576c58e6432968255C2",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711657,
+   "last_block": 134711901
+  },
+  {
+   "address": "0x8A4b240F7119ACF72EB882BeDC9492D0E2819b2E",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134711655,
+   "last_block": 134712172
+  },
+  {
+   "address": "0xca9DEeDbEfa967B612772d5690C573631c4D9F2D",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134711716,
+   "last_block": 134712146
+  },
+  {
+   "address": "0xA395999b8f96eFbc0Ad1Cc97eDC85304CA3632Ef",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134711711,
+   "last_block": 134712206
+  },
+  {
+   "address": "0x851DA0BEA7FE6dB35C11C1d3A065a96E6B36acf1",
+   "mint_count": 3,
+   "distinct_minters": 2,
+   "first_block": 134711906,
+   "last_block": 134711995
+  },
+  {
+   "address": "0xe3fc9Ed600D6b3f58d04ce743b5516Fe20c5F259",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "first_block": 134712082,
+   "last_block": 134712207
+  },
+  {
+   "address": "0x89559398A3733a8234DfCaD8181183a7729F1D03",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "first_block": 134712078,
+   "last_block": 134712078
+  },
+  {
+   "address": "0xe70f901be1EFA8A8D3b9E3B5C686d35C288789Dd",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710267,
+   "last_block": 134710267
+  },
+  {
+   "address": "0x90F097c657136B0db8C649dA5C4E73eBEa99CbD0",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710252,
+   "last_block": 134711083
+  },
+  {
+   "address": "0x65936603bd0c84641b2092af1B3F3512354496Aa",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710318,
+   "last_block": 134710318
+  },
+  {
+   "address": "0xb1C6529A243263465aB2b1E4992C1304d7EcDf48",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710299,
+   "last_block": 134710299
+  },
+  {
+   "address": "0x390a684EF9cADE28A7AD0DFa61AB1Eb3842618c4",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710291,
+   "last_block": 134712059
+  },
+  {
+   "address": "0xabF32DB13e1CdEAc83296528BF7067dD212A70Dd",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710347,
+   "last_block": 134711839
+  },
+  {
+   "address": "0xC1a6888EB2bC0ea1bB86987bEbC3abef7794f29B",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710342,
+   "last_block": 134712128
+  },
+  {
+   "address": "0x77B84aAf17aCd9C6bD7e29C04465bEa39fdE9Ef2",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710472,
+   "last_block": 134710472
+  },
+  {
+   "address": "0xB7fadBc7e6fE4e303Ad21B301b8d8b3564a4B45F",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710533,
+   "last_block": 134710776
+  },
+  {
+   "address": "0x0627dDb731877DdD031cbbfe41552FBA40092a37",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710515,
+   "last_block": 134710515
+  },
+  {
+   "address": "0x89eE77b84258e41631082435461dca6aa731EBEc",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710572,
+   "last_block": 134710572
+  },
+  {
+   "address": "0xcEf4Ef5f9E52C1Afaa748cc62495f78767777777",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710567,
+   "last_block": 134710567
+  },
+  {
+   "address": "0xEc6D1444Ce527fa92350af62d42EB23182233333",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710556,
+   "last_block": 134712099
+  },
+  {
+   "address": "0x36eE9FB587AF43967C49A4f8Fb9Ddf773530818f",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710552,
+   "last_block": 134711327
+  },
+  {
+   "address": "0xf1aF9B62934b1A48B65c6CcbA692005a26b7c63F",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710550,
+   "last_block": 134710550
+  },
+  {
+   "address": "0x735c5855c141906C2dFbE9F28dA13c7E5956b028",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710624,
+   "last_block": 134712003
+  },
+  {
+   "address": "0x6a4d17f45e0A071cF89f212429B60efCf2Cf1D4C",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710619,
+   "last_block": 134710619
+  },
+  {
+   "address": "0x0134f1B50f45bC24cda9F66E49EB9bc43524dE94",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710684,
+   "last_block": 134711837
+  },
+  {
+   "address": "0x48feD5Ec2DaD1385741b11023e53606c94cc52Ae",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710647,
+   "last_block": 134710647
+  },
+  {
+   "address": "0x79f2eE50F19b62d3785E9a2B4B3e97d28A7326a3",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710726,
+   "last_block": 134710726
+  },
+  {
+   "address": "0x7F48A95f832b23215546520416736A4fE66D44df",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710722,
+   "last_block": 134710722
+  },
+  {
+   "address": "0x85A8cbdF4C78187f3191701d79c3c4A772d03fA0",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710708,
+   "last_block": 134710708
+  },
+  {
+   "address": "0xc1DF7341D93112F4db4169924Ca34A18D71a81DC",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710697,
+   "last_block": 134710697
+  },
+  {
+   "address": "0xF381e14A2344F263401948187C15874749A9b633",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710785,
+   "last_block": 134710785
+  },
+  {
+   "address": "0xf2291901cb7F3923024385e903a8DEFB1B7e3B58",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710781,
+   "last_block": 134710781
+  },
+  {
+   "address": "0xfF0628D5E18C76c0deE4446411117F23AA2F6c1f",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710781,
+   "last_block": 134710781
+  },
+  {
+   "address": "0x0419f5aB74FFF2c7CB69F2a2089CAD1aed8FcB53",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710780,
+   "last_block": 134711842
+  },
+  {
+   "address": "0x0735D9904b7e34e6fe39B0f66E00c111b3f2b681",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710831,
+   "last_block": 134712210
+  },
+  {
+   "address": "0xb84c875B3b639c532A6A6038Af0F6c7b84de3DC1",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710827,
+   "last_block": 134710827
+  },
+  {
+   "address": "0xAB78b89B5bb00236Be0B4B20704cBfa04EfC711c",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710809,
+   "last_block": 134711482
+  },
+  {
+   "address": "0xAfecf4a783DEC5a1a06EB04f58ce1dCC61F3df60",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710874,
+   "last_block": 134710874
+  },
+  {
+   "address": "0xd97d097a89113fa59b76c572E5b2Eb647E8eefaf",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710860,
+   "last_block": 134711547
+  },
+  {
+   "address": "0x02Fca66C1D1aFB4E2A7884261eB00F63598a7436",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710852,
+   "last_block": 134711537
+  },
+  {
+   "address": "0x205812CdBed920aFf76C6580abD681a46D11efc7",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134710847,
+   "last_block": 134711525
+  },
+  {
+   "address": "0xa46feA0Ab6cEba522738e96de0625b9D50044319",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710932,
+   "last_block": 134711001
+  },
+  {
+   "address": "0x1e4234de09deADD205A98EA1cE5425106f84C210",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710907,
+   "last_block": 134710907
+  },
+  {
+   "address": "0x9ea684d57b1A28882C6bab295FEF4F4d338209F9",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710899,
+   "last_block": 134710899
+  },
+  {
+   "address": "0xc8fd177922209CF71a4C064D6EBf53c383ff49Cc",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710974,
+   "last_block": 134710974
+  },
+  {
+   "address": "0x4c469BbdD6efa8839442CB2576F73D814DDb8Eca",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710973,
+   "last_block": 134710973
+  },
+  {
+   "address": "0xbcd30D25B88BC6CC7FdD1C11007B4c12fff73525",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710958,
+   "last_block": 134710958
+  },
+  {
+   "address": "0x77EF59904f99c7D23aEb5D7a74FAfe7820ca225d",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134710945,
+   "last_block": 134710945
+  },
+  {
+   "address": "0x2DE3D94B27Fb3625eA6eeF31C453b78da7580bE5",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711033,
+   "last_block": 134711033
+  },
+  {
+   "address": "0x6ddD659ce63C22d5E76bbE5eBE7FdB47f6dBD8d7",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711031,
+   "last_block": 134711031
+  },
+  {
+   "address": "0x43FCA645F4479D9315aC325D1ed4A6fe1C13434B",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711063,
+   "last_block": 134711504
+  },
+  {
+   "address": "0x8D65744527f55d0b2338350912d5C99A81ddF0e2",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711056,
+   "last_block": 134711642
+  },
+  {
+   "address": "0x00901a076785e0906d1028c7d6372d247bec7d61",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711044,
+   "last_block": 134711479
+  },
+  {
+   "address": "0x01294E0808A451cA112b852C05e86a4bbbd4dC90",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711126,
+   "last_block": 134711126
+  },
+  {
+   "address": "0xf4f075eAdBBa0c6DF22BCA92c43B437D9BDdb040",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711103,
+   "last_block": 134711257
+  },
+  {
+   "address": "0xF3e7523740D22e34504A56829D3434e3436DF99b",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711100,
+   "last_block": 134711100
+  },
+  {
+   "address": "0x8c5833f888dfd407587F1746371F76595C981Bbc",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711159,
+   "last_block": 134711159
+  },
+  {
+   "address": "0xD6143F27BF43B8A745829252D5558DA3477A1008",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711154,
+   "last_block": 134711154
+  },
+  {
+   "address": "0xed82E3B1a40339386188cAfcF6c79310B6Cc515d",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711230,
+   "last_block": 134711230
+  },
+  {
+   "address": "0x4d84F5B2f2A3089df70d09D69Ee18c0c7893BBe3",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711225,
+   "last_block": 134711225
+  },
+  {
+   "address": "0x67bD527FC5eE19d6a8afDD145b9c1A9Ac471A829",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711206,
+   "last_block": 134711357
+  },
+  {
+   "address": "0xcDBBEd5606d9c5C98eEedd67933991dC17F0c68d",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711196,
+   "last_block": 134711528
+  },
+  {
+   "address": "0x0298474f513279DE3388A63B59D36EBEB1b004bB",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711425,
+   "last_block": 134711425
+  },
+  {
+   "address": "0x5CC17588B58954928CCf9482FEe5a4a5d16B2236",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711401,
+   "last_block": 134711687
+  },
+  {
+   "address": "0x5F7A56e877B9130608Bf8BE962621011182fEfE1",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711487,
+   "last_block": 134712151
+  },
+  {
+   "address": "0x30ba9617C63a204Ac96EBB42295FC80CF626cf9e",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711478,
+   "last_block": 134711478
+  },
+  {
+   "address": "0xe614E2fc6C787035FF51f452e8E826Bfd32D5283",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711509,
+   "last_block": 134712189
+  },
+  {
+   "address": "0x807D6F99aA40F968329945ddB7f465bA02c30bce",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711505,
+   "last_block": 134711505
+  },
+  {
+   "address": "0xe028eC8E875B4242e532A47F699FbdFf0055626a",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711545,
+   "last_block": 134711545
+  },
+  {
+   "address": "0x75617e7653f86f074Cc30b9Fd4eBf52bA9b62247",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x6cF3b84f0Ba4d86d9f6987812A11Db2c447D9483",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0xCC977B493f52B4b6B6a0c3594530f2BaEe565E96",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x847ef23A3F99aF79A185ce033e1664165b846eEa",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x66a1409FE303d00209202933e3d31eE43AaAB39d",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x80F03ABCb2BD85237740dD69f87d2F5De3909012",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0xc79Fc7aF952c8B41c6b7b7657dd24F44f7C10F2A",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x95F7423c51Eab71cBD00ca855B0B2B2153F14184",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x784584933C2192Caa062E90d8140D94768CE62d8",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x30033A17ea24E90631532582a1917c64AFBF87Af",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711633,
+   "last_block": 134711877
+  },
+  {
+   "address": "0x1c7c989d519d65e0EbF9118197c9dF186451308b",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711623,
+   "last_block": 134711623
+  },
+  {
+   "address": "0x3B3AbD6D571c5530d053344A5af4CCFdc0ED2969",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711673,
+   "last_block": 134711673
+  },
+  {
+   "address": "0xbAb20D133d26A2A70a14e4b4dc27d212050C47AB",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711670,
+   "last_block": 134711670
+  },
+  {
+   "address": "0x5e1AAb9d49F6C7122df7dE4d6dBd5b03C1EBB0B7",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711649,
+   "last_block": 134711649
+  },
+  {
+   "address": "0xc18F338959Ec569b6Aa7E439F2946608c660781E",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711731,
+   "last_block": 134711731
+  },
+  {
+   "address": "0xE466a81960A539825fc2d3520980D2e9C941f47f",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711719,
+   "last_block": 134711719
+  },
+  {
+   "address": "0xa706fA6Ecd5C805E9009AB9608b8cbbD31aE13E9",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711717,
+   "last_block": 134711717
+  },
+  {
+   "address": "0xbA38B3C706f7A515Ff7C8Db04Daa0A134eC46D2b",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "first_block": 134711694,
+   "last_block": 134712214
+  },
+  {
+   "address": "0x63F87d5716F05d18BAFD079aec66A07469D76117",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711766,
+   "last_block": 134711766
+  },
+  {
+   "address": "0xED8979455407ce6fDAaf8a1340fb70f8E0dc62Ee",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711831,
+   "last_block": 134711831
+  },
+  {
+   "address": "0x12A079b714f82007567E2a3ef96dDc1944344E0A",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711874,
+   "last_block": 134711874
+  },
+  {
+   "address": "0x32698423559cCAfE39ee4969a08d41199aAf2796",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711864,
+   "last_block": 134711864
+  },
+  {
+   "address": "0xD6060fCaBADd1cA51c51C759bB86e30B595AD465",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711927,
+   "last_block": 134711927
+  },
+  {
+   "address": "0x6CfF5ac57E1f03Cf41545BA286830652EFb29897",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134711922,
+   "last_block": 134711922
+  },
+  {
+   "address": "0xe2aDBc6f4c88c1bB234cb8C09481094DcDF33e56",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712021,
+   "last_block": 134712021
+  },
+  {
+   "address": "0x22d19C88A0560E0D83C45E384c880e3e7554ED38",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712019,
+   "last_block": 134712019
+  },
+  {
+   "address": "0x4DDFbAd5aE979313F662c19139253D64F018CFDb",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712016,
+   "last_block": 134712016
+  },
+  {
+   "address": "0x9D5fe5A87928082C088D591f239a0eE954f65aCf",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712077,
+   "last_block": 134712077
+  },
+  {
+   "address": "0xdb55ccad327Fee253DdCC779F29771D811C52e6C",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712050,
+   "last_block": 134712050
+  },
+  {
+   "address": "0x86d02425D7B9Eb11066d12D42F65EDFDF7B58B93",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712189,
+   "last_block": 134712189
+  },
+  {
+   "address": "0x76439992Cce24651080040A6F9c62EB6387aE672",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712170,
+   "last_block": 134712221
+  },
+  {
+   "address": "0x76d077a5355477dCDA9351862E5B149B2116BAeA",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712169,
+   "last_block": 134712169
+  },
+  {
+   "address": "0xF874F16d07358750D5a7662b00e71eD801Ec54F4",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712233,
+   "last_block": 134712233
+  },
+  {
+   "address": "0x95a8FF5C83a53D21B44B708b90893DB4c4AF8d99",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712233,
+   "last_block": 134712233
+  },
+  {
+   "address": "0xf904705Bd859e8Db3AbEED0108E6BB26c29c4891",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712233,
+   "last_block": 134712233
+  },
+  {
+   "address": "0xAE7396b2bD2b8b9e751481Db4b73305f41a3E28b",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712233,
+   "last_block": 134712233
+  },
+  {
+   "address": "0xaa398A4dEB3FB9d208388C10aB89C82c6Cb4bda4",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "first_block": 134712233,
+   "last_block": 134712233
+  },
+  {
+   "address": "0xB0f0d7f77555F5639b388E514005757Df3927777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710287,
+   "last_block": 134710287
+  },
+  {
+   "address": "0xDD2dC57AC67C9350206Be1F5DdE32D3b487cFfff",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710287,
+   "last_block": 134710287
+  },
+  {
+   "address": "0x3E7902a354db21a214dc0Da3Fde3c6a68bc87777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710286,
+   "last_block": 134710286
+  },
+  {
+   "address": "0x10047f49Ee88b55c7350Be57e989f36b194F7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710283,
+   "last_block": 134710283
+  },
+  {
+   "address": "0xA17f875107cedd4BB7304b34a7D4799ee5EA7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710275,
+   "last_block": 134710275
+  },
+  {
+   "address": "0x5085a5F7F835a5E42eeB81D0204DA613BD2E7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710274,
+   "last_block": 134710274
+  },
+  {
+   "address": "0xDc651c1cF3335b04DB087AE77c7Fdeb1F5eCFFff",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710271,
+   "last_block": 134710271
+  },
+  {
+   "address": "0x0b694019A155D740aA6100b10e12D52b186e7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710269,
+   "last_block": 134710269
+  },
+  {
+   "address": "0x4ceBcDD39C35727292b86Ab1B8519Ca205a8fFFF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710265,
+   "last_block": 134710265
+  },
+  {
+   "address": "0x8589AA38d690A3907eCC27dB3e4E5CB7f83e7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710264,
+   "last_block": 134710264
+  },
+  {
+   "address": "0xca74887aC2352320cA5DFdff871Ea01B190dFFFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710259,
+   "last_block": 134710259
+  },
+  {
+   "address": "0xC08D0B210F963c3e92825e093b64b4A54036fFFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710258,
+   "last_block": 134710258
+  },
+  {
+   "address": "0x87B2053AFd7c8d33c2Dc820A20986658871E7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710255,
+   "last_block": 134710255
+  },
+  {
+   "address": "0xc0760d55B1eB806E2DeF49FA07967F04eA2F7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710249,
+   "last_block": 134710249
+  },
+  {
+   "address": "0x7Eb8F939071C7b2D3eaA031625B0D4B6287D7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710242,
+   "last_block": 134710242
+  },
+  {
+   "address": "0xADdFBC908B0b50c060e10608033531a366077777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710241,
+   "last_block": 134710241
+  },
+  {
+   "address": "0x22Be1Bd5522025FDf381fA5dA287e946995e7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710320,
+   "last_block": 134710320
+  },
+  {
+   "address": "0xAd448E68FD94E5ebE45A8DbecdF7D37c49807777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710317,
+   "last_block": 134710317
+  },
+  {
+   "address": "0xeea84C3Ca0BA6F16E5A420Db80E08E0b0C147777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710310,
+   "last_block": 134710310
+  },
+  {
+   "address": "0x9D87A276a1FE09bC38318B70A6255E08ec7CfFFF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710305,
+   "last_block": 134710305
+  },
+  {
+   "address": "0x3E4b6497d1cC4C784a5a846356f7f3834509aBcD",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710295,
+   "last_block": 134710295
+  },
+  {
+   "address": "0x8b239aC0e674475166F431b9CaD193A4100a7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710294,
+   "last_block": 134710294
+  },
+  {
+   "address": "0x22A5Ee6E93045b2fB434317CC195f4365bDffFFF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710294,
+   "last_block": 134710294
+  },
+  {
+   "address": "0x42F0Ee1C545C11eCf5f464D7A5F7272322067777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710292,
+   "last_block": 134710292
+  },
+  {
+   "address": "0xdF7dD850B3d296127C9374eF1312971e8eEC7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710371,
+   "last_block": 134710371
+  },
+  {
+   "address": "0x3246113c5933C50eCeFB00614BCf4b838a777777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710365,
+   "last_block": 134710365
+  },
+  {
+   "address": "0x949F3fda09E555A6D9769519eE11a239F4a37777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710364,
+   "last_block": 134710364
+  },
+  {
+   "address": "0x6C17bE9c864254CA4b2d36223f31AdE94B4d64c2",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710358,
+   "last_block": 134710358
+  },
+  {
+   "address": "0x9f16E46c73b43BDB70861247d537bEE4eA18F639",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710357,
+   "last_block": 134710357
+  },
+  {
+   "address": "0xFa2De3dd19d3035189957992A9015b46bFccCE1D",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710354,
+   "last_block": 134710354
+  },
+  {
+   "address": "0x9e1579FA5b8818B9Ed8068D066e290066Cd07777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710351,
+   "last_block": 134710351
+  },
+  {
+   "address": "0xF283DFE9B5b1f77435c39B88D84388CfBdD84c41",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710343,
+   "last_block": 134710343
+  },
+  {
+   "address": "0x52Cebdf218687767379a1d0243fA9C04a95C7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710421,
+   "last_block": 134710421
+  },
+  {
+   "address": "0xccF8d387E4FD9224558f6C64412028bd51307777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710418,
+   "last_block": 134710418
+  },
+  {
+   "address": "0x0C87D3e364C4b985196c187c6543e9C13e127777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710402,
+   "last_block": 134710402
+  },
+  {
+   "address": "0x3E4FD1E3A138aDCeB6f09C162E5815aAD9be4444",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710402,
+   "last_block": 134710402
+  },
+  {
+   "address": "0xe94410B8f84794954eB8dD1d1e9F5acCE7e9da4F",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710396,
+   "last_block": 134710396
+  },
+  {
+   "address": "0xe2788fdDDa5f1eD25718828aA8897824108a7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710395,
+   "last_block": 134710395
+  },
+  {
+   "address": "0x2d05455Bb995b57A9b45d3a2d429CE8340647777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710394,
+   "last_block": 134710394
+  },
+  {
+   "address": "0xEdc9E054bD90F7E1b7D175DA87b2782A04f94444",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710392,
+   "last_block": 134710392
+  },
+  {
+   "address": "0xBFf1F1892E87957369a98d0Bf5f3E6E4C6357777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710391,
+   "last_block": 134710391
+  },
+  {
+   "address": "0xad74600521100F133Ee9006f2B1da7F0d5C98C80",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710474,
+   "last_block": 134710474
+  },
+  {
+   "address": "0x3F1c4C881553B8AcE80760D1694569C1Cae37777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710468,
+   "last_block": 134710468
+  },
+  {
+   "address": "0x011EBe7d75E2C9D1E0bD0be0bEf5C36f0A90075F",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710467,
+   "last_block": 134710467
+  },
+  {
+   "address": "0x161C7C9b5025D9cFC65b2023432F0c80887d7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710465,
+   "last_block": 134710465
+  },
+  {
+   "address": "0x67010935DA46E09d09Be7e186Eab9a258D689eEd",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710443,
+   "last_block": 134710443
+  },
+  {
+   "address": "0x7461d8A14B445a3390b79c393f1CdB30b4fDfFFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710443,
+   "last_block": 134710443
+  },
+  {
+   "address": "0x02d8B8D5B081B756c44D4aA7D0086DFF785FD17a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710534,
+   "last_block": 134710534
+  },
+  {
+   "address": "0x34A2C4a700e3ffC2D9B2C10c77694c9ddA04e189",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710519,
+   "last_block": 134710519
+  },
+  {
+   "address": "0x0A48FCCD3C2c25f6E8a91474FA72aDdf16d67777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710495,
+   "last_block": 134710495
+  },
+  {
+   "address": "0x6c93B53a2F2cb56FfA91A843591849d054EC4444",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710566,
+   "last_block": 134710566
+  },
+  {
+   "address": "0x624c51a500D6aDe31400a43B8C6DCB64430A7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710565,
+   "last_block": 134710565
+  },
+  {
+   "address": "0x6CEd5c6d3F913b48D59Fa07AbBfe9060C409087C",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710559,
+   "last_block": 134710559
+  },
+  {
+   "address": "0x6Ab8C8493693Db92111a71f42ECF2549e7f97777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710558,
+   "last_block": 134710558
+  },
+  {
+   "address": "0x2A1d5262948c6b109Eecc6826Dda8661F9147777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710557,
+   "last_block": 134710557
+  },
+  {
+   "address": "0x8e0858c3E130d2bEEC6C3452a9D04E818aDB899B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710556,
+   "last_block": 134710556
+  },
+  {
+   "address": "0x1347a165A8E630daff88c73Cc4A8187615b22160",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710550,
+   "last_block": 134710550
+  },
+  {
+   "address": "0x0518FB6315bE020aaea8687aF3DF6Ec9658ed808",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710544,
+   "last_block": 134710544
+  },
+  {
+   "address": "0xf130cfD1AdeD7F3DA0222B51b595F4A03A677777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710542,
+   "last_block": 134710542
+  },
+  {
+   "address": "0x93B3bcCB2bF99DCefce73533f034577C9E537777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710638,
+   "last_block": 134710638
+  },
+  {
+   "address": "0x1Bf2aaAFfe69d0f230e9f86dC364C4cd229A7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710635,
+   "last_block": 134710635
+  },
+  {
+   "address": "0xcDE6E42cC04Fa6518a454DcAa5C76480E3497777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710626,
+   "last_block": 134710626
+  },
+  {
+   "address": "0xe04bA6a5A15F823B86B85Dd7c064D7e2Ae947777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710616,
+   "last_block": 134710616
+  },
+  {
+   "address": "0xc3BD036Ef5B298C93eC30b70aD6cf64031Ce7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710609,
+   "last_block": 134710609
+  },
+  {
+   "address": "0xAA2F292FE9aba0D986cFC370740B7d7580ed7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710607,
+   "last_block": 134710607
+  },
+  {
+   "address": "0x9F5F47A8db7467303A24260349d2AF9462Bf38b5",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710604,
+   "last_block": 134710604
+  },
+  {
+   "address": "0x62157Bc9E207659eCA62d3Aca5F257d975B85562",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710594,
+   "last_block": 134710594
+  },
+  {
+   "address": "0xec37ea8Ca8C7DF92b2af1B1B60dF2710aC327777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710681,
+   "last_block": 134710681
+  },
+  {
+   "address": "0x5a847BE0F397a57C8f7E4193AF093F4f0A422571",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710668,
+   "last_block": 134710668
+  },
+  {
+   "address": "0xe492b6B927DA04d531c464E6B9624F8b9b967777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710717,
+   "last_block": 134710717
+  },
+  {
+   "address": "0x61702440E594dc149B7b296DfE90f648E7167777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710707,
+   "last_block": 134710707
+  },
+  {
+   "address": "0x482fb96050aDc72a02E4Ef5bCF48893e146e7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710694,
+   "last_block": 134710694
+  },
+  {
+   "address": "0x60009fc3011648210D7ae9EEc7a4617F82C5314A",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710780,
+   "last_block": 134710780
+  },
+  {
+   "address": "0x4001A34b8F446d35318c6C362d736A762187f213",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710776,
+   "last_block": 134710776
+  },
+  {
+   "address": "0xB5269C610dB4a7123E76D30B528fd7D4B3dE3010",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710772,
+   "last_block": 134710772
+  },
+  {
+   "address": "0xF6a41c62B98fbb7c3Cb80ABd97D526062ce4e298",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710761,
+   "last_block": 134710761
+  },
+  {
+   "address": "0x79e9B5aDcc1eAf6505532144946738bAC641FfFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710755,
+   "last_block": 134710755
+  },
+  {
+   "address": "0x1C19A39ECd9feA5B74a94C7775fA09e6Fb2EEC37",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710751,
+   "last_block": 134710751
+  },
+  {
+   "address": "0x9d6dfce01063dc3f622D55204aE7b0a668AB021b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710827,
+   "last_block": 134710827
+  },
+  {
+   "address": "0x7F732F9D2F2eA3E7E223C2e737e5257007F90E01",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710819,
+   "last_block": 134710819
+  },
+  {
+   "address": "0x462B5F13B7C7748279358962925c5De83BB9E598",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710814,
+   "last_block": 134710814
+  },
+  {
+   "address": "0x5b1910eAaD6450E50f816082Aa078C41F10C292f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710805,
+   "last_block": 134710805
+  },
+  {
+   "address": "0x36965ED2B479283e9236bA7FcdDf589Ac8676817",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710888,
+   "last_block": 134710888
+  },
+  {
+   "address": "0x36789C06E49f09502C3F6aA8f1A20Bebccbeaacc",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710866,
+   "last_block": 134710866
+  },
+  {
+   "address": "0x04ce21E629b0c8cd38a02acF14C0b91Ee634AC98",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710865,
+   "last_block": 134710865
+  },
+  {
+   "address": "0x8275Deed147411e2dcC0caa21973BEbcE99a5ff4",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710843,
+   "last_block": 134710843
+  },
+  {
+   "address": "0x898bb9DEe1B3cC826f9AeE210423bec1e0A87777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710841,
+   "last_block": 134710841
+  },
+  {
+   "address": "0x6ecFe9Ff1d95de9cb84e1E47Af61A61F36793715",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710916,
+   "last_block": 134710916
+  },
+  {
+   "address": "0xC463B214899f96155048cB1Da375bF668088FDfe",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710903,
+   "last_block": 134710903
+  },
+  {
+   "address": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710899,
+   "last_block": 134710899
+  },
+  {
+   "address": "0x41aeb1D2b15499dfBb175BF8554a2e3D7Ad07777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710894,
+   "last_block": 134710894
+  },
+  {
+   "address": "0xb8109f2cd875B26D080ebA362eDC013a4c04fFff",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710893,
+   "last_block": 134710893
+  },
+  {
+   "address": "0x996ed514f5dd07bd9a61D21Ab9D341F1385A0F83",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710892,
+   "last_block": 134710892
+  },
+  {
+   "address": "0xa1BEF08Ec206A478707f084C2e2eb1cd66477777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710982,
+   "last_block": 134710982
+  },
+  {
+   "address": "0x5b1085213b48DCEb58306F9bc421eC7D99957777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710980,
+   "last_block": 134710980
+  },
+  {
+   "address": "0xB1A0B1f8E941Ce645B51ef5926383516ac157777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710966,
+   "last_block": 134710966
+  },
+  {
+   "address": "0x3709861323a554167a759B30D64a57e688Dc7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710962,
+   "last_block": 134710962
+  },
+  {
+   "address": "0xb0dd5aae259Ac4B5a6a6f9F8DAFF783038517777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710959,
+   "last_block": 134710959
+  },
+  {
+   "address": "0x076d99088EaB857a3ed7f6EFd9ef6C2507F321e6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710949,
+   "last_block": 134710949
+  },
+  {
+   "address": "0x431959D134Ad53C69D4ef6083F0DcdBc1d3415E3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710947,
+   "last_block": 134710947
+  },
+  {
+   "address": "0x041294444564c4366B057FFF9aC7757bC8041f0e",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134710940,
+   "last_block": 134710940
+  },
+  {
+   "address": "0xe07aE3a6F1BD86b92b563084E286757eB34878D7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711021,
+   "last_block": 134711021
+  },
+  {
+   "address": "0xA27B8B6955a0A0444B498dE0052888548b9556A7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711019,
+   "last_block": 134711019
+  },
+  {
+   "address": "0x5f55C204D01183f65296cA87a0beF35BC49BbeBb",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711006,
+   "last_block": 134711006
+  },
+  {
+   "address": "0xEeD8dB0BA23B5d9E749EA6dfD6f3AD3bAfaC417D",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711067,
+   "last_block": 134711067
+  },
+  {
+   "address": "0x1075d36f7f76D24C96b0317B045A9cc1f8958888",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711065,
+   "last_block": 134711065
+  },
+  {
+   "address": "0xE30E76A262bA46Cae55eD2Da4D80DdC1055a8e82",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711099,
+   "last_block": 134711099
+  },
+  {
+   "address": "0xe01d171ac77e4923e91833fe934eC3f5c8f53ACc",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711099,
+   "last_block": 134711099
+  },
+  {
+   "address": "0xD941B82daB23e51aFd26D659D96A0DaDeB7E7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711094,
+   "last_block": 134711094
+  },
+  {
+   "address": "0x160C426d8f2746cE9FB7d4D390893e9269cD8e91",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711176,
+   "last_block": 134711176
+  },
+  {
+   "address": "0xd0a58BC9D88D3FF48C0294Cb7e45937d0E41A928",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711157,
+   "last_block": 134711157
+  },
+  {
+   "address": "0x2494b603319d4D9F9715c9f4496d9E0364B59d93",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711156,
+   "last_block": 134711156
+  },
+  {
+   "address": "0xAE5778a53a4602562Eb8Bb87F8f9149F67F67777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711216,
+   "last_block": 134711216
+  },
+  {
+   "address": "0x48B4170B841370a91Ef5577cDFc721292d397777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711208,
+   "last_block": 134711208
+  },
+  {
+   "address": "0xf3Da8e3D40C63729E4Ab7aA43B09ab202Ede6f9B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711192,
+   "last_block": 134711192
+  },
+  {
+   "address": "0x09DaA0843047E45DB0E96C716Ec24f6290EDF585",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711192,
+   "last_block": 134711192
+  },
+  {
+   "address": "0xd0bE4b5745bfaA8E2be7f16b01Be3fa189a2d541",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711262,
+   "last_block": 134711262
+  },
+  {
+   "address": "0x9172FA7f3Ba45ef26cE6B1ac8b21604c3461FfFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711317,
+   "last_block": 134711317
+  },
+  {
+   "address": "0x0F6E7eb2700BC499448008841a61c3aBd820c95d",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711302,
+   "last_block": 134711302
+  },
+  {
+   "address": "0xDfF3FD9c57A3d01860Bdd2E63DE32b08DFC7ffFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711296,
+   "last_block": 134711296
+  },
+  {
+   "address": "0xbe022bE2ebA28ab6716370189dc6610281AA33fA",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711386,
+   "last_block": 134711386
+  },
+  {
+   "address": "0xE14b3B0Dcc8D7eEa007b66aB182C26Bdc5887777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711378,
+   "last_block": 134711378
+  },
+  {
+   "address": "0x393Ee14f05eE35570905E504f6266C8F80aC5dC6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711360,
+   "last_block": 134711360
+  },
+  {
+   "address": "0x804850D326471123b0736e5818e91b87D49A877C",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711355,
+   "last_block": 134711355
+  },
+  {
+   "address": "0xa458eD5D77eB13ccAe0ac237f7Bb7ca3759FA6C3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711437,
+   "last_block": 134711437
+  },
+  {
+   "address": "0x3D5F2C06D5D5A86afbB9B338b7FBA776a4917777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711421,
+   "last_block": 134711421
+  },
+  {
+   "address": "0x6650166387289c89358D9A7Dd45eBE47b68eF22C",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711419,
+   "last_block": 134711419
+  },
+  {
+   "address": "0xf2E0614fe822B6f42b707F8E258AD1931959B710",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711486,
+   "last_block": 134711486
+  },
+  {
+   "address": "0x91c15D73814810F4D8144B3dDc64aBFB637C7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711485,
+   "last_block": 134711485
+  },
+  {
+   "address": "0x7C26a12f20507E2ceE22CeEBed9e88FDA47f866c",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711472,
+   "last_block": 134711472
+  },
+  {
+   "address": "0xd721c192d612Db77621DF57A9fAb38418033c02E",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711468,
+   "last_block": 134711468
+  },
+  {
+   "address": "0x50422b0771dCa2f26ee4216cBd794B21B76e6502",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711447,
+   "last_block": 134711447
+  },
+  {
+   "address": "0xbd7253A5b98e81255654CC5a6136D5E112F77777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711539,
+   "last_block": 134711539
+  },
+  {
+   "address": "0xa9F05eb948CE5D8BE18A3B9c0254De7993F87777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711529,
+   "last_block": 134711529
+  },
+  {
+   "address": "0x0f31E21B7881F5583EA94ddBCb0bCaf22B1aBeAb",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711529,
+   "last_block": 134711529
+  },
+  {
+   "address": "0x2E94171493fAbE316b6205f1585779C887771E2F",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711528,
+   "last_block": 134711528
+  },
+  {
+   "address": "0xD4A03970b461a463C5406E9DB45c23d2360a7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711528,
+   "last_block": 134711528
+  },
+  {
+   "address": "0x20CF955470A150Db72f4C67D03eaba6F3eF4FfFF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711526,
+   "last_block": 134711526
+  },
+  {
+   "address": "0xE502462909A4aBC418B0df8806FC33A2CF357777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711521,
+   "last_block": 134711521
+  },
+  {
+   "address": "0x8E82dd34a569d526501250076DDE590BdDef7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711516,
+   "last_block": 134711516
+  },
+  {
+   "address": "0xCd16198523d49688b4d644Ad85B4C5f5cd1a3656",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711508,
+   "last_block": 134711508
+  },
+  {
+   "address": "0x120054E0BFABaE1D4Ce8704A6bdf4d6Dc9627777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711508,
+   "last_block": 134711508
+  },
+  {
+   "address": "0xC30A91A854cFff001656cEA8F76005009bf62546",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711507,
+   "last_block": 134711507
+  },
+  {
+   "address": "0x75Fd4cF6f8392E41E70391D60c90C0D5211603a1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711501,
+   "last_block": 134711501
+  },
+  {
+   "address": "0x10343EF7da3301493D7Ecb647d68A288C6c1Db2F",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711497,
+   "last_block": 134711497
+  },
+  {
+   "address": "0x93862d63fd9Fd488B1328E9b47717d75e994a84B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711493,
+   "last_block": 134711493
+  },
+  {
+   "address": "0xC5EFD0c3a8fF6D9816DA7B56625aB4C398Eb9e08",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711584,
+   "last_block": 134711584
+  },
+  {
+   "address": "0xB44D53d9dcc951C84533b31A079055a5dbB7532d",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711560,
+   "last_block": 134711560
+  },
+  {
+   "address": "0x3F53De71c126BdaBAe20f9cD64848d317f6C3238",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711551,
+   "last_block": 134711551
+  },
+  {
+   "address": "0xe01150F55724a40B89D63241e8d676B3ea5f7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711618,
+   "last_block": 134711618
+  },
+  {
+   "address": "0x992879Cd8ce0c312d98648875B5A8D6D042cbF34",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711601,
+   "last_block": 134711601
+  },
+  {
+   "address": "0xA793b8f64c02190749D697d0a5b933A85D18C2c7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711599,
+   "last_block": 134711599
+  },
+  {
+   "address": "0x23def658ea0B4081161d9AB8fDfEef5345bcaFBD",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711597,
+   "last_block": 134711597
+  },
+  {
+   "address": "0xf8589b526FdD65F7F301c605a6e04F0F1b4B3620",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711595,
+   "last_block": 134711595
+  },
+  {
+   "address": "0x197dE75A8E236456fEEF60924c277994098C0a68",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711593,
+   "last_block": 134711593
+  },
+  {
+   "address": "0xB78ccbcd9DCE42D4fa5fdC835CB6a1aa1095a3b5",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711590,
+   "last_block": 134711590
+  },
+  {
+   "address": "0x5e8695DE81Fd1b49DfC5b37eD2EEe36302aB7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711675,
+   "last_block": 134711675
+  },
+  {
+   "address": "0x9a87CA98C0e6cE0dDca4618E67f844114107fffF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711675,
+   "last_block": 134711675
+  },
+  {
+   "address": "0x5a98daF16469A07484195Db68b52BcFA23aD09bB",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711673,
+   "last_block": 134711673
+  },
+  {
+   "address": "0x8E71e9B307f34AfBa3D184b664c3daBfb49dFFFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711665,
+   "last_block": 134711665
+  },
+  {
+   "address": "0x68fcDcf202023188b1fcD121c67Cc0DB93CE7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711659,
+   "last_block": 134711659
+  },
+  {
+   "address": "0xfdEc82ff8d477aC4091766549589f8F327a1F96C",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711647,
+   "last_block": 134711647
+  },
+  {
+   "address": "0xBe1922750760C4CAE69edB6FE79a22ae9b62a23d",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711714,
+   "last_block": 134711714
+  },
+  {
+   "address": "0xd32d01A43c869EdcD1117C640fBDcfCFD97d9d65",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711712,
+   "last_block": 134711712
+  },
+  {
+   "address": "0x8eeF471920EB56eaFa2cb9c9c3A3E9eC480cD3F6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711699,
+   "last_block": 134711699
+  },
+  {
+   "address": "0x28548cEB299Ea8cCf46884E7c3bBD3a6F8d8AA6c",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711699,
+   "last_block": 134711699
+  },
+  {
+   "address": "0x9Fee888379Bc241Df279F02146D6f23a0d4550d1",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711694,
+   "last_block": 134711694
+  },
+  {
+   "address": "0x80412c0cD2f62Ff1274078F1197e5FB1d8803452",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711692,
+   "last_block": 134711692
+  },
+  {
+   "address": "0xEd2a500eB2b66679e0BbD76e51a60049aE5f3271",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711789,
+   "last_block": 134711789
+  },
+  {
+   "address": "0xDC98b2773096360D90430311872706f765027777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711784,
+   "last_block": 134711784
+  },
+  {
+   "address": "0x3649532c0FBa211Dd5D5C173A8ffBbA170a05f95",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711750,
+   "last_block": 134711750
+  },
+  {
+   "address": "0xFB4b3A3910E6e9f7426fb87430B3434FA67dfFff",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711812,
+   "last_block": 134711812
+  },
+  {
+   "address": "0xE0A6CD47Cc7eA64B195d47758f9623b02e810244",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711808,
+   "last_block": 134711808
+  },
+  {
+   "address": "0xF01F9637e85552230e56897f63121684Da7effff",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711792,
+   "last_block": 134711792
+  },
+  {
+   "address": "0x024640f1C695028e248caC5263f6452AF99c5e84",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711874,
+   "last_block": 134711874
+  },
+  {
+   "address": "0x18da3F59D62EbD7367F22139135408501402bA21",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711871,
+   "last_block": 134711871
+  },
+  {
+   "address": "0xE467985b8F060E12c0D282f73C70DB2d19f258f8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711871,
+   "last_block": 134711871
+  },
+  {
+   "address": "0xfabaA215C49C87BA6340728eAfc5AE0083788317",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711868,
+   "last_block": 134711868
+  },
+  {
+   "address": "0x6a708EAD771238919D85930b5a0f10454E1C331a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711868,
+   "last_block": 134711868
+  },
+  {
+   "address": "0xc2f65e745Fd13af1d00d5c81dD33F762FB81C264",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711864,
+   "last_block": 134711864
+  },
+  {
+   "address": "0x68e80a013Df94d0223526DE9F080672dcE4935f8",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711860,
+   "last_block": 134711860
+  },
+  {
+   "address": "0x8df9203685C8d7De4d803a17B987e723669836BC",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711851,
+   "last_block": 134711851
+  },
+  {
+   "address": "0x8D8B74EA95c0689ac84DdC702D2953C6b2e9f48B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711842,
+   "last_block": 134711842
+  },
+  {
+   "address": "0xfB18A7BDf5FC61Eb8aF5Bc2Fb0481b6fc6f67777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711913,
+   "last_block": 134711913
+  },
+  {
+   "address": "0xEDC60d0c89B3aF3881a85e21F6E4B9E3BFF33333",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711910,
+   "last_block": 134711910
+  },
+  {
+   "address": "0x5ecC352C4640f1d26BD231dbBd171f40f7d0Eec6",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711903,
+   "last_block": 134711903
+  },
+  {
+   "address": "0x60ef0f1F27aabe653eab60d4bbd9EB61cbC3b6EA",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711978,
+   "last_block": 134711978
+  },
+  {
+   "address": "0xE7ddF606841ee278A30E5C90486681e68ddd8cbF",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711945,
+   "last_block": 134711945
+  },
+  {
+   "address": "0xa0Fe4e0aEca5479705ce996615B2EACB6b6a10Fb",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x149Bda9e7251DC36f536d1fE7F92A5ea203F4F3D",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x343324170C91c4D8Cf4D439B3E5a619F50621aE7",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0xA1DaaB37dA2a29A1eC721922b55962eB8B481001",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x1dCd320C5d7b84CD407437c58d56CbbDd0D9d8f3",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x0585756aAFB241b0f8A9Df62Db26c566091Bde0b",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x0fAcaFB97ffDbA3cAe88512070AF49bd30674cD9",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x89a9F7114bE6b220fAe645ba0cbB720889867415",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x25a4DbAE9a0Cd8C75656D6b50FFDf4900CC20d8f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x0C50323AF81D5C33822c6Add256Fb9093D42BC74",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712024,
+   "last_block": 134712024
+  },
+  {
+   "address": "0x4dbC2084e0e6A1A1408Ad0c462Ead9f4B4d68688",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712021,
+   "last_block": 134712021
+  },
+  {
+   "address": "0xB0b84D294e0C75A6abe60171b70edEb2EFd14A1B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712011,
+   "last_block": 134712011
+  },
+  {
+   "address": "0xBb87F2a37cf805E3755Cb1e7DA41140589190e25",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712009,
+   "last_block": 134712009
+  },
+  {
+   "address": "0xaeD7ce4A58BE088545aC13Ca4A05B0B174907777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712002,
+   "last_block": 134712002
+  },
+  {
+   "address": "0x768036EC589F9d141F6D27e9290DB6a44d86Fefc",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711995,
+   "last_block": 134711995
+  },
+  {
+   "address": "0x34767c50f3779136b983efaE92e3b9B3558588fd",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711994,
+   "last_block": 134711994
+  },
+  {
+   "address": "0x277E1FA8704c5511FEd7E30Bc691F922aa30101B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134711991,
+   "last_block": 134711991
+  },
+  {
+   "address": "0x7b1E82F4f542fbB25D64c5523Fe3e44aBe4F2702",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712089,
+   "last_block": 134712089
+  },
+  {
+   "address": "0x335DD4112704f108b5Ddd8F8a44Bd9ed68522a80",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712059,
+   "last_block": 134712059
+  },
+  {
+   "address": "0x8FDea7891b4D6dbdc746309245B316aF691A636C",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712051,
+   "last_block": 134712051
+  },
+  {
+   "address": "0x5fd86da9B05abE396fe9d02a4A213A7c00556503",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712139,
+   "last_block": 134712139
+  },
+  {
+   "address": "0x676bc1e2FA8F52b58A3C7aD1C02a361f40298e56",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712139,
+   "last_block": 134712139
+  },
+  {
+   "address": "0x274B0cB6DB9473245A31cDEA9B789786f4108e4B",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712138,
+   "last_block": 134712138
+  },
+  {
+   "address": "0x1a4b499833A79A09ad7Cf1D42D7DacF71e92eb00",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712134,
+   "last_block": 134712134
+  },
+  {
+   "address": "0x75a5863A19aF60ec0098d62ED8C34cc594fB470f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712127,
+   "last_block": 134712127
+  },
+  {
+   "address": "0x63135f0bfD27EC7827810650C90A108B94424444",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712123,
+   "last_block": 134712123
+  },
+  {
+   "address": "0x585BDE7C54ABB5cCD7791F923D6c2187635f3952",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712185,
+   "last_block": 134712185
+  },
+  {
+   "address": "0xD6829Ea836b6FA224d099D40E54B31262f874631",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712181,
+   "last_block": 134712181
+  },
+  {
+   "address": "0x7425889FE94F9d693E8daefE88BCCed6AcFEf4c0",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712176,
+   "last_block": 134712176
+  },
+  {
+   "address": "0x96e7d606e229448eF817A7f35fd7394C3E15d00C",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712169,
+   "last_block": 134712169
+  },
+  {
+   "address": "0xee6F4bcc88C2C8583d5a65c7D0C877b464100711",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712164,
+   "last_block": 134712164
+  },
+  {
+   "address": "0x95b0409679B55C31772daA2fB4bEE7B125B77521",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712160,
+   "last_block": 134712160
+  },
+  {
+   "address": "0x82df39C0114890d20FaD4567c4dfcD1158cAAAAA",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712160,
+   "last_block": 134712160
+  },
+  {
+   "address": "0x80f3D493EBCe97e343c53D29a137942416B4ffC0",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712155,
+   "last_block": 134712155
+  },
+  {
+   "address": "0x038228f2Da947704390ef7943A903fa02e3A9A38",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712154,
+   "last_block": 134712154
+  },
+  {
+   "address": "0xDD022ea55a3E2D9b7921127F1790916896cF3436",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712148,
+   "last_block": 134712148
+  },
+  {
+   "address": "0x1282493EdE6a22753D45Cb2C0fdBd8D35E97555a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712148,
+   "last_block": 134712148
+  },
+  {
+   "address": "0x1501EC83FFEf405B4331CC4f73277a40fb0C627d",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712140,
+   "last_block": 134712140
+  },
+  {
+   "address": "0x23941c3b566c32ed38e39cd8648AE75306Ea7777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712235,
+   "last_block": 134712235
+  },
+  {
+   "address": "0x4902C5ebc598265Ed2212b559B042De8a5Eeec3f",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712234,
+   "last_block": 134712234
+  },
+  {
+   "address": "0x58b6F5fEeb8436489F5bf4a56619092B1FA8E777",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712226,
+   "last_block": 134712226
+  },
+  {
+   "address": "0x6114a4810e53143e52A81a8d7d5a30297f28FFFf",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712221,
+   "last_block": 134712221
+  },
+  {
+   "address": "0x80106cb3EAD06659A5ad19DF39D9b4733863B9b0",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712214,
+   "last_block": 134712214
+  },
+  {
+   "address": "0x515f386fc664980DB2Ab30c574EC210983232493",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712205,
+   "last_block": 134712205
+  },
+  {
+   "address": "0x9914090b803F75E853A9ecb3553CcA8a165F5467",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712202,
+   "last_block": 134712202
+  },
+  {
+   "address": "0x4684D9887fC1c71cBa7baB8E88835CEC217eB598",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712201,
+   "last_block": 134712201
+  },
+  {
+   "address": "0x0cdE6936d305d5B34667fC46425E852efd73559a",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712198,
+   "last_block": 134712198
+  },
+  {
+   "address": "0x4eF9d3062c7F6ebA4AAE4990c5036598C6eff4ec",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "first_block": 134712193,
+   "last_block": 134712193
+  }
+ ],
+ "contracts": [
+  {
+   "address": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+   "kind": "ERC721",
+   "mint_count": 277,
+   "distinct_minters": 277,
+   "minters_sample": [
+    "0x02de9a65dec54ba3f52dc2713b706da2d9d7d31c",
+    "0x03f71ef8c2c0f1f284267ce8fa5f367c2d152f23",
+    "0x047ef04c39b34daec3ba2da520a9ea964254dded",
+    "0x060379b9c8fd346f7ded17e406346ec8611cb341",
+    "0x0a3d3d20526b8d2a64a92a9766526216ac1bd4bc"
+   ],
+   "first_block": 134710252,
+   "last_block": 134712238,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "SPACE ID Agent ID",
+   "symbol": "AI"
+  },
+  {
+   "address": "0x7A4a5c919aE2541AeD11041A1AEeE68f1287f95b",
+   "kind": "ERC721",
+   "mint_count": 95,
+   "distinct_minters": 26,
+   "minters_sample": [
+    "0x046df8baf917fd1ffe424d77a02416d00cffea31",
+    "0x13e2ec0a8096bb0201e345593767e8c4bcae58d2",
+    "0x1baa62cbda5e4f778d65e5f872133a804b02153a",
+    "0x244e00097843d24bb5d69dcf7da0ab6967e9eeed",
+    "0x26115783a13bb5029af1dd44d892fa70a2380a59"
+   ],
+   "first_block": 134710284,
+   "last_block": 134712172,
+   "registry_bytes_hit": false,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Uniswap v4 Positions NFT",
+   "symbol": "UNI-V4-POSM"
+  },
+  {
+   "address": "0xe0Ad72aBadF8ea43dD2e168bd97a24F8A04adA91",
+   "kind": "ERC721",
+   "mint_count": 40,
+   "distinct_minters": 9,
+   "minters_sample": [
+    "0x0a25bc835afebf443d51fcf7949e46924d81ed1e",
+    "0x153d90029a3ac7f4e57ae1cb2132e0c9577de12c",
+    "0x192260e00ed9d46bb39c984902198e6b9316fb18",
+    "0x5cd4d06dc78aa8021f1de5eea98841e56a059f55",
+    "0x5ffdab0410f530e1a2fbf0a41b02c6b904cdf883"
+   ],
+   "first_block": 134710254,
+   "last_block": 134711572,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Health Saviors Badges",
+   "symbol": "HSB"
+  },
+  {
+   "address": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+   "kind": "ERC721",
+   "mint_count": 32,
+   "distinct_minters": 22,
+   "minters_sample": [
+    "0x0a823e1944afcaf63c744f97801637a9c6750acb",
+    "0x217269b1ee5535df5b96de9298c758817b316f03",
+    "0x23f325bdaa0d5276a4f5f17bcc8ee62f0cd77368",
+    "0x45211a9bc9ea8380f75319782fc8014a86cb8630",
+    "0x4f4132bb857f3360f61e6724cb7545cf5f0e25b9"
+   ],
+   "first_block": 134710272,
+   "last_block": 134712220,
+   "registry_bytes_hit": false,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Pancake V3 Positions NFT-V1",
+   "symbol": "PCS-V3-POS"
+  },
+  {
+   "address": "0xF5E3D1290FDBFC50ec436f021ad516D0Bcac5d28",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 15,
+   "minters_sample": [
+    "0x00a2f70aaa2d2983834d993645aea08fcd905d3b",
+    "0x0a4e871bdf23c2a90e7ed72f626810adb80ca5c5",
+    "0x161eff27d8db882c54431c94fe71ff9144d746f4",
+    "0x41f8cfdf07579ec655be938dd6f3c8d1e665ac0e",
+    "0x431c99eedc699e3e5ea5d6cd217d3999e60d665b"
+   ],
+   "first_block": 134710286,
+   "last_block": 134712203,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ARK DAO Nft",
+   "symbol": "ARKDAO"
+  },
+  {
+   "address": "0x5690B34dA3eFc5d55511c37A0Ad4988CACE8d912",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x19fd690b74e369189b258f32bcee087f2d156ac5",
+    "0x237566f2070663247036c398e1cf52a9c8d1e71a",
+    "0x2b9300182c689216566091fef13ee4213a44129d",
+    "0x3a7b2ba382caaa6f24284ffa5f8762a5b13412a0",
+    "0x3f04a4d4042edfd8d9cc6f2c5b6302a65c8c142a"
+   ],
+   "first_block": 134710266,
+   "last_block": 134712222,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent Legends",
+   "symbol": "AGL"
+  },
+  {
+   "address": "0x9347Bc23e404386957029aD89aefc72b8B7365bc",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x1cc5ac1cdd3197cfe079d17a0a8f6bfa92aa366a",
+    "0x1d868172d4acf2c38c7ef634d3582235ddbeaa5c",
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x2b9300182c689216566091fef13ee4213a44129d",
+    "0x2d66d566a3ad5e41fe6776be69e4163932f24bb5"
+   ],
+   "first_block": 134710433,
+   "last_block": 134712153,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "KEEP_PER_FREE",
+    "REVEAL_PER_FREE",
+    "freeMint"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "mint",
+    "mintOpen",
+    "totalMinted"
+   ],
+   "name": "sidecoo Check-in",
+   "symbol": "SCCHECKIN"
+  },
+  {
+   "address": "0x20459D6A5BeB848dD2aB3A6982f80a6C2954a4a4",
+   "kind": "ERC721",
+   "mint_count": 14,
+   "distinct_minters": 14,
+   "minters_sample": [
+    "0x2b2c8cc29f471327e839e59653e3165ea5b22c45",
+    "0x2c0898fd2a427c42576d729fb07be7617c651f2b",
+    "0x318a538edfcb5f1e7b3e69f21326259ec4d05366",
+    "0x5180bb1150a69553d9922345cb2b41dfa7fe9b81",
+    "0x54e8e98d4c1a1b796511569d2d075857e6fc611c"
+   ],
+   "first_block": 134710451,
+   "last_block": 134712127,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "freeClaimed",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "freeMinted",
+    "mint",
+    "mintOpen",
+    "mintOpensAt",
+    "mintsBy",
+    "setMintOpen",
+    "setMintOpensAt",
+    "totalMinted"
+   ],
+   "name": "Neko",
+   "symbol": "NEKO"
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "kind": "ERC721",
+   "mint_count": 13,
+   "distinct_minters": 10,
+   "minters_sample": [
+    "0x08947a2fd2a8f72828937d5ebe1fbcf54bbdc4a9",
+    "0x40403b91870e35006724eb422dee9ac3d2680355",
+    "0x57bb44e7a5adf54b8719cc9ac71f718d955d527a",
+    "0x6d6ba0690161f8be29b1d014e3016e5f7a71c898",
+    "0x9cb8989b315da71a69415a2d1e4155d85d09496b"
+   ],
+   "first_block": 134710282,
+   "last_block": 134712181,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentIdentity",
+   "symbol": "AGENT"
+  },
+  {
+   "address": "0x941Be8f79e1A8e5BcADd883a1e96c3809D6BA6b2",
+   "kind": "ERC721",
+   "mint_count": 13,
+   "distinct_minters": 13,
+   "minters_sample": [
+    "0x16ac9ec281547c30c9c5f78c706060cf95f87ea4",
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x30588cfbce27269d4e76128c7ed934e270c9c927",
+    "0x409682146fb7243631b3d66ceeb09196ded85705",
+    "0x43078394e2b1bea493ad158a4a0abd7c9ac9959f"
+   ],
+   "first_block": 134710259,
+   "last_block": 134711906,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent Squad Pass",
+   "symbol": "SQUAD"
+  },
+  {
+   "address": "0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613",
+   "kind": "ERC721",
+   "mint_count": 13,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x2ee385433a4e43a690f4fb2822a916c31dcd55d5",
+    "0x6cd6a8b08d3248326b56c5978a6e57388f3b4af9",
+    "0x7af140139c09d183cfe6c454d153c8792f1313fc",
+    "0x84c4c905fc18313f0a8e20855a067b7caaca5922",
+    "0x9a109cec2fec77fe366dada5a7236fc2edd079a2"
+   ],
+   "first_block": 134710240,
+   "last_block": 134712209,
+   "registry_bytes_hit": false,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Uniswap V3 Positions NFT-V1",
+   "symbol": "UNI-V3-POS"
+  },
+  {
+   "address": "0x67f9270EBe04BF403512347E397324D508204ACe",
+   "kind": "ERC721",
+   "mint_count": 13,
+   "distinct_minters": 12,
+   "minters_sample": [
+    "0x222ae9426f0108631e6960ad42da47768ba71e39",
+    "0x297aa50d0557c865f6c9b0aa0a91f41c26e55ee6",
+    "0x38f51b8f3e12a3812789c06d89f57b4e0eda9743",
+    "0x41b33791300e7bca5089ba045c03b61ae766fdeb",
+    "0x68bfeba89a20090875aef5ac8af5dbf25226153d"
+   ],
+   "first_block": 134710337,
+   "last_block": 134712234,
+   "registry_bytes_hit": false,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "FairSharesDailyNFT",
+   "symbol": "FSD"
+  },
+  {
+   "address": "0x4DE656203a7C533148fABF15CE77A558B8f3cb79",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 10,
+   "minters_sample": [
+    "0x1d868172d4acf2c38c7ef634d3582235ddbeaa5c",
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x2f07f95c1174a2cb6da406c8216475ff1ee1300c",
+    "0x409682146fb7243631b3d66ceeb09196ded85705",
+    "0x43078394e2b1bea493ad158a4a0abd7c9ac9959f"
+   ],
+   "first_block": 134710259,
+   "last_block": 134711904,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Wok Agent Badge",
+   "symbol": "WOKAB"
+  },
+  {
+   "address": "0x57B70eDD8c70A655855C0BF92FF9B195394E1860",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x55ed79a7dcdbc82c0743dc418d95f2faf361a508",
+    "0x5f68de2a1a32d369b2a300de9d9c9040865b92d4",
+    "0x619dd6bce26197a86858b244ec0982c4b2677038",
+    "0x7daa535e9b71dd7b68da736ba2222e45ccefb7dc",
+    "0x95ebf6d272b22e099fb4a71f34e78499f7f77b82"
+   ],
+   "first_block": 134710889,
+   "last_block": 134712026,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "spr Deposit Certificate",
+   "symbol": "spr-DC"
+  },
+  {
+   "address": "0x82FdA371747880a36fEFCD14526D428860F7644A",
+   "kind": "ERC721",
+   "mint_count": 9,
+   "distinct_minters": 9,
+   "minters_sample": [
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x409682146fb7243631b3d66ceeb09196ded85705",
+    "0x43078394e2b1bea493ad158a4a0abd7c9ac9959f",
+    "0x46cb9293569d6bdcd123611f6f6c61b855ab7f19",
+    "0x8ac287270cfbbe6766bc13415d06c35b8e9b5b29"
+   ],
+   "first_block": 134710325,
+   "last_block": 134712219,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "hasMinted",
+    "mint"
+   ],
+   "name": "Agent Badge",
+   "symbol": "ABADGE"
+  },
+  {
+   "address": "0xf8c30c3C362941C23025f2eA30B066A73C982f63",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x18cf4cb3c6fc4b1d2539b41721ecfe369616c55f",
+    "0x881174e3542aa8fc3ea5995485bcc0ac59ba127c",
+    "0xc7d1e738f2433078124bae2a4c09354c80dcc2d0"
+   ],
+   "first_block": 134710777,
+   "last_block": 134711917,
+   "registry_bytes_hit": false,
+   "sourcify": "error:RemoteDisconnected",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Topaz CL Position",
+   "symbol": "TOPAZ-CL-POS"
+  },
+  {
+   "address": "0x126AF9585953004cbB9c5a0B37FC5616DD5F3B43",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x12975a0480925b96f016ca6eeabecfb7eddd6c89",
+    "0x12b87be0680281e1860c49f922f8cb0c51ca7be5",
+    "0x221c63209eb9adb00186d3407f943a4d55b92631",
+    "0x3801ef401dcbc255160cbea97fa108a6b57256b5",
+    "0x570942b83b123367353dc997110a4d8aa3b33367"
+   ],
+   "first_block": 134711047,
+   "last_block": 134711686,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "hasMinted",
+    "mint",
+    "tierMinted",
+    "totalMinted"
+   ],
+   "name": "AgentBadge",
+   "symbol": "ABDG"
+  },
+  {
+   "address": "0x68cD90a0699A1720FA418F0773d73c928BDC2202",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x01ca3c0e592194464c7711aa8c689070df8e1a33",
+    "0x0383a43a5b6177b55d10ec3d33dd0f50c1b3da40",
+    "0x43d9bb06fab22c7e01072f57dd4a118e361f70a3",
+    "0x779cfd2a054c13b966810518dda98b4bac3b5b25",
+    "0x9304949ba5fd83a3c1f0a4c7011744ce7663b1fb"
+   ],
+   "first_block": 134710241,
+   "last_block": 134712018,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "ARKIE NFT",
+   "symbol": "ARKIE"
+  },
+  {
+   "address": "0x868F7135187DdFe1Fe94e6a9711b3B17ae0FdD90",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x2c4e47e5ef77524223365d7948b83f0bfaac1d0b",
+    "0x39d7371b012765b87073cecff6493902b0e85e43",
+    "0x97ed83c9d58b587983b1bd503f7da05ee42d274f",
+    "0x982531ebecaf5a578ad8cd4485220374392257b0",
+    "0xa210053681a528a6fa23c4bd5ff09d260b3c8ca7"
+   ],
+   "first_block": 134710868,
+   "last_block": 134711986,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "GTA6 PUNK",
+   "symbol": "GTAPUNK"
+  },
+  {
+   "address": "0x55f4c8abA71A1e923edC303eb4fEfF14608cC226",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x14e502acca2506030453ec364cf71986d349be4a",
+    "0x3ca6305872184d1da44caa00e664e87dfb849b91",
+    "0x3d9667e5b51c52b9d38a76d9848d8888d92795bb",
+    "0x5722106e0e860b7a13b251af9c2030dd00cc6512",
+    "0xc60a3cd7f66bfd3e4b52f744fd7476e11210e033"
+   ],
+   "first_block": 134710510,
+   "last_block": 134712217,
+   "registry_bytes_hit": false,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Pancakeswap Infinity Positions NFT",
+   "symbol": "PCS-INFINITY-POSM"
+  },
+  {
+   "address": "0xd8fcA0893bCF96Dfe766038B8eD7fDD216108AA0",
+   "kind": "ERC721",
+   "mint_count": 5,
+   "distinct_minters": 5,
+   "minters_sample": [
+    "0x109b1025770b1f0d90bb107c71dd7573a5700ecb",
+    "0x6af029fe647e004c9cc1f6d38526d6090d96fee6",
+    "0x742fc15203549255c6a20dd0b943acc022b63e0b",
+    "0x9f513ef9803c9c3688d74bb1bf5583f1fb516e24",
+    "0xe8e76297319af841dd1559696e7777bb18210532"
+   ],
+   "first_block": 134710783,
+   "last_block": 134712199,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "MINTER_ROLE",
+    "safeMint"
+   ],
+   "name": "AUCNFT",
+   "symbol": "AUCNFT"
+  },
+  {
+   "address": "0x1FcCFAB61461C4B5C4D1b16580D12a7E32012Baa",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x1636af7330c681fb4c6ff5de1560bfcbbf1bdc60",
+    "0x49d937de3064889204bd56069bae5ae56376eb14",
+    "0x66d4212e3e7852ed2e72ec82c585ea4e67ae0792",
+    "0xca98ba15a720262d294bda791ab14e7ef5ac9f9b"
+   ],
+   "first_block": 134710430,
+   "last_block": 134710720,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Everything Is Mine",
+   "symbol": "EIM"
+  },
+  {
+   "address": "0xaAD32Fb56F63993D5eb04420d76F4BB6204deE70",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x4f7365fa7cdbd1773a50f6b78e50b730f2d39b36",
+    "0x9a2263d6a82f24de967a564f906435ad9f54a4c3",
+    "0xd2b6530d2df2be5939a2c3d69000c46e416cf469",
+    "0xe7c306c3759f2709278bbccf163641d2f9b35ab9"
+   ],
+   "first_block": 134710450,
+   "last_block": 134711475,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintFor"
+   ],
+   "name": "KPR Level2",
+   "symbol": "Level2"
+  },
+  {
+   "address": "0x26AD277193ff31BD086a47BF7B1d25a93573c989",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x0dbc17a5de1f3a6f10a52ff7743455804f1bbe98",
+    "0xe51fc540853508efa7b60332af5d6e0da7dc7b62"
+   ],
+   "first_block": 134711553,
+   "last_block": 134712177,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentQuest Badge",
+   "symbol": "AQBADGE"
+  },
+  {
+   "address": "0x4158B701EaA30E8FaDBaA526F70780A38318c1C4",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0x3865e030ac7b05e97298a170041605c80944aba2",
+    "0x97d176fc793f8807e2018c63d47379465ffeb6db"
+   ],
+   "first_block": 134710302,
+   "last_block": 134711152,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Lumen Findings",
+   "symbol": "FIND"
+  },
+  {
+   "address": "0x67E6A28f85e7f36DAcfE7b425daa0Fe9f7Ff3c79",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x9cfdaf7921fe0791eec2b3b7bd41d1ee4f7ff20f",
+    "0xae56cc14fbd2819a797a30fbe982b595d7f503b7",
+    "0xb5a35cd07b3dd4fc7b52fa4e6dc9f2212b82af64"
+   ],
+   "first_block": 134710404,
+   "last_block": 134711185,
+   "registry_bytes_hit": false,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "B Titan Registration Pass",
+   "symbol": "Registration Pass"
+  },
+  {
+   "address": "0xfc462E97768ebd16012Ac4E6Ba8cAE6AE04027D8",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xd6f0bd26683ed05c4e8d5efdfcccc8ee06724e31"
+   ],
+   "first_block": 134710452,
+   "last_block": 134712023,
+   "registry_bytes_hit": false,
+   "sourcify": "not_verified",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "NFTSettlementRouter",
+   "symbol": "NFTSR"
+  },
+  {
+   "address": "0x639329f5dc4317c44D9Fed961a1217ba845012F7",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d",
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0xe1d952676a2235cd81d046604f92233f125e139a"
+   ],
+   "first_block": 134710523,
+   "last_block": 134711667,
+   "shape_pending": true
+  },
+  {
+   "address": "0x7DE5ddD2E6Cf0746935A983Ea5621c8a4D081590",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x0798dddda66787a149eb97f0aad0abe4c333c584"
+   ],
+   "first_block": 134710247,
+   "last_block": 134710442,
+   "shape_pending": true
+  },
+  {
+   "address": "0xBd57BF112B881fE0909D581ac1933e302DAc7777",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30340d40c3a069ca7b02191db2ccfe153395078c",
+    "0xad1bd45f983b71bf8e11aa2342cc278032d9ce16"
+   ],
+   "first_block": 134710370,
+   "last_block": 134710737,
+   "shape_pending": true
+  },
+  {
+   "address": "0xd7aA23e8A90542C7eb090D99496305a8855Ff248",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710581,
+   "last_block": 134710657,
+   "shape_pending": true
+  },
+  {
+   "address": "0x4a318Eb842C8c95876e895258bC70D0BEe767deF",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x41f50d29a62cad1330759d0923f8ba20ecc242a1",
+    "0xd29d742c187c03da5f5fc885534e6ac07efb1ba8"
+   ],
+   "first_block": 134710685,
+   "last_block": 134712199,
+   "shape_pending": true
+  },
+  {
+   "address": "0xff2DAc2389a6A9593209b6008d5ffA9E73AA19C2",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0x6e6006a717c48197c1a0362bea13fc45ef4a3681"
+   ],
+   "first_block": 134710668,
+   "last_block": 134711102,
+   "shape_pending": true
+  },
+  {
+   "address": "0x11B7Bff2bEE9CaFCF505Bd2553aA3b5195c99A2f",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x43746f1f93be73f548723288a3a519d8007946f7",
+    "0x7e89539de4fe3c5d7692dcadf9266c2c694f0698"
+   ],
+   "first_block": 134710704,
+   "last_block": 134711203,
+   "shape_pending": true
+  },
+  {
+   "address": "0x28C6D26959E9f2BE15D80a610acB3072250F64cd",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xadf45c27d71842812de982974eba2377bb962996",
+    "0xcf0d5b51970dc27dcb7e781cd5730523a6ae9bfb"
+   ],
+   "first_block": 134711031,
+   "last_block": 134711209,
+   "shape_pending": true
+  },
+  {
+   "address": "0x81CF8356F354f8bB454200C0a8aAaa22131C7215",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0xadf45c27d71842812de982974eba2377bb962996"
+   ],
+   "first_block": 134711086,
+   "last_block": 134711275,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8D0619C59418Ed042e43838bb6e83038303d27f6",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0xdaed50c1af6e92df2b1365e5cda0656d23e65812"
+   ],
+   "first_block": 134711135,
+   "last_block": 134711510,
+   "shape_pending": true
+  },
+  {
+   "address": "0x44d3f2b4BBFf680BccBe660086EE85925edB8195",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff",
+    "0xcf0d5b51970dc27dcb7e781cd5730523a6ae9bfb"
+   ],
+   "first_block": 134711167,
+   "last_block": 134711350,
+   "shape_pending": true
+  },
+  {
+   "address": "0x80F6ef7E09C0E30Be9B08d9C707890Fad5D422B8",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x138b992401fe7bb3fff866ef38052a02b2c262c8",
+    "0xd29d742c187c03da5f5fc885534e6ac07efb1ba8"
+   ],
+   "first_block": 134711360,
+   "last_block": 134711607,
+   "shape_pending": true
+  },
+  {
+   "address": "0x09A645aa6cc6b0eB320dCF3982bcaA6A22b32629",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e",
+    "0xc3895356563af739d1d51d66aa0e4b1a87665f61"
+   ],
+   "first_block": 134711405,
+   "last_block": 134711944,
+   "shape_pending": true
+  },
+  {
+   "address": "0x66613fD9a2c70d4cB56D920bDd0D56bA95BD2736",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e",
+    "0xc3895356563af739d1d51d66aa0e4b1a87665f61"
+   ],
+   "first_block": 134711487,
+   "last_block": 134711958,
+   "shape_pending": true
+  },
+  {
+   "address": "0x699B6397986cc6C444069efE692023B1253DC26d",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x89d67677cdf415cafaff521c905b45418f563308",
+    "0xebc1150ab8bb21ef4e77ff95a5dcf8589af8a989"
+   ],
+   "first_block": 134711468,
+   "last_block": 134711910,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8b998abA2BeeebF7ceBf565bC53BC575693c07a4",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e",
+    "0xc3895356563af739d1d51d66aa0e4b1a87665f61"
+   ],
+   "first_block": 134711448,
+   "last_block": 134711868,
+   "shape_pending": true
+  },
+  {
+   "address": "0xA17C0f37587378d57e7938AA521390fCd2bC7B9c",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x8c45f156cc390a66b5dd7f4d36b681db3c610a6d",
+    "0xa29609f665987e999dee8ec98506f50a477800f9"
+   ],
+   "first_block": 134711970,
+   "last_block": 134712033,
+   "shape_pending": true
+  },
+  {
+   "address": "0x38C1695eb72B7522c8d6452a4CE27122532A0d69",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710265,
+   "last_block": 134710265,
+   "shape_pending": true
+  },
+  {
+   "address": "0xfF172b79d040faefA1Bf34B47151edc87130246E",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710309,
+   "last_block": 134710309,
+   "shape_pending": true
+  },
+  {
+   "address": "0x13B8a5Dca4E160f115988Ba7B6DED26B48F81b26",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x570b1a9bffc2c579181da7c99e267a934be30f3f"
+   ],
+   "first_block": 134710295,
+   "last_block": 134710295,
+   "shape_pending": true
+  },
+  {
+   "address": "0x09e9B9Bff5df2931818aB731B10610DE293a0dCF",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710405,
+   "last_block": 134710405,
+   "shape_pending": true
+  },
+  {
+   "address": "0x409Cfe3747f1ac20f267B50BCbB6a4E9406DA3a8",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710464,
+   "last_block": 134710464,
+   "shape_pending": true
+  },
+  {
+   "address": "0x08b1323a74530BEDd2188b458eBcC856315d8E0f",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6e6006a717c48197c1a0362bea13fc45ef4a3681"
+   ],
+   "first_block": 134710530,
+   "last_block": 134710530,
+   "shape_pending": true
+  },
+  {
+   "address": "0xE71dc7Bb9cB95fa6Ee92c09a9D79a7C26b78eeAF",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710494,
+   "last_block": 134710494,
+   "shape_pending": true
+  },
+  {
+   "address": "0x3B016fC92eF08bDe512065F2Ab5658d524744230",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6e6006a717c48197c1a0362bea13fc45ef4a3681"
+   ],
+   "first_block": 134710569,
+   "last_block": 134710569,
+   "shape_pending": true
+  },
+  {
+   "address": "0x69b0B5756671680766d232eb4b0f39a34BE5d852",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710553,
+   "last_block": 134710553,
+   "shape_pending": true
+  },
+  {
+   "address": "0xb08abeeC2B4963D157F5307bB01e92DAf03B0EE9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe6cd585a2cb109998774ca0acd6f8fed85eed424"
+   ],
+   "first_block": 134710644,
+   "last_block": 134710644,
+   "shape_pending": true
+  },
+  {
+   "address": "0x3Ed6B33F9Ea597A6f210b5e70029ddD92E93aE85",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x5b736032dcda04e6be9ad7c347e9210100b7dfc3"
+   ],
+   "first_block": 134710902,
+   "last_block": 134710902,
+   "shape_pending": true
+  },
+  {
+   "address": "0x854EC70B78933fAB3f95E5bC95D7Af72b62703dE",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8abcfe1ba57e130eebc7782f83deff22d0aedc02"
+   ],
+   "first_block": 134710979,
+   "last_block": 134710979,
+   "shape_pending": true
+  },
+  {
+   "address": "0x2Ac941b05042599EDcC96CB7a3B4937102290cA7",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe5c5d6aaeb7201913341462501fb3571ee887071"
+   ],
+   "first_block": 134711013,
+   "last_block": 134711013,
+   "shape_pending": true
+  },
+  {
+   "address": "0x5b49B06a2E25FcE0BCa865Be70F3C62b6319367a",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711084,
+   "last_block": 134711084,
+   "shape_pending": true
+  },
+  {
+   "address": "0x42c9ED912025DF33cA1676AAD4651cDdeD3F09ED",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711069,
+   "last_block": 134711069,
+   "shape_pending": true
+  },
+  {
+   "address": "0x22984F428Bb8F6f070A66b1752912240050a67DB",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xadf45c27d71842812de982974eba2377bb962996"
+   ],
+   "first_block": 134711138,
+   "last_block": 134711138,
+   "shape_pending": true
+  },
+  {
+   "address": "0x551F66b177DCc77f01f7503E90ba5DaBF51E9DCE",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711118,
+   "last_block": 134711118,
+   "shape_pending": true
+  },
+  {
+   "address": "0x99dE10fc70EbEEc6C32e108f48793459628b41a5",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff"
+   ],
+   "first_block": 134711092,
+   "last_block": 134711092,
+   "shape_pending": true
+  },
+  {
+   "address": "0x643B68Bf3f855B8475C0A700b6D1020bfc21d02e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1608c1defba7bd0022a5a665938d12580cdc4636"
+   ],
+   "first_block": 134711169,
+   "last_block": 134711169,
+   "shape_pending": true
+  },
+  {
+   "address": "0xc13f995d7e2ab6B4267Dec8eeB2761464056d07b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x32a83ad80f321799eb13535a258137f143bd6c5d"
+   ],
+   "first_block": 134711141,
+   "last_block": 134711141,
+   "shape_pending": true
+  },
+  {
+   "address": "0xFCADfb7Cc85b6Ea540D64E4F4B9F162E630F55C0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711219,
+   "last_block": 134711219,
+   "shape_pending": true
+  },
+  {
+   "address": "0x038Cb9B125915087FD980F995575CA105dDC9e6e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711201,
+   "last_block": 134711201,
+   "shape_pending": true
+  },
+  {
+   "address": "0xF3857306a37264f15a19ad37DA8A9485e5f7CfB3",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xa262889367bf8eb37996d4db56197ed73ed3dff8"
+   ],
+   "first_block": 134711329,
+   "last_block": 134711329,
+   "shape_pending": true
+  },
+  {
+   "address": "0x2D9943D20930ec59d7B432A0cF30521f8c0CC016",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xdd04e528aca3dd0ea808dc7e4b4834ad808f1f44"
+   ],
+   "first_block": 134711293,
+   "last_block": 134711293,
+   "shape_pending": true
+  },
+  {
+   "address": "0xa43bfc51e4960579eC1e0FA19f2a8fA7888D9fF4",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff"
+   ],
+   "first_block": 134711417,
+   "last_block": 134711417,
+   "shape_pending": true
+  },
+  {
+   "address": "0xfCaF9525D9b5Bd92FA573BF4422925cc966255a9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4edc6864cbe7c9f3c1643ce4bd3d18c429d4e9b1"
+   ],
+   "first_block": 134711401,
+   "last_block": 134711401,
+   "shape_pending": true
+  },
+  {
+   "address": "0x3940372c8566610Be8aaB650DF088aBA59DD5B9D",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff"
+   ],
+   "first_block": 134711478,
+   "last_block": 134711478,
+   "shape_pending": true
+  },
+  {
+   "address": "0x67cDDCCC2459A769b07d1E65B22E73BF29C95e89",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff"
+   ],
+   "first_block": 134711461,
+   "last_block": 134711461,
+   "shape_pending": true
+  },
+  {
+   "address": "0x883DCCFf65F79235BA2993e66BE8231Ef3B4dE06",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4edc6864cbe7c9f3c1643ce4bd3d18c429d4e9b1"
+   ],
+   "first_block": 134711589,
+   "last_block": 134711589,
+   "shape_pending": true
+  },
+  {
+   "address": "0xd1de1aE44bdD29EEe00b452B0568c55b5DC0942C",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3e0f3b2b6f02cd0a0ff16cb71430e605a4538029"
+   ],
+   "first_block": 134711623,
+   "last_block": 134711623,
+   "shape_pending": true
+  },
+  {
+   "address": "0x76aC954a8A00e4924F984a3d48D56B612e6b9a01",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6c984fd2d9402f74064278b355c338e2f0370bfc"
+   ],
+   "first_block": 134711689,
+   "last_block": 134711689,
+   "shape_pending": true
+  },
+  {
+   "address": "0x1e178Ea6072Df282039ee4F47836597593F0a4E9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4edc6864cbe7c9f3c1643ce4bd3d18c429d4e9b1"
+   ],
+   "first_block": 134711667,
+   "last_block": 134711667,
+   "shape_pending": true
+  },
+  {
+   "address": "0x43462D7F269fdE4914b03e1E07067A61b62b9540",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x89d67677cdf415cafaff521c905b45418f563308"
+   ],
+   "first_block": 134711649,
+   "last_block": 134711649,
+   "shape_pending": true
+  },
+  {
+   "address": "0xbC95E0a5Bb1305958Ba3263C6E9943b7A2554757",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711644,
+   "last_block": 134711644,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8cc691D0EEf7870460e2886Aa1075bF3468710a2",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711736,
+   "last_block": 134711736,
+   "shape_pending": true
+  },
+  {
+   "address": "0x6A4847Cb5f658943222FBd23D2520049F824789d",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711772,
+   "last_block": 134711772,
+   "shape_pending": true
+  },
+  {
+   "address": "0x2494e3670aF51240A96bb95c48ee82622de5F830",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3221251260281d177ca95adcdc9d67aad95016f7"
+   ],
+   "first_block": 134711759,
+   "last_block": 134711759,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8d0f3FCdaec965120C53a753a456Ed85A6624aD3",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711807,
+   "last_block": 134711807,
+   "shape_pending": true
+  },
+  {
+   "address": "0xDb514D1a00662fdA0Dc531a4Cf69Cd908B7E84a9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e"
+   ],
+   "first_block": 134711883,
+   "last_block": 134711883,
+   "shape_pending": true
+  },
+  {
+   "address": "0x6E159c9CD56BeadB523B80d195DdE39C042a1D48",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711881,
+   "last_block": 134711881,
+   "shape_pending": true
+  },
+  {
+   "address": "0xd5D2D90032A38D5B0276E44A84c1A1eA8e7411c7",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x8c45f156cc390a66b5dd7f4d36b681db3c610a6d"
+   ],
+   "first_block": 134711869,
+   "last_block": 134711869,
+   "shape_pending": true
+  },
+  {
+   "address": "0x3972579dd0128BF0b6778cB3B457ba1d14D1695b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x7b63dfc750e76e60424f31a9f1d2eaeb931a9ac3"
+   ],
+   "first_block": 134711860,
+   "last_block": 134711860,
+   "shape_pending": true
+  },
+  {
+   "address": "0xa340ba0FeAcBBD17cBb1622C4d33Ed32720E1F83",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711849,
+   "last_block": 134711849,
+   "shape_pending": true
+  },
+  {
+   "address": "0x9e521add6F67EEe0Fe5c0b8ef32cb4543f7af50E",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e"
+   ],
+   "first_block": 134711928,
+   "last_block": 134711928,
+   "shape_pending": true
+  },
+  {
+   "address": "0xB95531Eb859c556B7c9521a99B7b67BA12519564",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711921,
+   "last_block": 134711921,
+   "shape_pending": true
+  },
+  {
+   "address": "0xBeD4289215911b6C62f893e21B8D17bc6ac7763c",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e"
+   ],
+   "first_block": 134711913,
+   "last_block": 134711913,
+   "shape_pending": true
+  },
+  {
+   "address": "0x072109f54dCca581e45C6FF3516e6Af9BDcbdc60",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711957,
+   "last_block": 134711957,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8E8CB36EEEB8092A38baEB759a96834C424fAd2f",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xee7c3360a028982670bb618908c1374766699ed6"
+   ],
+   "first_block": 134711953,
+   "last_block": 134711953,
+   "shape_pending": true
+  },
+  {
+   "address": "0x713F6fb660747fE7da166D51675bEAFb5AE3C056",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe6cd585a2cb109998774ca0acd6f8fed85eed424"
+   ],
+   "first_block": 134712000,
+   "last_block": 134712000,
+   "shape_pending": true
+  },
+  {
+   "address": "0xbF18B0CfDd9e4FD138a362A92F29674197Fdb886",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134711999,
+   "last_block": 134711999,
+   "shape_pending": true
+  },
+  {
+   "address": "0x4e4e43f84E2E80716d03153F3c675e8E715Fa698",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x1181bbd8a8b2d3f0d6f9b998ceee0e0f1dd2a723"
+   ],
+   "first_block": 134712043,
+   "last_block": 134712043,
+   "shape_pending": true
+  },
+  {
+   "address": "0xC3070C99C8Ac6969f1b0FA33Af0AAAa5e066DECe",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xb3642d69c6d6f3370ad423cbd72295800eeea1ce"
+   ],
+   "first_block": 134712182,
+   "last_block": 134712182,
+   "shape_pending": true
+  },
+  {
+   "address": "0x5AdD3EF02f9D0810a8936806e48EaAD958ec0b77",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3c9d8d4cb10349bafa14921cf05ba30433047a0c"
+   ],
+   "first_block": 134712236,
+   "last_block": 134712236,
+   "shape_pending": true
+  },
+  {
+   "address": "0xD612Ded8F2b4818c0A9d2465f06eBf1B745f0E17",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3540be133ea4fd88f913e4dc58c87b3125d1733b"
+   ],
+   "first_block": 134712229,
+   "last_block": 134712229,
+   "shape_pending": true
+  },
+  {
+   "address": "0xb27B78C82502fEBe169e557ff2345675FdCB2b35",
+   "kind": "ERC1155",
+   "mint_count": 50,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xf8833029410b856dbff5730d771295fd4925a60e"
+   ],
+   "first_block": 134710354,
+   "last_block": 134712143,
+   "shape_pending": true
+  },
+  {
+   "address": "0x14361778A49f7Ca1BBAA05C54644697AdF926613",
+   "kind": "ERC1155",
+   "mint_count": 10,
+   "distinct_minters": 10,
+   "minters_sample": [
+    "0x0dbf5cbe918c260cb6ec44074d403b7e9fd494b9",
+    "0x297aa50d0557c865f6c9b0aa0a91f41c26e55ee6",
+    "0x316624399169e1df56bc36c7f38182f60c86cece",
+    "0x368524c20bdd88a5e90e85e5bda52f9fabdc64c5",
+    "0x5c1b857466424a0e68c19b8f133d7bcd8f5f1f9b"
+   ],
+   "first_block": 134710588,
+   "last_block": 134711939,
+   "shape_pending": true
+  },
+  {
+   "address": "0x7D1B7dB704d722295fbAa284008f526634673DbF",
+   "kind": "ERC1155",
+   "mint_count": 9,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+    "0x838a04a4336157fb5789d8a8877d780ad3c398b6",
+    "0xc38553590d74223399bbb3f7b39053323a971e06",
+    "0xca72c3b46803b27db862a13a4f94f285a83ac404"
+   ],
+   "first_block": 134710249,
+   "last_block": 134711947,
+   "shape_pending": true
+  }
+ ],
+ "hive_agents_found": false,
+ "hive_agents": null,
+ "first_seen": [
+  {
+   "address": "0x5690B34dA3eFc5d55511c37A0Ad4988CACE8d912",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x19fd690b74e369189b258f32bcee087f2d156ac5",
+    "0x237566f2070663247036c398e1cf52a9c8d1e71a",
+    "0x2b9300182c689216566091fef13ee4213a44129d",
+    "0x3a7b2ba382caaa6f24284ffa5f8762a5b13412a0",
+    "0x3f04a4d4042edfd8d9cc6f2c5b6302a65c8c142a"
+   ],
+   "first_block": 134710266,
+   "last_block": 134712222,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent Legends",
+   "symbol": "AGL"
+  },
+  {
+   "address": "0x9347Bc23e404386957029aD89aefc72b8B7365bc",
+   "kind": "ERC721",
+   "mint_count": 17,
+   "distinct_minters": 17,
+   "minters_sample": [
+    "0x1cc5ac1cdd3197cfe079d17a0a8f6bfa92aa366a",
+    "0x1d868172d4acf2c38c7ef634d3582235ddbeaa5c",
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x2b9300182c689216566091fef13ee4213a44129d",
+    "0x2d66d566a3ad5e41fe6776be69e4163932f24bb5"
+   ],
+   "first_block": 134710433,
+   "last_block": 134712153,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "KEEP_PER_FREE",
+    "REVEAL_PER_FREE",
+    "freeMint"
+   ],
+   "mint_funcs": [
+    "freeMint",
+    "mint",
+    "mintOpen",
+    "totalMinted"
+   ],
+   "name": "sidecoo Check-in",
+   "symbol": "SCCHECKIN"
+  },
+  {
+   "address": "0x20459D6A5BeB848dD2aB3A6982f80a6C2954a4a4",
+   "kind": "ERC721",
+   "mint_count": 14,
+   "distinct_minters": 14,
+   "minters_sample": [
+    "0x2b2c8cc29f471327e839e59653e3165ea5b22c45",
+    "0x2c0898fd2a427c42576d729fb07be7617c651f2b",
+    "0x318a538edfcb5f1e7b3e69f21326259ec4d05366",
+    "0x5180bb1150a69553d9922345cb2b41dfa7fe9b81",
+    "0x54e8e98d4c1a1b796511569d2d075857e6fc611c"
+   ],
+   "first_block": 134710451,
+   "last_block": 134712127,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [
+    "FREE_CAP",
+    "freeClaimed",
+    "freeMinted"
+   ],
+   "mint_funcs": [
+    "freeMinted",
+    "mint",
+    "mintOpen",
+    "mintOpensAt",
+    "mintsBy",
+    "setMintOpen",
+    "setMintOpensAt",
+    "totalMinted"
+   ],
+   "name": "Neko",
+   "symbol": "NEKO"
+  },
+  {
+   "address": "0x941Be8f79e1A8e5BcADd883a1e96c3809D6BA6b2",
+   "kind": "ERC721",
+   "mint_count": 13,
+   "distinct_minters": 13,
+   "minters_sample": [
+    "0x16ac9ec281547c30c9c5f78c706060cf95f87ea4",
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x30588cfbce27269d4e76128c7ed934e270c9c927",
+    "0x409682146fb7243631b3d66ceeb09196ded85705",
+    "0x43078394e2b1bea493ad158a4a0abd7c9ac9959f"
+   ],
+   "first_block": 134710259,
+   "last_block": 134711906,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Agent Squad Pass",
+   "symbol": "SQUAD"
+  },
+  {
+   "address": "0x4DE656203a7C533148fABF15CE77A558B8f3cb79",
+   "kind": "ERC721",
+   "mint_count": 10,
+   "distinct_minters": 10,
+   "minters_sample": [
+    "0x1d868172d4acf2c38c7ef634d3582235ddbeaa5c",
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x2f07f95c1174a2cb6da406c8216475ff1ee1300c",
+    "0x409682146fb7243631b3d66ceeb09196ded85705",
+    "0x43078394e2b1bea493ad158a4a0abd7c9ac9959f"
+   ],
+   "first_block": 134710259,
+   "last_block": 134711904,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Wok Agent Badge",
+   "symbol": "WOKAB"
+  },
+  {
+   "address": "0x82FdA371747880a36fEFCD14526D428860F7644A",
+   "kind": "ERC721",
+   "mint_count": 9,
+   "distinct_minters": 9,
+   "minters_sample": [
+    "0x226374cfb2cccbde36abce5c697f0d3c9bc31593",
+    "0x409682146fb7243631b3d66ceeb09196ded85705",
+    "0x43078394e2b1bea493ad158a4a0abd7c9ac9959f",
+    "0x46cb9293569d6bdcd123611f6f6c61b855ab7f19",
+    "0x8ac287270cfbbe6766bc13415d06c35b8e9b5b29"
+   ],
+   "first_block": 134710325,
+   "last_block": 134712219,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "hasMinted",
+    "mint"
+   ],
+   "name": "Agent Badge",
+   "symbol": "ABADGE"
+  },
+  {
+   "address": "0x126AF9585953004cbB9c5a0B37FC5616DD5F3B43",
+   "kind": "ERC721",
+   "mint_count": 8,
+   "distinct_minters": 8,
+   "minters_sample": [
+    "0x12975a0480925b96f016ca6eeabecfb7eddd6c89",
+    "0x12b87be0680281e1860c49f922f8cb0c51ca7be5",
+    "0x221c63209eb9adb00186d3407f943a4d55b92631",
+    "0x3801ef401dcbc255160cbea97fa108a6b57256b5",
+    "0x570942b83b123367353dc997110a4d8aa3b33367"
+   ],
+   "first_block": 134711047,
+   "last_block": 134711686,
+   "registry_bytes_hit": true,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "hasMinted",
+    "mint",
+    "tierMinted",
+    "totalMinted"
+   ],
+   "name": "AgentBadge",
+   "symbol": "ABDG"
+  },
+  {
+   "address": "0x868F7135187DdFe1Fe94e6a9711b3B17ae0FdD90",
+   "kind": "ERC721",
+   "mint_count": 7,
+   "distinct_minters": 7,
+   "minters_sample": [
+    "0x2c4e47e5ef77524223365d7948b83f0bfaac1d0b",
+    "0x39d7371b012765b87073cecff6493902b0e85e43",
+    "0x97ed83c9d58b587983b1bd503f7da05ee42d274f",
+    "0x982531ebecaf5a578ad8cd4485220374392257b0",
+    "0xa210053681a528a6fa23c4bd5ff09d260b3c8ca7"
+   ],
+   "first_block": 134710868,
+   "last_block": 134711986,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "GTA6 PUNK",
+   "symbol": "GTAPUNK"
+  },
+  {
+   "address": "0x1FcCFAB61461C4B5C4D1b16580D12a7E32012Baa",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x1636af7330c681fb4c6ff5de1560bfcbbf1bdc60",
+    "0x49d937de3064889204bd56069bae5ae56376eb14",
+    "0x66d4212e3e7852ed2e72ec82c585ea4e67ae0792",
+    "0xca98ba15a720262d294bda791ab14e7ef5ac9f9b"
+   ],
+   "first_block": 134710430,
+   "last_block": 134710720,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Everything Is Mine",
+   "symbol": "EIM"
+  },
+  {
+   "address": "0xaAD32Fb56F63993D5eb04420d76F4BB6204deE70",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 4,
+   "minters_sample": [
+    "0x4f7365fa7cdbd1773a50f6b78e50b730f2d39b36",
+    "0x9a2263d6a82f24de967a564f906435ad9f54a4c3",
+    "0xd2b6530d2df2be5939a2c3d69000c46e416cf469",
+    "0xe7c306c3759f2709278bbccf163641d2f9b35ab9"
+   ],
+   "first_block": 134710450,
+   "last_block": 134711475,
+   "registry_bytes_hit": false,
+   "sourcify": "verified",
+   "free_shaped": [],
+   "mint_funcs": [
+    "mintFor"
+   ],
+   "name": "KPR Level2",
+   "symbol": "Level2"
+  },
+  {
+   "address": "0x26AD277193ff31BD086a47BF7B1d25a93573c989",
+   "kind": "ERC721",
+   "mint_count": 4,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x0dbc17a5de1f3a6f10a52ff7743455804f1bbe98",
+    "0xe51fc540853508efa7b60332af5d6e0da7dc7b62"
+   ],
+   "first_block": 134711553,
+   "last_block": 134712177,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "AgentQuest Badge",
+   "symbol": "AQBADGE"
+  },
+  {
+   "address": "0x4158B701EaA30E8FaDBaA526F70780A38318c1C4",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0x3865e030ac7b05e97298a170041605c80944aba2",
+    "0x97d176fc793f8807e2018c63d47379465ffeb6db"
+   ],
+   "first_block": 134710302,
+   "last_block": 134711152,
+   "registry_bytes_hit": true,
+   "sourcify": "error:IncompleteRead",
+   "free_shaped": [],
+   "mint_funcs": [],
+   "name": "Lumen Findings",
+   "symbol": "FIND"
+  },
+  {
+   "address": "0x639329f5dc4317c44D9Fed961a1217ba845012F7",
+   "kind": "ERC721",
+   "mint_count": 3,
+   "distinct_minters": 3,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d",
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0xe1d952676a2235cd81d046604f92233f125e139a"
+   ],
+   "first_block": 134710523,
+   "last_block": 134711667,
+   "shape_pending": true
+  },
+  {
+   "address": "0x7DE5ddD2E6Cf0746935A983Ea5621c8a4D081590",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x0798dddda66787a149eb97f0aad0abe4c333c584"
+   ],
+   "first_block": 134710247,
+   "last_block": 134710442,
+   "shape_pending": true
+  },
+  {
+   "address": "0xd7aA23e8A90542C7eb090D99496305a8855Ff248",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710581,
+   "last_block": 134710657,
+   "shape_pending": true
+  },
+  {
+   "address": "0xff2DAc2389a6A9593209b6008d5ffA9E73AA19C2",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0x6e6006a717c48197c1a0362bea13fc45ef4a3681"
+   ],
+   "first_block": 134710668,
+   "last_block": 134711102,
+   "shape_pending": true
+  },
+  {
+   "address": "0x28C6D26959E9f2BE15D80a610acB3072250F64cd",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0xadf45c27d71842812de982974eba2377bb962996",
+    "0xcf0d5b51970dc27dcb7e781cd5730523a6ae9bfb"
+   ],
+   "first_block": 134711031,
+   "last_block": 134711209,
+   "shape_pending": true
+  },
+  {
+   "address": "0x81CF8356F354f8bB454200C0a8aAaa22131C7215",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0xadf45c27d71842812de982974eba2377bb962996"
+   ],
+   "first_block": 134711086,
+   "last_block": 134711275,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8D0619C59418Ed042e43838bb6e83038303d27f6",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db",
+    "0xdaed50c1af6e92df2b1365e5cda0656d23e65812"
+   ],
+   "first_block": 134711135,
+   "last_block": 134711510,
+   "shape_pending": true
+  },
+  {
+   "address": "0x44d3f2b4BBFf680BccBe660086EE85925edB8195",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff",
+    "0xcf0d5b51970dc27dcb7e781cd5730523a6ae9bfb"
+   ],
+   "first_block": 134711167,
+   "last_block": 134711350,
+   "shape_pending": true
+  },
+  {
+   "address": "0x80F6ef7E09C0E30Be9B08d9C707890Fad5D422B8",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x138b992401fe7bb3fff866ef38052a02b2c262c8",
+    "0xd29d742c187c03da5f5fc885534e6ac07efb1ba8"
+   ],
+   "first_block": 134711360,
+   "last_block": 134711607,
+   "shape_pending": true
+  },
+  {
+   "address": "0x09A645aa6cc6b0eB320dCF3982bcaA6A22b32629",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e",
+    "0xc3895356563af739d1d51d66aa0e4b1a87665f61"
+   ],
+   "first_block": 134711405,
+   "last_block": 134711944,
+   "shape_pending": true
+  },
+  {
+   "address": "0x66613fD9a2c70d4cB56D920bDd0D56bA95BD2736",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e",
+    "0xc3895356563af739d1d51d66aa0e4b1a87665f61"
+   ],
+   "first_block": 134711487,
+   "last_block": 134711958,
+   "shape_pending": true
+  },
+  {
+   "address": "0x699B6397986cc6C444069efE692023B1253DC26d",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x89d67677cdf415cafaff521c905b45418f563308",
+    "0xebc1150ab8bb21ef4e77ff95a5dcf8589af8a989"
+   ],
+   "first_block": 134711468,
+   "last_block": 134711910,
+   "shape_pending": true
+  },
+  {
+   "address": "0x8b998abA2BeeebF7ceBf565bC53BC575693c07a4",
+   "kind": "ERC721",
+   "mint_count": 2,
+   "distinct_minters": 2,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e",
+    "0xc3895356563af739d1d51d66aa0e4b1a87665f61"
+   ],
+   "first_block": 134711448,
+   "last_block": 134711868,
+   "shape_pending": true
+  },
+  {
+   "address": "0x38C1695eb72B7522c8d6452a4CE27122532A0d69",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710265,
+   "last_block": 134710265,
+   "shape_pending": true
+  },
+  {
+   "address": "0xfF172b79d040faefA1Bf34B47151edc87130246E",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710309,
+   "last_block": 134710309,
+   "shape_pending": true
+  },
+  {
+   "address": "0x09e9B9Bff5df2931818aB731B10610DE293a0dCF",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710405,
+   "last_block": 134710405,
+   "shape_pending": true
+  },
+  {
+   "address": "0x08b1323a74530BEDd2188b458eBcC856315d8E0f",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x6e6006a717c48197c1a0362bea13fc45ef4a3681"
+   ],
+   "first_block": 134710530,
+   "last_block": 134710530,
+   "shape_pending": true
+  },
+  {
+   "address": "0xE71dc7Bb9cB95fa6Ee92c09a9D79a7C26b78eeAF",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710494,
+   "last_block": 134710494,
+   "shape_pending": true
+  },
+  {
+   "address": "0x69b0B5756671680766d232eb4b0f39a34BE5d852",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x2b9300182c689216566091fef13ee4213a44129d"
+   ],
+   "first_block": 134710553,
+   "last_block": 134710553,
+   "shape_pending": true
+  },
+  {
+   "address": "0xb08abeeC2B4963D157F5307bB01e92DAf03B0EE9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe6cd585a2cb109998774ca0acd6f8fed85eed424"
+   ],
+   "first_block": 134710644,
+   "last_block": 134710644,
+   "shape_pending": true
+  },
+  {
+   "address": "0x2Ac941b05042599EDcC96CB7a3B4937102290cA7",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xe5c5d6aaeb7201913341462501fb3571ee887071"
+   ],
+   "first_block": 134711013,
+   "last_block": 134711013,
+   "shape_pending": true
+  },
+  {
+   "address": "0x42c9ED912025DF33cA1676AAD4651cDdeD3F09ED",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711069,
+   "last_block": 134711069,
+   "shape_pending": true
+  },
+  {
+   "address": "0xFCADfb7Cc85b6Ea540D64E4F4B9F162E630F55C0",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711219,
+   "last_block": 134711219,
+   "shape_pending": true
+  },
+  {
+   "address": "0x038Cb9B125915087FD980F995575CA105dDC9e6e",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x30faab712a9e66db3d435c6f2969f74e31f111db"
+   ],
+   "first_block": 134711201,
+   "last_block": 134711201,
+   "shape_pending": true
+  },
+  {
+   "address": "0x2D9943D20930ec59d7B432A0cF30521f8c0CC016",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xdd04e528aca3dd0ea808dc7e4b4834ad808f1f44"
+   ],
+   "first_block": 134711293,
+   "last_block": 134711293,
+   "shape_pending": true
+  },
+  {
+   "address": "0xa43bfc51e4960579eC1e0FA19f2a8fA7888D9fF4",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff"
+   ],
+   "first_block": 134711417,
+   "last_block": 134711417,
+   "shape_pending": true
+  },
+  {
+   "address": "0xfCaF9525D9b5Bd92FA573BF4422925cc966255a9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4edc6864cbe7c9f3c1643ce4bd3d18c429d4e9b1"
+   ],
+   "first_block": 134711401,
+   "last_block": 134711401,
+   "shape_pending": true
+  },
+  {
+   "address": "0x67cDDCCC2459A769b07d1E65B22E73BF29C95e89",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x78c6900d83b4a941cd529a08425818aaf9c697ff"
+   ],
+   "first_block": 134711461,
+   "last_block": 134711461,
+   "shape_pending": true
+  },
+  {
+   "address": "0x883DCCFf65F79235BA2993e66BE8231Ef3B4dE06",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4edc6864cbe7c9f3c1643ce4bd3d18c429d4e9b1"
+   ],
+   "first_block": 134711589,
+   "last_block": 134711589,
+   "shape_pending": true
+  },
+  {
+   "address": "0x1e178Ea6072Df282039ee4F47836597593F0a4E9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x4edc6864cbe7c9f3c1643ce4bd3d18c429d4e9b1"
+   ],
+   "first_block": 134711667,
+   "last_block": 134711667,
+   "shape_pending": true
+  },
+  {
+   "address": "0x43462D7F269fdE4914b03e1E07067A61b62b9540",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x89d67677cdf415cafaff521c905b45418f563308"
+   ],
+   "first_block": 134711649,
+   "last_block": 134711649,
+   "shape_pending": true
+  },
+  {
+   "address": "0x2494e3670aF51240A96bb95c48ee82622de5F830",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x3221251260281d177ca95adcdc9d67aad95016f7"
+   ],
+   "first_block": 134711759,
+   "last_block": 134711759,
+   "shape_pending": true
+  },
+  {
+   "address": "0xDb514D1a00662fdA0Dc531a4Cf69Cd908B7E84a9",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e"
+   ],
+   "first_block": 134711883,
+   "last_block": 134711883,
+   "shape_pending": true
+  },
+  {
+   "address": "0x3972579dd0128BF0b6778cB3B457ba1d14D1695b",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x7b63dfc750e76e60424f31a9f1d2eaeb931a9ac3"
+   ],
+   "first_block": 134711860,
+   "last_block": 134711860,
+   "shape_pending": true
+  },
+  {
+   "address": "0x9e521add6F67EEe0Fe5c0b8ef32cb4543f7af50E",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e"
+   ],
+   "first_block": 134711928,
+   "last_block": 134711928,
+   "shape_pending": true
+  },
+  {
+   "address": "0xBeD4289215911b6C62f893e21B8D17bc6ac7763c",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0x9ea96d42cdcb4fc5c8ded51f3a711a996679b95e"
+   ],
+   "first_block": 134711913,
+   "last_block": 134711913,
+   "shape_pending": true
+  },
+  {
+   "address": "0xC3070C99C8Ac6969f1b0FA33Af0AAAa5e066DECe",
+   "kind": "ERC721",
+   "mint_count": 1,
+   "distinct_minters": 1,
+   "minters_sample": [
+    "0xb3642d69c6d6f3370ad423cbd72295800eeea1ce"
+   ],
+   "first_block": 134712182,
+   "last_block": 134712182,
+   "shape_pending": true
+  }
+ ],
+ "first_seen_count": 49
+}

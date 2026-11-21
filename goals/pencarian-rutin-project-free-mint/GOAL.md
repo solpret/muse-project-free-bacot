@@ -3,6 +3,9 @@
 Goal ID: goal_5b382a7ff282
 Goal slug: pencarian-rutin-project-free-mint
 
+## STATUS: DIHENTIKAN (21 Nov 2026 16:10 WIB, perintah user "Stop project free bacot")
+Semua 7 cron goal ini DINONAKTIFKAN (terverifikasi): free-mint-search (2 jam), free-mint-hot-leg (5 mnt, run terakhir yang sedang jalan dihentikan), gate-blocked-recheck (30 mnt), agent-registry-watch (15 mnt), fcfs-fast-watchdog (2 mnt, run terakhir yang sedang jalan dihentikan), free-mint-backfill + scan-gap-watch (sudah dimatikan 15:47 WIB hari yang sama). Item tracking ditutup (completed). Definisi cron + state file tetap tersimpan — bisa dinyalakan lagi bila user memerintahkan. TIDAK disentuh: pantauan AGIO (goal terpisah, cron agio-free-mint-watch 1 jam, tetap jalan) dan rekap 2 jam project-recap-2h.
+
 ## Description
 Project ke-2 pengguna setelah MODAL BACOT, dan TERPISAH darinya: FREE BACOT
 khusus untuk free-mint NFT (baca + lapor saja), sedangkan MODAL BACOT adalah

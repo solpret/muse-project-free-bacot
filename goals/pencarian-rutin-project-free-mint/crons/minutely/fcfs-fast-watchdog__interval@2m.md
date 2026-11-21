@@ -1,7 +1,7 @@
 ---
 id: fcfs-fast-watchdog
 title: Watchdog FCFS cepat (nyalakan ulang poller bila mati)
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

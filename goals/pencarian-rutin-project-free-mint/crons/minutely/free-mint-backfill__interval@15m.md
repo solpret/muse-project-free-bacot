@@ -1,7 +1,7 @@
 ---
 id: free-mint-backfill
 title: Backfill gap scan FREE BACOT
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

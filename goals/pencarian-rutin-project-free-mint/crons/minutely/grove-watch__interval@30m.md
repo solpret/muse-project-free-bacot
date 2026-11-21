@@ -1,7 +1,7 @@
 ---
 id: grove-watch
 title: Agent Grove phase-2 watch
-enabled: true
+enabled: false
 owner: goal:pencarian-rutin-project-free-mint
 mode: task
 schedule:

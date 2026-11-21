@@ -1,7 +1,7 @@
 ---
 id: agc-modeb-claim-4h
 title: 'AGC Mode B: klaim tiap 4 jam'
-enabled: true
+enabled: false
 owner: goal:agc-daily-claim-and-swap
 mode: task
 schedule:
